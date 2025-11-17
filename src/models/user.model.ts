@@ -1,0 +1,70 @@
+// src/modules/user/entities/user.model.ts
+import { Schema, model, Document } from 'mongoose';
+import { IUser } from '../types/entities/IUser';
+import { Status } from '../shared/constant/status';
+
+
+// Extend Mongoose Document with IUser
+export interface IUserDocument extends IUser, Document {}
+
+const userSchema = new Schema<IUserDocument>(
+  {
+     userId: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      trim: true,
+      lowercase: true,
+      
+    },
+    userName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    phoneNumber: {
+      type: String,
+      required: true,
+    },
+    password: {
+      type: String,
+      required: true,
+    },
+    imageKey: {
+      type: String,
+      default: '',
+    },
+    referralCode: {
+      type: String,
+      default: '',
+    },
+    status: {
+      type: String,
+      enum: Object.values(Status),
+      default: Status.ACTIVE,
+    },
+    isVerified: {
+      type: Boolean,
+      default: true,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+    },
+  },
+  {
+    timestamps: true, 
+  }
+);
+
+export const UserModel = model<IUser>('User', userSchema);

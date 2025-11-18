@@ -39,26 +39,26 @@ export class BaseRepository<T> implements IBaseRepository<T> {
     return this.model.findOneAndUpdate(query, data);
   }
 
-  async findWithPagination(
-    query: Partial<T>,
-    options: { skip?: number; limit?: number; sort?: any }
-  ): Promise<{ data: T[]; totalPages: number }> {
-    const { skip = 0, limit = 10, sort = { createdAt: -1 } } = options;
+  // async findWithPagination(
+  //   query: Partial<T>,
+  //   options: { skip?: number; limit?: number; sort?: any }
+  // ): Promise<{ data: T[]; totalPages: number }> {
+  //   const { skip = 0, limit = 10, sort = { createdAt: -1 } } = options;
 
-    const [data, total] = await Promise.all([
-      this.model
-        .find(query, { _id: 0, __v: 0 })
-        .skip(skip)
-        .limit(limit)
-        .sort(sort)
-        .exec(),
-      this.model.countDocuments().exec(),
-    ]);
+  //   const [data, total] = await Promise.all([
+  //     this.model
+  //       .find(query, { _id: 0, __v: 0 })
+  //       .skip(skip)
+  //       .limit(limit)
+  //       .sort(sort)
+  //       .exec(),
+  //     this.model.countDocuments().exec(),
+  //   ]);
 
-    const totalPages = Math.ceil(total / limit);
+  //   const totalPages = Math.ceil(total / limit);
 
-    return { data, totalPages };
-  }
+  //   return { data, totalPages };
+  // }
 
   async delete(query: Partial<T>): Promise<void> {
     await this.model.deleteOne(query);

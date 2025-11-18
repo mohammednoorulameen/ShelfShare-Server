@@ -1,0 +1,19 @@
+import { injectable } from "tsyringe";
+import { BaseRepository } from "./base.repository";
+import { IVendor } from "../types/entities/IVendor";
+import { IVendorRepository } from "../types/repository-interface/IVendorRepository";
+import { VendorModel } from "../models/vendor.model";
+
+@injectable()
+export class VendorRepository
+  extends BaseRepository<IVendor>
+  implements IVendorRepository
+{
+  constructor() {
+    super(VendorModel);
+  }
+
+  async findByEmail(email: string): Promise<IVendor | null> {
+    return await this.model.findOne({ email });
+  }
+}

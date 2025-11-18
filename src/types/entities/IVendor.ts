@@ -1,14 +1,16 @@
+import { Role } from "../../shared/constant/roles";
 import { Status } from "../../shared/constant/status";
 
-export interface Vendor{
-     userId: string;
+export interface IVendor{
+     vendorId: string;
      email: string;
      bussinessName: string;
      phoneNumber: string;
      password : string;
-     imgeKey: string;
+     imageKey: string;
      isActive: boolean;
      status : Status;
+     role: Role;
      isVerified : boolean;
      createdAt: Date;     
      joinedAt : Date

@@ -29,16 +29,53 @@ export class AuthService implements IAuthService {
   async register(data: RegisterDto): Promise<IUser | IVendor> {
     const { email, phoneNumber, password, imageKey, role } = data;
 
-    // check the email already existed vendor and user
-    const userExist = await this._userRepository.findByEmail(email);
-    const vendorExist = await this._vendorRepository.findByEmail(email);
+    // -------------------- check the email already existed vendor and user --------------------
+    // const userExist = await this._userRepository.findByEmail(email);
+    // const vendorExist = await this._vendorRepository.findByEmail(email);
 
-    console.log(email, phoneNumber, role);
+      console.log(email)
 
-    if (userExist || vendorExist) {
-      throw new AppError("Email Already Existed", HTTP_STATUS.CONFLICT);
+
+    // -------------- Role Based Email Checking  --------------
+
+    let existingAccount: IUser | IVendor | null = null;
+
+    if (role === Role.USER) {
+      existingAccount = await this._userRepository.findByEmail(email);
     }
 
+    if (role === Role.VENDOR) {
+      existingAccount = await this._vendorRepository.findByEmail(email);
+    }
+
+    // -------------- Role based Email Existed Checking  --------------
+
+    if (existingAccount) {
+      if (existingAccount.isEmailVerified) {
+        throw new AppError("Email already registered", HTTP_STATUS.CONFLICT);
+      }
+      if (role === Role.USER) {
+        authEvents.emit(AuthEvents.UserRegistered, {
+          email,
+          role: Role.USER,
+          userId: (existingAccount as IUser).userId,
+        });
+      }
+      if (role === Role.VENDOR) {
+        authEvents.emit(AuthEvents.VendorRegistered, {
+          email,
+          role: Role.VENDOR,
+          vendorId: (existingAccount as IVendor).vendorId,
+        });
+      }
+
+      throw new AppError(
+        "Email exists but not verified. Verification Email Resent",
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    // -------------- Create New User and Vendor --------------
     const hashedPassword = await this._passwordBcrypt.hash(password);
 
     if (role === Role.USER) {
@@ -53,15 +90,18 @@ export class AuthService implements IAuthService {
         password: hashedPassword,
         role: Role.USER,
       });
-      authEvents.emit(AuthEvents.UserRegistered, { userEmail: email });
+      authEvents.emit(AuthEvents.UserRegistered, {
+        email,
+        role: Role.USER,
+        userId: newUser.userId,
+      });
 
-      console.log("check user authEvents", authEvents);
 
       return newUser;
     }
 
     if (role === Role.VENDOR) {
-        const {bussinessName} = data as VendorDto
+      const { bussinessName } = data as VendorDto;
       const newVendor = await this._vendorRepository.create({
         vendorId: uuidv4(),
         bussinessName,
@@ -71,11 +111,14 @@ export class AuthService implements IAuthService {
         password: hashedPassword,
         role: Role.VENDOR,
       });
-      return  newVendor
+      authEvents.emit(AuthEvents.VendorRegistered, {
+        email,
+        role: Role.VENDOR,
+        vendorId: newVendor.vendorId,
+      });
+      return newVendor;
     }
 
-    throw new  AppError("Invalid role type", HTTP_STATUS.BAD_REQUEST)
-
-
+    throw new AppError("Invalid role type", HTTP_STATUS.BAD_REQUEST);
   }
 }

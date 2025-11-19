@@ -7,6 +7,7 @@ import { ErrorHandlingMiddleWare } from "./middlewares/error.handling.middleware
 import { container } from "tsyringe";
 import { AuthRoutes } from "./routes/auth/auth.routes";
 import { DependencyInjection } from "./di";
+import { registerUserEventListner, registerVendorEventListner } from "./events/listeners/auth.listeners";
 
 export default class Server {
   private _app: Application;
@@ -20,7 +21,8 @@ export default class Server {
 
   private initialize() {
     DependencyInjection.registerAll();
-    //   registerUserEventListner()
+      registerUserEventListner()
+      registerVendorEventListner()
     this.configureMiddleWares();
     this.configureRoutes();
     this.configureHandlingMiddlewares();

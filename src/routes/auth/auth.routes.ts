@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 import { BaseRoute } from "../base-routes/base.Routes";
 import { IAuthController } from "../../types/controller-interfaces/IAuthController";
+import { IVerificationController } from "../../types/controller-interfaces/IVerificationController";
 // import { IVerificationController } from "../../types/controller-interfaces/IVerificationController";
 
 @injectable()
 export class AuthRoutes extends BaseRoute {
   constructor(
     @inject("IAuthController") private _authController: IAuthController,
-    // @inject("IVerificatonController")
-    // private _verificationController: IVerificationController
+    @inject("IVerificationController") private _verificationController: IVerificationController
   ) {
     super();
     this.initializeRoutes();
@@ -17,7 +17,16 @@ export class AuthRoutes extends BaseRoute {
   initializeRoutes(): void {
     this._router.post(
       "/register",
-      this._authController.registerUser.bind(this._authController)
+      this._authController.registerUserVendor.bind(this._authController)
     );
+
+    this._router.get(
+      "/verifyemail",
+      this._verificationController.verifyBothEmail.bind(
+        this._verificationController
+      )
+    );
+
+
   }
 }

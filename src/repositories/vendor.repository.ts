@@ -16,4 +16,9 @@ export class VendorRepository
   async findByEmail(email: string): Promise<IVendor | null> {
     return await this.model.findOne({ email });
   }
+
+
+      async updateOne(email:string,update:Partial<IVendor>):Promise <IVendor | null>{
+          return VendorModel.findOneAndUpdate({email},update, {new:true})
+      }
 }

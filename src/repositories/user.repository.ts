@@ -14,4 +14,8 @@ export class UserRepository extends BaseRepository<IUser> implements IUserReposi
     async findByEmail(email: string): Promise<IUser | null> {
         return await this.model.findOne({ email })
     }
+
+    async updateOne(email:string,update:Partial<IUser>):Promise <IUser | null>{
+        return UserModel.findOneAndUpdate({email},update, {new:true})
+    }
 }

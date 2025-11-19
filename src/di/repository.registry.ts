@@ -18,5 +18,8 @@ export class RepositoryRegistry {
       container.register<IVendorRepository>("IVendorRepository", {
         useClass: VendorRepository,
       });
+      container.register<IUserRepository>("IUserRepository",{
+        useClass : UserRepository
+      })
   }
 }

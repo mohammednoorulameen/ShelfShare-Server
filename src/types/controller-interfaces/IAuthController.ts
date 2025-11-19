@@ -3,6 +3,6 @@
 import { ControllerMethod } from "../common/Controller.methodes";
 
 export interface IAuthController {
-    registerUser : ControllerMethod;
+    registerUserVendor : ControllerMethod;
     // refreshAccessToken: ControllerMethod
 }

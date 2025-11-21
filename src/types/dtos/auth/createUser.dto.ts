@@ -8,6 +8,7 @@ import { Role } from "../../../shared/constant/roles";
 export interface userDto{
   email: string;
   userName: string;
+  
   phoneNumber: string;
   password: string;
   referralCode?: string;

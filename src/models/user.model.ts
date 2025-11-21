@@ -48,9 +48,10 @@ const userSchema = new Schema<IUserDocument>(
       enum: Object.values(Status),
       default: Status.ACTIVE,
     },
-    isVerified: {
+    isEmailVerified: {
       type: Boolean,
-      default: true,
+      required: true,
+      default: false,
     },
     isAdmin: {
       type: Boolean,

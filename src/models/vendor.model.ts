@@ -47,7 +47,11 @@ const vendorSchema = new Schema<IVentorDocument>(
             enum: Object.values(Status),
             default: Status.ACTIVE
         },
-        isVerified:{
+        isEmailVerified:{
+            type:Boolean,
+            default: false,  
+        },
+        isAdminVerified:{
             type:Boolean,
             default: false,  
         },

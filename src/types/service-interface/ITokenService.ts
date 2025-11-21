@@ -1,12 +1,28 @@
-import { JwtPayload } from 'jsonwebtoken'
+import { JwtPayload } from "jsonwebtoken";
+import { Role } from "../../shared/constant/roles";
 
-export interface ITokenPayload extends JwtPayload{
-    userid : string,
-    email : string,
-    role : string
+export interface ITokenPayload extends JwtPayload {
+  userId?: string;
+  vendorId?: string;
+  email: string;
+  role: Role;
 }
 
-export interface ITokenService{
-    generateEmailToken(payload: {email:string}): string;
-    generateAccessToken(payload: ITokenPayload ): string;
+export interface ITokenService {
+  generateEmailToken(payload: {
+    email: string;
+    role: Role;
+    userId?: string;
+    vendorId?: string;
+  }): string;
+  generateAccessToken(payload: ITokenPayload): string;
+  generateRefreshToken(payload: ITokenPayload): string;
+  verifyRefreshToken(token: string): ITokenPayload | null;
+
+  verifyEmailToken(token: string): {
+    email: string;
+    role: Role;
+    userId?: string;
+    vendorId?: string;
+  } | null;
 }

@@ -12,8 +12,8 @@ export const config = {
   },
 
   nodeMailer: {
-    EMAIL_USER: process.env.EMAIL_USER,
-    EMAIL_PASS: process.env.EMAIL_PASS,
+    EMAIL_USER: process.env.EMAIL_USER || 'mohammednoorulameen5445@gmail.com',
+    EMAIL_PASS: process.env.EMAIL_PASS || 'cjbn sgjh vzth afvu',
   },
 
   cors: {

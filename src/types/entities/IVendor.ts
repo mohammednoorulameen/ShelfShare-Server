@@ -11,7 +11,8 @@ export interface IVendor{
      isActive: boolean;
      status : Status;
      role: Role;
-     isVerified : boolean;
+     isEmailVerified : boolean;
+     isAdminVerified : boolean;
      createdAt: Date;     
      joinedAt : Date
 }

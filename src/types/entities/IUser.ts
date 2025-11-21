@@ -13,7 +13,7 @@ export interface IUser {
   referralCode?: string;
   role : Role;
   status: Status;        
-  isVerified: boolean;
+  isEmailVerified: boolean;
   isAdmin: boolean;
   createdAt: Date;           
 }

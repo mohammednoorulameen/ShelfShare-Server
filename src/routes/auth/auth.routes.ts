@@ -8,7 +8,8 @@ import { IVerificationController } from "../../types/controller-interfaces/IVeri
 export class AuthRoutes extends BaseRoute {
   constructor(
     @inject("IAuthController") private _authController: IAuthController,
-    @inject("IVerificationController") private _verificationController: IVerificationController
+    @inject("IVerificationController")
+    private _verificationController: IVerificationController
   ) {
     super();
     this.initializeRoutes();
@@ -27,6 +28,11 @@ export class AuthRoutes extends BaseRoute {
       )
     );
 
+    this._router.post(
+      "/login",
+      this._authController.loginBoth.bind(this._authController)
+    );
 
+    this._router.post('/refresh', this._authController.refreshAccessToken.bind(this._authController))
   }
 }

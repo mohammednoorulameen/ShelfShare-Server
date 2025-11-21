@@ -1,7 +1,12 @@
 export const SUCCESS_MESSAGES = {
   REGISTRATION_SUCCESSFUL_USER: "User registered successfully Email Sended.",
-  REGISTRATION_SUCCESSFUL_VENDOR: "Vendor registered successfully Email Sended.",
-  LOGIN_SUCCESSFUL: "User logged in successfully.",
+  REGISTRATION_SUCCESSFUL_VENDOR:
+    "Vendor registered successfully Email Sended.",
+  LOGIN_SUCCESSFUL: "Logged in successfully.",
+  EMAIL_ALREADY_VERIFIED: "Email Already Verified",
+  SEND_EMAIL_VERIFIACTION: "Email Verification ",
+
+
 
   DATA_FETCHED: "Data fetched successfully.",
   DATA_CREATED: "Data Created Successfully",
@@ -13,34 +18,34 @@ export const SUCCESS_MESSAGES = {
 
   EMAIL_SEND: "Email send successfully",
   EMAIL_VERIFIED: "Email verification was successfull",
-  EMAIL_ALREADY_VERIFIED : "Email Already Verified",
 
   ADMIN_LOGOUT: "Admin logout successfully.",
   FORGOT_EMAIL_SEND:
     "If an account exists for this email, we’ve sent a reset link. Please check your inbox or spam.",
-  SEND_EMAIL_VERIFIACTION : "Email Verification "
 };
 
 export const ERROR_MESSAGES = {
-
-  
-     // GENERAL
+  // GENERAL
   UNEXPECTED_SERVER_ERROR: "An unexpected server error occurred.",
   EMAIL_ALREADY_EXISTS: "A user with this email already exists.",
-  USER_NOT_FOUND: "User not found.",
+  EMAIL_ALREADY_EXISTS_NOT_VERIFIED:
+    "Email exists but not verified. Verification Email Resent",
+  ACCOUNT_NOT_FOUND: "Account not found.",
   EMAIL_NOT_FOUND: "Email not found.",
+  EMAIL_NOT_VERIFIED: "Email Not Verified.",
+  INVALID_ROLE: "Invalid Role Type",
   INVALID_CREDENTIALS: "Invalid email or password.",
-  RESOURCE_NOT_FOUND: "The requested resource was not found.",
-  RESOURCE_ALREADY_EXISTS: "The resource already exists.",
-  UNAUTHORIZED_ACCESS: "Unauthorized: Missing information",
+  TOKEN_EXPIRED_OR_INVALID: "Token expired or invalid",
+  INVALID_OR_EXPIRED_TOKEN: "Invalid or expired refresh token",
+  REFRESH_TOKEN_MISSING :  " Token is Missing ",
+
   FORBIDDEN_ACCESS: "Forbidden access.",
+  UNAUTHORIZED_ACCESS: "Unauthorized: Missing information",
   AUTH_NO_TOKEN_PROVIDED: "Access Denied: No authentication token provided.",
   AUTH_INVALID_TOKEN: "Access Denied: Invalid or expired authentication token.",
   AUTH_TOKEN_ERROR: "Authentication error: Could not process token.",
-  TOKEN_EXPIRED_OR_INVALID :"Token expired or invalid",
-
 
   // USER
 
-  USER_NOTEXIST_ALREADY_VERIFIED : "User Already Verified or not Existed"
-}
+  USER_NOTEXIST_ALREADY_VERIFIED: "User Already Verified or not Existed",
+};

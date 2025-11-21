@@ -45,4 +45,15 @@ export class TokenService implements ITokenService {
       return null;
     }
   }
+
+
+
+  verifyRefreshToken(token: string): ITokenPayload | null {
+  try {
+    return jwt.verify(token, this._refreshSecret) as ITokenPayload;
+  } catch (error) {
+    return null;
+  }
+}
+
 }

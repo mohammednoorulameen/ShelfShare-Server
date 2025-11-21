@@ -13,30 +13,32 @@ import { Role } from "../shared/constant/roles";
 import { RegisterDto } from "../types/dtos/auth/register.dto";
 import { VendorDto } from "../types/dtos/auth/createVendor.dto";
 import { IVendor } from "../types/entities/IVendor";
+import { LoginDto } from "../types/dtos/auth/login.dto";
+import { ERROR_MESSAGES } from "../shared/constant/messages";
+import {
+  ITokenPayload,
+  ITokenService,
+} from "../types/service-interface/ITokenService";
 
-/**
- * this is role based authentication User,Vendor, Admin
- */
+/*---------------------------
+   this is role based authentication User,Vendor, Admin
+ ----------------------------------------------------------*/
 
 @injectable()
 export class AuthService implements IAuthService {
   constructor(
     @inject("IUserRepository") private _userRepository: IUserRepository,
     @inject("IVendorRepository") private _vendorRepository: IVendorRepository,
-    @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils
+    @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils,
+    @inject("ITokenService") private _tokenService: ITokenService
   ) {}
 
   async register(data: RegisterDto): Promise<IUser | IVendor> {
     const { email, phoneNumber, password, imageKey, role } = data;
 
-    // -------------------- check the email already existed vendor and user --------------------
-    // const userExist = await this._userRepository.findByEmail(email);
-    // const vendorExist = await this._vendorRepository.findByEmail(email);
-
-      console.log(email)
-
-
-    // -------------- Role Based Email Checking  --------------
+    /*-------------
+    Role Based Email Checking
+ ---------------------------------*/
 
     let existingAccount: IUser | IVendor | null = null;
 
@@ -48,11 +50,13 @@ export class AuthService implements IAuthService {
       existingAccount = await this._vendorRepository.findByEmail(email);
     }
 
-    // -------------- Role based Email Existed Checking  --------------
+    /*-----------------
+       Role based Email Existed Checking
+     ---------------------------------------*/
 
     if (existingAccount) {
       if (existingAccount.isEmailVerified) {
-        throw new AppError("Email already registered", HTTP_STATUS.CONFLICT);
+        throw new AppError(ERROR_MESSAGES.EMAIL_ALREADY_EXISTS, HTTP_STATUS.CONFLICT);
       }
       if (role === Role.USER) {
         authEvents.emit(AuthEvents.UserRegistered, {
@@ -69,13 +73,14 @@ export class AuthService implements IAuthService {
         });
       }
 
-      throw new AppError(
-        "Email exists but not verified. Verification Email Resent",
-        HTTP_STATUS.BAD_REQUEST
+      throw new AppError( ERROR_MESSAGES.EMAIL_ALREADY_EXISTS_NOT_VERIFIED,HTTP_STATUS.BAD_REQUEST
       );
     }
 
-    // -------------- Create New User and Vendor --------------
+    /*--------------
+        Create New User and Vendor
+      ------------------------------------*/
+
     const hashedPassword = await this._passwordBcrypt.hash(password);
 
     if (role === Role.USER) {
@@ -95,7 +100,6 @@ export class AuthService implements IAuthService {
         role: Role.USER,
         userId: newUser.userId,
       });
-
 
       return newUser;
     }
@@ -119,6 +123,108 @@ export class AuthService implements IAuthService {
       return newVendor;
     }
 
-    throw new AppError("Invalid role type", HTTP_STATUS.BAD_REQUEST);
+    throw new AppError(ERROR_MESSAGES.INVALID_ROLE, HTTP_STATUS.BAD_REQUEST);
   }
+
+  /*---------------------------
+   Role based login Admin, User, Vendor
+ ----------------------------------------------------------*/
+
+  async login(
+    data: LoginDto
+  ): Promise<{ accessToken: string; refreshToken: string; data: any }> {
+    const { email, password, role } = data;
+
+    let account = null;
+
+    if (role === Role.USER) {
+      account = await this._userRepository.findByEmail(email);
+    }
+    if (role === Role.VENDOR) {
+      account = await this._vendorRepository.findByEmail(email);
+    }
+    if (role === Role.ADMIN) {
+      account = await this._userRepository.findByEmail(email);
+    }
+
+    if (!account) {
+      throw new AppError(
+        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+        HTTP_STATUS.NOT_FOUND
+      );
+    }
+
+    // check email verified
+
+    if (!account.isEmailVerified) {
+      throw new AppError(
+        ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
+        HTTP_STATUS.NOT_FOUND
+      );
+    }
+
+    //Check password
+
+    const isMatch = await this._passwordBcrypt.compare(
+      password,
+      account.password
+    );
+    if (!isMatch) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_CREDENTIALS,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+
+    // create the payload token
+
+    const payload: ITokenPayload = {
+      email: account.email,
+      role: account.role,
+    };
+    if (role === Role.USER) {
+      const user = account as IUser;
+      payload.userId = user.userId;
+    }
+
+    if (role === Role.VENDOR) {
+      const vendor = account as IVendor;
+      payload.vendorId = vendor.vendorId;
+    }
+    const accessToken = this._tokenService.generateAccessToken(payload);
+    const refreshToken = this._tokenService.generateRefreshToken(payload);
+
+    return {
+      accessToken,
+      refreshToken,
+      data: account,
+    };
+  }
+
+   /*---------------------------
+   Refresh Token 
+ ----------------------------------------------------------*/
+
+  async refreshAccessToken(refreshToken: string) {
+    const decoded = this._tokenService.verifyRefreshToken(refreshToken);
+    if (!decoded) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_OR_EXPIRED_TOKEN,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+
+    const payload: ITokenPayload = {
+      email: decoded.email,
+      role: decoded.role,
+    };
+
+    if (decoded.userId) payload.userId = decoded.userId;
+    if (decoded.vendorId) payload.vendorId = decoded.vendorId;
+
+    const newAccessToken = this._tokenService.generateAccessToken(payload);
+    return { accessToken: newAccessToken };
+  }
+
+  
 }

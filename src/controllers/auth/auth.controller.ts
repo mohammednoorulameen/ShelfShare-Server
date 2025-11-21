@@ -3,13 +3,21 @@ import { IAuthController } from "../../types/controller-interfaces/IAuthControll
 import { IAuthService } from "../../types/service-interface/IAuthService";
 import { IUser } from "../../types/entities/IUser";
 import { Request, Response } from "express";
-import { SUCCESS_MESSAGES } from "../../shared/constant/messages";
+import {
+  ERROR_MESSAGES,
+  SUCCESS_MESSAGES,
+} from "../../shared/constant/messages";
 import { HTTP_STATUS } from "../../shared/constant/http.status";
 import { ApiResponse } from "../../types/common/ApiResponse";
 import { RegisterDto } from "../../types/dtos/auth/register.dto";
 import { Role } from "../../shared/constant/roles";
 import { IVendor } from "../../types/entities/IVendor";
+import { ITokenPayload } from "../../types/service-interface/ITokenService";
+import AppError from "../../shared/utils/App.Error";
 // import { ITokenPayload } from "../../types/service-interface/ITokenService";
+
+let accessMaxAge = 15 * 60 * 1000;
+let refreshMaxAge = 7 * 24 * 60 * 60 * 1000;
 
 function isUser(obj: IUser | IVendor): obj is IUser {
   return obj.role === Role.USER;
@@ -21,9 +29,13 @@ function isVendor(obj: IUser | IVendor): obj is IVendor {
 @injectable()
 export class AuthController implements IAuthController {
   constructor(
-    @inject("IAuthService") private _authServices: IAuthService 
-    // @inject("ITokenService") private _tokenServices : ITokenPayload
+    @inject("IAuthService") private _authServices: IAuthService // @inject("ITokenService") private _tokenServices : ITokenPayload
   ) {}
+
+  /*------------------
+   User, Vendor and Register Controller
+   --------------------------------------------*/
+
   async registerUserVendor(req: Request<{}, {}, RegisterDto>, res: Response) {
     const result = await this._authServices.register(req.body);
     let message: string = SUCCESS_MESSAGES.REGISTRATION_SUCCESSFUL_USER;
@@ -39,7 +51,6 @@ export class AuthController implements IAuthController {
       };
 
       message = SUCCESS_MESSAGES.REGISTRATION_SUCCESSFUL_USER;
-      
     } else if (isVendor(result)) {
       responseData = {
         email: result.email,
@@ -57,50 +68,80 @@ export class AuthController implements IAuthController {
     };
     res.status(HTTP_STATUS.CREATED).json(response);
   }
+
+  /*------------------
+   User, Vendor and Admin Login Controller
+   --------------------------------------------*/
+
+  async loginBoth(req: Request, res: Response): Promise<void> {
+    const result = await this._authServices.login(req.body);
+
+    const tokenOption = {
+      httpOnly: true,
+      secure: true,
+      sameSit: "strict" as const,
+      path: "/",
+    };
+
+    // accesstoken
+    res.cookie("accessToken", result.accessToken, {
+      ...tokenOption,
+      maxAge: accessMaxAge,
+    });
+
+    //refreshToken
+
+    res.cookie("refreshToken", result.refreshToken, {
+      ...tokenOption,
+      maxAge: refreshMaxAge,
+    });
+
+    let responseData: any = {
+      email: result.data.email,
+      role: result.data.role,
+    };
+
+    if (isUser(result.data)) {
+      responseData.userId = result.data.userId;
+    }
+
+    if (isVendor(result.data)) {
+      responseData.vendorId = result.data.vendorId;
+    }
+
+    res.status(HTTP_STATUS.OK).json({
+      success: true,
+      message: SUCCESS_MESSAGES.LOGIN_SUCCESSFUL,
+      data: responseData,
+    });
+  }
+
+  /*----------
+   Refresh Token Controller 
+   --------------------------------*/
+
+  async refreshAccessToken(req: Request, res: Response): Promise<void> {
+    const refreshToken = req.cookies.refreshToken;
+    if (!refreshToken) {
+      throw new AppError(
+        ERROR_MESSAGES.REFRESH_TOKEN_MISSING,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+    const result = await this._authServices.refreshAccessToken(refreshToken);
+
+    res.cookie("accessToken", result.accessToken, {
+      httpOnly: true,
+      secure: true,
+      sameSite: "strict" as const,
+      path: "/",
+      maxAge: 15 * 60 * 1000,
+    });
+
+    res.status(HTTP_STATUS.OK).json({
+      success: true,
+      message: "New access token created",
+      accessToken: result.accessToken,
+    });
+  }
 }
-
-
-
-
-// import { inject, injectable } from "tsyringe";
-// import { IAuthController } from "../../types/controller-interfaces/IAuthController";
-// import { IAuthService } from "../../types/service-interface/IAuthService";
-// import { IUser } from "../../types/entities/IUser";
-// import { Request, Response } from "express";
-// import { SUCCESS_MESSAGES } from "../../shared/constant/messages";
-// import { HTTP_STATUS } from "../../shared/constant/http.status";
-// import { ApiResponse } from "../../types/common/ApiResponse";
-// // import { ITokenPayload } from "../../types/service-interface/ITokenService";
-
-// @injectable()
-// export class AuthController implements IAuthController {
-//   constructor(
-//     @inject("IAuthService") private _authServices: IAuthService,
-//     // @inject("ITokenService") private _tokenServices : ITokenPayload
-// ) {}
-//   async registerUser(req: Request, res: Response) {
-//     const user: IUser = await this._authServices.register(req.body);
-
-//     const data: Partial<IUser> = {
-// email: user.email,
-// userName: user.userName,
-// phoneNumber: user.phoneNumber,
-// password: user.password,
-// imageKey: user.imageKey,
-
-//     };
-
-// if (user.referralCode !== undefined) {
-//   data.referralCode = user.referralCode;
-// }
-
-//     const response: ApiResponse<Partial<IUser>> = {
-//       success: true,
-//       message: SUCCESS_MESSAGES.REGISTRATION_SUCCESSFUL,
-//       data,
-//     };
-
-//     res.status(HTTP_STATUS.CREATED).json(response);
-//   }
-
-// }

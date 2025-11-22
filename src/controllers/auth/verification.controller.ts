@@ -17,7 +17,7 @@ export class VerificationController implements IVerificationController{
     async verifyBothEmail(req: Request, res: Response): Promise<void> {
         const token = req.query.token as string;
 
-        const message = await this._verificationServices.verifyEmail(token)
-        res.status(HTTP_STATUS.OK).json({success: true, message})
+        const verifyied = await this._verificationServices.verifyEmail(token)
+        res.status(HTTP_STATUS.OK).json({success: true, role: verifyied.role, verifyied})
     }
 }

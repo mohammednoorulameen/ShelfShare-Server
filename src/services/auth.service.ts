@@ -19,6 +19,7 @@ import {
   ITokenPayload,
   ITokenService,
 } from "../types/service-interface/ITokenService";
+import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
 
 /*---------------------------
    this is role based authentication User,Vendor, Admin
@@ -29,6 +30,7 @@ export class AuthService implements IAuthService {
   constructor(
     @inject("IUserRepository") private _userRepository: IUserRepository,
     @inject("IVendorRepository") private _vendorRepository: IVendorRepository,
+    @inject("IAdminRepository") private _adminRepository : IAdminRepository,
     @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils,
     @inject("ITokenService") private _tokenService: ITokenService
   ) {}
@@ -144,7 +146,10 @@ export class AuthService implements IAuthService {
       account = await this._vendorRepository.findByEmail(email);
     }
     if (role === Role.ADMIN) {
-      account = await this._userRepository.findByEmail(email);
+       account = await this._adminRepository.findByEmail(email);
+      if(!account || !(account as IUser).isAdmin){
+        throw new  AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND)
+      }
     }
 
     if (!account) {

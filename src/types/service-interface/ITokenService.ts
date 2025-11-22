@@ -5,6 +5,7 @@ export interface ITokenPayload extends JwtPayload {
   userId?: string;
   vendorId?: string;
   email: string;
+  isAdmin?: boolean
   role: Role;
 }
 

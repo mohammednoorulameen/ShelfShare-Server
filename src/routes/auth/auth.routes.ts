@@ -2,7 +2,7 @@ import { inject, injectable } from "tsyringe";
 import { BaseRoute } from "../base-routes/base.Routes";
 import { IAuthController } from "../../types/controller-interfaces/IAuthController";
 import { IVerificationController } from "../../types/controller-interfaces/IVerificationController";
-// import { IVerificationController } from "../../types/controller-interfaces/IVerificationController";
+import { authenticate } from "../../middlewares/auth.middleware";
 
 @injectable()
 export class AuthRoutes extends BaseRoute {
@@ -33,6 +33,15 @@ export class AuthRoutes extends BaseRoute {
       this._authController.loginBoth.bind(this._authController)
     );
 
-    this._router.post('/refresh', this._authController.refreshAccessToken.bind(this._authController))
+    this._router.post(
+      "/refresh",
+      this._authController.refreshAccessToken.bind(this._authController)
+    );
+
+    this._router.post(
+      "/logout", authenticate,
+      this._authController.logout.bind(this._authController)
+    )
+
   }
 }

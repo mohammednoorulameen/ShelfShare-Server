@@ -5,6 +5,8 @@ export const SUCCESS_MESSAGES = {
   LOGIN_SUCCESSFUL: "Logged in successfully.",
   EMAIL_ALREADY_VERIFIED: "Email Already Verified",
   SEND_EMAIL_VERIFIACTION: "Email Verification ",
+  EMAIL_VERIFIED: "Email verification was successfull",
+  LOGOUT_SUCCESSFULLY: "logout successfully.",
 
 
 
@@ -17,11 +19,9 @@ export const SUCCESS_MESSAGES = {
   USER_UPDATED: "User updated successfully.",
 
   EMAIL_SEND: "Email send successfully",
-  EMAIL_VERIFIED: "Email verification was successfull",
 
-  ADMIN_LOGOUT: "Admin logout successfully.",
   FORGOT_EMAIL_SEND:
-    "If an account exists for this email, we’ve sent a reset link. Please check your inbox or spam.",
+  "If an account exists for this email, we’ve sent a reset link. Please check your inbox or spam.",
 };
 
 export const ERROR_MESSAGES = {
@@ -38,9 +38,9 @@ export const ERROR_MESSAGES = {
   TOKEN_EXPIRED_OR_INVALID: "Token expired or invalid",
   INVALID_OR_EXPIRED_TOKEN: "Invalid or expired refresh token",
   REFRESH_TOKEN_MISSING :  " Token is Missing ",
+  UNAUTHORIZED_ACCESS: "Unauthorized, Missing information",
 
   FORBIDDEN_ACCESS: "Forbidden access.",
-  UNAUTHORIZED_ACCESS: "Unauthorized: Missing information",
   AUTH_NO_TOKEN_PROVIDED: "Access Denied: No authentication token provided.",
   AUTH_INVALID_TOKEN: "Access Denied: Invalid or expired authentication token.",
   AUTH_TOKEN_ERROR: "Authentication error: Could not process token.",

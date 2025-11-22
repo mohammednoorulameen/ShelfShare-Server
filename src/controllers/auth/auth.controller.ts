@@ -12,9 +12,8 @@ import { ApiResponse } from "../../types/common/ApiResponse";
 import { RegisterDto } from "../../types/dtos/auth/register.dto";
 import { Role } from "../../shared/constant/roles";
 import { IVendor } from "../../types/entities/IVendor";
-import { ITokenPayload } from "../../types/service-interface/ITokenService";
 import AppError from "../../shared/utils/App.Error";
-// import { ITokenPayload } from "../../types/service-interface/ITokenService";
+import { clearCookie } from "../../shared/utils/cookie.helper";
 
 let accessMaxAge = 15 * 60 * 1000;
 let refreshMaxAge = 7 * 24 * 60 * 60 * 1000;
@@ -28,9 +27,7 @@ function isVendor(obj: IUser | IVendor): obj is IVendor {
 }
 @injectable()
 export class AuthController implements IAuthController {
-  constructor(
-    @inject("IAuthService") private _authServices: IAuthService // @inject("ITokenService") private _tokenServices : ITokenPayload
-  ) {}
+  constructor(@inject("IAuthService") private _authServices: IAuthService) {}
 
   /*------------------
    User, Vendor and Register Controller
@@ -143,5 +140,19 @@ export class AuthController implements IAuthController {
       message: "New access token created",
       accessToken: result.accessToken,
     });
+  }
+
+  /*-------
+   Role based Logout
+   -----------------------*/
+
+  async logout(req: Request, res: Response): Promise<void> {
+    const role = req.user?.role ?? null;
+    clearCookie(res, "accessToken");
+    clearCookie(res, "refreshToken");
+
+    res
+      .status(HTTP_STATUS.OK)
+      .json({ success: true, message: SUCCESS_MESSAGES.LOGOUT_SUCCESSFULLY,role });
   }
 }

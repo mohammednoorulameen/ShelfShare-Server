@@ -14,6 +14,6 @@ export interface IUser {
   role : Role;
   status: Status;        
   isEmailVerified: boolean;
-  isAdmin: boolean;
+  isAdmin?: boolean;
   createdAt: Date;           
 }

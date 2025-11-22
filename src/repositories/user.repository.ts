@@ -12,7 +12,7 @@ export class UserRepository extends BaseRepository<IUser> implements IUserReposi
     }
 
     async findByEmail(email: string): Promise<IUser | null> {
-        return await this.model.findOne({ email })
+        return await this.model.findOne({ email , isAdmin: false})
     }
 
     async updateOne(email:string,update:Partial<IUser>):Promise <IUser | null>{

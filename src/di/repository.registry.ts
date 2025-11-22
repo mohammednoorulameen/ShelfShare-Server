@@ -3,6 +3,8 @@ import { IUserRepository } from "../types/repository-interface/IUserRepository";
 import { UserRepository } from "../repositories/user.repository";
 import { IVendorRepository } from "../types/repository-interface/IVendorRepository";
 import { VendorRepository } from "../repositories/vendor.repository";
+import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
+import { AdminRepository } from "../repositories/admin.repository";
 
 /**
  * register all repositories
@@ -20,6 +22,9 @@ export class RepositoryRegistry {
       });
       container.register<IUserRepository>("IUserRepository",{
         useClass : UserRepository
+      });
+      container.register<IAdminRepository>("IAdminRepository",{
+        useClass : AdminRepository
       })
   }
 }

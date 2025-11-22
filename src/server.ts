@@ -49,8 +49,6 @@ export default class Server {
   private configureRoutes(): void {
     const authRoutes = container.resolve(AuthRoutes);
     this._app.use("/api/auth/", authRoutes.router);
-    this._app.use("/api/auth/", authRoutes.router);
-    this._app.use("/api/auth/", authRoutes.router);
   }
 
   public start(): void {

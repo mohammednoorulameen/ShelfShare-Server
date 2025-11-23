@@ -110,7 +110,11 @@ export class AuthService implements IAuthService {
 
     if (role === Role.VENDOR) {
       data as VendorDto;
-      const vendorData = VendorMapper.toEntity(data);
+      const vendorData = VendorMapper.toEntity({
+        ...data,
+        password:hashedPassword
+      });
+       console.log(vendorData)
       const newVendor = await this._vendorRepository.create(vendorData);
       authEvents.emit(AuthEvents.VendorRegistered, {
         email,
@@ -139,6 +143,15 @@ export class AuthService implements IAuthService {
     }
     if (role === Role.VENDOR) {
       account = await this._vendorRepository.findByEmail(email);
+      if(!account){
+        throw new AppError( ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND)
+      }
+      if(!account.isAdminVerified){
+        throw new AppError(ERROR_MESSAGES.VENDOR_NOT_APPROVED, HTTP_STATUS.FORBIDDEN)
+      }
+      if(account.status === 'blocked'){
+        throw new AppError(ERROR_MESSAGES.ADMIN_BLOCKED, HTTP_STATUS.UNAUTHORIZED)
+      }
     }
     if (role === Role.ADMIN) {
        account = await this._adminRepository.findByEmail(email);

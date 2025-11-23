@@ -28,7 +28,7 @@ export class VendorMapper {
         bussinessName: entity.bussinessName,
         phoneNumber: entity.phoneNumber,
         imageKey: entity.imageKey,
-        isActive: entity.isActive,
+        // isActive: entity.isActive,
         status : entity.status,
         role : entity.role,
         isAdminVerified: entity.isAdminVerified,

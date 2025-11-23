@@ -39,10 +39,10 @@ const vendorSchema = new Schema<IVendor>(
             type : String,
             default: ""
         },
-        isActive:{
-            type: Boolean,
-            default: false,
-        },
+        // isActive:{
+        //     type: Boolean,
+        //     default: true,
+        // },
         status:{
             type: String,
             enum: Object.values(Status),

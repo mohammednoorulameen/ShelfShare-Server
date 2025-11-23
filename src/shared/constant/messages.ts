@@ -7,6 +7,9 @@ export const SUCCESS_MESSAGES = {
   SEND_EMAIL_VERIFIACTION: "Email Verification ",
   EMAIL_VERIFIED: "Email verification was successfull",
   LOGOUT_SUCCESSFULLY: "logout successfully.",
+  VENDOR_FETCHED_SUCCESS : "Vendors fetched successfully",
+  VENDOR_VERIFICATION_SUCCESS : "Vendors Verification Approved",
+  VENDOR_SUCCESSFULLY_BLOCK : "Vendor SuccessFully Approved",
 
 
 
@@ -39,11 +42,10 @@ export const ERROR_MESSAGES = {
   INVALID_OR_EXPIRED_TOKEN: "Invalid or expired refresh token",
   REFRESH_TOKEN_MISSING :  " Token is Missing ",
   UNAUTHORIZED_ACCESS: "Unauthorized, Missing information",
+  VENDOR_NOT_APPROVED : "Admin Not Verified",
+  VENDOR_NOT_FOUNT: "Vendor Not Found",
+  ADMIN_BLOCKED : "Admin Blocked Your Account",
 
-  FORBIDDEN_ACCESS: "Forbidden access.",
-  AUTH_NO_TOKEN_PROVIDED: "Access Denied: No authentication token provided.",
-  AUTH_INVALID_TOKEN: "Access Denied: Invalid or expired authentication token.",
-  AUTH_TOKEN_ERROR: "Authentication error: Could not process token.",
 
   // USER
 

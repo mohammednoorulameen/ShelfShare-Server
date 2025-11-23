@@ -10,7 +10,7 @@ export interface VendorResponseDto {
   bussinessName: string;
   phoneNumber: string;
   imageKey?: string;
-  isActive: boolean;
+  // isActive: boolean;
   status: Status;
   role: Role;
   isEmailVerified: boolean;

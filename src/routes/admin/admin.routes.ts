@@ -5,7 +5,7 @@ import { IAdminController } from "../../types/controller-interfaces/IAdminContro
 @injectable()
 export class AdminRoutes extends BaseRoute {
   constructor(
-    @inject("IAdminController") private _adminController: IAdminController,
+    @inject("IAdminController") private _adminController: IAdminController
   ) {
     super();
     this.initializeRoutes();
@@ -17,6 +17,15 @@ export class AdminRoutes extends BaseRoute {
       this._adminController.getAllVendors.bind(this._adminController)
     );
 
+    this._router.patch(
+      "/vendors/:vendorId/toggle-verify",
+      this._adminController.toggleAdminVerification.bind(this._adminController)
+    );
+
+    this._router.patch(
+      "/vendors/:vendorId/toggle-block",
+      this._adminController.toggleAdminBlockVendor.bind(this._adminController)
+    );
     
-}
+  }
 }

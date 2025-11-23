@@ -28,4 +28,10 @@ export class VendorRepository
   async findAll():Promise<IVendor[]>{
     return await VendorModel.find().lean()
   }
+
+  async updateById(id: string, data: Partial<IVendor>): Promise<IVendor | null> {
+    return await VendorModel.findByIdAndUpdate(id,data, {new : true})
+  }
+
+
 }

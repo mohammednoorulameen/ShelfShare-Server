@@ -28,9 +28,9 @@ export class VerificationServices implements IVerificationServices {
     this._frontendUrl = config.cors.ALLOWED_ORIGIN;
   }
 
-  /**
-   * send verification email
-   */
+  /*-----------------
+   Send Email Verification
+ -----------------------------------------------*/
 
   async sendVerificationEmail(
     toEmail: string,
@@ -73,6 +73,12 @@ export class VerificationServices implements IVerificationServices {
     );
   }
 
+
+
+  /*-----------------
+   Role based Verifyign the emailtoken 
+ -----------------------------------------------*/
+
   async verifyEmail(token: string): Promise<{ message: string; role: Role }> {
     if (!token) {
       throw new AppError(
@@ -80,9 +86,8 @@ export class VerificationServices implements IVerificationServices {
         HTTP_STATUS.BAD_REQUEST
       );
     }
-
     const decoded = this._tokenServices.verifyEmailToken(token);
-
+    
     if (!decoded) {
       throw new AppError(
         ERROR_MESSAGES.TOKEN_EXPIRED_OR_INVALID,
@@ -94,20 +99,17 @@ export class VerificationServices implements IVerificationServices {
 
     if (decoded?.role === Role.USER) {
       account = await this._userRepository.findByEmail(decoded.email);
+      if (!account) {
+      throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.BAD_REQUEST);
+    }
     }
 
-    if (
-      !account ||
-      (decoded.role === Role.ADMIN && !(account as IUser).isAdmin)
-    ) {
-      throw new AppError(
-        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
-        HTTP_STATUS.BAD_REQUEST
-      );
-    }
 
     if (decoded?.role === Role.VENDOR) {
       account = await this._vendorRepository.findByEmail(decoded.email);
+       if (!account) {
+      throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.BAD_REQUEST);
+    }
     }
 
     if (!account) {

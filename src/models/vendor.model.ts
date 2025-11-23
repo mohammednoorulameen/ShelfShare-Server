@@ -5,9 +5,10 @@ import { Role } from "../shared/constant/roles";
 
 
 
-export interface IVentorDocument extends IVendor,Document {}
+// export interface IVentorDocument extends Omit<IVendor , "_id">,Document {}
+// export interface IVentorDocument extends IVendor, Document {}
 
-const vendorSchema = new Schema<IVentorDocument>(
+const vendorSchema = new Schema<IVendor>(
     {
         vendorId:{
             type:String,

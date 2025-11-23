@@ -4,6 +4,7 @@ import { IVendor } from "../types/entities/IVendor";
 import { IVendorRepository } from "../types/repository-interface/IVendorRepository";
 import { VendorModel } from "../models/vendor.model";
 
+
 @injectable()
 export class VendorRepository
   extends BaseRepository<IVendor>
@@ -17,8 +18,14 @@ export class VendorRepository
     return await this.model.findOne({ email });
   }
 
+  async updateOne(
+    email: string,
+    update: Partial<IVendor>
+  ): Promise<IVendor | null> {
+    return VendorModel.findOneAndUpdate({ email }, update, { new: true });
+  }
 
-      async updateOne(email:string,update:Partial<IVendor>):Promise <IVendor | null>{
-          return VendorModel.findOneAndUpdate({email},update, {new:true})
-      }
+  async findAll():Promise<IVendor[]>{
+    return await VendorModel.find().lean()
+  }
 }

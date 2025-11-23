@@ -20,6 +20,8 @@ import {
   ITokenService,
 } from "../types/service-interface/ITokenService";
 import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
+import { VendorRequestDto } from "../types/dtos/vendor/RequestDTO";
+import { VendorMapper } from "../types/mapper/vendorMapper";
 
 /*---------------------------
    this is role based authentication User,Vendor, Admin
@@ -107,16 +109,9 @@ export class AuthService implements IAuthService {
     }
 
     if (role === Role.VENDOR) {
-      const { bussinessName } = data as VendorDto;
-      const newVendor = await this._vendorRepository.create({
-        vendorId: uuidv4(),
-        bussinessName,
-        email,
-        phoneNumber,
-        imageKey: imageKey ?? "",
-        password: hashedPassword,
-        role: Role.VENDOR,
-      });
+      data as VendorDto;
+      const vendorData = VendorMapper.toEntity(data);
+      const newVendor = await this._vendorRepository.create(vendorData);
       authEvents.emit(AuthEvents.VendorRegistered, {
         email,
         role: Role.VENDOR,

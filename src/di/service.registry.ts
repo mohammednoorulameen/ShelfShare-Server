@@ -7,6 +7,8 @@ import { ISendEmailServices } from "../types/service-interface/ISendEmailService
 import { SendEmailServices } from "../services/sendEmail.service";
 import { ITokenPayload, ITokenService } from "../types/service-interface/ITokenService";
 import { TokenService } from "../services/jwt.service";
+import { VendorService } from "../services/vendor.service";
+import { IVendorService } from "../types/service-interface/IVendorService";
 
 
 
@@ -23,6 +25,9 @@ export class ServiceRegistey{
         })
         container.register<ITokenService>("ITokenService",{
             useClass : TokenService
+        })
+        container.register<IVendorService>("IVendorService",{
+            useClass : VendorService
         })
     }
 }

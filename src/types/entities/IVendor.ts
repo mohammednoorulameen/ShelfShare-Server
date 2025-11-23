@@ -1,7 +1,9 @@
+import { ObjectId } from "mongoose";
 import { Role } from "../../shared/constant/roles";
 import { Status } from "../../shared/constant/status";
 
 export interface IVendor{
+     _id: string | ObjectId
      vendorId: string;
      email: string;
      bussinessName: string;

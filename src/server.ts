@@ -8,6 +8,7 @@ import { container } from "tsyringe";
 import { AuthRoutes } from "./routes/auth/auth.routes";
 import { DependencyInjection } from "./di";
 import { registerUserEventListner, registerVendorEventListner } from "./events/listeners/auth.listeners";
+import { AdminRoutes } from "./routes/admin/admin.routes";
 
 export default class Server {
   private _app: Application;
@@ -48,7 +49,9 @@ export default class Server {
 
   private configureRoutes(): void {
     const authRoutes = container.resolve(AuthRoutes);
+    const adminRoutes = container.resolve(AdminRoutes);
     this._app.use("/api/auth/", authRoutes.router);
+    this._app.use("/api/admin/", adminRoutes.router);
   }
 
   public start(): void {

@@ -10,7 +10,7 @@ export interface IVendor{
      phoneNumber: string;
      password : string;
      imageKey: string;
-     isActive: boolean;
+     // isActive: boolean;
      status : Status;
      role: Role;
      isEmailVerified : boolean;

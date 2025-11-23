@@ -1,6 +1,9 @@
 import { inject, injectable } from "tsyringe";
 import { IVendorService } from "../../types/service-interface/IVendorService";
 import { Request, Response } from "express";
+import { HTTP_STATUS } from "../../shared/constant/http.status";
+import { ERROR_MESSAGES, SUCCESS_MESSAGES } from "../../shared/constant/messages";
+import AppError from "../../shared/utils/App.Error";
 
 
 @injectable()
@@ -15,10 +18,44 @@ export class AdminController {
 
     const result = await this._vendorService.getAllVendors(page, limit);
     console.log("check result",result)
-    res.status(200).json({
+    res.status(HTTP_STATUS.OK).json({
       success: true,
-      message: "Vendors fetched successfully",
+      message: SUCCESS_MESSAGES.VENDOR_FETCHED_SUCCESS,
       ...result,
     });
   }
+
+
+
+  /*------------------
+   Admin toggle approve vendor
+   --------------------------------------------*/
+
+  async toggleAdminVerification(req:Request <{vendorId:string}>, res:Response): Promise<void>{
+    const { vendorId } = req.params;
+
+    if(!vendorId){
+      throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
+    }
+
+    await this._vendorService.toggleAdminVerification(vendorId)
+
+    res.status(HTTP_STATUS.OK).json({success : true, message: SUCCESS_MESSAGES.VENDOR_VERIFICATION_SUCCESS})
+  }
+
+
+  /*------------------
+   Admin toggle block the vendor
+   --------------------------------------------*/
+
+   async toggleAdminBlockVendor(req:Request, res: Response): Promise<void>{
+      const  {vendorId} = req.params
+
+      if(!vendorId){
+        throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
+      }
+      await this._vendorService.toggleAdminBlockVendor(vendorId)
+      res.status(HTTP_STATUS.OK).json({success: true, message: SUCCESS_MESSAGES.VENDOR_SUCCESSFULLY_BLOCK})
+   }
+
 }

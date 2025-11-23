@@ -11,4 +11,7 @@ export interface IVendorService {
     limit: number;
     totalPages: number;
   }>;
+
+  toggleAdminVerification(vendorId:string) :Promise<VendorResponseDto>
+  toggleAdminBlockVendor(vendorId:string) : Promise<VendorResponseDto>
 }

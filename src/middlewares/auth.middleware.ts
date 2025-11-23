@@ -18,6 +18,6 @@ export const authenticate = (req:Request, res:Response, next:NextFunction) =>{
          req.user = decoded;
          next()
         } catch (error) {
-            return res.status(HTTP_STATUS.UNAUTHORIZED).json({message: ERROR_MESSAGES.AUTH_INVALID_TOKEN})
+            return res.status(HTTP_STATUS.UNAUTHORIZED).json({message: ERROR_MESSAGES.UNAUTHORIZED_ACCESS})
         }
 }

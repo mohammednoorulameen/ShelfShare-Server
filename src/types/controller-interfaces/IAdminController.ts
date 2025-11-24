@@ -7,4 +7,5 @@ export interface IAdminController {
     toggleAdminVerification: ControllerMethod;
     toggleAdminBlockVendor: ControllerMethod;
     getAllUsers:ControllerMethod;
+    toggleAdminBlockUser: ControllerMethod;
 }

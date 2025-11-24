@@ -72,11 +72,25 @@ export class AdminController {
     const result = await this._userService.getAllUsers(page, limit);
     res.status(HTTP_STATUS.OK).json({
       success : true,
-      message: SUCCESS_MESSAGES.VUSERS_FETCHED_SUCCESS,
+      message: SUCCESS_MESSAGES.USER_FETCHED_SUCCESS,
       ...result
     })
    }
 
+   /*--------
+   admin Block and unbloak
+   ---------------------------------------*/
+
+   async toggleAdminBlockUser(req:Request<{userId: string}>, res:Response): Promise<void>{
+            
+    const {userId} = req.params;
+    if(!userId){
+      throw new AppError(ERROR_MESSAGES.USER_NOT_FOUNT,HTTP_STATUS.NOT_FOUND);
+    }
+
+    await this._userService.toggleAdminBlockUser(userId);
+     res.status(HTTP_STATUS.OK).json({success: true, message: SUCCESS_MESSAGES.USER_BLOCKED_SUCCESS})
+   }
 
 
 

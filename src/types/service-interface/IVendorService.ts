@@ -1,4 +1,4 @@
-import { VendorResponseDto } from "../dtos/vendor/ResponseDTO";
+import { VendorResponseDto } from "../dtos/vendor/Response.dto";
 
 export interface IVendorService {
   getAllVendors(
@@ -15,3 +15,4 @@ export interface IVendorService {
   toggleAdminVerification(vendorId:string) :Promise<VendorResponseDto>
   toggleAdminBlockVendor(vendorId:string) : Promise<VendorResponseDto>
 }
+

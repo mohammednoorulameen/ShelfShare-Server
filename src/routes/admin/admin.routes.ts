@@ -26,6 +26,8 @@ export class AdminRoutes extends BaseRoute {
       "/vendors/:vendorId/toggle-block",
       this._adminController.toggleAdminBlockVendor.bind(this._adminController)
     );
+
+    this._router.get("/allusers", this._adminController.getAllUsers.bind(this._adminController))
     
   }
 }

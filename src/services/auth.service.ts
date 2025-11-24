@@ -20,8 +20,7 @@ import {
   ITokenService,
 } from "../types/service-interface/ITokenService";
 import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
-import { VendorRequestDto } from "../types/dtos/vendor/RequestDTO";
-import { VendorMapper } from "../types/mapper/vendorMapper";
+import { VendorMapper } from "../types/mapper/vendor.mapper";
 
 /*---------------------------
    this is role based authentication User,Vendor, Admin
@@ -166,7 +165,7 @@ export class AuthService implements IAuthService {
         HTTP_STATUS.NOT_FOUND
       );
     }
-
+    
     // check email verified
 
     if (!account.isEmailVerified) {
@@ -174,6 +173,10 @@ export class AuthService implements IAuthService {
         ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
         HTTP_STATUS.NOT_FOUND
       );
+    }
+
+    if(account.status === 'blocked'){
+      throw new AppError(ERROR_MESSAGES.ADMIN_BLOCKED,HTTP_STATUS.UNAUTHORIZED)
     }
 
     //Check password

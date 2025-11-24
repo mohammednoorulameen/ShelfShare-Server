@@ -11,4 +11,6 @@ export interface IUserService {
     limit: number;
     totalPages: number;
   }>;
+
+  toggleAdminBlockUser(userId : string): Promise<UserResponseDto>
 }

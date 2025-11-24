@@ -10,7 +10,8 @@ export const SUCCESS_MESSAGES = {
   VENDOR_FETCHED_SUCCESS : "Vendors fetched successfully",
   VENDOR_VERIFICATION_SUCCESS : "Vendors Verification Approved",
   VENDOR_SUCCESSFULLY_BLOCK : "Vendor SuccessFully Approved",
-  VUSERS_FETCHED_SUCCESS : "Users fetched successfully",
+  USER_FETCHED_SUCCESS : "Users fetched successfully",
+  USER_BLOCKED_SUCCESS : "Admin Blocked Successfully",
 
 
 
@@ -47,6 +48,7 @@ export const ERROR_MESSAGES = {
   VENDOR_NOT_APPROVED : "Admin Not Verified",
   VENDOR_NOT_FOUNT: "Vendor Not Found",
   ADMIN_BLOCKED : "Admin Blocked Your Account",
+  USER_NOT_FOUNT : "User Not Found",
 
 
   // USER

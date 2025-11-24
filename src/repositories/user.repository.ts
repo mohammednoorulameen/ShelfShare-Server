@@ -18,4 +18,8 @@ export class UserRepository extends BaseRepository<IUser> implements IUserReposi
     async updateOne(email:string,update:Partial<IUser>):Promise <IUser | null>{
         return UserModel.findOneAndUpdate({email},update, {new:true})
     }
+
+    async updateById(id: string, data:Partial<IUser>): Promise <IUser | null>{
+        return UserModel.findByIdAndUpdate(id, data,{new : true})
+    }
 }

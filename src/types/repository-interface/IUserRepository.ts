@@ -5,4 +5,5 @@ import { IBaseRepository } from "./IBaseRepository";
 export interface IUserRepository extends IBaseRepository<IUser>{
     findByEmail(email:string): Promise <IUser| null>
     updateOne(id:string, update: Partial<IUser>): Promise <IUser| null>
+    updateById(id:string, data: Partial<IUser>): Promise <IUser | null>
 }

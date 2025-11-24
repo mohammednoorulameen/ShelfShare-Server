@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
 import { IVendorRepository } from "../types/repository-interface/IVendorRepository";
 import { IVendorService } from "../types/service-interface/IVendorService";
-import { VendorMapper } from "../types/mapper/vendorMapper";
-import { VendorResponseDto } from "../types/dtos/vendor/ResponseDTO";
+import { VendorMapper } from "../types/mapper/vendor.mapper";
+import { VendorResponseDto } from "../types/dtos/vendor/Response.dto";
 import AppError from "../shared/utils/App.Error";
 import { ERROR_MESSAGES } from "../shared/constant/messages";
 import { HTTP_STATUS } from "../shared/constant/http.status";

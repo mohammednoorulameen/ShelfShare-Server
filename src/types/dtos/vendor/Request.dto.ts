@@ -5,3 +5,4 @@ export interface VendorRequestDto {
   password: string;
   imageKey?: string;
 }
+  

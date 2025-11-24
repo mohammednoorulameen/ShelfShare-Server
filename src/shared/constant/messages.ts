@@ -10,6 +10,8 @@ export const SUCCESS_MESSAGES = {
   VENDOR_FETCHED_SUCCESS : "Vendors fetched successfully",
   VENDOR_VERIFICATION_SUCCESS : "Vendors Verification Approved",
   VENDOR_SUCCESSFULLY_BLOCK : "Vendor SuccessFully Approved",
+  VUSERS_FETCHED_SUCCESS : "Users fetched successfully",
+
 
 
 

@@ -5,9 +5,9 @@ import { Status } from "../shared/constant/status";
 import { Role } from "../shared/constant/roles";
 
 // Extend Mongoose Document with IUser
-export interface IUserDocument extends IUser, Document {}
+// export interface IUserDocument extends IUser, Document {}
 
-const userSchema = new Schema<IUserDocument>(
+const userSchema = new Schema<IUser>(
   {
     userId: {
       type: String,

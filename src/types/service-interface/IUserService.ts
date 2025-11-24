@@ -1,0 +1,14 @@
+import { UserResponseDto } from "../dtos/user/Response.dto";
+
+export interface IUserService {
+  getAllUsers(
+    page?: number,
+    limit?: number
+  ): Promise<{
+    data: UserResponseDto[];
+    total: number;
+    page: number;
+    limit: number;
+    totalPages: number;
+  }>;
+}

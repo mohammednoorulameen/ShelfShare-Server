@@ -113,7 +113,7 @@ export class AuthController implements IAuthController {
     });
   }
 
-  /*----------
+  /*---------- 
    Refresh Token Controller 
    --------------------------------*/
 

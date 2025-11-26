@@ -20,6 +20,10 @@ export const config = {
     ALLOWED_ORIGIN: process.env.CORS_ALLOWED || "http://localhost:3000",
   },
 
+   google: {
+    CLIENT_ID: process.env.GOOGLE_CLIENT_ID!,
+  },
+
   jwt: {
     ACCESS_TOKEN_SECRET: process.env.ACCESS_TOKEN_SECRET || "ACCESS_SECRET",
     REFRESH_TOKEN_SECRET: process.env.REFRESH_TOKEN_SECRET || "REFRESH_SECRET",

@@ -9,6 +9,8 @@ import { ITokenPayload, ITokenService } from "../types/service-interface/ITokenS
 import { TokenService } from "../services/jwt.service";
 import { VendorService } from "../services/vendor.service";
 import { IVendorService } from "../types/service-interface/IVendorService";
+import { IUserService } from "../types/service-interface/IUserService";
+import { UserService } from "../services/user.service";
 
 
 
@@ -28,6 +30,9 @@ export class ServiceRegistey{
         })
         container.register<IVendorService>("IVendorService",{
             useClass : VendorService
+        })
+        container.register<IUserService>("IUserService",{
+            useClass : UserService
         })
     }
 }

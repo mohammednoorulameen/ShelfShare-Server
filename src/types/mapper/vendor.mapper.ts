@@ -1,7 +1,7 @@
 import { Role } from "../../shared/constant/roles";
 import { Status } from "../../shared/constant/status";
-import { VendorRequestDto } from "../dtos/vendor/RequestDTO";
-import { VendorResponseDto } from "../dtos/vendor/ResponseDTO";
+import { VendorRequestDto } from "../dtos/vendor/Request.dto";
+import { VendorResponseDto } from "../dtos/vendor/Response.dto";
 import { IVendor } from "../entities/IVendor";
 import { v4 as uuidv4 } from "uuid";
 

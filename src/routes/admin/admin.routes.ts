@@ -10,8 +10,8 @@ export class AdminRoutes extends BaseRoute {
     super();
     this.initializeRoutes();
   }
-
   initializeRoutes(): void {
+
     this._router.get(
       "/allvendors",
       this._adminController.getAllVendors.bind(this._adminController)
@@ -25,6 +25,16 @@ export class AdminRoutes extends BaseRoute {
     this._router.patch(
       "/vendors/:vendorId/toggle-block",
       this._adminController.toggleAdminBlockVendor.bind(this._adminController)
+    );
+
+    this._router.get(
+      "/allusers",
+      this._adminController.getAllUsers.bind(this._adminController)
+    );
+
+    this._router.patch(
+      "/user/:userId/toggled-block",
+      this._adminController.toggleAdminBlockUser.bind(this._adminController)
     );
     
   }

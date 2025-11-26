@@ -2,7 +2,7 @@ import { injectable } from "tsyringe";
 import { ISendEmailServices } from "../types/service-interface/ISendEmailServices";
 import nodemailer from "nodemailer";
 import { config } from "../config";
-import { ACCOUNT_VERIFICATION } from "../shared/tamplates/email.templates";
+import { ACCOUNT_VERIFICATION, FORGOT_PASSWORD_EMAIL } from "../shared/tamplates/email.templates";
 
 @injectable()
 export class SendEmailServices implements ISendEmailServices {
@@ -35,6 +35,22 @@ export class SendEmailServices implements ISendEmailServices {
       to,
       subject,
       html: ACCOUNT_VERIFICATION(link),
+    };
+    await this._transpot.sendMail(mailOption);
+  }
+
+
+
+  async sendForgotEmail(
+    to: string,
+    subject: string,
+    link: string
+  ): Promise<void> {
+    const mailOption = {
+      from: "ShelfShare",
+      to,
+      subject,
+      html: FORGOT_PASSWORD_EMAIL(link),
     };
     await this._transpot.sendMail(mailOption);
   }

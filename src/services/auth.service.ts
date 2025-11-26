@@ -14,13 +14,16 @@ import { RegisterDto } from "../types/dtos/auth/register.dto";
 import { VendorDto } from "../types/dtos/auth/createVendor.dto";
 import { IVendor } from "../types/entities/IVendor";
 import { LoginDto } from "../types/dtos/auth/login.dto";
-import { ERROR_MESSAGES } from "../shared/constant/messages";
+import { ERROR_MESSAGES, SUCCESS_MESSAGES } from "../shared/constant/messages";
 import {
   ITokenPayload,
   ITokenService,
 } from "../types/service-interface/ITokenService";
 import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
 import { VendorMapper } from "../types/mapper/vendor.mapper";
+import { config } from "../config";
+import { OAuth2Client } from "google-auth-library";
+import { GoogleLoginDto } from "../types/dtos/auth/googleLogin.dto";
 
 /*---------------------------
    this is role based authentication User,Vendor, Admin
@@ -28,13 +31,19 @@ import { VendorMapper } from "../types/mapper/vendor.mapper";
 
 @injectable()
 export class AuthService implements IAuthService {
+  private _frontendUrl: string;
+  private _googleClient: OAuth2Client;
   constructor(
     @inject("IUserRepository") private _userRepository: IUserRepository,
     @inject("IVendorRepository") private _vendorRepository: IVendorRepository,
-    @inject("IAdminRepository") private _adminRepository : IAdminRepository,
+    @inject("IAdminRepository") private _adminRepository: IAdminRepository,
     @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils,
     @inject("ITokenService") private _tokenService: ITokenService
-  ) {}
+  ) // @inject("") private _googleLogin:I
+  {
+    this._frontendUrl = config.cors.ALLOWED_ORIGIN;
+    this._googleClient = new OAuth2Client(config.google.CLIENT_ID);
+  }
 
   async register(data: RegisterDto): Promise<IUser | IVendor> {
     const { email, phoneNumber, password, imageKey, role } = data;
@@ -59,7 +68,10 @@ export class AuthService implements IAuthService {
 
     if (existingAccount) {
       if (existingAccount.isEmailVerified) {
-        throw new AppError(ERROR_MESSAGES.EMAIL_ALREADY_EXISTS, HTTP_STATUS.CONFLICT);
+        throw new AppError(
+          ERROR_MESSAGES.EMAIL_ALREADY_EXISTS,
+          HTTP_STATUS.CONFLICT
+        );
       }
       if (role === Role.USER) {
         authEvents.emit(AuthEvents.UserRegistered, {
@@ -76,7 +88,9 @@ export class AuthService implements IAuthService {
         });
       }
 
-      throw new AppError( ERROR_MESSAGES.EMAIL_ALREADY_EXISTS_NOT_VERIFIED,HTTP_STATUS.BAD_REQUEST
+      throw new AppError(
+        ERROR_MESSAGES.EMAIL_ALREADY_EXISTS_NOT_VERIFIED,
+        HTTP_STATUS.BAD_REQUEST
       );
     }
 
@@ -111,9 +125,9 @@ export class AuthService implements IAuthService {
       data as VendorDto;
       const vendorData = VendorMapper.toEntity({
         ...data,
-        password:hashedPassword
+        password: hashedPassword,
       });
-       console.log(vendorData)
+      console.log(vendorData);
       const newVendor = await this._vendorRepository.create(vendorData);
       authEvents.emit(AuthEvents.VendorRegistered, {
         email,
@@ -138,24 +152,39 @@ export class AuthService implements IAuthService {
     let account = null;
 
     if (role === Role.USER) {
+      console.log("account", account);
       account = await this._userRepository.findByEmail(email);
     }
     if (role === Role.VENDOR) {
+      console.log("account", account);
       account = await this._vendorRepository.findByEmail(email);
-      if(!account){
-        throw new AppError( ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND)
+      // console.log('account', account)
+      if (!account) {
+        throw new AppError(
+          ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+          HTTP_STATUS.NOT_FOUND
+        );
       }
-      if(!account.isAdminVerified){
-        throw new AppError(ERROR_MESSAGES.VENDOR_NOT_APPROVED, HTTP_STATUS.FORBIDDEN)
+      if (!account.isAdminVerified) {
+        throw new AppError(
+          ERROR_MESSAGES.VENDOR_NOT_APPROVED,
+          HTTP_STATUS.FORBIDDEN
+        );
       }
-      if(account.status === 'blocked'){
-        throw new AppError(ERROR_MESSAGES.ADMIN_BLOCKED, HTTP_STATUS.UNAUTHORIZED)
+      if (account.status === "blocked") {
+        throw new AppError(
+          ERROR_MESSAGES.ADMIN_BLOCKED,
+          HTTP_STATUS.UNAUTHORIZED
+        );
       }
     }
     if (role === Role.ADMIN) {
-       account = await this._adminRepository.findByEmail(email);
-      if(!account || !(account as IUser).isAdmin){
-        throw new  AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND)
+      account = await this._adminRepository.findByEmail(email);
+      if (!account || !(account as IUser).isAdmin) {
+        throw new AppError(
+          ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+          HTTP_STATUS.NOT_FOUND
+        );
       }
     }
 
@@ -165,7 +194,7 @@ export class AuthService implements IAuthService {
         HTTP_STATUS.NOT_FOUND
       );
     }
-    
+
     // check email verified
 
     if (!account.isEmailVerified) {
@@ -175,8 +204,11 @@ export class AuthService implements IAuthService {
       );
     }
 
-    if(account.status === 'blocked'){
-      throw new AppError(ERROR_MESSAGES.ADMIN_BLOCKED,HTTP_STATUS.UNAUTHORIZED)
+    if (account.status === "blocked") {
+      throw new AppError(
+        ERROR_MESSAGES.ADMIN_BLOCKED,
+        HTTP_STATUS.UNAUTHORIZED
+      );
     }
 
     //Check password
@@ -217,9 +249,9 @@ export class AuthService implements IAuthService {
     };
   }
 
-   /*---------------------------
+  /*-------
    Refresh Token 
- ----------------------------------------------------------*/
+  ---------------------*/
 
   async refreshAccessToken(refreshToken: string) {
     const decoded = this._tokenService.verifyRefreshToken(refreshToken);
@@ -242,5 +274,73 @@ export class AuthService implements IAuthService {
     return { accessToken: newAccessToken };
   }
 
-  
+  /*---------
+    user google authentication
+   --------------------------------*/
+
+  async googleLogin(
+    data: GoogleLoginDto
+  ): Promise<{ accessToken: string; refreshToken: string; data: any }> {
+    const { idToken } = data;
+
+    const ticket = await this._googleClient.verifyIdToken({
+      idToken,
+      audience: config.google.CLIENT_ID,
+    });
+
+    const payload = ticket.getPayload();
+
+    if (!payload || !payload.email) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_CREDENTIALS,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+
+    const email = payload.email;
+    const name = payload.name || "";
+    const picture = payload.picture || "";
+
+    let account: IUser | null = await this._userRepository.findByEmail(email);
+
+    if (!account) {
+      const randomPassword = uuidv4();
+      const hashedPassword = await this._passwordBcrypt.hash(randomPassword);
+
+      account = await this._userRepository.create({
+        userId: uuidv4(),
+        userName: name || email.split("@")[0],
+        email,
+        phoneNumber: "",
+        imageKey: picture,
+        referralCode: "",
+        password: hashedPassword,
+        role: Role.USER,
+        isEmailVerified: true,
+        provider: "google",
+      } as any);
+    }
+
+    if ((account as any).status === "blocked") {
+      throw new AppError(
+        ERROR_MESSAGES.ADMIN_BLOCKED,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+
+    const payloadToken: ITokenPayload = {
+      email: account.email,
+      role: account.role,
+      userId: account.userId,
+    };
+
+    const accessToken = this._tokenService.generateAccessToken(payloadToken);
+    const refreshToken = this._tokenService.generateRefreshToken(payloadToken);
+
+    return {
+      accessToken,
+      refreshToken,
+      data: account,
+    };
+  }
 }

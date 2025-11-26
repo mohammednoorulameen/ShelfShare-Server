@@ -12,7 +12,7 @@ export const SUCCESS_MESSAGES = {
   VENDOR_SUCCESSFULLY_BLOCK : "Vendor SuccessFully Approved",
   USER_FETCHED_SUCCESS : "Users fetched successfully",
   USER_BLOCKED_SUCCESS : "Admin Blocked Successfully",
-
+  PASSWORD_RESET_SUCCESS : "Password Successfully Changed",
 
 
 

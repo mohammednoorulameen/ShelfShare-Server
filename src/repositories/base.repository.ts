@@ -8,29 +8,7 @@ export class BaseRepository<T> implements IBaseRepository<T> {
     return this.model.findOne(query, { _id: 0, __v: 0 });
   }
 
-  // async find(
-  //   query: FilterQuery<T>,
-  //   options: { skip?: number; limit?: number; sort?: any } = {}
-  // ): Promise<T[]> {
-  //   let q = this.model.find(query, { _id: 0, __v: 0 });
-
-  //   if (options.skip) {
-  //     q.skip(options.skip);
-  //   }
-
-  //   if (options.limit) {
-  //     q.limit(options.limit);
-  //   }
-
-  //   if (options.sort) {
-  //     q.sort(options.sort);
-  //   } else {
-  //     q.sort({ createdAt: -1 });
-  //   }
-
-  //   return q.exec();
-  // }
-
+ 
   async create(data: Partial<T>): Promise<T> {
     return this.model.create(data);
   }

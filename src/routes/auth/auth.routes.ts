@@ -39,9 +39,33 @@ export class AuthRoutes extends BaseRoute {
     );
 
     this._router.post(
-      "/logout", authenticate,
+      "/logout",
+      authenticate,
       this._authController.logout.bind(this._authController)
-    )
+    );
 
+    this._router.post(
+      "/forgot-password",
+      this._verificationController.verifyForgotPassword.bind(
+        this._verificationController
+      )
+    );
+
+    this._router.get(
+      "/forgot-password/verify",
+      this._verificationController.verifyForgotToken.bind(
+        this._verificationController
+      )
+    );
+    this._router.post(
+      "/reset-password",
+      this._verificationController.resetPassword.bind(
+        this._verificationController
+      )
+    );
+    this._router.post(
+      "/google",
+      this._authController.googleLogin.bind(this._authController)
+    );
   }
 }

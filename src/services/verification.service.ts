@@ -14,6 +14,8 @@ import { ISendEmailServices } from "../types/service-interface/ISendEmailService
 import { IVendorRepository } from "../types/repository-interface/IVendorRepository";
 import { Role } from "../shared/constant/roles";
 import { IUser } from "../types/entities/IUser";
+import { BcryptUtils } from "../shared/utils/password.utils";
+import { IBcryptUtils } from "../types/common/IBcryptUtils";
 
 @injectable()
 export class VerificationServices implements IVerificationServices {
@@ -23,7 +25,8 @@ export class VerificationServices implements IVerificationServices {
     @inject("ISendEmailServices") private _emailServices: ISendEmailServices,
     @inject("ITokenService") private _tokenServices: ITokenService,
     @inject("IUserRepository") private _userRepository: IUserRepository,
-    @inject("IVendorRepository") private _vendorRepository: IVendorRepository
+    @inject("IVendorRepository") private _vendorRepository: IVendorRepository,
+    @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils
   ) {
     this._frontendUrl = config.cors.ALLOWED_ORIGIN;
   }
@@ -73,8 +76,6 @@ export class VerificationServices implements IVerificationServices {
     );
   }
 
-
-
   /*-----------------
    Role based Verifyign the emailtoken 
  -----------------------------------------------*/
@@ -87,7 +88,7 @@ export class VerificationServices implements IVerificationServices {
       );
     }
     const decoded = this._tokenServices.verifyEmailToken(token);
-    
+
     if (!decoded) {
       throw new AppError(
         ERROR_MESSAGES.TOKEN_EXPIRED_OR_INVALID,
@@ -100,16 +101,21 @@ export class VerificationServices implements IVerificationServices {
     if (decoded?.role === Role.USER) {
       account = await this._userRepository.findByEmail(decoded.email);
       if (!account) {
-      throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.BAD_REQUEST);
+        throw new AppError(
+          ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+          HTTP_STATUS.BAD_REQUEST
+        );
+      }
     }
-    }
-
 
     if (decoded?.role === Role.VENDOR) {
       account = await this._vendorRepository.findByEmail(decoded.email);
-       if (!account) {
-      throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.BAD_REQUEST);
-    }
+      if (!account) {
+        throw new AppError(
+          ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+          HTTP_STATUS.BAD_REQUEST
+        );
+      }
     }
 
     if (!account) {
@@ -142,5 +148,115 @@ export class VerificationServices implements IVerificationServices {
       message: SUCCESS_MESSAGES.EMAIL_VERIFIED,
       role: decoded.role,
     };
+  }
+
+  /*-------
+   Forgot password
+  ---------------------*/
+
+  async sendForgotPassword(email: string,role: Role): Promise<void> {
+    console.log("Paramas",email , role)
+    const user = await this._userRepository.findByEmail(email);
+    const vendor = await this._vendorRepository.findByEmail(email);
+    if (!user && !vendor) {
+      throw new AppError(ERROR_MESSAGES.EMAIL_NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+    }
+      let account = null;
+     if (role === Role.USER) {
+    account = await this._userRepository.findByEmail(email);
+  } else if (role === Role.VENDOR) {
+    account = await this._vendorRepository.findByEmail(email);
+  }
+    if (!account) {
+    throw new AppError(ERROR_MESSAGES.EMAIL_NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+  }
+
+    // const role = user ? Role.USER : Role.VENDOR;
+    // const email = user ? user.email : vendor!.email;
+
+    const EmailToken = this._tokenServices.generateEmailToken({ email: email, role });
+
+    const resetPathLink = `${this._frontendUrl}/auth/forgot-password/verify?token=${EmailToken}`;
+
+    await this._emailServices.sendForgotEmail(
+      email,
+      SUCCESS_MESSAGES.SEND_EMAIL_VERIFIACTION,
+      resetPathLink
+    );
+  }
+
+  /*------------
+    verify forgot password
+   ----------------*/
+
+  async verifyForgotToken(
+    token: string
+  ): Promise<{ email: string; role: Role }> {
+    if (!token) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_OR_EXPIRED_TOKEN,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    const decoded = this._tokenServices.verifyEmailToken(token);
+    if (!decoded) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_OR_EXPIRED_TOKEN,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    if (!decoded.email || !decoded.role) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_CREDENTIALS,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+    console.log("frh3iuhfbuoqr3bfluihbfloiruhbelfnirueblicheic", decoded.role);
+    return { email: decoded.email, role: decoded.role };
+  }
+
+  /*------------
+    reset password
+   ----------------*/
+
+  async resetPassword(token: string, newPassword: string): Promise<void> {
+    if (!token) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_OR_EXPIRED_TOKEN,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    const decoded = this._tokenServices.verifyEmailToken(token);
+
+
+    if (!decoded?.role) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_OR_EXPIRED_TOKEN,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    const { email, role } = decoded;
+
+    if (!email) {
+      throw new AppError(
+        ERROR_MESSAGES.INVALID_CREDENTIALS,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    const hashedPassword = await this._passwordBcrypt.hash(newPassword);
+
+    if (role == Role.USER) {
+      await this._userRepository.updateOne(email, { password: hashedPassword });
+    }
+    if (role === Role.VENDOR) {
+      await this._vendorRepository.updateOne(email, {
+        password: hashedPassword,
+      });
+    }
   }
 }

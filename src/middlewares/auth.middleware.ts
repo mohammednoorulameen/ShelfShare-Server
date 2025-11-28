@@ -9,7 +9,7 @@ import { TokenPayload } from "../types/common/tokenPayload";
 
 export const authenticate = (req:Request, res:Response, next:NextFunction) =>{
     let token = req.cookies.accessToken;
-
+    console.log('toeken', token)
     if(!token) {
         return res.status(HTTP_STATUS.UNAUTHORIZED).json({ message: ERROR_MESSAGES.UNAUTHORIZED_ACCESS})
     }

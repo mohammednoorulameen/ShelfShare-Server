@@ -29,7 +29,7 @@ const userSchema = new Schema<IUser>(
     },
     phoneNumber: {
       type: String,
-      required: true,
+      // required: true,
     },
     password: {
       type: String,

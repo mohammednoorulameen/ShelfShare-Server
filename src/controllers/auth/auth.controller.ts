@@ -120,7 +120,7 @@ export class AuthController implements IAuthController {
     });
   }
 
-  /*----------
+  /*---------- 
    Refresh Token Controller 
    --------------------------------*/
 
@@ -166,4 +166,61 @@ export class AuthController implements IAuthController {
         role,
       });
   }
+
+
+    /*-------
+    user Google auth
+   -----------------------*/
+
+
+
+   async googleLogin(req: Request, res: Response): Promise<void> {
+
+      const { idToken } = req.body;
+
+      if (!idToken) {
+        throw new AppError(
+          ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
+          HTTP_STATUS.BAD_REQUEST
+        );
+      }
+
+      const result = await this._authServices.googleLogin({ idToken });
+
+      const tokenOption = {
+        httpOnly: true,
+        secure: true,
+        sameSit: "strict" as const,
+        path: "/",
+      };
+
+      // accesstoken
+      
+      res.cookie("accessToken", result.accessToken, {
+        ...tokenOption,
+        maxAge: accessMaxAge,
+      });
+
+      //refreshToken
+
+      res.cookie("refreshToken", result.refreshToken, {
+        ...tokenOption,
+        maxAge: refreshMaxAge,
+      });
+
+      let responseData: any = {
+        email: result.data.email,
+        role: result.data.role,
+      };
+
+      if (isUser(result.data)) {
+        responseData.userId = result.data.userId;
+      }
+      res.status(HTTP_STATUS.OK).json({
+        success: true,
+        message: SUCCESS_MESSAGES.LOGIN_SUCCESSFUL,
+        data: responseData,
+      });
+    }
+
 }

@@ -167,3 +167,98 @@ export const ACCOUNT_VERIFICATION = (verificationLink: string) => {
   </html>
   `;
 };
+
+
+export const FORGOT_PASSWORD_EMAIL = (resetLink: string) => {
+  return `
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        background: #f5f5f5;
+        font-family: Arial, sans-serif;
+        padding: 30px 0;
+      }
+
+      .container {
+        max-width: 500px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      }
+
+      .logo {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111827;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .message {
+        font-size: 15px;
+        color: #374151;
+        line-height: 1.6;
+      }
+
+      .btn {
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+        background: #4f46e5;
+        color: #ffffff !important;
+        text-decoration: none;
+        padding: 14px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 8px;
+        font-weight: bold;
+      }
+
+      .footer {
+        margin-top: 25px;
+        font-size: 12px;
+        text-align: center;
+        color: #6b7280;
+        line-height: 1.4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="https://i.imgur.com/HEPj8Db.png" width="150" alt="ShelfShare Logo" />
+      </div>
+
+      <div class="title">Reset Your Password</div>
+
+      <p class="message">
+        Hello 👋,<br><br>
+        We received a request to reset your password for <strong>ShelfShare</strong>.<br>
+        Click the button below to create a new password.
+      </p>
+
+      <a href="${resetLink}" class="btn">Reset Password</a>
+
+      <p class="footer">
+        If you did not request this, please ignore this email.<br>
+        For security reasons, this link will expire soon.
+      </p>
+    </div>
+  </body>
+  </html>
+  `;
+};

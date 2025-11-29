@@ -59,3 +59,11 @@ export class UserService implements IUserService {
     return UserMapper.toResponse(updatedUserStatus as IUser);
   }
 }
+
+
+/**------------------------------
+                ACCOUNT ALL SERVICE LOGICS 
+ -----------------------------------------------------------*/ 
+
+
+ 

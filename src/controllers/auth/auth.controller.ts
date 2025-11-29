@@ -96,16 +96,23 @@ export class AuthController implements IAuthController {
     let responseData: any = {
       email: result.data.email,
       role: result.data.role,
+
+      phoneNumber: result.data.phoneNumber,
+      imagekey: result.data.imageKey,
+      isEmailVerified: result.data.isEmailVerified,
     };
 
     if (isUser(result.data)) {
       responseData.userId = result.data.userId;
+      responseData.userName = result.data.userName;
     }
 
     if (isVendor(result.data)) {
       responseData.vendorId = result.data.vendorId;
+      responseData.userName = result.data.bussinessName;
     }
 
+    console.log("data", responseData);
     res.status(HTTP_STATUS.OK).json({
       success: true,
       message: SUCCESS_MESSAGES.LOGIN_SUCCESSFUL,
@@ -153,6 +160,10 @@ export class AuthController implements IAuthController {
 
     res
       .status(HTTP_STATUS.OK)
-      .json({ success: true, message: SUCCESS_MESSAGES.LOGOUT_SUCCESSFULLY,role });
+      .json({
+        success: true,
+        message: SUCCESS_MESSAGES.LOGOUT_SUCCESSFULLY,
+        role,
+      });
   }
 }

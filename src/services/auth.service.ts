@@ -148,7 +148,7 @@ export class AuthService implements IAuthService {
     data: LoginDto
   ): Promise<{ accessToken: string; refreshToken: string; data: any }> {
     const { email, password, role } = data;
-
+ console.log('account', data)
     let account = null;
 
     if (role === Role.USER) {
@@ -158,7 +158,6 @@ export class AuthService implements IAuthService {
     if (role === Role.VENDOR) {
       console.log("account", account);
       account = await this._vendorRepository.findByEmail(email);
-      // console.log('account', account)
       if (!account) {
         throw new AppError(
           ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
@@ -189,6 +188,7 @@ export class AuthService implements IAuthService {
     }
 
     if (!account) {
+       console.log('account', account)
       throw new AppError(
         ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
         HTTP_STATUS.NOT_FOUND

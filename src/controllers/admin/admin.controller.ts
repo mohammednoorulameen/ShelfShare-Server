@@ -33,9 +33,10 @@ export class AdminController {
    Admin toggle approve vendor
    --------------------------------------------*/
 
-  async toggleAdminVerification(req:Request <{vendorId:string}>, res:Response): Promise<void>{
+  async toggleAdminVerification(req:Request, res:Response): Promise<void>{
+    // <{vendorId:string}>
     const { vendorId } = req.params;
-
+    console.log('check this',vendorId)
     if(!vendorId){
       throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
     }
@@ -81,8 +82,8 @@ export class AdminController {
    admin Block and unbloak
    ---------------------------------------*/
 
-   async toggleAdminBlockUser(req:Request<{userId: string}>, res:Response): Promise<void>{
-            
+   async toggleAdminBlockUser(req:Request, res:Response): Promise<void>{
+            // <{userId: string}>
     const {userId} = req.params;
     if(!userId){
       throw new AppError(ERROR_MESSAGES.USER_NOT_FOUNT,HTTP_STATUS.NOT_FOUND);
@@ -91,7 +92,5 @@ export class AdminController {
     await this._userService.toggleAdminBlockUser(userId);
      res.status(HTTP_STATUS.OK).json({success: true, message: SUCCESS_MESSAGES.USER_BLOCKED_SUCCESS})
    }
-
-
 
 }

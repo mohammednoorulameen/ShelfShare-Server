@@ -5,6 +5,9 @@ import { IVerificationController } from "../types/controller-interfaces/IVerific
 import { VerificationController } from "../controllers/auth/verification.controller";
 import { IAdminController } from "../types/controller-interfaces/IAdminController";
 import { AdminController } from "../controllers/admin/admin.controller";
+import { IUserController } from "../types/controller-interfaces/IUserController";
+import { UserController } from "../controllers/user/user.controller";
+// import { UserController } from "../controllers/user/user.controller";
 
 
 
@@ -21,5 +24,10 @@ export class ControllerRegistry{
         container.register<IAdminController>("IAdminController",{
             useClass: AdminController
         })
+        container.register<IUserController>("IUserController",{
+            useClass: UserController
+        })
+       
+
     }
 }

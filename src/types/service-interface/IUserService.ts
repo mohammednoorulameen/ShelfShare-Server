@@ -1,4 +1,4 @@
-import { UserResponseDto } from "../dtos/user/Response.dto";
+import { UpdateUserinfoDto, UpdateUserPasswordDto, UserResponseDto } from "../dtos/user/Response.dto";
 
 export interface IUserService {
   getAllUsers(
@@ -13,4 +13,6 @@ export interface IUserService {
   }>;
 
   toggleAdminBlockUser(userId : string): Promise<UserResponseDto>
+  updateUserInfo(data: UpdateUserinfoDto): Promise<UserResponseDto>
+  updateUserPassword(data: UpdateUserPasswordDto): Promise<UserResponseDto>
 }

@@ -9,6 +9,7 @@ import { AuthRoutes } from "./routes/auth/auth.routes";
 import { DependencyInjection } from "./di";
 import { registerUserEventListner, registerVendorEventListner } from "./events/listeners/auth.listeners";
 import { AdminRoutes } from "./routes/admin/admin.routes";
+import {  UserRoutes } from "./routes/user/user.routes";
 
 export default class Server {
   private _app: Application;
@@ -50,8 +51,10 @@ export default class Server {
   private configureRoutes(): void {
     const authRoutes = container.resolve(AuthRoutes);
     const adminRoutes = container.resolve(AdminRoutes);
+    const userRoutes = container.resolve(UserRoutes);
     this._app.use("/api/auth/", authRoutes.router);
     this._app.use("/api/admin/", adminRoutes.router);
+    this._app.use("/api/user/", userRoutes.router);
   }
 
   public start(): void {

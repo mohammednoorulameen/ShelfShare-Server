@@ -13,6 +13,8 @@ export const SUCCESS_MESSAGES = {
   USER_FETCHED_SUCCESS : "Users fetched successfully",
   USER_BLOCKED_SUCCESS : "Admin Blocked Successfully",
   PASSWORD_RESET_SUCCESS : "Password Successfully Changed",
+  PROFILE_UPDATED_SUCCESSFULLY : "Profile updated successfully", 
+  PASSWORD_UPDATED_SUCCESSFULLY : "Password updated successfully",
 
 
 
@@ -49,9 +51,12 @@ export const ERROR_MESSAGES = {
   VENDOR_NOT_FOUNT: "Vendor Not Found",
   ADMIN_BLOCKED : "Admin Blocked Your Account",
   USER_NOT_FOUNT : "User Not Found",
+  PASSWORD_REQUIRED : "Password is required",
+  INVALID_PASSWORD : "Invalid password",
 
 
   // USER
 
   USER_NOTEXIST_ALREADY_VERIFIED: "User Already Verified or not Existed",
+
 };

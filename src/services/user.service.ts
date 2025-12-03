@@ -65,9 +65,20 @@ export class UserService implements IUserService {
     return UserMapper.toResponse(updatedUserStatus as IUser);
   }
 
-  /**------------------------------
+  /**---------------------------
                 ACCOUNT ALL SERVICE LOGICS 
  -----------------------------------------------------------*/
+
+
+ async getUserById(userId: string): Promise<UserResponseDto> {
+   const user = await this._userRepository.findOne({ userId: userId });
+    if (!user) {
+    throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+  }
+   return UserMapper.toResponse(user);
+ }
+
+
 
   /*-----
   update user info 

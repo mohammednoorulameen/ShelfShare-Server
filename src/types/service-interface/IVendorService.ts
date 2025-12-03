@@ -14,5 +14,7 @@ export interface IVendorService {
 
   toggleAdminVerification(vendorId:string) :Promise<VendorResponseDto>
   toggleAdminBlockVendor(vendorId:string) : Promise<VendorResponseDto>
+  getVendorById(vendorId : string) : Promise <VendorResponseDto>
+  
 }
 

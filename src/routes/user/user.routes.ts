@@ -24,5 +24,11 @@ export class UserRoutes extends BaseRoute {
        authenticate,isUser,
       this._userController.updateUserPassword.bind(this._userController)
     );
+    this._router.get(
+      "/user-data", 
+       authenticate,isUser,
+      this._userController.getUser.bind(this._userController)
+    );
+    
   }
 }

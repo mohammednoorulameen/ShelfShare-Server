@@ -164,12 +164,12 @@ export class AuthService implements IAuthService {
           HTTP_STATUS.NOT_FOUND
         );
       }
-      if (!account.isAdminVerified) {
-        throw new AppError(
-          ERROR_MESSAGES.VENDOR_NOT_APPROVED,
-          HTTP_STATUS.FORBIDDEN
-        );
-      }
+      // if (!account.isAdminVerified) {
+      //   throw new AppError(
+      //     ERROR_MESSAGES.VENDOR_NOT_APPROVED,
+      //     HTTP_STATUS.FORBIDDEN
+      //   );
+      // }
       if (account.status === "blocked") {
         throw new AppError(
           ERROR_MESSAGES.ADMIN_BLOCKED,
@@ -197,19 +197,19 @@ export class AuthService implements IAuthService {
 
     // check email verified
 
-    if (!account.isEmailVerified) {
-      throw new AppError(
-        ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
-        HTTP_STATUS.NOT_FOUND
-      );
-    }
+    // if (!account.isEmailVerified) {
+    //   throw new AppError(
+    //     ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
+    //     HTTP_STATUS.NOT_FOUND
+    //   );
+    // }
 
-    if (account.status === "blocked") {
-      throw new AppError(
-        ERROR_MESSAGES.ADMIN_BLOCKED,
-        HTTP_STATUS.UNAUTHORIZED
-      );
-    }
+    // if (account.status === "blocked") {
+    //   throw new AppError(
+    //     ERROR_MESSAGES.ADMIN_BLOCKED,
+    //     HTTP_STATUS.UNAUTHORIZED
+    //   );
+    // }
 
     //Check password
 

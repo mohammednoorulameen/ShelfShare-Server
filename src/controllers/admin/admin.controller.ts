@@ -19,7 +19,6 @@ export class AdminController {
     const limit = Number(req.query.limit) || 10;
 
     const result = await this._vendorService.getAllVendors(page, limit);
-    console.log("check result",result)
     res.status(HTTP_STATUS.OK).json({
       success: true,
       message: SUCCESS_MESSAGES.VENDOR_FETCHED_SUCCESS,
@@ -92,5 +91,9 @@ export class AdminController {
     await this._userService.toggleAdminBlockUser(userId);
      res.status(HTTP_STATUS.OK).json({success: true, message: SUCCESS_MESSAGES.USER_BLOCKED_SUCCESS})
    }
+
+  /*--------
+   admin can create category
+  ---------------------------------------*/
 
 }

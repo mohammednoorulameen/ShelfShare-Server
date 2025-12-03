@@ -5,6 +5,8 @@ import { IVendorRepository } from "../types/repository-interface/IVendorReposito
 import { VendorRepository } from "../repositories/vendor.repository";
 import { IAdminRepository } from "../types/repository-interface/IAdminRepository";
 import { AdminRepository } from "../repositories/admin.repository";
+import { ICategoryRepository } from "../types/repository-interface/ICategoryRepository";
+import { CategoryRepository } from "../repositories/category.repository";
 
 /**
  * register all repositories
@@ -25,6 +27,9 @@ export class RepositoryRegistry {
       });
       container.register<IAdminRepository>("IAdminRepository",{
         useClass : AdminRepository
+      })
+      container.register<ICategoryRepository>("ICategoryRepository",{
+        useClass : CategoryRepository
       })
   }
 }

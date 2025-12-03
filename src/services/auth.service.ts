@@ -39,7 +39,7 @@ export class AuthService implements IAuthService {
     @inject("IAdminRepository") private _adminRepository: IAdminRepository,
     @inject("IBcryptUtils") private _passwordBcrypt: IBcryptUtils,
     @inject("ITokenService") private _tokenService: ITokenService
-  ) // @inject("") private _googleLogin:I
+  ) 
   {
     this._frontendUrl = config.cors.ALLOWED_ORIGIN;
     this._googleClient = new OAuth2Client(config.google.CLIENT_ID);

@@ -6,6 +6,7 @@ declare global {
     interface Request {
       user?: TokenPayload;
       vendor?: TokenPayload;
+       admin?: TokenPayload;
     }
   }
 }

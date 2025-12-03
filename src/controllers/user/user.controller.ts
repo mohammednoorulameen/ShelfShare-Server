@@ -12,6 +12,28 @@ import {
 export class UserController {
   constructor(@inject("IUserService") private _userService: IUserService) {}
 
+
+
+
+  async getUser(req:Request,res: Response): Promise <void>{
+    const userId = req.user?.userId;
+    if(!userId){
+       throw new AppError(
+        ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+    const user = await this._userService.getUserById(userId);
+
+  res.status(HTTP_STATUS.OK).json({
+    success: true,
+    message: SUCCESS_MESSAGES.DATA_FETCHED,
+    data: user,
+  });
+  }
+
+
+
   /*-------
     Update user info controller 
    -------------------------------*/
@@ -25,6 +47,8 @@ export class UserController {
       );
     }
     const { userName, phoneNumber, imageKey } = req.body;
+    console.log('check data s', imageKey)
+
 
     const updatedUser = await this._userService.updateUserInfo({
       userId,

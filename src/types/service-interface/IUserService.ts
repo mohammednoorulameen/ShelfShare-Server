@@ -15,4 +15,5 @@ export interface IUserService {
   toggleAdminBlockUser(userId : string): Promise<UserResponseDto>
   updateUserInfo(data: UpdateUserinfoDto): Promise<UserResponseDto>
   updateUserPassword(data: UpdateUserPasswordDto): Promise<UserResponseDto>
+  getUserById(userId : string) : Promise <UserResponseDto>
 }

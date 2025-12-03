@@ -84,4 +84,20 @@ export class VendorService implements IVendorService {
     );
     return VendorMapper.toResponse(updateVendorStatus as IVendor);
   }
+
+
+/*----------------
+get vendor details
+----------------------------*/
+
+ async getVendorById(vendorId: string): Promise<VendorResponseDto> {
+   const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
+   console.log(vendor)
+    if (!vendor) {
+    throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+  }
+   return VendorMapper.toResponse(vendor);
+ }
+
+
 }

@@ -10,6 +10,7 @@ import { DependencyInjection } from "./di";
 import { registerUserEventListner, registerVendorEventListner } from "./events/listeners/auth.listeners";
 import { AdminRoutes } from "./routes/admin/admin.routes";
 import {  UserRoutes } from "./routes/user/user.routes";
+import { VendorRoutes } from "./routes/vendor/vendor.routes";
 
 export default class Server {
   private _app: Application;
@@ -52,9 +53,11 @@ export default class Server {
     const authRoutes = container.resolve(AuthRoutes);
     const adminRoutes = container.resolve(AdminRoutes);
     const userRoutes = container.resolve(UserRoutes);
+    const venorRoutes = container.resolve(VendorRoutes);
     this._app.use("/api/auth/", authRoutes.router);
     this._app.use("/api/admin/", adminRoutes.router);
     this._app.use("/api/user/", userRoutes.router);
+    this._app.use("/api/vendor/", venorRoutes.router);
   }
 
   public start(): void {

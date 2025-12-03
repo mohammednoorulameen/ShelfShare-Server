@@ -7,6 +7,8 @@ import { IAdminController } from "../types/controller-interfaces/IAdminControlle
 import { AdminController } from "../controllers/admin/admin.controller";
 import { IUserController } from "../types/controller-interfaces/IUserController";
 import { UserController } from "../controllers/user/user.controller";
+import { IVendorController } from "../types/controller-interfaces/IVendorController";
+import { VendorController } from "../controllers/vendor/vendor.controller";
 // import { UserController } from "../controllers/user/user.controller";
 
 
@@ -26,6 +28,9 @@ export class ControllerRegistry{
         })
         container.register<IUserController>("IUserController",{
             useClass: UserController
+        })
+        container.register<IVendorController>("IVendorController",{
+            useClass: VendorController
         })
        
 

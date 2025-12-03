@@ -1,0 +1,38 @@
+import { Request, Response } from "express";
+import { inject, injectable } from "tsyringe";
+import { HTTP_STATUS } from "../../shared/constant/http.status";
+import AppError from "../../shared/utils/App.Error";
+import {
+  ERROR_MESSAGES,
+  SUCCESS_MESSAGES,
+} from "../../shared/constant/messages";
+import { IVendorService } from "../../types/service-interface/IVendorService";
+
+@injectable()
+export class VendorController {
+  constructor(@inject("IVendorService") private _vendorService: IVendorService) {}
+
+
+
+
+  async getVendor(req:Request,res: Response): Promise <void>{
+    const vendorId = req.vendor?.vendorId;
+    console.log('vendorIdvendorIdvendorIdvendorIdvendorId',vendorId)
+    if(!vendorId){
+       throw new AppError(
+        ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+    const vendor = await this._vendorService.getVendorById(vendorId);
+console.log(vendor)
+  res.status(HTTP_STATUS.OK).json({
+    success: true,
+    message: SUCCESS_MESSAGES.DATA_FETCHED,
+    data: vendor,
+  });
+  }
+
+
+
+}

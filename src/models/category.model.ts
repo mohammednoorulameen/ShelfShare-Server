@@ -10,7 +10,7 @@ const categorySechema = new Schema<ICategory>(
       trim: true,
       unique: true,
     },
-    discription: {
+    description: {
       type: String,
       required: true,
     },

@@ -11,6 +11,8 @@ import { VendorService } from "../services/vendor.service";
 import { IVendorService } from "../types/service-interface/IVendorService";
 import { IUserService } from "../types/service-interface/IUserService";
 import { UserService } from "../services/user.service";
+import { CategoryService } from "../services/category.service";
+import { ICategoryServices } from "../types/service-interface/ICategoryService";
 
 
 
@@ -33,6 +35,9 @@ export class ServiceRegistey{
         })
         container.register<IUserService>("IUserService",{
             useClass : UserService
+        })
+        container.register<ICategoryServices>("ICategoryServices",{
+            useClass : CategoryService
         })
     }
 }

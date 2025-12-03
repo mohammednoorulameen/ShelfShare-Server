@@ -15,6 +15,9 @@ export const SUCCESS_MESSAGES = {
   PASSWORD_RESET_SUCCESS : "Password Successfully Changed",
   PROFILE_UPDATED_SUCCESSFULLY : "Profile updated successfully", 
   PASSWORD_UPDATED_SUCCESSFULLY : "Password updated successfully",
+  CATEGORY_CREATED_SUCCESS : 'Category Created',
+  CATEGORY_FETCHED_SUCCESS : 'Category fetched',
+  CATEGORY_UPDATED_SUCCESS : 'Category status updated',
 
 
 
@@ -53,7 +56,11 @@ export const ERROR_MESSAGES = {
   USER_NOT_FOUNT : "User Not Found",
   PASSWORD_REQUIRED : "Password is required",
   INVALID_PASSWORD : "Invalid password",
-
+  CATEGORY_EXISTED : "Category Existed",
+  ALL_FIELDS_REQUIRED : "Fil all fields",
+  CATEGORY_ID_MISSED : "Category ID missing",
+  CATEGORY_NOT_FOUND : "Category not found",
+  ACCESS_DENIEDE : "Access denied. You do not have permission.",
 
   // USER
 

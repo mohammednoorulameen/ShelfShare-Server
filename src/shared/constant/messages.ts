@@ -38,7 +38,7 @@ export const SUCCESS_MESSAGES = {
 export const ERROR_MESSAGES = {
   // GENERAL
   UNEXPECTED_SERVER_ERROR: "An unexpected server error occurred.",
-  EMAIL_ALREADY_EXISTS: "A user with this email already exists.",
+  EMAIL_ALREADY_EXISTS: " this email already exists.",
   EMAIL_ALREADY_EXISTS_NOT_VERIFIED:
     "Email exists but not verified. Verification Email Resent",
   ACCOUNT_NOT_FOUND: "Account not found.",
@@ -46,7 +46,7 @@ export const ERROR_MESSAGES = {
   EMAIL_NOT_VERIFIED: "Email Not Verified.",
   INVALID_ROLE: "Invalid Role Type",
   INVALID_CREDENTIALS: "Invalid email or password.",
-  TOKEN_EXPIRED_OR_INVALID: "Token expired or invalid",
+  TOKEN_EXPIRED_OR_INVALID: "Token expired",
   INVALID_OR_EXPIRED_TOKEN: "Invalid or expired refresh token",
   REFRESH_TOKEN_MISSING :  " Token is Missing ",
   UNAUTHORIZED_ACCESS: "Unauthorized, Missing information",
@@ -61,6 +61,7 @@ export const ERROR_MESSAGES = {
   CATEGORY_ID_MISSED : "Category ID missing",
   CATEGORY_NOT_FOUND : "Category not found",
   ACCESS_DENIEDE : "Access denied. You do not have permission.",
+  FORBIDDEN : "Forbidden Access denied",
 
   // USER
 

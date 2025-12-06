@@ -15,7 +15,8 @@ import { IVendor } from "../../types/entities/IVendor";
 import AppError from "../../shared/utils/App.Error";
 import { clearCookie } from "../../shared/utils/cookie.helper";
 
-let accessMaxAge = 15 * 60 * 1000;
+// let accessMaxAge = 15 * 60 * 1000;
+let accessMaxAge =  5000;
 let refreshMaxAge = 7 * 24 * 60 * 60 * 1000;
 
 function isUser(obj: IUser | IVendor): obj is IUser {

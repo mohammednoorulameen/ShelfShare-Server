@@ -13,59 +13,44 @@ export const authenticate = (
 ) => {
   let token = req.cookies.accessToken;
   if (!token) {
-    return res
-      .status(HTTP_STATUS.UNAUTHORIZED)
-      .json({ message: ERROR_MESSAGES.UNAUTHORIZED_ACCESS });
+    return res.status(401).json({ message: "Unauthorized" });
   }
+
   try {
     const decoded = jwt.verify(
       token,
       config.jwt.ACCESS_TOKEN_SECRET
     ) as TokenPayload;
-    req.user = decoded;
-    if (decoded.role === "user") {
-      req.user = decoded;
-        console.log('check',req.user)
-      console.log('check',req.user)
-    } else if (decoded.role === "vendor") {
-      req.vendor = decoded;
-    } else if (decoded.role === "admin") {
-      req.admin = decoded;
-      console.log('check',req.admin)
-      console.log('check',req.admin)
-      console.log('check',req.admin)
-      console.log('check',req.admin)
-    } else {
-      return res.status(HTTP_STATUS.UNAUTHORIZED).json({
-        message: "Invalid role in token",
-      });
-    }
+
+    console.log('chekc this role ',decoded.role)
+    if (decoded.role === "user") req.user = decoded;
+    else if (decoded.role === "vendor") req.vendor = decoded;
+    else if (decoded.role === "admin") req.admin = decoded;
 
     next();
-  } catch (error) {
-    return res
-      .status(HTTP_STATUS.UNAUTHORIZED)
-      .json({ message: ERROR_MESSAGES.UNAUTHORIZED_ACCESS });
+  } catch (err) {
+    return res.status(401).json({ message: "Unauthorized" });
   }
 };
 
-export const requireRole =
-  (...allowedRoles: string[]) =>
-  (req: Request, res: Response, next: NextFunction): void => {
-    const userRole = req.user?.role;
 
-    if (!userRole || !allowedRoles.includes(userRole)) {
-      console.log('checkk',userRole)
-      res.status(HTTP_STATUS.FORBIDDEN).json({
+export const requireRole =
+  (...roles: string[]) =>
+  (req: Request, res: Response, next: NextFunction) => {
+    const role = req.user?.role || req.vendor?.role || req.admin?.role;
+
+    if (!role || !roles.includes(role)) {
+      return res.status(403).json({
         success: false,
-        message: ERROR_MESSAGES.ACCESS_DENIEDE,
+        message: ERROR_MESSAGES.FORBIDDEN,
       });
-      return;
     }
 
     next();
   };
 
+export const isUser = requireRole("user");
 export const isVendor = requireRole("vendor");
 export const isAdmin = requireRole("admin");
-export const isUser = requireRole("user");
+
+

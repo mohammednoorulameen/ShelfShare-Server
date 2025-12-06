@@ -67,11 +67,18 @@ export class AuthService implements IAuthService {
      ---------------------------------------*/
 
     if (existingAccount) {
+      
       if (existingAccount.isEmailVerified) {
         throw new AppError(
           ERROR_MESSAGES.EMAIL_ALREADY_EXISTS,
           HTTP_STATUS.CONFLICT
         );
+    //     throw new AppError(
+    //   role === Role.USER
+    //     ? ERROR_MESSAGES.EMAIL_ALREADY_EXISTS
+    //     : ERROR_MESSAGES.EMAIL_ALREADY_EXISTS,
+    //   HTTP_STATUS.CONFLICT
+    // );
       }
       if (role === Role.USER) {
         authEvents.emit(AuthEvents.UserRegistered, {

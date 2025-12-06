@@ -17,7 +17,6 @@ export class VendorController {
 
   async getVendor(req:Request,res: Response): Promise <void>{
     const vendorId = req.vendor?.vendorId;
-    console.log('vendorIdvendorIdvendorIdvendorIdvendorId',vendorId)
     if(!vendorId){
        throw new AppError(
         ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
@@ -25,7 +24,6 @@ export class VendorController {
       );
     }
     const vendor = await this._vendorService.getVendorById(vendorId);
-console.log(vendor)
   res.status(HTTP_STATUS.OK).json({
     success: true,
     message: SUCCESS_MESSAGES.DATA_FETCHED,

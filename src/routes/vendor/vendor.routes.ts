@@ -18,5 +18,13 @@ export class VendorRoutes extends BaseRoute {
       authenticate, isVendor,
       this._vendorController.getVendor.bind(this._vendorController)
     );
+    
+    this._router.put(
+      "/vendor-reapply",
+      authenticate, isVendor,
+      this._vendorController.reapplyForVendorVerification.bind(this._vendorController)
+    );
+
+
   }
 }

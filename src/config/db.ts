@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
 import { config } from './index'
+import { logger } from '../shared/utils/logger';
 
 export class connectDB{
     private _dburi : string
@@ -11,9 +12,9 @@ export class connectDB{
     async connect(){
         try {
             await mongoose.connect(this._dburi);
-            console.log("Mongodb Connect Successfully")
+            logger.info("Mongodb Connect Successfully")
         } catch (error) {
-            console.log(error)
+            logger.error(error)
             throw new Error("Database Connection Field")
         }
     }

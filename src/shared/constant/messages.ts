@@ -18,6 +18,7 @@ export const SUCCESS_MESSAGES = {
   CATEGORY_CREATED_SUCCESS : 'Category Created',
   CATEGORY_FETCHED_SUCCESS : 'Category fetched',
   CATEGORY_UPDATED_SUCCESS : 'Category status updated',
+  REAPPLY_SUCCESSFULLY : "Your verification request has been submitted again for admin review",
 
 
 
@@ -62,6 +63,7 @@ export const ERROR_MESSAGES = {
   CATEGORY_NOT_FOUND : "Category not found",
   ACCESS_DENIEDE : "Access denied. You do not have permission.",
   FORBIDDEN : "Forbidden Access denied",
+  REAPPLY_ERROR : "You can only reapply if your application was rejected.",
 
   // USER
 

@@ -32,18 +32,54 @@ export class AdminController {
    Admin toggle approve vendor
    --------------------------------------------*/
 
-  async toggleAdminVerification(req:Request, res:Response): Promise<void>{
-    // <{vendorId:string}>
-    const { vendorId } = req.params;
-    console.log('check this',vendorId)
-    if(!vendorId){
-      throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
-    }
+async toggleAdminVerification(req: Request, res: Response): Promise<void> {
+  const { vendorId } = req.params;
+  const { action, reason } = req.body; 
 
-    await this._vendorService.toggleAdminVerification(vendorId)
 
-    res.status(HTTP_STATUS.OK).json({success : true, message: SUCCESS_MESSAGES.VENDOR_VERIFICATION_SUCCESS})
+  if (!vendorId) {
+    throw new AppError(
+      ERROR_MESSAGES.VENDOR_NOT_FOUNT,
+      HTTP_STATUS.NOT_FOUND
+    );
   }
+
+  if (!action) {
+    throw new AppError(
+      "Action is required (approved | rejected)",
+      HTTP_STATUS.BAD_REQUEST
+    );
+  }
+
+  const updatedVendor = await this._vendorService.toggleAdminVerification(
+    vendorId,
+    action,  
+    reason   
+  );
+
+  res.status(HTTP_STATUS.OK).json({
+    success: true,
+    message: SUCCESS_MESSAGES.VENDOR_VERIFICATION_SUCCESS,
+    data: updatedVendor
+  });
+}
+
+
+
+
+
+  // async toggleAdminVerification(req:Request, res:Response): Promise<void>{
+  //   // <{vendorId:string}>
+  //   const { vendorId } = req.params;
+  //   console.log('check this',vendorId)
+  //   if(!vendorId){
+  //     throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
+  //   }
+
+  //   await this._vendorService.toggleAdminVerification(vendorId)
+
+  //   res.status(HTTP_STATUS.OK).json({success : true, message: SUCCESS_MESSAGES.VENDOR_VERIFICATION_SUCCESS})
+  // }
 
 
   /*------------------
@@ -52,7 +88,7 @@ export class AdminController {
 
    async toggleAdminBlockVendor(req:Request, res: Response): Promise<void>{
       const  {vendorId} = req.params
-
+    console.log('check the vendor id bliock',vendorId)
       if(!vendorId){
         throw new AppError(ERROR_MESSAGES.VENDOR_NOT_FOUNT, HTTP_STATUS.NOT_FOUND)
       }
@@ -92,8 +128,5 @@ export class AdminController {
      res.status(HTTP_STATUS.OK).json({success: true, message: SUCCESS_MESSAGES.USER_BLOCKED_SUCCESS})
    }
 
-  /*--------
-   admin can create category
-  ---------------------------------------*/
 
 }

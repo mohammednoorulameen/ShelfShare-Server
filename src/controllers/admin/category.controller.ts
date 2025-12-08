@@ -16,7 +16,7 @@ export class CategoryController {
   ) {}
 
   /*------
- create category 
+ admin create category 
 --------------------*/
   async createCategory(req: Request, res: Response): Promise<void> {
     const { name, description } = req.body;
@@ -40,7 +40,7 @@ export class CategoryController {
   }
 
   /*---------
-    get all category 
+    admin get all category 
   -------------------------*/
 
   async getAllCategories(req: Request, res: Response): Promise<void> {
@@ -55,7 +55,7 @@ export class CategoryController {
   }
 
  /*---------
-    Block  Each category 
+    admin Block  Each category 
   -------------------------*/
 
   async toggleCategoryStatus(req:Request, res: Response) : Promise <void>{

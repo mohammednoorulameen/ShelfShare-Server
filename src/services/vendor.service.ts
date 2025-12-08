@@ -7,6 +7,7 @@ import AppError from "../shared/utils/App.Error";
 import { ERROR_MESSAGES } from "../shared/constant/messages";
 import { HTTP_STATUS } from "../shared/constant/http.status";
 import { IVendor } from "../types/entities/IVendor";
+import { AdminVerifyStatus } from "../shared/constant/status";
 
 @injectable()
 export class VendorService implements IVendorService {
@@ -40,29 +41,76 @@ export class VendorService implements IVendorService {
     toggle admin verification
    ------------------------------------*/
 
-  async toggleAdminVerification(vendorId: string): Promise<VendorResponseDto> {
-    const vendor = await this._vendorRepository.findOne({ _id: vendorId });
+async toggleAdminVerification(
+  vendorId: string,
+  action: AdminVerifyStatus,
+  reason?: string
+): Promise<VendorResponseDto> {
 
-    if (!vendor) {
-      throw new AppError(
-        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
-        HTTP_STATUS.NOT_FOUND
-      );
-    }
+  console.log("check the id here", vendorId);
 
-    const updateVendor = await this._vendorRepository.updateById(vendorId, {
-      isAdminVerified: !vendor.isAdminVerified,
-    });
+  const vendor = await this._vendorRepository.findOne({ vendorId:vendorId });
 
-    return VendorMapper.toResponse(updateVendor!);
+  if (!vendor) {
+    throw new AppError(
+      ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+      HTTP_STATUS.NOT_FOUND
+    );
   }
 
-  /*-----------
-    toggle admin change status
-   --------------------------------*/
+  let newStatus = vendor.isAdminVerifiedStatus;
+  let rejectReason: string | null = null;
+
+  if (action === AdminVerifyStatus.APPROVED) {
+    newStatus = AdminVerifyStatus.APPROVED;
+  }
+
+  if (action === AdminVerifyStatus.REJECTED) {
+    if (!reason) {
+      throw new AppError("Rejection reason is required", HTTP_STATUS.BAD_REQUEST);
+    }
+    newStatus = AdminVerifyStatus.REJECTED;
+    rejectReason = reason;
+  }
+
+  const updateData = {
+    isAdminVerifiedStatus: newStatus,
+    adminRejectReason: rejectReason,
+  };
+
+  const updatedVendor = await this._vendorRepository.update(
+    vendor?._id,   
+    updateData
+  );
+
+  return VendorMapper.toResponse(updatedVendor!);
+}
+
+
+  // async toggleAdminVerification(vendorId: string): Promise<VendorResponseDto> {
+  //   const vendor = await this._vendorRepository.findOne({ _id: vendorId });
+
+  //   if (!vendor) {
+  //     throw new AppError(
+  //       ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+  //       HTTP_STATUS.NOT_FOUND
+  //     );
+  //   }
+
+  //   const updateVendor = await this._vendorRepository.updateById(vendorId, {
+  //     isAdminVerified: !vendor.isAdminVerified,
+  //   });
+
+  //   return VendorMapper.toResponse(updateVendor!);
+  // }
+
+  /*----------------------
+    toggle admin change status Block and unblock
+   ------------------------------------------------*/
 
   async toggleAdminBlockVendor(vendorId: string): Promise<VendorResponseDto> {
-    const vendor = await this._vendorRepository.findOne({ _id: vendorId });
+    const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
+    console.log('chekc the vendor id ',vendor)
 
     if (!vendorId) {
       throw new AppError(
@@ -74,12 +122,9 @@ export class VendorService implements IVendorService {
 
     const updateData: any = { status: newStatus };
 
-    if (newStatus === "blocked") {
-      updateData.isAdminVerified = false;
-    }
 
-    const updateVendorStatus = await this._vendorRepository.updateById(
-      vendorId,
+    const updateVendorStatus = await this._vendorRepository.update(
+      vendor?._id,
       updateData
     );
     return VendorMapper.toResponse(updateVendorStatus as IVendor);

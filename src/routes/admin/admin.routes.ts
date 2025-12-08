@@ -17,26 +17,31 @@ export class AdminRoutes extends BaseRoute {
   initializeRoutes(): void {
     this._router.get(
       "/allvendors",
+       authenticate,isAdmin,
       this._adminController.getAllVendors.bind(this._adminController)
     );
 
-    this._router.patch(
+    this._router.put(
       "/vendors/:vendorId/toggle-verify",
+      //  authenticate,isAdmin,
       this._adminController.toggleAdminVerification.bind(this._adminController)
     );
 
     this._router.patch(
       "/vendors/:vendorId/toggle-block",
+       authenticate,isAdmin,
       this._adminController.toggleAdminBlockVendor.bind(this._adminController)
     );
 
     this._router.get(
       "/allusers",
+       authenticate,isAdmin,
       this._adminController.getAllUsers.bind(this._adminController)
     );
 
     this._router.patch(
       "/user/:userId/toggled-block",
+       authenticate,isAdmin,
       this._adminController.toggleAdminBlockUser.bind(this._adminController)
     );
 

@@ -4,3 +4,11 @@ export enum Status {
   DELETED = 'deleted',
   PENDING = 'pending'
 }
+
+
+
+export enum AdminVerifyStatus{
+   PENDING =  "pending",
+   APPROVED = "approved",
+   REJECTED =  "rejected"
+}

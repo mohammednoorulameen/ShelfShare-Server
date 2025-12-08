@@ -11,6 +11,9 @@ import { registerUserEventListner, registerVendorEventListner } from "./events/l
 import { AdminRoutes } from "./routes/admin/admin.routes";
 import {  UserRoutes } from "./routes/user/user.routes";
 import { VendorRoutes } from "./routes/vendor/vendor.routes";
+import morgan from "morgan";
+import { logger } from "./shared/utils/logger";
+import { httpLogger } from "./middlewares/logger.middleware";
 
 export default class Server {
   private _app: Application;
@@ -32,10 +35,13 @@ export default class Server {
   }
 
   private configureMiddleWares(): void {
+    this._app.use(httpLogger); 
     this._app.use(cors(corsOption));
     this._app.use(express.json());
     this._app.use(cookieParser());
+    this._app.use(morgan("dev"));
     this._app.use(express.urlencoded({ extended: true }));
+
   }
 
   private configureHandlingMiddlewares() {
@@ -62,7 +68,7 @@ export default class Server {
 
   public start(): void {
     this._app.listen(this._port, () => {
-      console.log(`server is runnning port ${this._port} `);
+      logger.info(`server is runnning port ${this._port} `);
     });
   }
 }

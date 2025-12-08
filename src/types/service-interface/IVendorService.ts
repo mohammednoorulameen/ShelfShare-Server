@@ -24,6 +24,7 @@ toggleAdminVerification(
 
   toggleAdminBlockVendor(vendorId:string) : Promise<VendorResponseDto>
   getVendorById(vendorId : string) : Promise <VendorResponseDto>
+  reapplyForVendorVerification(vendorId: string) : Promise <VendorResponseDto>
   
 }
 

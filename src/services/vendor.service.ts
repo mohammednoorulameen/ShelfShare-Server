@@ -41,51 +41,52 @@ export class VendorService implements IVendorService {
     toggle admin verification
    ------------------------------------*/
 
-async toggleAdminVerification(
-  vendorId: string,
-  action: AdminVerifyStatus,
-  reason?: string
-): Promise<VendorResponseDto> {
+  async toggleAdminVerification(
+    vendorId: string,
+    action: AdminVerifyStatus,
+    reason?: string
+  ): Promise<VendorResponseDto> {
+    console.log("check the id here", vendorId);
 
-  console.log("check the id here", vendorId);
+    const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
 
-  const vendor = await this._vendorRepository.findOne({ vendorId:vendorId });
-
-  if (!vendor) {
-    throw new AppError(
-      ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
-      HTTP_STATUS.NOT_FOUND
-    );
-  }
-
-  let newStatus = vendor.isAdminVerifiedStatus;
-  let rejectReason: string | null = null;
-
-  if (action === AdminVerifyStatus.APPROVED) {
-    newStatus = AdminVerifyStatus.APPROVED;
-  }
-
-  if (action === AdminVerifyStatus.REJECTED) {
-    if (!reason) {
-      throw new AppError("Rejection reason is required", HTTP_STATUS.BAD_REQUEST);
+    if (!vendor) {
+      throw new AppError(
+        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+        HTTP_STATUS.NOT_FOUND
+      );
     }
-    newStatus = AdminVerifyStatus.REJECTED;
-    rejectReason = reason;
+
+    let newStatus = vendor.isAdminVerifiedStatus;
+    let rejectReason: string | null = null;
+
+    if (action === AdminVerifyStatus.APPROVED) {
+      newStatus = AdminVerifyStatus.APPROVED;
+    }
+
+    if (action === AdminVerifyStatus.REJECTED) {
+      if (!reason) {
+        throw new AppError(
+          "Rejection reason is required",
+          HTTP_STATUS.BAD_REQUEST
+        );
+      }
+      newStatus = AdminVerifyStatus.REJECTED;
+      rejectReason = reason;
+    }
+
+    const updateData = {
+      isAdminVerifiedStatus: newStatus,
+      adminRejectReason: rejectReason,
+    };
+
+    const updatedVendor = await this._vendorRepository.update(
+      vendor?._id,
+      updateData
+    );
+
+    return VendorMapper.toResponse(updatedVendor!);
   }
-
-  const updateData = {
-    isAdminVerifiedStatus: newStatus,
-    adminRejectReason: rejectReason,
-  };
-
-  const updatedVendor = await this._vendorRepository.update(
-    vendor?._id,   
-    updateData
-  );
-
-  return VendorMapper.toResponse(updatedVendor!);
-}
-
 
   // async toggleAdminVerification(vendorId: string): Promise<VendorResponseDto> {
   //   const vendor = await this._vendorRepository.findOne({ _id: vendorId });
@@ -110,7 +111,7 @@ async toggleAdminVerification(
 
   async toggleAdminBlockVendor(vendorId: string): Promise<VendorResponseDto> {
     const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
-    console.log('chekc the vendor id ',vendor)
+    console.log("chekc the vendor id ", vendor);
 
     if (!vendorId) {
       throw new AppError(
@@ -122,7 +123,6 @@ async toggleAdminVerification(
 
     const updateData: any = { status: newStatus };
 
-
     const updateVendorStatus = await this._vendorRepository.update(
       vendor?._id,
       updateData
@@ -130,18 +130,50 @@ async toggleAdminVerification(
     return VendorMapper.toResponse(updateVendorStatus as IVendor);
   }
 
-
-/*----------------
+  /*----------------
 get vendor details
 ----------------------------*/
 
- async getVendorById(vendorId: string): Promise<VendorResponseDto> {
-   const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
+  async getVendorById(vendorId: string): Promise<VendorResponseDto> {
+    const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
     if (!vendor) {
-    throw new AppError(ERROR_MESSAGES.ACCOUNT_NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+      throw new AppError(
+        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+        HTTP_STATUS.NOT_FOUND
+      );
+    }
+    return VendorMapper.toResponse(vendor);
   }
-   return VendorMapper.toResponse(vendor);
- }
 
+  /*-----------------
+  vendor can reApply the rejectd verification 
+  ---------------------------------------------------*/
 
+  async reapplyForVendorVerification(
+    vendorId: string
+  ): Promise<VendorResponseDto> {
+    const vendor = await this._vendorRepository.findOne({ vendorId });
+    console.log(vendor);
+
+    if (!vendor) {
+      throw new AppError(
+        ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
+        HTTP_STATUS.NOT_FOUND
+      );
+    }
+
+    if (vendor.isAdminVerifiedStatus !== "rejected") {
+  throw new AppError(
+    ERROR_MESSAGES.REAPPLY_ERROR,
+    HTTP_STATUS.BAD_REQUEST
+  );
+}
+
+const updatedVendor = await this._vendorRepository.update(vendor._id, {
+  isAdminVerifiedStatus: AdminVerifyStatus.PENDING,
+  adminRejectReason: null,
+});
+return VendorMapper.toResponse(updatedVendor!);
+
+  }
 }

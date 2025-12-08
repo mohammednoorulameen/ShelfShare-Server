@@ -13,7 +13,9 @@ export class VendorController {
   constructor(@inject("IVendorService") private _vendorService: IVendorService) {}
 
 
-
+/*--------
+Get Vendro details 
+------------------*/
 
   async getVendor(req:Request,res: Response): Promise <void>{
     const vendorId = req.vendor?.vendorId;
@@ -30,6 +32,32 @@ export class VendorController {
     data: vendor,
   });
   }
+
+
+  /*-----------------
+  vendor can reApply the rejectd verification 
+  ---------------------------------------------------*/
+
+
+  async reapplyForVendorVerification(req:Request, res:Response): Promise<void>{
+    const vendorId = req.vendor?.vendorId
+    console.log('check the vednorId getting to the vendor ',vendorId)
+    if(!vendorId){
+      throw new AppError(ERROR_MESSAGES.UNAUTHORIZED_ACCESS, HTTP_STATUS.UNAUTHORIZED);
+    }
+
+    const updatedVendor = await this._vendorService.reapplyForVendorVerification(vendorId)
+   res.status(HTTP_STATUS.OK).json({
+    success: true,
+    message: SUCCESS_MESSAGES.REAPPLY_SUCCESSFULLY,
+    data: updatedVendor,
+  });
+  }
+
+
+
+
+
 
 
 

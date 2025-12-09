@@ -17,7 +17,7 @@ export class VendorService implements IVendorService {
 
   /*-----------------
    Get all vendors with pagination
- -----------------------------------------------*/
+  ----------------------------------------------*/
 
   async getAllVendors(page = 1, limit = 10) {
     const skip = (page - 1) * limit;
@@ -39,7 +39,7 @@ export class VendorService implements IVendorService {
 
   /*----------
     toggle admin verification
-   ------------------------------------*/
+  ------------------------------------*/
 
   async toggleAdminVerification(
     vendorId: string,
@@ -88,26 +88,9 @@ export class VendorService implements IVendorService {
     return VendorMapper.toResponse(updatedVendor!);
   }
 
-  // async toggleAdminVerification(vendorId: string): Promise<VendorResponseDto> {
-  //   const vendor = await this._vendorRepository.findOne({ _id: vendorId });
-
-  //   if (!vendor) {
-  //     throw new AppError(
-  //       ERROR_MESSAGES.ACCOUNT_NOT_FOUND,
-  //       HTTP_STATUS.NOT_FOUND
-  //     );
-  //   }
-
-  //   const updateVendor = await this._vendorRepository.updateById(vendorId, {
-  //     isAdminVerified: !vendor.isAdminVerified,
-  //   });
-
-  //   return VendorMapper.toResponse(updateVendor!);
-  // }
-
   /*----------------------
     toggle admin change status Block and unblock
-   ------------------------------------------------*/
+   ---------------------------------------------------*/
 
   async toggleAdminBlockVendor(vendorId: string): Promise<VendorResponseDto> {
     const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
@@ -130,9 +113,9 @@ export class VendorService implements IVendorService {
     return VendorMapper.toResponse(updateVendorStatus as IVendor);
   }
 
-  /*----------------
+/*--------
 get vendor details
-----------------------------*/
+-------------------------*/
 
   async getVendorById(vendorId: string): Promise<VendorResponseDto> {
     const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
@@ -176,4 +159,18 @@ const updatedVendor = await this._vendorRepository.update(vendor._id, {
 return VendorMapper.toResponse(updatedVendor!);
 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

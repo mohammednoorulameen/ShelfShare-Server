@@ -7,6 +7,9 @@ import { IAdminRepository } from "../types/repository-interface/IAdminRepository
 import { AdminRepository } from "../repositories/admin.repository";
 import { ICategoryRepository } from "../types/repository-interface/ICategoryRepository";
 import { CategoryRepository } from "../repositories/category.repository";
+import { ProductRepository } from "../repositories/product.repository";
+import { IProductRepository } from "../types/repository-interface/IProductService";
+// import { ProductRepository } from "../repositories/product.repository";
 
 /**
  * register all repositories
@@ -30,6 +33,9 @@ export class RepositoryRegistry {
       })
       container.register<ICategoryRepository>("ICategoryRepository",{
         useClass : CategoryRepository
+      })
+      container.register<IProductRepository>("IProductRepository",{
+        useClass : ProductRepository
       })
   }
 }

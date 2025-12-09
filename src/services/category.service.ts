@@ -6,6 +6,9 @@ import AppError from "../shared/utils/App.Error";
 import { ERROR_MESSAGES } from "../shared/constant/messages";
 import { HTTP_STATUS } from "../shared/constant/http.status";
 import { Status } from "../shared/constant/status";
+import { v4 as uuidv4 } from "uuid";
+import { CategoryMapper } from "../types/mapper/category.mapper";
+
 
 @injectable()
 export class CategoryService {
@@ -14,7 +17,8 @@ export class CategoryService {
     private _categoryRepository: ICategoryRepository
   ) {}
 
-  /*--------
+
+/*--------
 create category 
 ---------------------*/
 
@@ -31,11 +35,16 @@ create category
       );
     }
 
-    const payload: Partial<ICategory> = {
-      name: cleanName,
-      description: description,
-      status: Status.ACTIVE,
-    };
+    // const payload: Partial<ICategory> = {
+    //    categoryId: uuidv4(),
+    //   name: cleanName,
+    //   description: description,
+    //   status: Status.ACTIVE,
+    // };
+    const payload = CategoryMapper.toEntity({
+    name: cleanName,
+    description: description,
+  });
 
     const createCategory = await this._categoryRepository.create(payload);
     return createCategory;

@@ -10,7 +10,9 @@ import { UserController } from "../controllers/user/user.controller";
 import { IVendorController } from "../types/controller-interfaces/IVendorController";
 import { VendorController } from "../controllers/vendor/vendor.controller";
 import { ICategoryController } from "../types/controller-interfaces/ICategoryController";
-import { CategoryController } from "../controllers/admin/category.controller";
+import { ProductController } from "../controllers/vendor/product.controller";
+import { IProductController } from "../types/controller-interfaces/IProductController";
+import { CategoryController } from "../controllers/category/category.controller";
 // import { UserController } from "../controllers/user/user.controller";
 
 
@@ -36,6 +38,9 @@ export class ControllerRegistry{
         })
         container.register<ICategoryController>("ICategoryController",{
             useClass: CategoryController
+        })
+        container.register<IProductController>("IProductController",{
+            useClass: ProductController
         })
 
     }

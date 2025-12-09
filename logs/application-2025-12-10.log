@@ -1,0 +1,370 @@
+2025-12-10 00:28:26 [info] : GET /api/vendor/vendor-data 401 26 - 20.796 ms
+2025-12-10 00:28:26 [info] : POST /api/auth/refresh 200 325 - 24.485 ms
+2025-12-10 00:28:26 [info] : GET /api/vendor/vendor-data 304 - - 153.243 ms
+2025-12-10 00:28:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 158.757 ms
+2025-12-10 00:29:02 [info] : GET /api/vendor/vendor-data 304 - - 272.896 ms
+2025-12-10 00:29:02 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 276.517 ms
+2025-12-10 00:29:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 28.256 ms
+2025-12-10 00:29:24 [info] : GET /api/vendor/vendor-data 304 - - 54.737 ms
+2025-12-10 00:29:29 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.444 ms
+2025-12-10 00:29:29 [info] : GET /api/vendor/vendor-data 304 - - 28.418 ms
+2025-12-10 00:29:42 [info] : GET /api/vendor/vendor-data 304 - - 51.830 ms
+2025-12-10 00:29:42 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 40.912 ms
+2025-12-10 00:30:02 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.788 ms
+2025-12-10 00:30:06 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 6.793 ms
+2025-12-10 00:30:06 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.521 ms
+2025-12-10 00:30:06 [info] : GET /api/vendor/vendor-data 304 - - 5.402 ms
+2025-12-10 00:30:09 [info] : GET /api/vendor/vendor-data 304 - - 33.095 ms
+2025-12-10 00:30:09 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.148 ms
+2025-12-10 00:30:27 [info] : GET /api/vendor/vendor-data 304 - - 141.750 ms
+2025-12-10 00:30:27 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 118.939 ms
+2025-12-10 00:30:41 [info] : GET /api/vendor/vendor-data 304 - - 812.947 ms
+2025-12-10 00:30:41 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 898.012 ms
+2025-12-10 00:30:48 [info] : GET /api/vendor/vendor-data 304 - - 7.261 ms
+2025-12-10 00:30:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.443 ms
+2025-12-10 00:31:11 [info] : GET /api/vendor/vendor-data 304 - - 50.112 ms
+2025-12-10 00:31:11 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 38.931 ms
+2025-12-10 00:31:13 [info] : GET /api/vendor/vendor-data 304 - - 13.780 ms
+2025-12-10 00:31:13 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 6.546 ms
+2025-12-10 00:31:49 [info] : GET /api/vendor/vendor-data 304 - - 1822.410 ms
+2025-12-10 00:31:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1999.246 ms
+2025-12-10 00:33:12 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 223.336 ms
+2025-12-10 00:33:19 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 81.381 ms
+2025-12-10 00:33:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 159.354 ms
+2025-12-10 00:33:30 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 872.963 ms
+2025-12-10 00:33:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 401.332 ms
+2025-12-10 00:33:39 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 189.392 ms
+2025-12-10 00:33:43 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 14.603 ms
+2025-12-10 00:33:45 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 3.017 ms
+2025-12-10 00:33:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 40.089 ms
+2025-12-10 00:33:49 [info] : GET /api/vendor/vendor-data 304 - - 401.158 ms
+2025-12-10 00:33:51 [info] : GET /api/vendor/vendor-data 304 - - 6.213 ms
+2025-12-10 00:33:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.563 ms
+2025-12-10 00:34:11 [info] : GET /api/vendor/vendor-data 304 - - 256.940 ms
+2025-12-10 00:34:11 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 242.289 ms
+2025-12-10 00:35:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 84.962 ms
+2025-12-10 00:35:23 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 3.075 ms
+2025-12-10 00:35:40 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 97.281 ms
+2025-12-10 00:36:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.324 ms
+2025-12-10 00:37:02 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 74.865 ms
+2025-12-10 00:37:06 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 12.312 ms
+2025-12-10 00:37:06 [info] : GET /api/vendor/vendor-data 304 - - 52.900 ms
+2025-12-10 00:37:08 [info] : GET /api/vendor/vendor-data 304 - - 4.204 ms
+2025-12-10 00:37:08 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 7.421 ms
+2025-12-10 00:38:11 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 20.579 ms
+2025-12-10 00:38:11 [info] : GET /api/vendor/vendor-data 304 - - 112.844 ms
+2025-12-10 00:38:47 [info] : GET /api/vendor/vendor-data 304 - - 1033.371 ms
+2025-12-10 00:38:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1125.756 ms
+2025-12-10 00:42:45 [info] : GET /api/vendor/vendor-data 304 - - 123.223 ms
+2025-12-10 00:42:45 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 168.437 ms
+2025-12-10 00:43:41 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 175.828 ms
+2025-12-10 00:43:42 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 2.725 ms
+2025-12-10 00:44:15 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 236.742 ms
+2025-12-10 00:44:16 [info] : GET /api/vendor/vendor-data 401 26 - 0.192 ms
+2025-12-10 00:44:16 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.458 ms
+2025-12-10 00:44:16 [info] : POST /api/auth/refresh 200 325 - 21.592 ms
+2025-12-10 00:44:16 [info] : GET /api/vendor/vendor-data 304 - - 15.352 ms
+2025-12-10 00:44:48 [info] : GET /api/vendor/vendor-data 304 - - 1578.590 ms
+2025-12-10 00:44:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1544.628 ms
+2025-12-10 00:44:49 [info] : GET /api/vendor/vendor-data 304 - - 25.159 ms
+2025-12-10 00:44:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 22.473 ms
+2025-12-10 00:44:55 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 3.042 ms
+2025-12-10 01:55:26 [info] : GET /api/vendor/vendor-data 401 26 - 12.195 ms
+2025-12-10 01:55:26 [info] : POST /api/auth/refresh 200 325 - 13.474 ms
+2025-12-10 01:55:26 [info] : GET /api/vendor/vendor-data 304 - - 145.123 ms
+2025-12-10 01:55:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 205.000 ms
+2025-12-10 01:55:56 [info] : GET /api/vendor/vendor-data 304 - - 883.126 ms
+2025-12-10 01:55:56 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1015.289 ms
+2025-12-10 01:55:59 [info] : POST /api/vendor/vendor-addproduct - - - - ms
+2025-12-10 01:56:00 [info] : GET /api/vendor/vendor-data 304 - - 13.983 ms
+2025-12-10 01:56:00 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 3.066 ms
+2025-12-10 01:56:14 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.643 ms
+2025-12-10 01:56:23 [info] : GET /api/vendor/vendor-data 304 - - 10.621 ms
+2025-12-10 01:56:23 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.980 ms
+2025-12-10 01:56:36 [info] : GET /api/vendor/vendor-data 304 - - 134.020 ms
+2025-12-10 01:56:36 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 91.906 ms
+2025-12-10 01:57:49 [info] : GET /api/vendor/vendor-data 304 - - 257.961 ms
+2025-12-10 01:57:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 313.706 ms
+2025-12-10 01:59:46 [info] : server is runnning port 5050 
+2025-12-10 01:59:47 [info] : Mongodb Connect Successfully
+2025-12-10 02:16:48 [info] : server is runnning port 5050 
+2025-12-10 02:16:48 [info] : Mongodb Connect Successfully
+2025-12-10 02:16:52 [info] : GET /api/vendor/vendor-data 401 26 - 2.101 ms
+2025-12-10 02:16:52 [info] : POST /api/auth/refresh 200 325 - 4.171 ms
+2025-12-10 02:16:52 [info] : GET /api/vendor/vendor-data 304 - - 91.885 ms
+2025-12-10 02:16:52 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 150.868 ms
+2025-12-10 02:16:54 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.498 ms
+2025-12-10 02:16:54 [info] : POST /api/vendor/vendor-addproduct 404 48 - 2.664 ms
+2025-12-10 02:17:29 [info] : server is runnning port 5050 
+2025-12-10 02:17:29 [info] : Mongodb Connect Successfully
+2025-12-10 02:17:49 [info] : server is runnning port 5050 
+2025-12-10 02:17:49 [info] : Mongodb Connect Successfully
+2025-12-10 02:17:55 [info] : server is runnning port 5050 
+2025-12-10 02:17:55 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:05 [info] : server is runnning port 5050 
+2025-12-10 02:18:05 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:07 [info] : server is runnning port 5050 
+2025-12-10 02:18:07 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:12 [info] : server is runnning port 5050 
+2025-12-10 02:18:12 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:13 [info] : server is runnning port 5050 
+2025-12-10 02:18:13 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:17 [info] : server is runnning port 5050 
+2025-12-10 02:18:17 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:19 [info] : server is runnning port 5050 
+2025-12-10 02:18:19 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:22 [info] : server is runnning port 5050 
+2025-12-10 02:18:22 [info] : Mongodb Connect Successfully
+2025-12-10 02:18:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 34.047 ms
+2025-12-10 02:18:22 [info] : GET /api/vendor/vendor-data 304 - - 20.544 ms
+2025-12-10 02:18:23 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.497 ms
+2025-12-10 02:18:23 [info] : POST /api/vendor/vendor-addproduct 404 44 - 1.815 ms
+2025-12-10 02:19:18 [info] : GET /api/vendor/vendor-data 304 - - 333.786 ms
+2025-12-10 02:19:18 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 570.740 ms
+2025-12-10 02:19:24 [info] : GET /api/vendor/vendor-data 304 - - 205.860 ms
+2025-12-10 02:19:25 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 213.272 ms
+2025-12-10 02:19:34 [info] : GET /api/vendor/vendor-data 304 - - 1081.515 ms
+2025-12-10 02:19:34 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1114.110 ms
+2025-12-10 02:20:01 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 84.936 ms
+2025-12-10 02:20:02 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.680 ms
+2025-12-10 02:20:13 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.693 ms
+2025-12-10 02:20:27 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.255 ms
+2025-12-10 02:20:28 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 37.100 ms
+2025-12-10 02:20:30 [info] : GET /api/vendor/vendor-data 304 - - 1218.737 ms
+2025-12-10 02:20:30 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 14.934 ms
+2025-12-10 02:20:38 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 11.479 ms
+2025-12-10 02:20:39 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 22.142 ms
+2025-12-10 02:20:39 [info] : GET /api/vendor/vendor-data 304 - - 26.791 ms
+2025-12-10 02:20:40 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 344.681 ms
+2025-12-10 02:20:58 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.587 ms
+2025-12-10 02:20:58 [info] : POST /api/vendor/vendor-addproduct 404 44 - 4.443 ms
+2025-12-10 02:21:35 [info] : GET /api/vendor/vendor-data 304 - - 1251.032 ms
+2025-12-10 02:21:35 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1578.996 ms
+2025-12-10 02:21:36 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.188 ms
+2025-12-10 02:21:36 [info] : POST /api/vendor/vendor-addproduct 404 44 - 6.343 ms
+2025-12-10 02:21:53 [info] : GET /api/vendor/vendor-data 304 - - 340.576 ms
+2025-12-10 02:21:53 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 397.950 ms
+2025-12-10 02:24:45 [info] : GET /api/vendor/vendor-data 304 - - 130.788 ms
+2025-12-10 02:24:45 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 260.137 ms
+2025-12-10 02:27:56 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 235.964 ms
+2025-12-10 02:28:03 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 21.804 ms
+2025-12-10 02:28:04 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 4.648 ms
+2025-12-10 02:28:04 [info] : GET /api/vendor/vendor-data 304 - - 109.484 ms
+2025-12-10 02:28:17 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 1.056 ms
+2025-12-10 02:28:17 [info] : POST /api/vendor/vendor-addproduct 404 44 - 16.171 ms
+2025-12-10 02:28:43 [info] : GET /api/vendor/vendor-data 304 - - 382.108 ms
+2025-12-10 02:28:43 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 530.060 ms
+2025-12-10 02:29:07 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 4.871 ms
+2025-12-10 02:29:07 [info] : GET /api/vendor/vendor-data 304 - - 2115.059 ms
+2025-12-10 02:29:07 [info] : POST /api/vendor/vendor-addproduct 404 44 - 8.249 ms
+2025-12-10 02:29:07 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 2159.695 ms
+2025-12-10 02:30:12 [info] : GET /api/vendor/vendor-data 304 - - 367.131 ms
+2025-12-10 02:30:12 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 353.478 ms
+2025-12-10 02:30:13 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.459 ms
+2025-12-10 02:30:13 [info] : POST /api/vendor/vendor-addproduct 404 44 - 9.992 ms
+2025-12-10 02:31:22 [info] : GET /api/vendor/vendor-data 304 - - 297.967 ms
+2025-12-10 02:31:23 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 432.825 ms
+2025-12-10 02:31:24 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.314 ms
+2025-12-10 02:31:24 [info] : POST /api/vendor/vendor-addproduct 404 44 - 6.748 ms
+2025-12-10 02:32:15 [info] : GET /api/vendor/vendor-data 401 26 - 11.820 ms
+2025-12-10 02:32:15 [info] : POST /api/auth/refresh 200 325 - 75.576 ms
+2025-12-10 02:32:16 [info] : GET /api/vendor/vendor-data 304 - - 176.782 ms
+2025-12-10 02:32:16 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 353.337 ms
+2025-12-10 02:35:10 [info] : GET /api/vendor/vendor-data 304 - - 139.551 ms
+2025-12-10 02:35:10 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 162.775 ms
+2025-12-10 02:35:12 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.266 ms
+2025-12-10 02:35:12 [info] : POST /api/vendor/vendor-addproduct 404 44 - 4.419 ms
+2025-12-10 02:35:24 [info] : GET /api/vendor/vendor-data 304 - - 107.926 ms
+2025-12-10 02:35:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 122.111 ms
+2025-12-10 02:35:25 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.783 ms
+2025-12-10 02:35:25 [info] : POST /api/vendor/vendor-addproduct 404 44 - 8.782 ms
+2025-12-10 02:35:31 [info] : GET /api/vendor/vendor-data 304 - - 103.752 ms
+2025-12-10 02:35:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 198.987 ms
+2025-12-10 02:35:33 [info] : GET /api/vendor/vendor-data 304 - - 3.544 ms
+2025-12-10 02:35:33 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 4.445 ms
+2025-12-10 02:35:41 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 1.399 ms
+2025-12-10 02:35:41 [info] : POST /api/vendor/vendor-addproduct 404 44 - 6.520 ms
+2025-12-10 02:36:10 [info] : GET /api/vendor/vendor-data 304 - - 689.277 ms
+2025-12-10 02:36:10 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 912.254 ms
+2025-12-10 02:37:01 [info] : server is runnning port 5050 
+2025-12-10 02:37:01 [info] : Mongodb Connect Successfully
+2025-12-10 02:37:21 [info] : GET /api/vendor/vendor-data 304 - - 91.706 ms
+2025-12-10 02:37:21 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 147.606 ms
+2025-12-10 02:37:23 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.652 ms
+2025-12-10 02:37:23 [info] : POST /api/vendor/vendor-addproduct 500 198 - 29.239 ms
+2025-12-10 02:37:47 [info] : GET /api/vendor/vendor-data 304 - - 164.511 ms
+2025-12-10 02:37:47 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 199.069 ms
+2025-12-10 02:37:48 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.111 ms
+2025-12-10 02:37:48 [info] : POST /api/vendor/vendor-addproduct 500 198 - 6.771 ms
+2025-12-10 02:38:20 [info] : server is runnning port 5050 
+2025-12-10 02:38:20 [info] : Mongodb Connect Successfully
+2025-12-10 02:38:20 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 26.069 ms
+2025-12-10 02:38:20 [info] : GET /api/vendor/vendor-data 304 - - 21.344 ms
+2025-12-10 02:38:21 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.327 ms
+2025-12-10 02:38:21 [info] : POST /api/vendor/vendor-addproduct 500 198 - 25.919 ms
+2025-12-10 02:38:50 [info] : GET /api/vendor/vendor-data 304 - - 157.000 ms
+2025-12-10 02:38:50 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 154.570 ms
+2025-12-10 02:53:21 [info] : server is runnning port 5050 
+2025-12-10 02:53:21 [info] : Mongodb Connect Successfully
+2025-12-10 02:53:23 [info] : server is runnning port 5050 
+2025-12-10 02:53:23 [info] : Mongodb Connect Successfully
+2025-12-10 02:53:25 [info] : GET /api/vendor/category/get-category?page=1&limit=10 401 26 - 2.656 ms
+2025-12-10 02:53:25 [info] : GET /api/vendor/vendor-data 401 26 - 0.214 ms
+2025-12-10 02:53:25 [info] : POST /api/auth/refresh 200 325 - 6.505 ms
+2025-12-10 02:53:25 [info] : POST /api/auth/refresh 200 325 - 2.126 ms
+2025-12-10 02:53:25 [info] : GET /api/vendor/vendor-data 304 - - 102.026 ms
+2025-12-10 02:53:25 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 125.553 ms
+2025-12-10 02:53:27 [info] : POST /api/auth/logout 200 61 - 1.513 ms
+2025-12-10 02:53:35 [info] : OPTIONS /api/auth/login 204 0 - 0.629 ms
+2025-12-10 02:53:35 [info] : POST /api/auth/login 401 56 - 75.394 ms
+2025-12-10 02:53:36 [info] : POST /api/auth/login 200 278 - 84.871 ms
+2025-12-10 02:53:36 [info] : GET /api/vendor/vendor-data 304 - - 3.004 ms
+2025-12-10 02:53:40 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 11.099 ms
+2025-12-10 02:53:51 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.248 ms
+2025-12-10 02:53:51 [info] : POST /api/vendor/vendor-addproduct 401 26 - 0.273 ms
+2025-12-10 02:53:51 [info] : POST /api/auth/refresh 200 325 - 0.923 ms
+2025-12-10 02:53:51 [info] : POST /api/vendor/vendor-addproduct 500 198 - 45.963 ms
+2025-12-10 02:54:08 [info] : GET /api/vendor/vendor-data 304 - - 134.705 ms
+2025-12-10 02:54:09 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 181.901 ms
+2025-12-10 02:55:53 [info] : GET /api/vendor/vendor-data 304 - - 161.021 ms
+2025-12-10 02:55:53 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 212.580 ms
+2025-12-10 02:55:58 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.106 ms
+2025-12-10 02:55:58 [info] : POST /api/vendor/vendor-addproduct 500 198 - 9.064 ms
+2025-12-10 02:56:18 [info] : GET /api/vendor/vendor-data 304 - - 21.612 ms
+2025-12-10 02:56:18 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 19.073 ms
+2025-12-10 02:56:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 57.091 ms
+2025-12-10 02:56:26 [info] : GET /api/vendor/vendor-data 304 - - 299.544 ms
+2025-12-10 02:57:30 [info] : server is runnning port 5050 
+2025-12-10 02:57:30 [info] : Mongodb Connect Successfully
+2025-12-10 02:57:51 [info] : server is runnning port 5050 
+2025-12-10 02:57:51 [info] : Mongodb Connect Successfully
+2025-12-10 02:57:59 [info] : server is runnning port 5050 
+2025-12-10 02:57:59 [info] : Mongodb Connect Successfully
+2025-12-10 02:58:04 [info] : server is runnning port 5050 
+2025-12-10 02:58:04 [info] : Mongodb Connect Successfully
+2025-12-10 02:58:07 [info] : server is runnning port 5050 
+2025-12-10 02:58:07 [info] : Mongodb Connect Successfully
+2025-12-10 02:58:11 [info] : server is runnning port 5050 
+2025-12-10 02:58:11 [info] : Mongodb Connect Successfully
+2025-12-10 02:58:19 [info] : server is runnning port 5050 
+2025-12-10 02:58:19 [info] : Mongodb Connect Successfully
+2025-12-10 02:59:49 [info] : server is runnning port 5050 
+2025-12-10 02:59:49 [info] : Mongodb Connect Successfully
+2025-12-10 02:59:51 [info] : server is runnning port 5050 
+2025-12-10 02:59:51 [info] : Mongodb Connect Successfully
+2025-12-10 02:59:57 [info] : server is runnning port 5050 
+2025-12-10 02:59:57 [info] : Mongodb Connect Successfully
+2025-12-10 03:00:15 [info] : GET /api/vendor/vendor-data 304 - - 78.280 ms
+2025-12-10 03:00:15 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 129.749 ms
+2025-12-10 03:00:16 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.276 ms
+2025-12-10 03:00:16 [info] : POST /api/vendor/vendor-addproduct 401 63 - 3.529 ms
+2025-12-10 03:00:16 [info] : POST /api/auth/refresh 200 325 - 2.703 ms
+2025-12-10 03:00:16 [info] : POST /api/vendor/vendor-addproduct 401 63 - 0.738 ms
+2025-12-10 03:00:35 [info] : GET /api/vendor/vendor-data 304 - - 301.610 ms
+2025-12-10 03:00:35 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 910.937 ms
+2025-12-10 03:06:17 [info] : GET /api/vendor/vendor-data 304 - - 211.889 ms
+2025-12-10 03:06:17 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 302.960 ms
+2025-12-10 03:06:19 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.135 ms
+2025-12-10 03:06:19 [info] : POST /api/vendor/vendor-addproduct 401 63 - 3.199 ms
+2025-12-10 03:06:19 [info] : POST /api/auth/refresh 200 325 - 3.941 ms
+2025-12-10 03:06:19 [info] : POST /api/vendor/vendor-addproduct 401 63 - 2.133 ms
+2025-12-10 03:06:39 [info] : server is runnning port 5050 
+2025-12-10 03:06:39 [info] : Mongodb Connect Successfully
+2025-12-10 03:07:09 [info] : server is runnning port 5050 
+2025-12-10 03:07:09 [info] : Mongodb Connect Successfully
+2025-12-10 03:07:30 [info] : GET /api/vendor/vendor-data 304 - - 285.348 ms
+2025-12-10 03:07:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 584.795 ms
+2025-12-10 03:07:32 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.950 ms
+2025-12-10 03:07:32 [info] : POST /api/vendor/vendor-addproduct 401 63 - 1.994 ms
+2025-12-10 03:07:32 [info] : POST /api/auth/refresh 200 325 - 1.747 ms
+2025-12-10 03:07:32 [info] : POST /api/vendor/vendor-addproduct 401 63 - 0.503 ms
+2025-12-10 03:08:08 [info] : GET /api/vendor/vendor-data 304 - - 166.142 ms
+2025-12-10 03:08:08 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 228.459 ms
+2025-12-10 03:08:10 [info] : GET /api/vendor/vendor-data 304 - - 15.120 ms
+2025-12-10 03:08:11 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 7.162 ms
+2025-12-10 03:08:20 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.180 ms
+2025-12-10 03:08:20 [info] : POST /api/vendor/vendor-addproduct 401 63 - 3.000 ms
+2025-12-10 03:08:20 [info] : POST /api/auth/refresh 200 325 - 5.448 ms
+2025-12-10 03:08:20 [info] : POST /api/vendor/vendor-addproduct 401 63 - 3.535 ms
+2025-12-10 03:08:44 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 190.398 ms
+2025-12-10 03:08:46 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 14.014 ms
+2025-12-10 03:08:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 21.666 ms
+2025-12-10 03:08:50 [info] : GET /api/vendor/vendor-data 304 - - 1667.160 ms
+2025-12-10 03:09:27 [info] : GET /api/vendor/vendor-data 304 - - 126.588 ms
+2025-12-10 03:09:28 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 169.280 ms
+2025-12-10 03:09:29 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.515 ms
+2025-12-10 03:09:29 [info] : POST /api/vendor/vendor-addproduct 401 63 - 3.650 ms
+2025-12-10 03:09:29 [info] : POST /api/auth/refresh 200 325 - 1.524 ms
+2025-12-10 03:09:29 [info] : POST /api/vendor/vendor-addproduct 401 63 - 5.923 ms
+2025-12-10 03:10:09 [info] : server is runnning port 5050 
+2025-12-10 03:10:09 [info] : Mongodb Connect Successfully
+2025-12-10 03:10:19 [info] : server is runnning port 5050 
+2025-12-10 03:10:19 [info] : Mongodb Connect Successfully
+2025-12-10 03:10:55 [info] : GET /api/vendor/vendor-data 304 - - 104.384 ms
+2025-12-10 03:10:55 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 168.579 ms
+2025-12-10 03:10:56 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.490 ms
+2025-12-10 03:10:56 [info] : POST /api/vendor/vendor-addproduct 500 198 - 34.222 ms
+2025-12-10 03:13:30 [info] : server is runnning port 5050 
+2025-12-10 03:13:30 [info] : Mongodb Connect Successfully
+2025-12-10 03:13:36 [info] : server is runnning port 5050 
+2025-12-10 03:13:36 [info] : Mongodb Connect Successfully
+2025-12-10 03:13:48 [info] : server is runnning port 5050 
+2025-12-10 03:13:48 [info] : Mongodb Connect Successfully
+2025-12-10 03:15:09 [info] : server is runnning port 5050 
+2025-12-10 03:15:09 [info] : Mongodb Connect Successfully
+2025-12-10 03:17:58 [info] : server is runnning port 5050 
+2025-12-10 03:17:58 [info] : Mongodb Connect Successfully
+2025-12-10 03:18:46 [info] : GET /api/vendor/vendor-data 304 - - 232.368 ms
+2025-12-10 03:18:46 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 298.443 ms
+2025-12-10 03:18:48 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.584 ms
+2025-12-10 03:18:48 [info] : POST /api/vendor/vendor-addproduct 201 1031 - 30.250 ms
+2025-12-10 03:19:13 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 81.297 ms
+2025-12-10 03:19:13 [info] : GET /api/vendor/vendor-data 304 - - 111.258 ms
+2025-12-10 03:19:33 [info] : server is runnning port 5050 
+2025-12-10 03:19:33 [info] : Mongodb Connect Successfully
+2025-12-10 03:19:33 [info] : server is runnning port 5050 
+2025-12-10 03:19:33 [info] : Mongodb Connect Successfully
+2025-12-10 03:19:42 [info] : server is runnning port 5050 
+2025-12-10 03:19:43 [info] : Mongodb Connect Successfully
+2025-12-10 03:20:30 [info] : server is runnning port 5050 
+2025-12-10 03:20:30 [info] : Mongodb Connect Successfully
+2025-12-10 03:20:31 [info] : server is runnning port 5050 
+2025-12-10 03:20:31 [info] : Mongodb Connect Successfully
+2025-12-10 03:20:46 [info] : server is runnning port 5050 
+2025-12-10 03:20:46 [info] : Mongodb Connect Successfully
+2025-12-10 03:20:54 [info] : GET /api/vendor/vendor-data 304 - - 240.228 ms
+2025-12-10 03:20:54 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 334.031 ms
+2025-12-10 03:21:12 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 1.643 ms
+2025-12-10 03:21:12 [info] : POST /api/vendor/vendor-addproduct 201 867 - 25.774 ms
+2025-12-10 03:21:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 30.872 ms
+2025-12-10 03:21:24 [info] : GET /api/vendor/vendor-data 304 - - 59.876 ms
+2025-12-10 03:21:32 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 115.593 ms
+2025-12-10 03:21:32 [info] : GET /api/vendor/vendor-data 304 - - 136.888 ms
+2025-12-10 03:22:59 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.715 ms
+2025-12-10 03:22:59 [info] : POST /api/vendor/vendor-addproduct 201 989 - 284.000 ms
+2025-12-10 03:23:31 [info] : GET /api/vendor/vendor-data 304 - - 166.659 ms
+2025-12-10 03:23:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 294.218 ms
+2025-12-10 03:23:50 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 120.222 ms
+2025-12-10 03:24:03 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.095 ms
+2025-12-10 03:24:03 [info] : GET /api/vendor/vendor-data 304 - - 41.727 ms
+2025-12-10 03:24:28 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.148 ms
+2025-12-10 03:24:28 [info] : POST /api/vendor/vendor-addproduct 500 117 - 19.541 ms
+2025-12-10 03:24:54 [info] : GET /api/vendor/vendor-data 401 26 - 1.447 ms
+2025-12-10 03:24:54 [info] : POST /api/auth/refresh 200 325 - 10.325 ms
+2025-12-10 03:24:54 [info] : GET /api/vendor/category/get-category?page=1&limit=10 401 26 - 0.576 ms
+2025-12-10 03:24:54 [info] : POST /api/auth/refresh 200 325 - 2.116 ms
+2025-12-10 03:24:55 [info] : GET /api/vendor/vendor-data 304 - - 504.703 ms
+2025-12-10 03:24:55 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 514.031 ms
+2025-12-10 03:25:48 [info] : GET /api/vendor/vendor-data 304 - - 1653.985 ms
+2025-12-10 03:25:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1533.548 ms
+2025-12-10 03:25:58 [info] : GET /api/vendor/vendor-data 304 - - 27.478 ms
+2025-12-10 03:25:58 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 19.544 ms
+2025-12-10 03:26:11 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.711 ms
+2025-12-10 03:26:11 [info] : POST /api/vendor/vendor-addproduct 201 1050 - 25.572 ms
+2025-12-10 03:26:18 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 6.895 ms
+2025-12-10 03:26:18 [info] : GET /api/vendor/vendor-data 304 - - 135.708 ms
+2025-12-10 03:26:24 [info] : GET /api/vendor/vendor-data 304 - - 23.743 ms
+2025-12-10 03:26:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 11.835 ms
+2025-12-10 03:26:41 [info] : GET /api/vendor/vendor-data 304 - - 11.877 ms
+2025-12-10 03:26:43 [info] : GET /api/vendor/vendor-data 304 - - 3.568 ms
+2025-12-10 03:26:44 [info] : GET /api/vendor/vendor-data 304 - - 3.667 ms

@@ -19,6 +19,7 @@ export const SUCCESS_MESSAGES = {
   CATEGORY_FETCHED_SUCCESS : 'Category fetched',
   CATEGORY_UPDATED_SUCCESS : 'Category status updated',
   REAPPLY_SUCCESSFULLY : "Your verification request has been submitted again for admin review",
+  PRODUCT_CREATED : "Product Created",
 
 
 
@@ -64,6 +65,7 @@ export const ERROR_MESSAGES = {
   ACCESS_DENIEDE : "Access denied. You do not have permission.",
   FORBIDDEN : "Forbidden Access denied",
   REAPPLY_ERROR : "You can only reapply if your application was rejected.",
+  ID_REQUIRED : 'Id is required',
 
   // USER
 

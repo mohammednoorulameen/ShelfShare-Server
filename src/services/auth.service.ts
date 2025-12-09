@@ -14,7 +14,7 @@ import { RegisterDto } from "../types/dtos/auth/register.dto";
 import { VendorDto } from "../types/dtos/auth/createVendor.dto";
 import { IVendor } from "../types/entities/IVendor";
 import { LoginDto } from "../types/dtos/auth/login.dto";
-import { ERROR_MESSAGES, SUCCESS_MESSAGES } from "../shared/constant/messages";
+import { ERROR_MESSAGES } from "../shared/constant/messages";
 import {
   ITokenPayload,
   ITokenService,
@@ -48,9 +48,9 @@ export class AuthService implements IAuthService {
   async register(data: RegisterDto): Promise<IUser | IVendor> {
     const { email, phoneNumber, password, imageKey, role } = data;
 
-    /*-------------
+  /*-------------
     Role Based Email Checking
- ---------------------------------*/
+  ---------------------------------*/
 
     let existingAccount: IUser | IVendor | null = null;
 

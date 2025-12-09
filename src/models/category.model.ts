@@ -4,6 +4,11 @@ import { Status } from "../shared/constant/status";
 
 const categorySechema = new Schema<ICategory>(
   {
+    categoryId: {
+      type: String,
+      required: true,
+      unique: true,
+    },
     name: {
       type: String,
       required: true,

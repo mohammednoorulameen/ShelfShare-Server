@@ -7,9 +7,10 @@ import {
   ERROR_MESSAGES,
 } from "../../shared/constant/messages";
 import AppError from "../../shared/utils/App.Error";
+import { ICategoryController } from "../../types/controller-interfaces/ICategoryController";
 
 @injectable()
-export class CategoryController {
+export class CategoryController  implements ICategoryController{
   constructor(
     @inject("ICategoryServices")
     private _categoryService: ICategoryServices
@@ -72,6 +73,9 @@ export class CategoryController {
     data: updated,
   });
   }
+
+
+
 
   
 

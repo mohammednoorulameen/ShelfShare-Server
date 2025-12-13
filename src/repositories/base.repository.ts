@@ -1,4 +1,4 @@
-import { FilterQuery, Model } from "mongoose";
+import { FilterQuery, Model, UpdateQuery } from "mongoose";
 import { IBaseRepository } from "../types/repository-interface/IBaseRepository";
 
 export class BaseRepository<T> implements IBaseRepository<T> {
@@ -13,9 +13,16 @@ export class BaseRepository<T> implements IBaseRepository<T> {
     return this.model.create(data);
   }
 
-  async update(query: any, data: any): Promise<T | null> {
-    return this.model.findOneAndUpdate(query, data);
+  // async update(query: any, data: any): Promise<T | null> {
+  //   return this.model.findOneAndUpdate(query, data);
+  // }
+
+  
+
+  async update(query: FilterQuery<T>, data: UpdateQuery<T>): Promise<T | null> {
+    return this.model.findOneAndUpdate(query, data, { new: true }).lean<T>();
   }
+
 
   async findWithPagination(
     query: Partial<T>,

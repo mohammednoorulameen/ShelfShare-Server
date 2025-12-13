@@ -368,3 +368,1676 @@
 2025-12-10 03:26:41 [info] : GET /api/vendor/vendor-data 304 - - 11.877 ms
 2025-12-10 03:26:43 [info] : GET /api/vendor/vendor-data 304 - - 3.568 ms
 2025-12-10 03:26:44 [info] : GET /api/vendor/vendor-data 304 - - 3.667 ms
+2025-12-10 03:27:53 [info] : GET /api/vendor/vendor-data 304 - - 106.975 ms
+2025-12-10 03:30:14 [info] : GET /api/vendor/vendor-data 304 - - 318.696 ms
+2025-12-10 03:32:26 [info] : GET /api/vendor/vendor-data 304 - - 130.906 ms
+2025-12-10 03:32:29 [info] : GET /api/vendor/vendor-data 304 - - 34.928 ms
+2025-12-10 03:53:57 [info] : server is runnning port 5050 
+2025-12-10 03:53:57 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:01 [info] : server is runnning port 5050 
+2025-12-10 03:54:01 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:13 [info] : server is runnning port 5050 
+2025-12-10 03:54:13 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:35 [info] : server is runnning port 5050 
+2025-12-10 03:54:35 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:45 [info] : server is runnning port 5050 
+2025-12-10 03:54:45 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:53 [info] : server is runnning port 5050 
+2025-12-10 03:54:53 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:55 [info] : server is runnning port 5050 
+2025-12-10 03:54:55 [info] : Mongodb Connect Successfully
+2025-12-10 03:54:56 [info] : server is runnning port 5050 
+2025-12-10 03:54:56 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:02 [info] : server is runnning port 5050 
+2025-12-10 03:55:02 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:04 [info] : server is runnning port 5050 
+2025-12-10 03:55:04 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:06 [info] : server is runnning port 5050 
+2025-12-10 03:55:06 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:09 [info] : server is runnning port 5050 
+2025-12-10 03:55:09 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:11 [info] : server is runnning port 5050 
+2025-12-10 03:55:11 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:12 [info] : server is runnning port 5050 
+2025-12-10 03:55:12 [info] : Mongodb Connect Successfully
+2025-12-10 03:55:19 [info] : server is runnning port 5050 
+2025-12-10 03:55:19 [info] : Mongodb Connect Successfully
+2025-12-10 04:00:30 [info] : server is runnning port 5050 
+2025-12-10 04:00:30 [info] : Mongodb Connect Successfully
+2025-12-10 04:14:27 [info] : GET /api/vendor/vendor-data 401 26 - 8.468 ms
+2025-12-10 04:14:27 [info] : POST /api/auth/refresh 200 325 - 25.519 ms
+2025-12-10 04:14:27 [info] : GET /api/vendor/vendor-data 304 - - 198.698 ms
+2025-12-10 04:20:01 [info] : GET /api/vendor/vendor-data 304 - - 141.484 ms
+2025-12-10 04:21:11 [info] : GET /api/vendor/vendor-data 304 - - 44.553 ms
+2025-12-10 04:21:38 [info] : GET /api/vendor/vendor-data 304 - - 326.188 ms
+2025-12-10 04:21:57 [info] : GET /api/vendor/vendor-data 304 - - 68.164 ms
+2025-12-10 04:22:34 [info] : GET /api/vendor/vendor-data 304 - - 759.538 ms
+2025-12-10 04:25:35 [info] : server is runnning port 5050 
+2025-12-10 04:25:36 [info] : Mongodb Connect Successfully
+2025-12-10 04:25:36 [info] : server is runnning port 5050 
+2025-12-10 04:25:36 [info] : Mongodb Connect Successfully
+2025-12-10 04:28:27 [info] : GET /api/vendor/vendor-data 304 - - 167.307 ms
+2025-12-10 04:29:46 [info] : GET /api/vendor/vendor-data 401 26 - 3.085 ms
+2025-12-10 04:29:46 [info] : POST /api/auth/refresh 200 325 - 13.224 ms
+2025-12-10 04:29:46 [info] : GET /api/vendor/vendor-data 304 - - 236.503 ms
+2025-12-10 04:30:33 [info] : GET /api/vendor/get-vendorproduct - - - - ms
+2025-12-10 04:30:33 [info] : GET /api/vendor/vendor-data - - - - ms
+2025-12-10 04:30:33 [info] : GET /api/vendor/vendor-data 200 441 - 10.907 ms
+2025-12-10 04:30:33 [info] : GET /api/vendor/get-vendorproduct 200 3758 - 4.965 ms
+2025-12-10 04:30:48 [info] : GET /api/vendor/vendor-data 304 - - 126.609 ms
+2025-12-10 04:30:48 [info] : GET /api/vendor/get-vendorproduct 304 - - 127.227 ms
+2025-12-10 04:30:50 [info] : GET /api/vendor/get-vendorproduct 304 - - 7.256 ms
+2025-12-10 04:31:18 [info] : GET /api/vendor/get-vendorproduct 304 - - 154.781 ms
+2025-12-10 04:31:18 [info] : GET /api/vendor/vendor-data 304 - - 254.372 ms
+2025-12-10 04:31:20 [info] : GET /api/vendor/vendor-data 304 - - 30.097 ms
+2025-12-10 04:31:20 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.913 ms
+2025-12-10 04:31:49 [info] : GET /api/vendor/vendor-data 304 - - 172.386 ms
+2025-12-10 04:31:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 143.114 ms
+2025-12-10 04:32:01 [info] : GET /api/vendor/get-vendorproduct 304 - - 33.489 ms
+2025-12-10 04:32:01 [info] : GET /api/vendor/vendor-data 304 - - 104.316 ms
+2025-12-10 04:32:03 [info] : GET /api/vendor/vendor-data 304 - - 37.105 ms
+2025-12-10 04:32:03 [info] : GET /api/vendor/get-vendorproduct 304 - - 3.936 ms
+2025-12-10 04:32:04 [info] : GET /api/vendor/vendor-data 304 - - 3.237 ms
+2025-12-10 04:32:04 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.546 ms
+2025-12-10 04:32:06 [info] : GET /api/vendor/vendor-data 304 - - 10.397 ms
+2025-12-10 04:32:06 [info] : GET /api/vendor/get-vendorproduct 304 - - 3.574 ms
+2025-12-10 04:32:12 [info] : GET /api/vendor/vendor-data 304 - - 12.243 ms
+2025-12-10 04:32:12 [info] : GET /api/vendor/get-vendorproduct 304 - - 30.370 ms
+2025-12-10 04:32:13 [info] : GET /api/vendor/vendor-data 304 - - 2.596 ms
+2025-12-10 04:32:13 [info] : GET /api/vendor/get-vendorproduct 304 - - 5.116 ms
+2025-12-10 04:32:16 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.551 ms
+2025-12-10 04:32:16 [info] : GET /api/vendor/vendor-data 304 - - 61.951 ms
+2025-12-10 04:32:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 346.849 ms
+2025-12-10 04:32:17 [info] : GET /api/vendor/vendor-data 304 - - 8.364 ms
+2025-12-10 04:32:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 8.308 ms
+2025-12-10 04:32:46 [info] : GET /api/vendor/vendor-data 304 - - 18.495 ms
+2025-12-10 04:32:46 [info] : GET /api/vendor/get-vendorproduct 304 - - 14.537 ms
+2025-12-10 04:34:58 [info] : GET /api/vendor/vendor-data 304 - - 161.681 ms
+2025-12-10 04:34:58 [info] : GET /api/vendor/get-vendorproduct 304 - - 29.690 ms
+2025-12-10 04:36:46 [info] : GET /api/vendor/get-vendorproduct 304 - - 244.019 ms
+2025-12-10 04:36:50 [info] : GET /api/vendor/get-vendorproduct 304 - - 14.552 ms
+2025-12-10 04:36:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.440 ms
+2025-12-10 04:37:14 [info] : GET /api/vendor/get-vendorproduct 304 - - 136.182 ms
+2025-12-10 04:37:14 [info] : GET /api/vendor/vendor-data 304 - - 75.764 ms
+2025-12-10 04:37:15 [info] : GET /api/vendor/vendor-data 304 - - 8.387 ms
+2025-12-10 04:37:15 [info] : GET /api/vendor/get-vendorproduct 304 - - 17.393 ms
+2025-12-10 04:39:38 [info] : GET /api/vendor/vendor-data 304 - - 107.252 ms
+2025-12-10 04:39:38 [info] : GET /api/vendor/get-vendorproduct 304 - - 31.114 ms
+2025-12-10 04:40:28 [info] : GET /api/vendor/vendor-data 304 - - 20.731 ms
+2025-12-10 04:40:28 [info] : GET /api/vendor/get-vendorproduct 304 - - 15.457 ms
+2025-12-10 04:42:38 [info] : GET /api/vendor/vendor-data 304 - - 197.001 ms
+2025-12-10 04:42:38 [info] : GET /api/vendor/get-vendorproduct 304 - - 183.221 ms
+2025-12-10 04:43:14 [info] : GET /api/vendor/vendor-data 304 - - 129.448 ms
+2025-12-10 04:43:14 [info] : GET /api/vendor/get-vendorproduct 304 - - 114.398 ms
+2025-12-10 04:43:37 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 365.240 ms
+2025-12-10 04:43:38 [info] : GET /api/vendor/get-vendorproduct 304 - - 32.371 ms
+2025-12-10 04:43:47 [info] : GET /api/vendor/get-vendorproduct 304 - - 10.217 ms
+2025-12-10 04:43:47 [info] : GET /api/vendor/vendor-data 304 - - 39.916 ms
+2025-12-10 04:43:52 [info] : GET /api/vendor/vendor-data 304 - - 20.299 ms
+2025-12-10 04:43:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 10.445 ms
+2025-12-10 04:45:01 [info] : GET /api/vendor/vendor-data 401 26 - 5.133 ms
+2025-12-10 04:45:01 [info] : GET /api/vendor/get-vendorproduct 401 26 - 0.516 ms
+2025-12-10 04:45:01 [info] : POST /api/auth/refresh 200 325 - 34.809 ms
+2025-12-10 04:45:01 [info] : POST /api/auth/refresh 200 325 - 0.321 ms
+2025-12-10 04:45:02 [info] : GET /api/vendor/vendor-data 304 - - 628.064 ms
+2025-12-10 04:45:02 [info] : GET /api/vendor/get-vendorproduct 304 - - 625.687 ms
+2025-12-10 04:47:00 [info] : GET /api/vendor/vendor-data 304 - - 1997.222 ms
+2025-12-10 04:47:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 21.162 ms
+2025-12-10 04:47:00 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 26 - 19.828 ms
+2025-12-10 04:47:00 [info] : POST /api/auth/refresh 200 253 - 10.396 ms
+2025-12-10 04:47:01 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 338.465 ms
+2025-12-10 08:47:08 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 26 - 10.802 ms
+2025-12-10 08:47:08 [info] : POST /api/auth/refresh 200 253 - 43.501 ms
+2025-12-10 08:47:08 [info] : GET /api/vendor/vendor-data 401 26 - 0.555 ms
+2025-12-10 08:47:09 [info] : POST /api/auth/refresh 200 325 - 0.639 ms
+2025-12-10 08:47:09 [info] : GET /api/vendor/vendor-data 304 - - 261.492 ms
+2025-12-10 08:47:09 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 471.388 ms
+2025-12-10 08:47:09 [info] : GET /api/vendor/get-vendorproduct 304 - - 30.260 ms
+2025-12-10 09:28:28 [info] : GET /api/vendor/vendor-data 401 26 - 2.925 ms
+2025-12-10 09:28:28 [info] : POST /api/auth/refresh 200 325 - 19.534 ms
+2025-12-10 09:28:28 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 26 - 0.996 ms
+2025-12-10 09:28:28 [info] : POST /api/auth/refresh 200 253 - 0.625 ms
+2025-12-10 09:28:28 [info] : GET /api/vendor/vendor-data 304 - - 490.993 ms
+2025-12-10 09:28:28 [info] : GET /api/vendor/get-vendorproduct 304 - - 44.084 ms
+2025-12-10 09:28:29 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 449.973 ms
+2025-12-10 09:45:04 [info] : GET /api/vendor/vendor-data 401 26 - 40.771 ms
+2025-12-10 09:45:04 [info] : GET /api/vendor/get-vendorproduct 401 26 - 1.408 ms
+2025-12-10 09:45:04 [info] : POST /api/auth/refresh 200 325 - 67.893 ms
+2025-12-10 09:45:04 [info] : POST /api/auth/refresh 200 325 - 4.203 ms
+2025-12-10 09:45:07 [info] : GET /api/vendor/get-vendorproduct 304 - - 3018.973 ms
+2025-12-10 09:45:07 [info] : GET /api/vendor/vendor-data 304 - - 3078.940 ms
+2025-12-10 09:45:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 294.127 ms
+2025-12-10 09:45:53 [info] : GET /api/vendor/vendor-data 304 - - 263.143 ms
+2025-12-10 09:46:28 [info] : POST /api/auth/logout 200 61 - 36.905 ms
+2025-12-10 09:47:19 [info] : OPTIONS /api/auth/register 204 0 - 4.268 ms
+2025-12-10 09:47:19 [info] : POST /api/auth/register 201 271 - 174.721 ms
+2025-12-10 09:47:46 [info] : OPTIONS /api/auth/login 204 0 - 0.679 ms
+2025-12-10 09:47:46 [info] : POST /api/auth/login 401 56 - 111.188 ms
+2025-12-10 09:47:53 [info] : OPTIONS /api/auth/login 204 0 - 0.211 ms
+2025-12-10 09:47:53 [info] : POST /api/auth/login 200 334 - 105.447 ms
+2025-12-10 09:47:53 [info] : GET /api/vendor/vendor-data 200 496 - 25.680 ms
+2025-12-10 09:48:02 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 0.702 ms
+2025-12-10 09:48:02 [info] : POST /api/auth/refresh 200 253 - 3.189 ms
+2025-12-10 09:48:02 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 18.525 ms
+2025-12-10 09:48:04 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.425 ms
+2025-12-10 09:48:04 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 32.103 ms
+2025-12-10 09:48:04 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.548 ms
+2025-12-10 09:48:13 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.609 ms
+2025-12-10 09:48:13 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 11.417 ms
+2025-12-10 09:48:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.642 ms
+2025-12-10 09:48:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.765 ms
+2025-12-10 09:48:24 [info] : GET /api/vendor/vendor-data 401 26 - 8.066 ms
+2025-12-10 09:48:25 [info] : POST /api/auth/refresh 200 323 - 31.512 ms
+2025-12-10 09:48:25 [info] : GET /api/vendor/vendor-data 304 - - 704.019 ms
+2025-12-10 09:48:33 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.653 ms
+2025-12-10 09:48:34 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 50.293 ms
+2025-12-10 09:48:34 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 51.599 ms
+2025-12-10 09:48:40 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.192 ms
+2025-12-10 09:48:40 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.874 ms
+2025-12-10 09:48:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.952 ms
+2025-12-10 09:48:51 [info] : GET /api/vendor/vendor-data 304 - - 13.102 ms
+2025-12-10 09:48:53 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.566 ms
+2025-12-10 09:48:53 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 20.454 ms
+2025-12-10 09:48:53 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.316 ms
+2025-12-10 09:48:54 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 10.802 ms
+2025-12-10 09:48:54 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.196 ms
+2025-12-10 09:48:54 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.036 ms
+2025-12-10 09:48:54 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.905 ms
+2025-12-10 09:48:54 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.327 ms
+2025-12-10 09:48:54 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 12.318 ms
+2025-12-10 09:48:59 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.189 ms
+2025-12-10 09:49:00 [info] : GET /api/admin/allusers?page=1&limit=10 304 - - 13.699 ms
+2025-12-10 09:49:01 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 32.773 ms
+2025-12-10 09:49:03 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.181 ms
+2025-12-10 09:49:03 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.149 ms
+2025-12-10 09:49:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.953 ms
+2025-12-10 09:49:03 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.274 ms
+2025-12-10 09:49:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.885 ms
+2025-12-10 09:49:04 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.848 ms
+2025-12-10 09:49:04 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.442 ms
+2025-12-10 09:49:04 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.224 ms
+2025-12-10 09:49:04 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.637 ms
+2025-12-10 09:49:10 [info] : GET /api/vendor/vendor-data 304 - - 44.684 ms
+2025-12-10 09:49:11 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.599 ms
+2025-12-10 09:49:11 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 92.152 ms
+2025-12-10 09:49:12 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 533.313 ms
+2025-12-10 09:49:13 [info] : POST /api/auth/logout 200 61 - 1.551 ms
+2025-12-10 09:49:20 [info] : OPTIONS /api/auth/login 204 0 - 0.397 ms
+2025-12-10 09:49:20 [info] : POST /api/auth/login 200 252 - 115.923 ms
+2025-12-10 09:49:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.448 ms
+2025-12-10 09:49:23 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.165 ms
+2025-12-10 09:49:23 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.508 ms
+2025-12-10 09:49:23 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.223 ms
+2025-12-10 09:49:24 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 45.021 ms
+2025-12-10 09:49:24 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.476 ms
+2025-12-10 09:49:24 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.814 ms
+2025-12-10 09:49:24 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.951 ms
+2025-12-10 09:49:24 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.335 ms
+2025-12-10 09:49:24 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.970 ms
+2025-12-10 09:49:26 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.168 ms
+2025-12-10 09:49:26 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 401 26 - 0.269 ms
+2025-12-10 09:49:26 [info] : POST /api/auth/refresh 200 253 - 1.935 ms
+2025-12-10 09:49:26 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 58.498 ms
+2025-12-10 09:49:26 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 3.990 ms
+2025-12-10 09:49:29 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 15.185 ms
+2025-12-10 09:49:29 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.498 ms
+2025-12-10 09:49:36 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.184 ms
+2025-12-10 09:49:36 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 8.753 ms
+2025-12-10 09:49:36 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 7.071 ms
+2025-12-10 09:49:39 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.154 ms
+2025-12-10 09:49:39 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 8.231 ms
+2025-12-10 09:49:39 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 6.781 ms
+2025-12-10 09:49:40 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 10.816 ms
+2025-12-10 09:49:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.229 ms
+2025-12-10 09:49:50 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.080 ms
+2025-12-10 09:49:50 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 4.458 ms
+2025-12-10 09:49:50 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 3.393 ms
+2025-12-10 09:49:53 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.172 ms
+2025-12-10 09:49:53 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 9.705 ms
+2025-12-10 09:49:53 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.290 ms
+2025-12-10 09:49:57 [info] : GET /api/vendor/vendor-data 304 - - 15.033 ms
+2025-12-10 09:49:58 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 13.141 ms
+2025-12-10 09:49:58 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.114 ms
+2025-12-10 09:50:02 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.113 ms
+2025-12-10 09:50:02 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 477 - 8.092 ms
+2025-12-10 09:50:02 [info] : GET /api/admin/allvendors?page=1&limit=10 200 993 - 4.287 ms
+2025-12-10 09:50:04 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.146 ms
+2025-12-10 09:50:04 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 480 - 8.795 ms
+2025-12-10 09:50:04 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 6.262 ms
+2025-12-10 09:50:19 [info] : GET /api/vendor/vendor-data 304 - - 19.940 ms
+2025-12-10 09:50:28 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 88.390 ms
+2025-12-10 09:50:30 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.197 ms
+2025-12-10 09:50:30 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 31.384 ms
+2025-12-10 09:50:30 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 12.198 ms
+2025-12-10 09:50:34 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.146 ms
+2025-12-10 09:50:34 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 10.346 ms
+2025-12-10 09:50:34 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 6.988 ms
+2025-12-10 09:50:34 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 7.596 ms
+2025-12-10 09:50:34 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 6.210 ms
+2025-12-10 09:50:35 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.110 ms
+2025-12-10 09:50:35 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 8.256 ms
+2025-12-10 09:50:35 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 6.903 ms
+2025-12-10 09:50:36 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 9.570 ms
+2025-12-10 09:50:36 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.282 ms
+2025-12-10 09:50:38 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.639 ms
+2025-12-10 09:50:38 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 4.869 ms
+2025-12-10 09:50:52 [info] : GET /api/vendor/vendor-data 304 - - 10.667 ms
+2025-12-10 09:51:20 [info] : GET /api/vendor/vendor-data 304 - - 23.919 ms
+2025-12-10 09:53:46 [info] : GET /api/vendor/vendor-data 304 - - 262.717 ms
+2025-12-10 09:53:48 [info] : GET /api/vendor/vendor-data 304 - - 13.787 ms
+2025-12-10 09:53:52 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 82.412 ms
+2025-12-10 09:53:53 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.238 ms
+2025-12-10 09:53:54 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 33.539 ms
+2025-12-10 09:53:54 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.247 ms
+2025-12-10 09:53:55 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 13.616 ms
+2025-12-10 09:53:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.854 ms
+2025-12-10 09:53:55 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.049 ms
+2025-12-10 09:53:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.989 ms
+2025-12-10 09:53:55 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.538 ms
+2025-12-10 09:53:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.390 ms
+2025-12-10 09:53:55 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 9.257 ms
+2025-12-10 09:53:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.159 ms
+2025-12-10 09:53:56 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.518 ms
+2025-12-10 09:53:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.520 ms
+2025-12-10 09:53:56 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.161 ms
+2025-12-10 09:53:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.582 ms
+2025-12-10 09:53:56 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 9.817 ms
+2025-12-10 09:53:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.212 ms
+2025-12-10 09:54:04 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.138 ms
+2025-12-10 09:54:04 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 14.119 ms
+2025-12-10 09:54:04 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 6.752 ms
+2025-12-10 09:54:05 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 8.933 ms
+2025-12-10 09:54:05 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.998 ms
+2025-12-10 09:54:07 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.700 ms
+2025-12-10 09:54:14 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.184 ms
+2025-12-10 09:54:14 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.514 ms
+2025-12-10 09:54:14 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 7.841 ms
+2025-12-10 09:54:30 [info] : GET /api/vendor/vendor-data 304 - - 151.751 ms
+2025-12-10 09:54:31 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.158 ms
+2025-12-10 09:54:31 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 37.590 ms
+2025-12-10 09:54:31 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 66.058 ms
+2025-12-10 09:54:35 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.223 ms
+2025-12-10 09:54:35 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 477 - 8.254 ms
+2025-12-10 09:54:35 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 3.480 ms
+2025-12-10 09:54:39 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.188 ms
+2025-12-10 09:54:39 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 8.548 ms
+2025-12-10 09:54:39 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 5.039 ms
+2025-12-10 09:54:39 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.480 ms
+2025-12-10 09:54:39 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 7.575 ms
+2025-12-10 09:54:41 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.133 ms
+2025-12-10 09:54:41 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.044 ms
+2025-12-10 09:54:41 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 6.752 ms
+2025-12-10 09:54:50 [info] : GET /api/vendor/vendor-data 304 - - 96.268 ms
+2025-12-10 09:58:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 697.985 ms
+2025-12-10 09:58:15 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.213 ms
+2025-12-10 09:58:15 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 35.145 ms
+2025-12-10 09:58:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.695 ms
+2025-12-10 09:58:16 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 10.151 ms
+2025-12-10 09:58:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.170 ms
+2025-12-10 09:58:16 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 12.665 ms
+2025-12-10 09:58:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.871 ms
+2025-12-10 09:58:17 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.866 ms
+2025-12-10 09:58:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 17.015 ms
+2025-12-10 09:58:18 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 8.755 ms
+2025-12-10 09:58:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.604 ms
+2025-12-10 09:58:18 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 6.987 ms
+2025-12-10 09:58:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.600 ms
+2025-12-10 09:58:19 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 9.386 ms
+2025-12-10 09:58:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.599 ms
+2025-12-10 09:58:20 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.143 ms
+2025-12-10 09:58:20 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 10.589 ms
+2025-12-10 09:58:20 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 8.077 ms
+2025-12-10 09:58:21 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 8.267 ms
+2025-12-10 09:58:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.896 ms
+2025-12-10 09:58:22 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.127 ms
+2025-12-10 09:58:22 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 8.159 ms
+2025-12-10 09:58:22 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 5.790 ms
+2025-12-10 09:59:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1084.741 ms
+2025-12-10 09:59:22 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 23.222 ms
+2025-12-10 09:59:23 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.201 ms
+2025-12-10 09:59:23 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 38.177 ms
+2025-12-10 09:59:23 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.850 ms
+2025-12-10 09:59:24 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 7.784 ms
+2025-12-10 09:59:24 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.396 ms
+2025-12-10 09:59:27 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.115 ms
+2025-12-10 09:59:28 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 15.202 ms
+2025-12-10 09:59:28 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 3.436 ms
+2025-12-10 09:59:29 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 6.968 ms
+2025-12-10 09:59:29 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.912 ms
+2025-12-10 09:59:42 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 30.187 ms
+2025-12-10 10:03:29 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1084.437 ms
+2025-12-10 10:03:38 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 360.442 ms
+2025-12-10 10:03:39 [info] : GET /api/vendor/vendor-data 401 26 - 1.087 ms
+2025-12-10 10:03:39 [info] : POST /api/auth/refresh 200 323 - 13.722 ms
+2025-12-10 10:03:39 [info] : GET /api/vendor/vendor-data 304 - - 118.816 ms
+2025-12-10 10:03:43 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.221 ms
+2025-12-10 10:03:44 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.199 ms
+2025-12-10 10:03:44 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 16.645 ms
+2025-12-10 10:03:44 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.926 ms
+2025-12-10 10:03:45 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.112 ms
+2025-12-10 10:03:45 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 10.828 ms
+2025-12-10 10:03:45 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.684 ms
+2025-12-10 10:03:46 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 7.752 ms
+2025-12-10 10:03:46 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.914 ms
+2025-12-10 10:03:47 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 8.399 ms
+2025-12-10 10:03:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.843 ms
+2025-12-10 10:03:47 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 8.291 ms
+2025-12-10 10:03:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.274 ms
+2025-12-10 10:03:47 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 8.678 ms
+2025-12-10 10:03:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.296 ms
+2025-12-10 10:03:48 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 8.337 ms
+2025-12-10 10:03:48 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.288 ms
+2025-12-10 10:03:49 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.146 ms
+2025-12-10 10:03:49 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 10.170 ms
+2025-12-10 10:03:49 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 5.587 ms
+2025-12-10 10:03:50 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 9.926 ms
+2025-12-10 10:03:50 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 6.071 ms
+2025-12-10 10:03:50 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.145 ms
+2025-12-10 10:03:50 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 7.732 ms
+2025-12-10 10:03:50 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.834 ms
+2025-12-10 10:03:52 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 6.878 ms
+2025-12-10 10:03:52 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 7.598 ms
+2025-12-10 10:03:54 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 4.470 ms
+2025-12-10 10:03:54 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 3.984 ms
+2025-12-10 10:04:13 [info] : GET /api/vendor/vendor-data 304 - - 69.084 ms
+2025-12-10 10:04:32 [info] : GET /api/vendor/vendor-data 304 - - 1662.027 ms
+2025-12-10 10:04:33 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.869 ms
+2025-12-10 10:04:33 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 401 26 - 0.535 ms
+2025-12-10 10:04:33 [info] : POST /api/auth/refresh 200 253 - 20.843 ms
+2025-12-10 10:04:33 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 201.797 ms
+2025-12-10 10:04:33 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 116.442 ms
+2025-12-10 10:06:02 [info] : GET /api/vendor/vendor-data 304 - - 349.440 ms
+2025-12-10 10:06:04 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.222 ms
+2025-12-10 10:06:04 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 175.626 ms
+2025-12-10 10:06:04 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 53.983 ms
+2025-12-10 10:06:05 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 15.934 ms
+2025-12-10 10:06:05 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.792 ms
+2025-12-10 10:06:13 [info] : GET /api/vendor/vendor-data 304 - - 94.382 ms
+2025-12-10 10:06:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 74.849 ms
+2025-12-10 10:06:16 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.213 ms
+2025-12-10 10:06:16 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 29.662 ms
+2025-12-10 10:06:16 [info] : GET /api/admin/allvendors?page=1&limit=10 200 990 - 5.464 ms
+2025-12-10 10:06:20 [info] : GET /api/vendor/vendor-data 304 - - 19.871 ms
+2025-12-10 10:09:15 [info] : GET /api/vendor/vendor-data 304 - - 1014.559 ms
+2025-12-10 10:09:16 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.162 ms
+2025-12-10 10:09:17 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 182.466 ms
+2025-12-10 10:09:17 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 83.638 ms
+2025-12-10 10:09:18 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 22.655 ms
+2025-12-10 10:09:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.254 ms
+2025-12-10 10:30:35 [info] : GET /api/vendor/vendor-data 401 26 - 14.760 ms
+2025-12-10 10:30:35 [info] : POST /api/auth/refresh 200 323 - 26.366 ms
+2025-12-10 10:30:36 [info] : GET /api/vendor/vendor-data 304 - - 816.354 ms
+2025-12-10 10:30:37 [info] : GET /api/vendor/vendor-data 304 - - 78.410 ms
+2025-12-10 10:30:39 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.521 ms
+2025-12-10 10:30:39 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 401 26 - 0.644 ms
+2025-12-10 10:30:39 [info] : POST /api/auth/refresh 200 253 - 2.678 ms
+2025-12-10 10:30:39 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 67.382 ms
+2025-12-10 10:30:40 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 549.330 ms
+2025-12-10 10:30:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 130.318 ms
+2025-12-10 10:30:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.445 ms
+2025-12-10 10:30:40 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 7.137 ms
+2025-12-10 10:30:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.583 ms
+2025-12-10 10:31:12 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 316.375 ms
+2025-12-10 10:31:26 [info] : GET /api/vendor/vendor-data 304 - - 604.470 ms
+2025-12-10 10:31:27 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 1.149 ms
+2025-12-10 10:31:28 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 248.967 ms
+2025-12-10 10:31:28 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.842 ms
+2025-12-10 10:35:07 [info] : GET /api/vendor/vendor-data 304 - - 980.128 ms
+2025-12-10 10:35:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 84.018 ms
+2025-12-10 10:35:22 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.246 ms
+2025-12-10 10:35:22 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 25.329 ms
+2025-12-10 10:35:22 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.410 ms
+2025-12-10 10:37:22 [info] : GET /api/vendor/vendor-data 304 - - 443.019 ms
+2025-12-10 10:37:27 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.448 ms
+2025-12-10 10:37:27 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 72.309 ms
+2025-12-10 10:37:27 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 55.614 ms
+2025-12-10 10:37:33 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.603 ms
+2025-12-10 10:37:35 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.186 ms
+2025-12-10 10:37:35 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 11.606 ms
+2025-12-10 10:37:35 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.210 ms
+2025-12-10 10:37:40 [info] : GET /api/vendor/vendor-data 304 - - 13.816 ms
+2025-12-10 10:37:41 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.175 ms
+2025-12-10 10:37:41 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 27.142 ms
+2025-12-10 10:37:41 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 26.798 ms
+2025-12-10 10:37:50 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.308 ms
+2025-12-10 10:37:59 [info] : GET /api/vendor/vendor-data 304 - - 74.989 ms
+2025-12-10 10:38:07 [info] : GET /api/vendor/vendor-data 304 - - 14.887 ms
+2025-12-10 10:38:12 [info] : GET /api/vendor/vendor-data 304 - - 27.855 ms
+2025-12-10 10:39:16 [info] : GET /api/vendor/vendor-data 304 - - 443.677 ms
+2025-12-10 10:39:24 [info] : GET /api/vendor/vendor-data 304 - - 45.290 ms
+2025-12-10 10:39:29 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.307 ms
+2025-12-10 10:39:29 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 478 - 34.309 ms
+2025-12-10 10:39:30 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 48.989 ms
+2025-12-10 10:39:52 [info] : GET /api/vendor/vendor-data 304 - - 173.227 ms
+2025-12-10 10:39:56 [info] : GET /api/vendor/vendor-data 304 - - 44.224 ms
+2025-12-10 10:40:17 [info] : GET /api/vendor/vendor-data 200 497 - 16.507 ms
+2025-12-10 10:40:19 [info] : GET /api/admin/allvendors?page=1&limit=10 200 992 - 162.798 ms
+2025-12-10 10:40:21 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.192 ms
+2025-12-10 10:40:21 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 25.042 ms
+2025-12-10 10:40:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.276 ms
+2025-12-10 10:40:25 [info] : GET /api/vendor/vendor-data 304 - - 3.694 ms
+2025-12-10 10:40:27 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.267 ms
+2025-12-10 10:40:49 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.542 ms
+2025-12-10 10:40:49 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 123.487 ms
+2025-12-10 10:40:50 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 60.648 ms
+2025-12-10 10:40:52 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.701 ms
+2025-12-10 10:40:57 [info] : GET /api/vendor/vendor-data 304 - - 9.116 ms
+2025-12-10 10:41:04 [info] : GET /api/vendor/vendor-data 304 - - 6.162 ms
+2025-12-10 10:41:07 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 73.303 ms
+2025-12-10 10:41:17 [info] : GET /api/vendor/vendor-data 304 - - 11.260 ms
+2025-12-10 10:41:20 [info] : GET /api/vendor/vendor-data 304 - - 20.380 ms
+2025-12-10 10:41:41 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 2.162 ms
+2025-12-10 10:41:41 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 477 - 37.223 ms
+2025-12-10 10:41:41 [info] : GET /api/admin/allvendors?page=1&limit=10 200 994 - 44.928 ms
+2025-12-10 10:41:56 [info] : GET /api/vendor/vendor-data 304 - - 215.349 ms
+2025-12-10 10:44:41 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 354.802 ms
+2025-12-10 10:44:50 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 204 0 - 0.696 ms
+2025-12-10 10:44:50 [info] : PUT /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-verify 200 480 - 67.004 ms
+2025-12-10 10:44:50 [info] : GET /api/admin/allvendors?page=1&limit=10 200 997 - 12.291 ms
+2025-12-10 10:45:24 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.287 ms
+2025-12-10 10:45:24 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 132.086 ms
+2025-12-10 10:45:24 [info] : GET /api/admin/allvendors?page=1&limit=10 200 998 - 72.798 ms
+2025-12-10 10:45:26 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 8.758 ms
+2025-12-10 10:45:26 [info] : GET /api/admin/allvendors?page=1&limit=10 200 997 - 17.274 ms
+2025-12-10 10:45:27 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.156 ms
+2025-12-10 10:45:27 [info] : GET /api/admin/allvendors?page=1&limit=10 200 998 - 5.537 ms
+2025-12-10 10:45:30 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.132 ms
+2025-12-10 10:45:30 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 484 - 6.143 ms
+2025-12-10 10:45:30 [info] : GET /api/admin/allvendors?page=1&limit=10 200 992 - 5.743 ms
+2025-12-10 10:45:35 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 14.023 ms
+2025-12-10 10:45:38 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 25.486 ms
+2025-12-10 10:45:42 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 0.944 ms
+2025-12-10 10:45:42 [info] : POST /api/auth/refresh 200 253 - 15.254 ms
+2025-12-10 10:45:42 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 30.047 ms
+2025-12-10 10:45:47 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.319 ms
+2025-12-10 10:45:47 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 35.283 ms
+2025-12-10 10:45:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 12.396 ms
+2025-12-10 11:06:44 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 5.211 ms
+2025-12-10 11:06:44 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 401 26 - 7.955 ms
+2025-12-10 11:06:44 [info] : POST /api/auth/refresh 200 253 - 16.109 ms
+2025-12-10 11:06:44 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 311.352 ms
+2025-12-10 11:06:44 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 77.246 ms
+2025-12-10 11:06:47 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.147 ms
+2025-12-10 11:06:47 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.727 ms
+2025-12-10 11:06:47 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 7.702 ms
+2025-12-10 11:06:48 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 9.484 ms
+2025-12-10 11:06:48 [info] : GET /api/admin/allvendors?page=1&limit=10 200 992 - 3.206 ms
+2025-12-10 11:06:49 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 18.469 ms
+2025-12-10 11:06:49 [info] : GET /api/admin/allvendors?page=1&limit=10 200 991 - 5.474 ms
+2025-12-10 11:07:01 [info] : GET /api/vendor/vendor-data 401 26 - 3.637 ms
+2025-12-10 11:07:01 [info] : POST /api/auth/refresh 200 323 - 5.013 ms
+2025-12-10 11:07:01 [info] : GET /api/vendor/vendor-data 304 - - 23.567 ms
+2025-12-10 11:07:03 [info] : GET /api/vendor/get-vendorproduct 200 26 - 22.651 ms
+2025-12-10 11:07:12 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 248.631 ms
+2025-12-10 11:07:20 [info] : GET /api/vendor/vendor-data 304 - - 103.091 ms
+2025-12-10 11:07:20 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 201.383 ms
+2025-12-10 11:07:39 [info] : GET /api/vendor/vendor-data 304 - - 123.086 ms
+2025-12-10 11:07:39 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 309.626 ms
+2025-12-10 11:08:15 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.636 ms
+2025-12-10 11:08:15 [info] : POST /api/vendor/vendor-addproduct 201 781 - 83.335 ms
+2025-12-10 11:08:19 [info] : GET /api/vendor/get-vendorproduct 200 755 - 58.444 ms
+2025-12-10 11:09:13 [info] : GET /api/vendor/vendor-data 304 - - 143.411 ms
+2025-12-10 11:09:13 [info] : GET /api/vendor/get-vendorproduct 304 - - 123.085 ms
+2025-12-10 11:09:17 [info] : GET /api/vendor/vendor-data 304 - - 20.608 ms
+2025-12-10 11:09:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.609 ms
+2025-12-10 11:09:30 [info] : POST /api/auth/logout 200 61 - 7.233 ms
+2025-12-10 11:10:17 [info] : OPTIONS /api/auth/register 204 0 - 0.434 ms
+2025-12-10 11:10:17 [info] : POST /api/auth/register 201 267 - 233.738 ms
+2025-12-10 11:10:32 [info] : GET /api/auth/verifyemail?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imphbml3YTEwMTFAcm9hc3RpYy5jb20iLCJyb2xlIjoidmVuZG9yIiwidmVuZG9ySWQiOiJhOGYxYmM0Yi1lNjQ5LTRjNDgtYWM3Ni03NThmYWNhNjRiZTMiLCJpYXQiOjE3NjUzNDUyMTcsImV4cCI6MTc2NTM0ODgxN30.AdGlfMZpUQSJe8rVB7F3FQUpKK-V8VqOK5A9hO3zXxA 200 109 - 52.311 ms
+2025-12-10 11:10:40 [info] : OPTIONS /api/auth/login 204 0 - 0.168 ms
+2025-12-10 11:10:40 [info] : POST /api/auth/login 401 56 - 110.063 ms
+2025-12-10 11:10:43 [info] : POST /api/auth/login 200 330 - 112.582 ms
+2025-12-10 11:10:43 [info] : GET /api/vendor/vendor-data 200 492 - 32.190 ms
+2025-12-10 11:10:52 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 439.996 ms
+2025-12-10 11:10:55 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.207 ms
+2025-12-10 11:10:55 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 11.229 ms
+2025-12-10 11:10:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 14.504 ms
+2025-12-10 11:10:56 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 23.590 ms
+2025-12-10 11:10:56 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 4.366 ms
+2025-12-10 11:10:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.119 ms
+2025-12-10 11:10:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.739 ms
+2025-12-10 11:10:56 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.980 ms
+2025-12-10 11:10:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.102 ms
+2025-12-10 11:10:56 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.540 ms
+2025-12-10 11:10:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.477 ms
+2025-12-10 11:10:56 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 12.896 ms
+2025-12-10 11:10:56 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.512 ms
+2025-12-10 11:10:57 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 6.661 ms
+2025-12-10 11:10:57 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.142 ms
+2025-12-10 11:10:57 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 12.005 ms
+2025-12-10 11:10:57 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.813 ms
+2025-12-10 11:10:57 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 14.337 ms
+2025-12-10 11:10:57 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 15.889 ms
+2025-12-10 11:10:57 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.819 ms
+2025-12-10 11:10:57 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.780 ms
+2025-12-10 11:10:58 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.194 ms
+2025-12-10 11:10:58 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.432 ms
+2025-12-10 11:10:58 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.414 ms
+2025-12-10 11:10:58 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.910 ms
+2025-12-10 11:11:10 [info] : GET /api/vendor/vendor-data 401 26 - 9.435 ms
+2025-12-10 11:11:10 [info] : POST /api/auth/refresh 200 330 - 44.636 ms
+2025-12-10 11:11:11 [info] : GET /api/vendor/vendor-data 304 - - 855.663 ms
+2025-12-10 11:11:11 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.209 ms
+2025-12-10 11:11:12 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 203.902 ms
+2025-12-10 11:11:12 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 5.839 ms
+2025-12-10 11:11:12 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 29.235 ms
+2025-12-10 11:11:12 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 40.988 ms
+2025-12-10 11:11:12 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 3.804 ms
+2025-12-10 11:11:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 4.755 ms
+2025-12-10 11:11:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 31.576 ms
+2025-12-10 11:11:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 43.213 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1581.262 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1.964 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1.813 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 0.961 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1.717 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1.045 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 0.744 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 0.789 ms
+2025-12-10 11:11:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 23.133 ms
+2025-12-10 11:11:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.673 ms
+2025-12-10 11:11:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 25.353 ms
+2025-12-10 11:11:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.902 ms
+2025-12-10 11:11:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 11.802 ms
+2025-12-10 11:11:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.766 ms
+2025-12-10 11:11:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 6.322 ms
+2025-12-10 11:11:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.622 ms
+2025-12-10 11:11:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 6.522 ms
+2025-12-10 11:11:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.093 ms
+2025-12-10 11:11:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.007 ms
+2025-12-10 11:11:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.354 ms
+2025-12-10 11:11:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.038 ms
+2025-12-10 11:11:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.227 ms
+2025-12-10 11:11:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.371 ms
+2025-12-10 11:11:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.561 ms
+2025-12-10 11:11:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 11.001 ms
+2025-12-10 11:11:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.967 ms
+2025-12-10 11:11:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.068 ms
+2025-12-10 11:11:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.925 ms
+2025-12-10 11:11:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.182 ms
+2025-12-10 11:11:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.145 ms
+2025-12-10 11:11:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 6.716 ms
+2025-12-10 11:11:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.580 ms
+2025-12-10 11:11:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.193 ms
+2025-12-10 11:11:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.653 ms
+2025-12-10 11:11:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.002 ms
+2025-12-10 11:11:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.575 ms
+2025-12-10 11:11:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.845 ms
+2025-12-10 11:11:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.155 ms
+2025-12-10 11:11:16 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.123 ms
+2025-12-10 11:11:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.806 ms
+2025-12-10 11:11:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.988 ms
+2025-12-10 11:11:25 [info] : GET /api/vendor/vendor-data 304 - - 152.591 ms
+2025-12-10 11:11:50 [info] : GET /api/vendor/vendor-data 304 - - 90.348 ms
+2025-12-10 11:11:55 [info] : GET /api/vendor/vendor-data 304 - - 47.322 ms
+2025-12-10 11:12:30 [info] : GET /api/vendor/vendor-data 304 - - 290.395 ms
+2025-12-10 11:14:00 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 184.709 ms
+2025-12-10 11:14:02 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.124 ms
+2025-12-10 11:14:02 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 19.578 ms
+2025-12-10 11:14:02 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.540 ms
+2025-12-10 11:14:03 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.705 ms
+2025-12-10 11:14:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.875 ms
+2025-12-10 11:14:03 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 15.961 ms
+2025-12-10 11:14:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.281 ms
+2025-12-10 11:14:12 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.288 ms
+2025-12-10 11:14:12 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 32.442 ms
+2025-12-10 11:14:12 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 123.430 ms
+2025-12-10 11:15:13 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.755 ms
+2025-12-10 11:15:13 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 149.934 ms
+2025-12-10 11:15:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 62.402 ms
+2025-12-10 11:15:14 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 9.757 ms
+2025-12-10 11:15:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.546 ms
+2025-12-10 11:15:19 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.160 ms
+2025-12-10 11:15:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 4.381 ms
+2025-12-10 11:15:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.140 ms
+2025-12-10 11:15:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 8.578 ms
+2025-12-10 11:15:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 10.018 ms
+2025-12-10 11:15:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.866 ms
+2025-12-10 11:15:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.526 ms
+2025-12-10 11:15:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 6.839 ms
+2025-12-10 11:15:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.313 ms
+2025-12-10 11:15:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 5.968 ms
+2025-12-10 11:15:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.964 ms
+2025-12-10 11:15:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 51.582 ms
+2025-12-10 11:15:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.322 ms
+2025-12-10 11:15:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 4.199 ms
+2025-12-10 11:15:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 16.235 ms
+2025-12-10 11:15:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 8.426 ms
+2025-12-10 11:15:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.304 ms
+2025-12-10 11:15:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 10.067 ms
+2025-12-10 11:15:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.140 ms
+2025-12-10 11:15:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 7.760 ms
+2025-12-10 11:15:21 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.541 ms
+2025-12-10 11:15:22 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 7.786 ms
+2025-12-10 11:15:22 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.912 ms
+2025-12-10 11:15:22 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 9.525 ms
+2025-12-10 11:15:22 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.076 ms
+2025-12-10 11:15:28 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.961 ms
+2025-12-10 11:15:29 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 20.648 ms
+2025-12-10 11:15:29 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.293 ms
+2025-12-10 11:15:29 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 7.564 ms
+2025-12-10 11:15:29 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.127 ms
+2025-12-10 11:15:31 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.121 ms
+2025-12-10 11:15:31 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 10.128 ms
+2025-12-10 11:15:31 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.936 ms
+2025-12-10 11:24:27 [info] : server is runnning port 5050 
+2025-12-10 11:24:27 [info] : Mongodb Connect Successfully
+2025-12-10 11:24:40 [info] : server is runnning port 5050 
+2025-12-10 11:24:40 [info] : Mongodb Connect Successfully
+2025-12-10 11:25:44 [info] : server is runnning port 5050 
+2025-12-10 11:25:44 [info] : Mongodb Connect Successfully
+2025-12-10 11:26:36 [info] : server is runnning port 5050 
+2025-12-10 11:26:36 [info] : Mongodb Connect Successfully
+2025-12-10 11:29:05 [info] : server is runnning port 5050 
+2025-12-10 11:29:05 [info] : Mongodb Connect Successfully
+2025-12-10 11:30:43 [info] : server is runnning port 5050 
+2025-12-10 11:30:43 [info] : Mongodb Connect Successfully
+2025-12-10 11:31:28 [info] : server is runnning port 5050 
+2025-12-10 11:31:28 [info] : Mongodb Connect Successfully
+2025-12-10 11:33:04 [info] : server is runnning port 5050 
+2025-12-10 11:33:04 [info] : Mongodb Connect Successfully
+2025-12-10 11:33:05 [info] : server is runnning port 5050 
+2025-12-10 11:33:05 [info] : Mongodb Connect Successfully
+2025-12-10 11:33:35 [info] : server is runnning port 5050 
+2025-12-10 11:33:35 [info] : Mongodb Connect Successfully
+2025-12-10 11:33:41 [info] : server is runnning port 5050 
+2025-12-10 11:33:41 [info] : Mongodb Connect Successfully
+2025-12-10 11:34:02 [info] : server is runnning port 5050 
+2025-12-10 11:34:02 [info] : Mongodb Connect Successfully
+2025-12-10 11:34:27 [info] : server is runnning port 5050 
+2025-12-10 11:34:27 [info] : Mongodb Connect Successfully
+2025-12-10 11:34:43 [info] : server is runnning port 5050 
+2025-12-10 11:34:43 [info] : Mongodb Connect Successfully
+2025-12-10 11:35:09 [info] : server is runnning port 5050 
+2025-12-10 11:35:09 [info] : Mongodb Connect Successfully
+2025-12-10 11:35:11 [info] : server is runnning port 5050 
+2025-12-10 11:35:11 [info] : Mongodb Connect Successfully
+2025-12-10 11:39:10 [info] : OPTIONS /api/auth/login 204 0 - 2.760 ms
+2025-12-10 11:39:10 [info] : POST /api/auth/login 200 330 - 193.013 ms
+2025-12-10 11:39:10 [info] : GET /api/vendor/vendor-data 304 - - 120.501 ms
+2025-12-10 11:39:14 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.478 ms
+2025-12-10 11:39:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 401 26 - 2.030 ms
+2025-12-10 11:39:14 [info] : POST /api/auth/refresh 200 253 - 3.733 ms
+2025-12-10 11:39:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 357.142 ms
+2025-12-10 11:39:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 61.228 ms
+2025-12-10 11:39:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.699 ms
+2025-12-10 11:39:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 19.517 ms
+2025-12-10 11:39:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.235 ms
+2025-12-10 11:39:19 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.268 ms
+2025-12-10 11:39:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 8.516 ms
+2025-12-10 11:39:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.467 ms
+2025-12-10 11:39:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 14.653 ms
+2025-12-10 11:39:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.523 ms
+2025-12-10 11:39:39 [info] : GET /api/vendor/vendor-data 401 26 - 1.156 ms
+2025-12-10 11:39:39 [info] : POST /api/auth/refresh 200 330 - 6.886 ms
+2025-12-10 11:39:39 [info] : GET /api/vendor/vendor-data 304 - - 312.381 ms
+2025-12-10 11:39:45 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.554 ms
+2025-12-10 11:39:45 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 47.287 ms
+2025-12-10 11:39:45 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 62.760 ms
+2025-12-10 11:39:48 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.216 ms
+2025-12-10 11:39:48 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 9.980 ms
+2025-12-10 11:39:48 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 7.605 ms
+2025-12-10 11:39:50 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 9.785 ms
+2025-12-10 11:39:50 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 6.739 ms
+2025-12-10 11:39:56 [info] : GET /api/vendor/vendor-data 304 - - 10.758 ms
+2025-12-10 11:40:09 [info] : GET /api/vendor/vendor-data 304 - - 88.292 ms
+2025-12-10 11:40:10 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 3.797 ms
+2025-12-10 11:40:11 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 47.052 ms
+2025-12-10 11:40:11 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 74.229 ms
+2025-12-10 11:40:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 35.868 ms
+2025-12-10 11:40:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.542 ms
+2025-12-10 11:40:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.707 ms
+2025-12-10 11:40:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.748 ms
+2025-12-10 11:40:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.197 ms
+2025-12-10 11:40:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.546 ms
+2025-12-10 11:40:13 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.737 ms
+2025-12-10 11:40:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.777 ms
+2025-12-10 11:40:14 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.145 ms
+2025-12-10 11:40:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.026 ms
+2025-12-10 11:40:21 [info] : GET /api/vendor/vendor-data 304 - - 35.595 ms
+2025-12-10 11:40:30 [info] : GET /api/vendor/vendor-data 304 - - 25.621 ms
+2025-12-10 11:43:50 [info] : GET /api/vendor/vendor-data 304 - - 1170.122 ms
+2025-12-10 11:43:52 [info] : OPTIONS /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 204 0 - 1.222 ms
+2025-12-10 11:43:52 [info] : PUT /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 404 48 - 30.371 ms
+2025-12-10 11:43:58 [info] : OPTIONS /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 204 0 - 0.477 ms
+2025-12-10 11:43:58 [info] : PUT /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 404 48 - 25.417 ms
+2025-12-10 11:43:58 [info] : PUT /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 404 48 - 4.144 ms
+2025-12-10 11:43:59 [info] : PUT /api/admin/vendors/693907c13dc6215f8ada7cd4/toggle-verify 404 48 - 4.949 ms
+2025-12-10 11:44:14 [info] : server is runnning port 5050 
+2025-12-10 11:44:14 [info] : Mongodb Connect Successfully
+2025-12-10 11:44:17 [info] : server is runnning port 5050 
+2025-12-10 11:44:18 [info] : Mongodb Connect Successfully
+2025-12-10 11:44:19 [info] : GET /api/vendor/vendor-data 304 - - 77.143 ms
+2025-12-10 11:44:27 [info] : GET /api/vendor/vendor-data 304 - - 15.168 ms
+2025-12-10 11:44:43 [info] : GET /api/vendor/vendor-data 304 - - 133.451 ms
+2025-12-10 11:44:48 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 1.700 ms
+2025-12-10 11:44:48 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 97.512 ms
+2025-12-10 11:44:48 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 98.596 ms
+2025-12-10 11:44:51 [info] : GET /api/vendor/vendor-data 304 - - 13.976 ms
+2025-12-10 11:45:21 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.246 ms
+2025-12-10 11:45:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 6.610 ms
+2025-12-10 11:45:21 [info] : GET /api/vendor/vendor-data 304 - - 1656.096 ms
+2025-12-10 11:45:22 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 1.761 ms
+2025-12-10 11:45:23 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 1.875 ms
+2025-12-10 11:45:23 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 2.584 ms
+2025-12-10 11:45:25 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 138.054 ms
+2025-12-10 11:45:26 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 2.602 ms
+2025-12-10 11:45:27 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.174 ms
+2025-12-10 11:45:27 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 3.738 ms
+2025-12-10 11:45:36 [info] : GET /api/vendor/vendor-data 304 - - 154.832 ms
+2025-12-10 11:45:40 [info] : GET /api/vendor/vendor-data 304 - - 146.932 ms
+2025-12-10 11:46:05 [info] : GET /api/vendor/vendor-data 304 - - 353.048 ms
+2025-12-10 11:46:08 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 155.920 ms
+2025-12-10 11:46:17 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.637 ms
+2025-12-10 11:46:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 5.182 ms
+2025-12-10 11:46:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 2.530 ms
+2025-12-10 11:46:39 [info] : GET /api/vendor/vendor-data 304 - - 22.987 ms
+2025-12-10 11:48:44 [info] : GET /api/vendor/vendor-data 304 - - 127.067 ms
+2025-12-10 11:48:46 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.843 ms
+2025-12-10 11:48:46 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 5.165 ms
+2025-12-10 11:48:51 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.218 ms
+2025-12-10 11:48:51 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 62.811 ms
+2025-12-10 11:48:51 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 58.969 ms
+2025-12-10 11:48:59 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.190 ms
+2025-12-10 11:48:59 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 500 48 - 1.545 ms
+2025-12-10 11:49:50 [info] : GET /api/vendor/vendor-data 304 - - 65.425 ms
+2025-12-10 11:51:49 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 267.410 ms
+2025-12-10 11:51:50 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.246 ms
+2025-12-10 11:51:50 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 5.567 ms
+2025-12-10 11:51:56 [info] : GET /api/vendor/vendor-data 304 - - 174.293 ms
+2025-12-10 11:52:05 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.720 ms
+2025-12-10 11:52:05 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 500 48 - 6.889 ms
+2025-12-10 11:53:02 [info] : GET /api/vendor/vendor-data 304 - - 115.989 ms
+2025-12-10 11:53:10 [info] : GET /api/vendor/vendor-data 304 - - 66.353 ms
+2025-12-10 11:54:58 [info] : GET /api/vendor/vendor-data 401 26 - 5.965 ms
+2025-12-10 11:54:58 [info] : POST /api/auth/refresh 200 330 - 64.578 ms
+2025-12-10 11:55:00 [info] : GET /api/vendor/vendor-data 304 - - 1004.153 ms
+2025-12-10 11:55:25 [info] : GET /api/vendor/vendor-data 304 - - 25.799 ms
+2025-12-10 11:55:33 [info] : GET /api/vendor/vendor-data 304 - - 368.508 ms
+2025-12-10 11:55:39 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.760 ms
+2025-12-10 11:55:39 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 401 26 - 0.616 ms
+2025-12-10 11:55:39 [info] : POST /api/auth/refresh 200 253 - 13.991 ms
+2025-12-10 11:55:39 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 9.309 ms
+2025-12-10 11:55:51 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.176 ms
+2025-12-10 11:55:51 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 500 48 - 5.452 ms
+2025-12-10 11:56:18 [info] : GET /api/vendor/vendor-data 304 - - 611.001 ms
+2025-12-10 11:56:29 [info] : GET /api/vendor/vendor-data 304 - - 16.500 ms
+2025-12-10 11:57:26 [info] : GET /api/vendor/vendor-data 304 - - 69.243 ms
+2025-12-10 11:57:37 [info] : GET /api/vendor/vendor-data 304 - - 139.373 ms
+2025-12-10 11:58:13 [info] : GET /api/vendor/vendor-data 304 - - 394.114 ms
+2025-12-10 11:58:18 [info] : GET /api/vendor/vendor-data 304 - - 8.289 ms
+2025-12-10 11:58:29 [info] : GET /api/vendor/vendor-data 304 - - 1941.334 ms
+2025-12-10 11:58:30 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 381.908 ms
+2025-12-10 11:59:23 [info] : GET /api/vendor/vendor-data 304 - - 111.586 ms
+2025-12-10 11:59:31 [info] : GET /api/vendor/vendor-data 304 - - 71.343 ms
+2025-12-10 11:59:32 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.165 ms
+2025-12-10 11:59:32 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 500 48 - 4.053 ms
+2025-12-10 12:00:58 [info] : server is runnning port 5050 
+2025-12-10 12:00:58 [info] : Mongodb Connect Successfully
+2025-12-10 12:01:00 [info] : GET /api/vendor/vendor-data 304 - - 75.905 ms
+2025-12-10 12:01:08 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.807 ms
+2025-12-10 12:01:10 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 1456.493 ms
+2025-12-10 12:01:10 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 135.650 ms
+2025-12-10 12:01:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.853 ms
+2025-12-10 12:01:15 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.598 ms
+2025-12-10 12:01:15 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 35.179 ms
+2025-12-10 12:01:15 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.374 ms
+2025-12-10 12:01:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.536 ms
+2025-12-10 12:01:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.060 ms
+2025-12-10 12:01:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 13.405 ms
+2025-12-10 12:01:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.033 ms
+2025-12-10 12:01:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 14.070 ms
+2025-12-10 12:01:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.241 ms
+2025-12-10 12:01:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.466 ms
+2025-12-10 12:01:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.594 ms
+2025-12-10 12:01:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.978 ms
+2025-12-10 12:01:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.111 ms
+2025-12-10 12:01:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.873 ms
+2025-12-10 12:01:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.463 ms
+2025-12-10 12:01:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.027 ms
+2025-12-10 12:01:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.414 ms
+2025-12-10 12:01:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.363 ms
+2025-12-10 12:01:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.136 ms
+2025-12-10 12:01:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 12.160 ms
+2025-12-10 12:01:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.673 ms
+2025-12-10 12:01:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.067 ms
+2025-12-10 12:01:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.916 ms
+2025-12-10 12:01:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 14.442 ms
+2025-12-10 12:01:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.021 ms
+2025-12-10 12:01:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 6.746 ms
+2025-12-10 12:01:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 4.585 ms
+2025-12-10 12:01:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.162 ms
+2025-12-10 12:01:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.787 ms
+2025-12-10 12:01:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.084 ms
+2025-12-10 12:01:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 9.419 ms
+2025-12-10 12:01:19 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 9.561 ms
+2025-12-10 12:01:19 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 14.470 ms
+2025-12-10 12:01:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 11.569 ms
+2025-12-10 12:01:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.819 ms
+2025-12-10 12:01:20 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 7.558 ms
+2025-12-10 12:01:20 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 13.771 ms
+2025-12-10 12:01:24 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.237 ms
+2025-12-10 12:01:24 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 17.129 ms
+2025-12-10 12:01:24 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 7.917 ms
+2025-12-10 12:01:27 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 10.371 ms
+2025-12-10 12:01:27 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.858 ms
+2025-12-10 12:01:28 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.144 ms
+2025-12-10 12:01:28 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 50.059 ms
+2025-12-10 12:01:28 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 5.187 ms
+2025-12-10 12:05:58 [info] : GET /api/vendor/vendor-data 304 - - 417.264 ms
+2025-12-10 12:09:33 [info] : GET /api/vendor/vendor-data 304 - - 165.922 ms
+2025-12-10 12:11:04 [info] : GET /api/vendor/vendor-data 401 26 - 12.393 ms
+2025-12-10 12:11:04 [info] : POST /api/auth/refresh 200 330 - 34.783 ms
+2025-12-10 12:11:05 [info] : GET /api/vendor/vendor-data 304 - - 90.965 ms
+2025-12-10 12:13:58 [info] : GET /api/vendor/vendor-data 304 - - 114.818 ms
+2025-12-10 12:14:02 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 0.670 ms
+2025-12-10 12:14:02 [info] : POST /api/auth/refresh 200 253 - 20.456 ms
+2025-12-10 12:14:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 346.617 ms
+2025-12-10 12:14:05 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.918 ms
+2025-12-10 12:14:05 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 38.030 ms
+2025-12-10 12:14:05 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.363 ms
+2025-12-10 12:14:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 20.941 ms
+2025-12-10 12:16:02 [info] : GET /api/vendor/vendor-data 304 - - 533.838 ms
+2025-12-10 12:16:05 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.209 ms
+2025-12-10 12:16:05 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 32.063 ms
+2025-12-10 12:16:05 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 58.305 ms
+2025-12-10 12:16:07 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.746 ms
+2025-12-10 12:16:07 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.668 ms
+2025-12-10 12:16:09 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 10.515 ms
+2025-12-10 12:16:09 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.178 ms
+2025-12-10 12:16:09 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 8.848 ms
+2025-12-10 12:16:09 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 14.224 ms
+2025-12-10 12:18:06 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.524 ms
+2025-12-10 12:18:06 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 110.581 ms
+2025-12-10 12:18:06 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 88.032 ms
+2025-12-10 12:18:36 [info] : server is runnning port 5050 
+2025-12-10 12:18:36 [info] : Mongodb Connect Successfully
+2025-12-10 12:18:47 [info] : server is runnning port 5050 
+2025-12-10 12:18:47 [info] : Mongodb Connect Successfully
+2025-12-10 12:18:55 [info] : server is runnning port 5050 
+2025-12-10 12:18:55 [info] : Mongodb Connect Successfully
+2025-12-10 12:18:56 [info] : GET /api/vendor/vendor-data 304 - - 175.322 ms
+2025-12-10 12:19:01 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 2.424 ms
+2025-12-10 12:19:01 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 55.260 ms
+2025-12-10 12:19:01 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 57.987 ms
+2025-12-10 12:19:02 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 13.960 ms
+2025-12-10 12:19:02 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.665 ms
+2025-12-10 12:19:03 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 18.088 ms
+2025-12-10 12:19:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.114 ms
+2025-12-10 12:19:03 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 8.327 ms
+2025-12-10 12:19:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 13.810 ms
+2025-12-10 12:19:03 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 12.262 ms
+2025-12-10 12:19:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.785 ms
+2025-12-10 12:19:03 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 11.579 ms
+2025-12-10 12:19:03 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 10.495 ms
+2025-12-10 12:20:16 [info] : server is runnning port 5050 
+2025-12-10 12:20:16 [info] : Mongodb Connect Successfully
+2025-12-10 12:20:16 [info] : server is runnning port 5050 
+2025-12-10 12:20:16 [info] : Mongodb Connect Successfully
+2025-12-10 12:20:21 [info] : server is runnning port 5050 
+2025-12-10 12:20:21 [info] : Mongodb Connect Successfully
+2025-12-10 12:20:24 [info] : server is runnning port 5050 
+2025-12-10 12:20:24 [info] : Mongodb Connect Successfully
+2025-12-10 12:20:24 [info] : GET /api/vendor/vendor-data 304 - - 243.227 ms
+2025-12-10 12:20:25 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.971 ms
+2025-12-10 12:20:25 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 33.830 ms
+2025-12-10 12:20:25 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 82.506 ms
+2025-12-10 12:20:26 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 22.848 ms
+2025-12-10 12:20:26 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.221 ms
+2025-12-10 12:20:32 [info] : GET /api/vendor/vendor-data 304 - - 110.360 ms
+2025-12-10 12:20:33 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.137 ms
+2025-12-10 12:20:33 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 34.606 ms
+2025-12-10 12:20:33 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 67.186 ms
+2025-12-10 12:20:38 [info] : GET /api/vendor/vendor-data 304 - - 7.723 ms
+2025-12-10 12:20:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 12.486 ms
+2025-12-10 12:20:41 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.483 ms
+2025-12-10 12:20:41 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 12.076 ms
+2025-12-10 12:20:41 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.801 ms
+2025-12-10 12:20:47 [info] : GET /api/vendor/vendor-data 304 - - 7.839 ms
+2025-12-10 12:20:49 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.198 ms
+2025-12-10 12:20:49 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 26.220 ms
+2025-12-10 12:20:49 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 3.980 ms
+2025-12-10 12:20:54 [info] : GET /api/vendor/vendor-data 304 - - 5.212 ms
+2025-12-10 12:20:58 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.404 ms
+2025-12-10 12:20:58 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 15.510 ms
+2025-12-10 12:20:58 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 10.422 ms
+2025-12-10 12:21:14 [info] : GET /api/vendor/vendor-data 304 - - 161.309 ms
+2025-12-10 12:22:04 [info] : server is runnning port 5050 
+2025-12-10 12:22:04 [info] : Mongodb Connect Successfully
+2025-12-10 12:22:08 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 2.343 ms
+2025-12-10 12:22:08 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 478 - 114.953 ms
+2025-12-10 12:22:08 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 53.234 ms
+2025-12-10 12:22:10 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.150 ms
+2025-12-10 12:22:10 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 500 150 - 10.919 ms
+2025-12-10 12:22:13 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 500 150 - 9.875 ms
+2025-12-10 12:22:54 [info] : server is runnning port 5050 
+2025-12-10 12:22:54 [info] : Mongodb Connect Successfully
+2025-12-10 12:23:28 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 2.481 ms
+2025-12-10 12:23:29 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 478 - 1006.769 ms
+2025-12-10 12:23:29 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1457 - 316.610 ms
+2025-12-10 12:23:34 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.192 ms
+2025-12-10 12:23:34 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 480 - 11.011 ms
+2025-12-10 12:23:34 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1455 - 7.193 ms
+2025-12-10 12:23:37 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 204 0 - 0.224 ms
+2025-12-10 12:23:37 [info] : PATCH /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-block 200 57 - 15.283 ms
+2025-12-10 12:23:37 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 7.000 ms
+2025-12-10 12:23:42 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 0.358 ms
+2025-12-10 12:23:42 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 477 - 9.353 ms
+2025-12-10 12:23:42 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1459 - 4.600 ms
+2025-12-10 12:24:14 [info] : OPTIONS /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 204 0 - 1.517 ms
+2025-12-10 12:24:14 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 482 - 141.371 ms
+2025-12-10 12:24:14 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 55.342 ms
+2025-12-10 12:24:18 [info] : PUT /api/admin/vendors/ced63c60-e691-4e09-a6a9-65c1d1de31e8/toggle-verify 200 477 - 6.149 ms
+2025-12-10 12:24:18 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1462 - 5.004 ms
+2025-12-10 12:24:53 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 244.799 ms
+2025-12-10 12:24:55 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.136 ms
+2025-12-10 12:24:55 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 485 - 506.316 ms
+2025-12-10 12:24:55 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1454 - 4.767 ms
+2025-12-10 12:25:41 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.849 ms
+2025-12-10 12:25:41 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 477 - 94.077 ms
+2025-12-10 12:25:41 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1458 - 52.323 ms
+2025-12-10 12:25:53 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.577 ms
+2025-12-10 12:25:53 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 21.651 ms
+2025-12-10 12:25:53 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1459 - 6.825 ms
+2025-12-10 12:27:13 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1042 - 139.953 ms
+2025-12-10 12:27:16 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.711 ms
+2025-12-10 12:27:16 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 533 - 26.235 ms
+2025-12-10 12:27:16 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.350 ms
+2025-12-10 12:27:17 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 533 - 4.924 ms
+2025-12-10 12:27:17 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.518 ms
+2025-12-10 12:27:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 533 - 10.505 ms
+2025-12-10 12:27:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.076 ms
+2025-12-10 12:27:18 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 533 - 9.788 ms
+2025-12-10 12:27:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.009 ms
+2025-12-10 12:27:20 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.278 ms
+2025-12-10 12:27:20 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 13.917 ms
+2025-12-10 12:27:20 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1043 - 6.119 ms
+2025-12-10 12:27:25 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.088 ms
+2025-12-10 12:27:25 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 4.158 ms
+2025-12-10 12:27:25 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3.668 ms
+2025-12-10 12:27:27 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.179 ms
+2025-12-10 12:27:27 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 10.174 ms
+2025-12-10 12:27:27 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1042 - 6.953 ms
+2025-12-10 12:33:38 [info] : GET /api/vendor/vendor-data 401 26 - 9.165 ms
+2025-12-10 12:33:38 [info] : POST /api/auth/refresh 200 330 - 30.480 ms
+2025-12-10 12:33:38 [info] : GET /api/vendor/vendor-data 304 - - 69.303 ms
+2025-12-10 12:38:56 [info] : server is runnning port 5050 
+2025-12-10 12:38:57 [info] : server is runnning port 5050 
+2025-12-10 12:38:57 [info] : Mongodb Connect Successfully
+2025-12-10 12:40:40 [info] : server is runnning port 5050 
+2025-12-10 12:40:40 [info] : Mongodb Connect Successfully
+2025-12-10 12:41:54 [info] : server is runnning port 5050 
+2025-12-10 12:41:54 [info] : Mongodb Connect Successfully
+2025-12-10 12:41:55 [info] : server is runnning port 5050 
+2025-12-10 12:41:55 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:01 [info] : server is runnning port 5050 
+2025-12-10 12:42:01 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:04 [info] : server is runnning port 5050 
+2025-12-10 12:42:04 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:21 [info] : server is runnning port 5050 
+2025-12-10 12:42:21 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:37 [info] : server is runnning port 5050 
+2025-12-10 12:42:37 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:43 [info] : server is runnning port 5050 
+2025-12-10 12:42:43 [info] : Mongodb Connect Successfully
+2025-12-10 12:42:45 [info] : server is runnning port 5050 
+2025-12-10 12:42:45 [info] : Mongodb Connect Successfully
+2025-12-10 12:43:01 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 2.806 ms
+2025-12-10 12:43:01 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 401 26 - 4.494 ms
+2025-12-10 12:43:01 [info] : POST /api/auth/refresh 200 253 - 14.688 ms
+2025-12-10 12:43:01 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 529 - 455.027 ms
+2025-12-10 12:43:01 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1043 - 140.442 ms
+2025-12-10 12:43:12 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 0.595 ms
+2025-12-10 12:43:12 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 33.148 ms
+2025-12-10 12:43:12 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 4.583 ms
+2025-12-10 12:43:13 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 0.171 ms
+2025-12-10 12:43:13 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 13.203 ms
+2025-12-10 12:43:13 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1045 - 11.809 ms
+2025-12-10 12:43:21 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.162 ms
+2025-12-10 12:43:21 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 539 - 12.482 ms
+2025-12-10 12:43:21 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1054 - 5.838 ms
+2025-12-10 12:43:33 [info] : GET /api/vendor/vendor-data 200 503 - 198.846 ms
+2025-12-10 12:43:37 [info] : OPTIONS /api/vendor/vendor-reapply 204 0 - 0.196 ms
+2025-12-10 12:43:37 [info] : PUT /api/vendor/vendor-reapply 200 567 - 15.811 ms
+2025-12-10 12:43:37 [info] : GET /api/vendor/vendor-data 200 493 - 5.723 ms
+2025-12-10 12:43:42 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 554.878 ms
+2025-12-10 12:43:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 16.292 ms
+2025-12-10 12:44:32 [info] : GET /api/vendor/vendor-data 304 - - 1305.822 ms
+2025-12-10 12:44:38 [info] : GET /api/vendor/vendor-data 304 - - 154.997 ms
+2025-12-10 12:44:57 [info] : GET /api/vendor/vendor-data 304 - - 224.429 ms
+2025-12-10 12:52:07 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 1.306 ms
+2025-12-10 12:52:07 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 549 - 126.008 ms
+2025-12-10 12:52:07 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1064 - 13.506 ms
+2025-12-10 12:52:12 [info] : GET /api/vendor/vendor-data 401 26 - 7.167 ms
+2025-12-10 12:52:12 [info] : POST /api/auth/refresh 200 330 - 22.150 ms
+2025-12-10 12:52:12 [info] : GET /api/vendor/vendor-data 200 513 - 77.624 ms
+2025-12-10 12:52:22 [info] : GET /api/vendor/vendor-data 304 - - 32.690 ms
+2025-12-10 12:52:24 [info] : OPTIONS /api/vendor/vendor-reapply 204 0 - 0.150 ms
+2025-12-10 12:52:24 [info] : PUT /api/vendor/vendor-reapply 200 567 - 152.349 ms
+2025-12-10 12:52:24 [info] : GET /api/vendor/vendor-data 200 493 - 4.518 ms
+2025-12-10 12:52:29 [info] : GET /api/vendor/vendor-data 304 - - 249.054 ms
+2025-12-10 12:52:33 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 208.767 ms
+2025-12-10 12:52:35 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 18.510 ms
+2025-12-10 12:53:04 [info] : GET /api/vendor/vendor-data 304 - - 1620.181 ms
+2025-12-10 12:53:04 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1543.460 ms
+2025-12-10 12:53:05 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 7.797 ms
+2025-12-10 12:53:10 [info] : GET /api/vendor/vendor-data 304 - - 8.883 ms
+2025-12-10 12:53:18 [info] : GET /api/vendor/vendor-data 304 - - 82.668 ms
+2025-12-10 12:53:30 [info] : GET /api/vendor/vendor-data 304 - - 97.976 ms
+2025-12-10 12:53:40 [info] : GET /api/vendor/vendor-data 304 - - 12.956 ms
+2025-12-10 12:53:53 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.227 ms
+2025-12-10 12:53:53 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 530 - 25.656 ms
+2025-12-10 12:53:53 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1045 - 10.751 ms
+2025-12-10 12:54:00 [info] : GET /api/vendor/vendor-data 200 494 - 44.151 ms
+2025-12-10 12:54:03 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.632 ms
+2025-12-10 12:54:03 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 534 - 14.466 ms
+2025-12-10 12:54:03 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1049 - 15.264 ms
+2025-12-10 12:54:07 [info] : GET /api/vendor/vendor-data 200 498 - 3.349 ms
+2025-12-10 12:54:10 [info] : OPTIONS /api/vendor/vendor-reapply 204 0 - 0.366 ms
+2025-12-10 12:54:10 [info] : PUT /api/vendor/vendor-reapply 200 567 - 12.453 ms
+2025-12-10 12:54:10 [info] : GET /api/vendor/vendor-data 200 493 - 3.099 ms
+2025-12-10 12:54:15 [info] : GET /api/vendor/vendor-data 304 - - 13.384 ms
+2025-12-10 12:54:17 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 8.034 ms
+2025-12-10 12:54:23 [info] : GET /api/vendor/vendor-data 304 - - 720.813 ms
+2025-12-10 12:57:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 2698.041 ms
+2025-12-10 12:57:48 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 1.890 ms
+2025-12-10 12:57:48 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 530 - 119.047 ms
+2025-12-10 12:57:48 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1045 - 6.946 ms
+2025-12-10 12:57:53 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.171 ms
+2025-12-10 12:57:53 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 540 - 5.579 ms
+2025-12-10 12:57:53 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1055 - 3.862 ms
+2025-12-10 12:57:58 [info] : GET /api/vendor/vendor-data 200 504 - 11.121 ms
+2025-12-10 12:58:02 [info] : OPTIONS /api/vendor/vendor-reapply 204 0 - 0.294 ms
+2025-12-10 12:58:02 [info] : PUT /api/vendor/vendor-reapply 200 567 - 58.747 ms
+2025-12-10 12:58:02 [info] : GET /api/vendor/vendor-data 200 493 - 1.490 ms
+2025-12-10 12:58:07 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 1.045 ms
+2025-12-10 12:58:07 [info] : POST /api/auth/refresh 200 253 - 18.934 ms
+2025-12-10 12:58:07 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 481.067 ms
+2025-12-10 12:59:40 [info] : GET /api/vendor/vendor-data 304 - - 176.473 ms
+2025-12-10 12:59:42 [info] : GET /api/vendor/vendor-data 304 - - 27.274 ms
+2025-12-10 13:00:12 [info] : GET /api/vendor/vendor-data 304 - - 124.115 ms
+2025-12-10 13:00:48 [info] : GET /api/vendor/vendor-data 304 - - 106.626 ms
+2025-12-10 13:01:04 [info] : GET /api/vendor/vendor-data 304 - - 203.297 ms
+2025-12-10 13:01:58 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 492.683 ms
+2025-12-10 13:02:36 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 204 0 - 0.849 ms
+2025-12-10 13:02:36 [info] : PUT /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-verify 200 530 - 138.420 ms
+2025-12-10 13:02:36 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1045 - 50.670 ms
+2025-12-10 13:02:59 [info] : GET /api/vendor/vendor-data 200 494 - 90.800 ms
+2025-12-10 13:03:04 [info] : GET /api/vendor/get-vendorproduct 200 26 - 66.261 ms
+2025-12-10 13:03:05 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 120.142 ms
+2025-12-10 13:03:15 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.123 ms
+2025-12-10 13:03:15 [info] : POST /api/vendor/vendor-addproduct 201 1026 - 92.530 ms
+2025-12-10 13:03:54 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 85.184 ms
+2025-12-10 13:04:10 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 135.312 ms
+2025-12-10 13:04:10 [info] : GET /api/vendor/vendor-data 304 - - 398.303 ms
+2025-12-10 13:04:24 [info] : GET /api/vendor/vendor-data 304 - - 97.674 ms
+2025-12-10 13:04:24 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 230.951 ms
+2025-12-10 13:04:56 [info] : GET /api/vendor/vendor-data 304 - - 220.148 ms
+2025-12-10 13:04:56 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 338.687 ms
+2025-12-10 13:05:12 [info] : GET /api/vendor/get-vendorproduct 200 1000 - 28.024 ms
+2025-12-10 13:05:37 [info] : GET /api/vendor/get-vendorproduct 304 - - 1117.508 ms
+2025-12-10 13:05:37 [info] : GET /api/vendor/vendor-data 304 - - 1165.777 ms
+2025-12-10 13:05:59 [info] : GET /api/vendor/get-vendorproduct 304 - - 107.235 ms
+2025-12-10 13:05:59 [info] : GET /api/vendor/vendor-data 304 - - 140.797 ms
+2025-12-10 13:06:15 [info] : GET /api/vendor/vendor-data 304 - - 202.224 ms
+2025-12-10 13:07:40 [info] : server is runnning port 5050 
+2025-12-10 13:07:40 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:43 [info] : server is runnning port 5050 
+2025-12-10 13:07:43 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:45 [info] : server is runnning port 5050 
+2025-12-10 13:07:45 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:48 [info] : server is runnning port 5050 
+2025-12-10 13:07:48 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:53 [info] : server is runnning port 5050 
+2025-12-10 13:07:53 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:55 [info] : server is runnning port 5050 
+2025-12-10 13:07:55 [info] : Mongodb Connect Successfully
+2025-12-10 13:07:58 [info] : server is runnning port 5050 
+2025-12-10 13:07:58 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:25 [info] : server is runnning port 5050 
+2025-12-10 13:08:25 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:27 [info] : server is runnning port 5050 
+2025-12-10 13:08:27 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:38 [info] : server is runnning port 5050 
+2025-12-10 13:08:38 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:44 [info] : server is runnning port 5050 
+2025-12-10 13:08:44 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:51 [info] : server is runnning port 5050 
+2025-12-10 13:08:51 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:55 [info] : server is runnning port 5050 
+2025-12-10 13:08:55 [info] : Mongodb Connect Successfully
+2025-12-10 13:08:56 [info] : server is runnning port 5050 
+2025-12-10 13:08:56 [info] : Mongodb Connect Successfully
+2025-12-10 13:09:00 [info] : server is runnning port 5050 
+2025-12-10 13:09:00 [info] : Mongodb Connect Successfully
+2025-12-10 13:09:02 [info] : server is runnning port 5050 
+2025-12-10 13:09:02 [info] : Mongodb Connect Successfully
+2025-12-10 13:09:04 [info] : server is runnning port 5050 
+2025-12-10 13:09:04 [info] : Mongodb Connect Successfully
+2025-12-10 13:09:09 [info] : server is runnning port 5050 
+2025-12-10 13:09:09 [info] : Mongodb Connect Successfully
+2025-12-10 13:09:58 [info] : server is runnning port 5050 
+2025-12-10 13:09:58 [info] : Mongodb Connect Successfully
+2025-12-10 13:10:01 [info] : server is runnning port 5050 
+2025-12-10 13:10:01 [info] : Mongodb Connect Successfully
+2025-12-10 13:10:06 [info] : server is runnning port 5050 
+2025-12-10 13:10:06 [info] : Mongodb Connect Successfully
+2025-12-10 13:10:15 [info] : server is runnning port 5050 
+2025-12-10 13:10:15 [info] : Mongodb Connect Successfully
+2025-12-10 13:10:21 [info] : server is runnning port 5050 
+2025-12-10 13:10:21 [info] : Mongodb Connect Successfully
+2025-12-10 13:10:49 [info] : GET /api/vendor/get-vendorproduct 401 26 - 2.999 ms
+2025-12-10 13:10:49 [info] : GET /api/vendor/vendor-data 401 26 - 0.734 ms
+2025-12-10 13:10:49 [info] : POST /api/auth/refresh 200 330 - 6.321 ms
+2025-12-10 13:10:49 [info] : POST /api/auth/refresh 200 330 - 1.461 ms
+2025-12-10 13:10:49 [info] : GET /api/vendor/vendor-data 304 - - 119.580 ms
+2025-12-10 13:10:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 132.120 ms
+2025-12-10 13:10:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 85.886 ms
+2025-12-10 13:11:31 [info] : GET /api/vendor/vendor-data 304 - - 140.099 ms
+2025-12-10 13:11:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 208.372 ms
+2025-12-10 13:11:51 [info] : GET /api/vendor/vendor-data 304 - - 21.514 ms
+2025-12-10 13:11:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 12.415 ms
+2025-12-10 13:12:18 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.845 ms
+2025-12-10 13:12:18 [info] : GET /api/vendor/vendor-data 304 - - 6.764 ms
+2025-12-10 13:12:26 [info] : GET /api/vendor/vendor-data 304 - - 10.254 ms
+2025-12-10 13:12:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 4.657 ms
+2025-12-10 13:14:25 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.938 ms
+2025-12-10 13:14:25 [info] : POST /api/vendor/vendor-addproduct 400 45 - 74.876 ms
+2025-12-10 13:14:47 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.454 ms
+2025-12-10 13:14:48 [info] : POST /api/vendor/vendor-addproduct 400 45 - 91.439 ms
+2025-12-10 13:14:56 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.135 ms
+2025-12-10 13:14:56 [info] : POST /api/vendor/vendor-addproduct 201 607 - 45.188 ms
+2025-12-10 13:15:11 [info] : GET /api/vendor/vendor-data 304 - - 116.052 ms
+2025-12-10 13:15:11 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 118.492 ms
+2025-12-10 13:15:15 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.104 ms
+2025-12-10 13:15:15 [info] : POST /api/vendor/vendor-addproduct 400 45 - 8.039 ms
+2025-12-10 13:26:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 401 26 - 11.883 ms
+2025-12-10 13:26:22 [info] : GET /api/vendor/vendor-data 401 26 - 2.340 ms
+2025-12-10 13:26:22 [info] : POST /api/auth/refresh 200 330 - 19.035 ms
+2025-12-10 13:26:22 [info] : POST /api/auth/refresh 200 330 - 1.782 ms
+2025-12-10 13:26:23 [info] : GET /api/vendor/vendor-data 304 - - 119.917 ms
+2025-12-10 13:26:23 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 158.178 ms
+2025-12-10 13:26:51 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 4.527 ms
+2025-12-10 13:26:51 [info] : POST /api/vendor/vendor-addproduct 400 45 - 82.693 ms
+2025-12-10 13:26:59 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.407 ms
+2025-12-10 13:26:59 [info] : POST /api/vendor/vendor-addproduct 201 633 - 95.876 ms
+2025-12-10 13:27:25 [info] : GET /api/vendor/vendor-data 304 - - 131.755 ms
+2025-12-10 13:27:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 1597.653 ms
+2025-12-10 13:27:44 [info] : GET /api/vendor/vendor-data 304 - - 233.686 ms
+2025-12-10 13:27:44 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 218.220 ms
+2025-12-10 13:28:17 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.546 ms
+2025-12-10 13:28:17 [info] : POST /api/vendor/vendor-addproduct 400 45 - 31.596 ms
+2025-12-10 13:28:27 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.426 ms
+2025-12-10 13:28:28 [info] : POST /api/vendor/vendor-addproduct 201 734 - 41.221 ms
+2025-12-10 13:28:31 [info] : GET /api/vendor/get-vendorproduct 200 2821 - 64.853 ms
+2025-12-10 13:28:53 [info] : GET /api/vendor/vendor-data 304 - - 1326.440 ms
+2025-12-10 13:28:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 1376.039 ms
+2025-12-10 13:30:06 [info] : GET /api/vendor/vendor-data 304 - - 59.746 ms
+2025-12-10 13:30:06 [info] : GET /api/vendor/get-vendorproduct 304 - - 85.345 ms
+2025-12-10 13:31:09 [info] : GET /api/vendor/get-vendorproduct 304 - - 531.975 ms
+2025-12-10 13:31:12 [info] : GET /api/vendor/get-vendorproduct 304 - - 23.017 ms
+2025-12-10 13:31:12 [info] : GET /api/vendor/vendor-data 304 - - 43.699 ms
+2025-12-10 13:31:14 [info] : GET /api/vendor/vendor-data 304 - - 2.470 ms
+2025-12-10 13:31:14 [info] : GET /api/vendor/get-vendorproduct 304 - - 3.441 ms
+2025-12-10 13:31:17 [info] : GET /api/vendor/vendor-data 304 - - 2.795 ms
+2025-12-10 13:31:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 8.254 ms
+2025-12-10 13:31:50 [info] : GET /api/vendor/get-vendorproduct 304 - - 43.438 ms
+2025-12-10 13:31:51 [info] : GET /api/vendor/vendor-data 304 - - 222.857 ms
+2025-12-10 13:32:00 [info] : GET /api/vendor/vendor-data 304 - - 50.402 ms
+2025-12-10 13:32:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 119.517 ms
+2025-12-10 13:36:39 [info] : GET /api/vendor/vendor-data 304 - - 181.746 ms
+2025-12-10 13:36:39 [info] : GET /api/vendor/get-vendorproduct 304 - - 214.076 ms
+2025-12-10 13:36:53 [info] : GET /api/vendor/vendor-data 304 - - 1280.792 ms
+2025-12-10 13:36:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 1247.078 ms
+2025-12-10 13:36:55 [info] : GET /api/vendor/vendor-data 304 - - 7.786 ms
+2025-12-10 13:36:55 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.565 ms
+2025-12-10 13:37:12 [info] : GET /api/vendor/get-vendorproduct 304 - - 105.873 ms
+2025-12-10 13:37:13 [info] : GET /api/vendor/vendor-data 304 - - 133.304 ms
+2025-12-10 13:37:30 [info] : GET /api/vendor/get-vendorproduct 304 - - 182.488 ms
+2025-12-10 13:37:30 [info] : GET /api/vendor/vendor-data 304 - - 216.652 ms
+2025-12-10 13:38:08 [info] : GET /api/vendor/vendor-data 304 - - 99.780 ms
+2025-12-10 13:38:08 [info] : GET /api/vendor/get-vendorproduct 304 - - 134.627 ms
+2025-12-10 13:38:49 [info] : GET /api/vendor/vendor-data 304 - - 24.110 ms
+2025-12-10 13:38:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 54.870 ms
+2025-12-10 13:39:02 [info] : GET /api/vendor/vendor-data 304 - - 2052.400 ms
+2025-12-10 13:39:02 [info] : GET /api/vendor/get-vendorproduct 304 - - 2282.327 ms
+2025-12-10 13:39:30 [info] : GET /api/vendor/vendor-data 304 - - 129.415 ms
+2025-12-10 13:39:30 [info] : GET /api/vendor/get-vendorproduct 304 - - 114.880 ms
+2025-12-10 13:41:30 [info] : GET /api/vendor/get-vendorproduct 401 26 - 24.802 ms
+2025-12-10 13:41:30 [info] : GET /api/vendor/vendor-data 401 26 - 0.079 ms
+2025-12-10 13:41:30 [info] : POST /api/auth/refresh 200 330 - 22.626 ms
+2025-12-10 13:41:30 [info] : POST /api/auth/refresh 200 330 - 0.276 ms
+2025-12-10 13:41:31 [info] : GET /api/vendor/get-vendorproduct 304 - - 1047.287 ms
+2025-12-10 13:41:31 [info] : GET /api/vendor/vendor-data 304 - - 1035.860 ms
+2025-12-10 13:42:10 [info] : GET /api/vendor/vendor-data 304 - - 176.096 ms
+2025-12-10 13:42:10 [info] : GET /api/vendor/get-vendorproduct 304 - - 151.212 ms
+2025-12-10 14:11:21 [info] : GET /api/vendor/get-vendorproduct 401 26 - 8.626 ms
+2025-12-10 14:11:21 [info] : POST /api/auth/refresh 200 330 - 20.879 ms
+2025-12-10 14:11:21 [info] : GET /api/vendor/vendor-data 401 26 - 0.075 ms
+2025-12-10 14:11:21 [info] : POST /api/auth/refresh 200 330 - 0.228 ms
+2025-12-10 14:11:21 [info] : GET /api/vendor/vendor-data 304 - - 116.188 ms
+2025-12-10 14:11:21 [info] : GET /api/vendor/get-vendorproduct 304 - - 126.776 ms
+2025-12-10 14:12:01 [info] : GET /api/vendor/get-vendorproduct 304 - - 16.532 ms
+2025-12-10 14:12:01 [info] : GET /api/vendor/vendor-data 304 - - 74.354 ms
+2025-12-10 14:13:32 [info] : GET /api/vendor/get-vendorproduct 304 - - 1275.071 ms
+2025-12-10 14:13:32 [info] : GET /api/vendor/vendor-data 304 - - 1404.665 ms
+2025-12-10 14:18:03 [info] : GET /api/vendor/vendor-data 304 - - 153.987 ms
+2025-12-10 14:18:03 [info] : GET /api/vendor/get-vendorproduct 304 - - 145.988 ms
+2025-12-10 14:20:16 [info] : GET /api/vendor/get-vendorproduct 304 - - 1041.878 ms
+2025-12-10 14:20:16 [info] : GET /api/vendor/vendor-data 304 - - 1087.719 ms
+2025-12-10 14:26:04 [info] : GET /api/vendor/vendor-data 304 - - 128.252 ms
+2025-12-10 14:26:04 [info] : GET /api/vendor/get-vendorproduct 304 - - 161.511 ms
+2025-12-10 14:30:32 [info] : GET /api/vendor/get-vendorproduct 401 26 - 14.881 ms
+2025-12-10 14:30:32 [info] : POST /api/auth/refresh 200 330 - 9.886 ms
+2025-12-10 14:30:32 [info] : GET /api/vendor/vendor-data 401 26 - 0.057 ms
+2025-12-10 14:30:32 [info] : POST /api/auth/refresh 200 330 - 1.574 ms
+2025-12-10 14:30:32 [info] : GET /api/vendor/vendor-data 304 - - 77.123 ms
+2025-12-10 14:30:32 [info] : GET /api/vendor/get-vendorproduct 304 - - 88.657 ms
+2025-12-10 14:36:40 [info] : GET /api/vendor/vendor-data 304 - - 237.417 ms
+2025-12-10 14:36:40 [info] : GET /api/vendor/get-vendorproduct 304 - - 33.271 ms
+2025-12-10 14:36:43 [info] : GET /api/vendor/vendor-data 304 - - 6.575 ms
+2025-12-10 14:36:43 [info] : GET /api/vendor/get-vendorproduct 304 - - 11.692 ms
+2025-12-10 14:37:01 [info] : GET /api/vendor/get-vendorproduct 304 - - 94.187 ms
+2025-12-10 14:37:02 [info] : GET /api/vendor/vendor-data 304 - - 798.615 ms
+2025-12-10 14:37:52 [info] : GET /api/vendor/vendor-data 304 - - 671.465 ms
+2025-12-10 14:37:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 634.917 ms
+2025-12-10 14:38:06 [info] : GET /api/vendor/vendor-data 304 - - 1744.707 ms
+2025-12-10 14:38:06 [info] : GET /api/vendor/get-vendorproduct 304 - - 1843.461 ms
+2025-12-10 14:38:11 [info] : GET /api/vendor/vendor-data 304 - - 36.162 ms
+2025-12-10 14:38:11 [info] : GET /api/vendor/get-vendorproduct 304 - - 28.866 ms
+2025-12-10 14:38:27 [info] : GET /api/vendor/get-vendorproduct 304 - - 655.925 ms
+2025-12-10 14:38:27 [info] : GET /api/vendor/vendor-data 304 - - 680.599 ms
+2025-12-10 14:40:44 [info] : GET /api/vendor/vendor-data 304 - - 414.071 ms
+2025-12-10 14:40:44 [info] : GET /api/vendor/get-vendorproduct 304 - - 399.944 ms
+2025-12-10 14:42:44 [info] : GET /api/vendor/get-vendorproduct 304 - - 139.367 ms
+2025-12-10 14:42:44 [info] : GET /api/vendor/vendor-data 304 - - 166.506 ms
+2025-12-10 14:43:57 [info] : GET /api/vendor/vendor-data 304 - - 171.426 ms
+2025-12-10 14:43:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 203.445 ms
+2025-12-10 14:43:59 [info] : GET /api/vendor/vendor-data 304 - - 32.075 ms
+2025-12-10 14:43:59 [info] : GET /api/vendor/get-vendorproduct 304 - - 11.656 ms
+2025-12-10 14:44:36 [info] : GET /api/vendor/get-vendorproduct 304 - - 80.385 ms
+2025-12-10 14:44:36 [info] : GET /api/vendor/vendor-data 304 - - 70.205 ms
+2025-12-10 14:44:58 [info] : GET /api/vendor/vendor-data 304 - - 35.124 ms
+2025-12-10 14:44:58 [info] : GET /api/vendor/get-vendorproduct 304 - - 41.153 ms
+2025-12-10 14:45:00 [info] : GET /api/vendor/vendor-data 304 - - 18.298 ms
+2025-12-10 14:45:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.127 ms
+2025-12-10 14:45:27 [info] : GET /api/vendor/vendor-data 304 - - 87.860 ms
+2025-12-10 14:45:27 [info] : GET /api/vendor/get-vendorproduct 304 - - 130.638 ms
+2025-12-10 14:45:43 [info] : GET /api/vendor/vendor-data 401 26 - 0.884 ms
+2025-12-10 14:45:43 [info] : GET /api/vendor/get-vendorproduct 401 26 - 0.373 ms
+2025-12-10 14:45:43 [info] : POST /api/auth/refresh 200 330 - 29.585 ms
+2025-12-10 14:45:43 [info] : POST /api/auth/refresh 200 330 - 45.899 ms
+2025-12-10 14:45:43 [info] : GET /api/vendor/vendor-data 304 - - 56.141 ms
+2025-12-10 14:45:43 [info] : GET /api/vendor/get-vendorproduct 304 - - 5.722 ms
+2025-12-10 14:45:46 [info] : GET /api/vendor/vendor-data 304 - - 17.771 ms
+2025-12-10 14:45:46 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.561 ms
+2025-12-10 14:45:58 [info] : GET /api/vendor/vendor-data 304 - - 17.744 ms
+2025-12-10 14:45:58 [info] : GET /api/vendor/get-vendorproduct 304 - - 14.947 ms
+2025-12-10 14:47:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 136.624 ms
+2025-12-10 14:58:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 112.900 ms
+2025-12-10 14:58:59 [info] : GET /api/vendor/get-vendorproduct 304 - - 69.500 ms
+2025-12-10 14:59:00 [info] : GET /api/vendor/vendor-data 304 - - 325.456 ms
+2025-12-10 15:00:22 [info] : GET /api/vendor/get-vendorproduct 304 - - 79.639 ms
+2025-12-10 15:00:26 [info] : GET /api/vendor/get-vendorproduct 304 - - 3.353 ms
+2025-12-10 15:00:33 [info] : GET /api/vendor/get-vendorproduct 304 - - 2138.470 ms
+2025-12-10 15:00:33 [info] : GET /api/vendor/vendor-data 304 - - 2096.649 ms
+2025-12-10 15:02:23 [info] : GET /api/vendor/get-vendorproduct 401 26 - 1.067 ms
+2025-12-10 15:02:23 [info] : POST /api/auth/refresh 200 330 - 11.342 ms
+2025-12-10 15:02:23 [info] : GET /api/vendor/get-vendorproduct 304 - - 120.318 ms
+2025-12-10 15:04:01 [info] : server is runnning port 5050 
+2025-12-10 15:04:01 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:15 [info] : server is runnning port 5050 
+2025-12-10 15:04:15 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:23 [info] : server is runnning port 5050 
+2025-12-10 15:04:23 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:36 [info] : server is runnning port 5050 
+2025-12-10 15:04:36 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:43 [info] : server is runnning port 5050 
+2025-12-10 15:04:43 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:45 [info] : server is runnning port 5050 
+2025-12-10 15:04:45 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:49 [info] : server is runnning port 5050 
+2025-12-10 15:04:49 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:51 [info] : server is runnning port 5050 
+2025-12-10 15:04:51 [info] : Mongodb Connect Successfully
+2025-12-10 15:04:53 [info] : server is runnning port 5050 
+2025-12-10 15:04:53 [info] : Mongodb Connect Successfully
+2025-12-10 15:05:01 [info] : server is runnning port 5050 
+2025-12-10 15:05:01 [info] : Mongodb Connect Successfully
+2025-12-10 15:05:07 [info] : GET /api/vendor/vendor-data 304 - - 92.716 ms
+2025-12-10 15:05:07 [info] : GET /api/vendor/get-vendorproduct 304 - - 187.373 ms
+2025-12-10 15:05:21 [info] : GET /api/vendor/vendor-data 304 - - 20.366 ms
+2025-12-10 15:05:21 [info] : GET /api/vendor/get-vendorproduct 304 - - 13.872 ms
+2025-12-10 15:05:27 [info] : server is runnning port 5050 
+2025-12-10 15:05:27 [info] : Mongodb Connect Successfully
+2025-12-10 15:05:35 [info] : GET /api/vendor/vendor-data 304 - - 70.176 ms
+2025-12-10 15:05:35 [info] : GET /api/vendor/get-vendorproduct 304 - - 65.967 ms
+2025-12-10 15:05:43 [info] : server is runnning port 5050 
+2025-12-10 15:05:43 [info] : Mongodb Connect Successfully
+2025-12-10 15:05:56 [info] : GET /api/vendor/get-vendorproduct 304 - - 88.379 ms
+2025-12-10 15:05:56 [info] : GET /api/vendor/vendor-data 304 - - 108.200 ms
+2025-12-10 15:08:07 [info] : GET /api/vendor/vendor-data 304 - - 462.990 ms
+2025-12-10 15:08:07 [info] : GET /api/vendor/get-vendorproduct 304 - - 490.676 ms
+2025-12-10 15:09:31 [info] : GET /api/vendor/get-vendorproduct 304 - - 952.650 ms
+2025-12-10 15:09:31 [info] : GET /api/vendor/vendor-data 304 - - 922.379 ms
+2025-12-10 15:09:37 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.726 ms
+2025-12-10 15:09:37 [info] : GET /api/vendor/vendor-data 304 - - 30.293 ms
+2025-12-10 15:09:57 [info] : GET /api/vendor/vendor-data 304 - - 13.744 ms
+2025-12-10 15:09:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.561 ms
+2025-12-10 15:12:12 [info] : GET /api/vendor/vendor-data 304 - - 112.014 ms
+2025-12-10 15:12:12 [info] : GET /api/vendor/get-vendorproduct 304 - - 152.044 ms
+2025-12-10 15:15:41 [info] : server is runnning port 5050 
+2025-12-10 15:15:41 [info] : Mongodb Connect Successfully
+2025-12-10 15:15:48 [info] : server is runnning port 5050 
+2025-12-10 15:15:48 [info] : Mongodb Connect Successfully
+2025-12-10 15:15:51 [info] : server is runnning port 5050 
+2025-12-10 15:15:51 [info] : Mongodb Connect Successfully
+2025-12-10 15:15:53 [info] : server is runnning port 5050 
+2025-12-10 15:15:53 [info] : Mongodb Connect Successfully
+2025-12-10 15:15:55 [info] : server is runnning port 5050 
+2025-12-10 15:15:55 [info] : Mongodb Connect Successfully
+2025-12-10 15:17:51 [info] : server is runnning port 5050 
+2025-12-10 15:17:51 [info] : Mongodb Connect Successfully
+2025-12-10 15:17:59 [info] : server is runnning port 5050 
+2025-12-10 15:17:59 [info] : Mongodb Connect Successfully
+2025-12-10 15:18:21 [info] : server is runnning port 5050 
+2025-12-10 15:18:21 [info] : Mongodb Connect Successfully
+2025-12-10 15:29:36 [info] : GET /api/vendor/get-vendorproduct 401 26 - 5.923 ms
+2025-12-10 15:29:36 [info] : POST /api/auth/refresh 200 330 - 15.624 ms
+2025-12-10 15:29:37 [info] : GET /api/vendor/get-vendorproduct 304 - - 1054.407 ms
+2025-12-10 15:30:45 [info] : GET /api/vendor/get-vendorproduct 304 - - 322.284 ms
+2025-12-10 15:31:05 [info] : GET /api/vendor/get-vendorproduct 304 - - 211.883 ms
+2025-12-10 15:32:23 [info] : GET /api/vendor/get-vendorproduct 304 - - 719.523 ms
+2025-12-10 15:32:34 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.875 ms
+2025-12-10 15:34:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 327.195 ms
+2025-12-10 15:34:17 [info] : GET /api/vendor/vendor-data 304 - - 317.463 ms
+2025-12-10 15:35:48 [info] : GET /api/vendor/get-vendorproduct 304 - - 187.215 ms
+2025-12-10 15:35:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 25.599 ms
+2025-12-10 15:35:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 17.507 ms
+2025-12-10 15:36:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 124.378 ms
+2025-12-10 15:37:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 18.738 ms
+2025-12-10 15:37:02 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.053 ms
+2025-12-10 15:39:55 [info] : GET /api/vendor/get-vendorproduct 304 - - 309.847 ms
+2025-12-10 15:40:39 [info] : GET /api/vendor/get-vendorproduct 304 - - 170.100 ms
+2025-12-10 15:40:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 12.898 ms
+2025-12-10 15:44:08 [info] : GET /api/vendor/get-vendorproduct 304 - - 138.720 ms
+2025-12-10 15:51:44 [info] : server is runnning port 5050 
+2025-12-10 15:51:44 [info] : Mongodb Connect Successfully
+2025-12-10 15:51:47 [info] : server is runnning port 5050 
+2025-12-10 15:51:47 [info] : Mongodb Connect Successfully
+2025-12-10 15:51:57 [info] : server is runnning port 5050 
+2025-12-10 15:51:57 [info] : Mongodb Connect Successfully
+2025-12-10 15:51:59 [info] : server is runnning port 5050 
+2025-12-10 15:51:59 [info] : Mongodb Connect Successfully
+2025-12-10 15:52:01 [info] : server is runnning port 5050 
+2025-12-10 15:52:01 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:03 [info] : server is runnning port 5050 
+2025-12-10 15:53:03 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:09 [info] : server is runnning port 5050 
+2025-12-10 15:53:09 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:15 [info] : server is runnning port 5050 
+2025-12-10 15:53:15 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:18 [info] : server is runnning port 5050 
+2025-12-10 15:53:18 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:23 [info] : server is runnning port 5050 
+2025-12-10 15:53:23 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:26 [info] : server is runnning port 5050 
+2025-12-10 15:53:26 [info] : Mongodb Connect Successfully
+2025-12-10 15:53:29 [info] : server is runnning port 5050 
+2025-12-10 15:53:29 [info] : Mongodb Connect Successfully
+2025-12-10 15:54:21 [info] : GET /api/vendor/get-vendorproduct 401 26 - 3.051 ms
+2025-12-10 15:54:21 [info] : POST /api/auth/refresh 200 330 - 9.437 ms
+2025-12-10 15:54:22 [info] : GET /api/vendor/get-vendorproduct 304 - - 553.040 ms
+2025-12-10 15:54:33 [info] : GET /api/vendor/get-vendorproduct 304 - - 28.389 ms
+2025-12-10 15:54:36 [info] : GET /api/vendor/get-vendorproduct 304 - - 14.866 ms
+2025-12-10 15:54:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 23.569 ms
+2025-12-10 15:54:56 [info] : GET /api/vendor/get-vendorproduct 304 - - 37.477 ms
+2025-12-10 15:54:56 [info] : GET /api/vendor/vendor-data 304 - - 306.467 ms
+2025-12-10 15:57:14 [info] : GET /api/vendor/get-vendorproduct 304 - - 85.280 ms
+2025-12-10 15:57:19 [info] : GET /api/vendor/get-vendorproduct 304 - - 15.105 ms
+2025-12-10 15:57:23 [info] : GET /api/vendor/get-vendorproduct 304 - - 15.778 ms
+2025-12-10 15:57:47 [info] : GET /api/vendor/get-vendorproduct 304 - - 16.351 ms
+2025-12-10 15:58:05 [info] : GET /api/vendor/get-vendorproduct 304 - - 27.125 ms
+2025-12-10 16:06:30 [info] : GET /api/vendor/get-vendorproduct 304 - - 274.177 ms
+2025-12-10 16:06:30 [info] : GET /api/vendor/vendor-data 304 - - 522.850 ms
+2025-12-10 16:06:47 [info] : GET /api/vendor/get-vendorproduct 304 - - 11.218 ms
+2025-12-10 16:06:47 [info] : GET /api/vendor/vendor-data 304 - - 40.662 ms
+2025-12-10 16:07:02 [info] : GET /api/vendor/vendor-data 304 - - 163.768 ms
+2025-12-10 16:07:02 [info] : GET /api/vendor/get-vendorproduct 304 - - 154.207 ms
+2025-12-10 16:07:22 [info] : GET /api/vendor/vendor-data 304 - - 2228.765 ms
+2025-12-10 16:07:22 [info] : GET /api/vendor/get-vendorproduct 304 - - 2422.018 ms
+2025-12-10 16:07:25 [info] : GET /api/vendor/vendor-data 304 - - 21.755 ms
+2025-12-10 16:07:25 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.807 ms
+2025-12-10 16:07:31 [info] : GET /api/vendor/vendor-data 304 - - 147.188 ms
+2025-12-10 16:07:31 [info] : GET /api/vendor/get-vendorproduct 304 - - 78.550 ms
+2025-12-10 16:07:41 [info] : GET /api/vendor/vendor-data 304 - - 78.903 ms
+2025-12-10 16:07:41 [info] : GET /api/vendor/get-vendorproduct 304 - - 113.488 ms
+2025-12-10 16:07:51 [info] : GET /api/vendor/vendor-data 304 - - 110.208 ms
+2025-12-10 16:07:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 87.195 ms
+2025-12-10 16:07:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 102.016 ms
+2025-12-10 16:07:57 [info] : GET /api/vendor/vendor-data 304 - - 35.723 ms
+2025-12-10 16:08:14 [info] : GET /api/vendor/get-vendorproduct 304 - - 947.342 ms
+2025-12-10 16:08:14 [info] : GET /api/vendor/vendor-data 304 - - 1266.361 ms
+2025-12-10 16:12:37 [info] : GET /api/vendor/vendor-data 401 26 - 7.480 ms
+2025-12-10 16:12:37 [info] : POST /api/auth/refresh 200 330 - 29.278 ms
+2025-12-10 16:12:37 [info] : GET /api/vendor/get-vendorproduct 401 26 - 0.225 ms
+2025-12-10 16:12:37 [info] : POST /api/auth/refresh 200 330 - 0.932 ms
+2025-12-10 16:12:38 [info] : GET /api/vendor/vendor-data 304 - - 132.577 ms
+2025-12-10 16:12:38 [info] : GET /api/vendor/get-vendorproduct 304 - - 115.940 ms
+2025-12-10 16:12:41 [info] : GET /api/vendor/vendor-data 304 - - 17.150 ms
+2025-12-10 16:12:41 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.780 ms
+2025-12-10 16:34:36 [info] : GET /api/vendor/vendor-data 401 26 - 41.886 ms
+2025-12-10 16:34:36 [info] : POST /api/auth/refresh 200 330 - 128.266 ms
+2025-12-10 16:34:36 [info] : GET /api/vendor/get-vendorproduct 401 26 - 0.075 ms
+2025-12-10 16:34:36 [info] : POST /api/auth/refresh 200 330 - 2.068 ms
+2025-12-10 16:34:37 [info] : GET /api/vendor/vendor-data 304 - - 833.678 ms
+2025-12-10 16:34:37 [info] : GET /api/vendor/get-vendorproduct 304 - - 762.440 ms
+2025-12-10 16:34:49 [info] : GET /api/vendor/vendor-data 304 - - 258.289 ms
+2025-12-10 16:34:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 196.998 ms
+2025-12-10 16:35:06 [info] : GET /api/vendor/vendor-data 304 - - 335.946 ms
+2025-12-10 16:35:06 [info] : GET /api/vendor/get-vendorproduct 304 - - 402.254 ms
+2025-12-10 16:35:51 [info] : GET /api/vendor/vendor-data 304 - - 1027.863 ms
+2025-12-10 16:35:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 1109.772 ms
+2025-12-10 16:36:10 [info] : GET /api/vendor/vendor-data 304 - - 2867.823 ms
+2025-12-10 16:36:10 [info] : GET /api/vendor/get-vendorproduct 304 - - 2692.571 ms
+2025-12-10 16:36:22 [info] : GET /api/vendor/vendor-data 304 - - 1845.968 ms
+2025-12-10 16:36:22 [info] : GET /api/vendor/get-vendorproduct 304 - - 1760.430 ms
+2025-12-10 16:36:46 [info] : GET /api/vendor/get-vendorproduct 304 - - 1245.905 ms
+2025-12-10 16:36:46 [info] : GET /api/vendor/vendor-data 304 - - 1353.224 ms
+2025-12-10 16:36:55 [info] : GET /api/vendor/get-vendorproduct 304 - - 1809.077 ms
+2025-12-10 16:36:55 [info] : GET /api/vendor/vendor-data 304 - - 2175.180 ms
+2025-12-10 16:38:03 [info] : GET /api/vendor/vendor-data 304 - - 318.764 ms
+2025-12-10 16:38:03 [info] : GET /api/vendor/get-vendorproduct 304 - - 270.850 ms
+2025-12-10 17:25:49 [info] : GET /api/vendor/vendor-data 401 26 - 14.931 ms
+2025-12-10 17:25:49 [info] : POST /api/auth/refresh 200 330 - 38.228 ms
+2025-12-10 17:25:54 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 26.568 ms
+2025-12-10 17:25:54 [info] : POST /api/auth/refresh 200 253 - 20.506 ms
+2025-12-10 17:25:56 [info] : GET /api/vendor/vendor-data 304 - - 6860.000 ms
+2025-12-10 17:25:57 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 3010.608 ms
+2025-12-10 17:25:59 [info] : GET /api/vendor/get-vendorproduct 304 - - 96.139 ms
+2025-12-10 17:29:37 [info] : GET /api/vendor/get-vendorproduct 304 - - 390.230 ms
+2025-12-10 17:29:37 [info] : GET /api/vendor/vendor-data 304 - - 367.249 ms
+2025-12-10 17:29:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 32.061 ms
+2025-12-10 17:29:57 [info] : GET /api/vendor/vendor-data 304 - - 20.278 ms
+2025-12-10 17:30:10 [info] : GET /api/vendor/get-vendorproduct 304 - - 659.847 ms
+2025-12-10 17:30:10 [info] : GET /api/vendor/vendor-data 304 - - 731.542 ms
+2025-12-10 17:40:21 [info] : GET /api/vendor/vendor-data 304 - - 104.367 ms
+2025-12-10 17:40:21 [info] : GET /api/vendor/get-vendorproduct 304 - - 176.379 ms
+2025-12-10 17:41:52 [info] : GET /api/vendor/get-vendorproduct 401 26 - 3.449 ms
+2025-12-10 17:41:52 [info] : GET /api/vendor/vendor-data 401 26 - 0.151 ms
+2025-12-10 17:41:52 [info] : POST /api/auth/refresh 200 330 - 22.067 ms
+2025-12-10 17:41:52 [info] : POST /api/auth/refresh 200 330 - 2.295 ms
+2025-12-10 17:41:54 [info] : GET /api/vendor/vendor-data 304 - - 1113.220 ms
+2025-12-10 17:41:54 [info] : GET /api/vendor/get-vendorproduct 304 - - 1113.482 ms
+2025-12-10 17:42:04 [info] : GET /api/vendor/vendor-data 304 - - 1544.680 ms
+2025-12-10 17:42:04 [info] : GET /api/vendor/get-vendorproduct 304 - - 1228.109 ms
+2025-12-10 17:47:40 [info] : GET /api/vendor/vendor-data 304 - - 152.632 ms
+2025-12-10 17:47:40 [info] : GET /api/vendor/get-vendorproduct 304 - - 31.266 ms
+2025-12-10 17:56:13 [info] : GET /api/vendor/get-vendorproduct 304 - - 1326.173 ms
+2025-12-10 17:56:13 [info] : GET /api/vendor/vendor-data 304 - - 1388.519 ms
+2025-12-10 17:56:23 [info] : GET /api/vendor/get-vendorproduct 304 - - 106.287 ms
+2025-12-10 17:56:23 [info] : GET /api/vendor/vendor-data 304 - - 400.999 ms
+2025-12-10 17:57:35 [info] : GET /api/vendor/get-vendorproduct 401 26 - 13.220 ms
+2025-12-10 17:57:35 [info] : GET /api/vendor/vendor-data 401 26 - 0.109 ms
+2025-12-10 17:57:35 [info] : POST /api/auth/refresh 200 330 - 25.230 ms
+2025-12-10 17:57:35 [info] : POST /api/auth/refresh 200 330 - 0.797 ms
+2025-12-10 17:57:35 [info] : GET /api/vendor/vendor-data 304 - - 97.670 ms
+2025-12-10 17:57:35 [info] : GET /api/vendor/get-vendorproduct 304 - - 106.920 ms
+2025-12-10 17:58:39 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 1.777 ms
+2025-12-10 17:58:39 [info] : POST /api/auth/refresh 200 253 - 12.509 ms
+2025-12-10 17:58:40 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1026.811 ms
+2025-12-10 17:58:45 [info] : OPTIONS /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 204 0 - 1.231 ms
+2025-12-10 17:58:46 [info] : PATCH /api/admin/vendors/a8f1bc4b-e649-4c48-ac76-758faca64be3/toggle-block 200 57 - 677.609 ms
+2025-12-10 17:58:46 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1044 - 91.138 ms
+2025-12-10 17:58:48 [info] : OPTIONS /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 204 0 - 1.179 ms
+2025-12-10 17:58:48 [info] : PATCH /api/admin/vendors/07a84a4c-14af-4be2-aa6a-7ab1b8439b0a/toggle-block 200 57 - 31.707 ms
+2025-12-10 17:58:48 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1043 - 4.929 ms
+2025-12-10 17:58:56 [info] : GET /api/vendor/vendor-data 200 493 - 32.312 ms
+2025-12-10 17:58:56 [info] : GET /api/vendor/get-vendorproduct 304 - - 431.350 ms
+2025-12-10 17:58:57 [info] : GET /api/vendor/vendor-data 304 - - 3.153 ms
+2025-12-10 17:58:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.943 ms
+2025-12-10 18:00:38 [info] : GET /api/vendor/vendor-data 304 - - 131.373 ms
+2025-12-10 18:00:38 [info] : GET /api/vendor/get-vendorproduct 304 - - 176.789 ms
+2025-12-10 18:00:42 [info] : GET /api/vendor/vendor-data 304 - - 27.310 ms
+2025-12-10 18:00:42 [info] : GET /api/vendor/get-vendorproduct 304 - - 25.940 ms
+2025-12-10 18:00:46 [info] : GET /api/vendor/vendor-data 304 - - 16.969 ms
+2025-12-10 18:00:46 [info] : GET /api/vendor/get-vendorproduct 304 - - 5.631 ms
+2025-12-10 18:20:33 [info] : GET /api/vendor/vendor-data 401 26 - 26.899 ms
+2025-12-10 18:20:33 [info] : POST /api/auth/refresh 200 330 - 21.596 ms
+2025-12-10 18:20:33 [info] : GET /api/vendor/get-vendorproduct 401 26 - 0.088 ms
+2025-12-10 18:20:33 [info] : POST /api/auth/refresh 200 330 - 1.105 ms
+2025-12-10 18:20:33 [info] : GET /api/vendor/get-vendorproduct 304 - - 295.117 ms
+2025-12-10 18:20:33 [info] : GET /api/vendor/vendor-data 304 - - 323.835 ms
+2025-12-10 18:23:18 [info] : GET /api/vendor/get-vendorproduct 304 - - 1388.673 ms
+2025-12-10 18:23:18 [info] : GET /api/vendor/vendor-data 304 - - 1567.245 ms
+2025-12-10 18:24:17 [info] : GET /api/vendor/vendor-data 304 - - 340.866 ms
+2025-12-10 18:24:17 [info] : GET /api/vendor/get-vendorproduct 304 - - 420.610 ms
+2025-12-10 18:27:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 1380.294 ms
+2025-12-10 18:27:49 [info] : GET /api/vendor/vendor-data 304 - - 1273.722 ms
+2025-12-10 18:28:08 [info] : GET /api/admin/allusers?page=1&limit=10 401 26 - 6.630 ms
+2025-12-10 18:28:08 [info] : POST /api/auth/refresh 200 253 - 11.699 ms
+2025-12-10 18:28:08 [info] : GET /api/admin/allusers?page=1&limit=10 304 - - 205.502 ms
+2025-12-10 18:28:10 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.748 ms
+2025-12-10 18:29:29 [info] : GET /api/admin/allusers?page=1&limit=10 304 - - 118.137 ms
+2025-12-10 18:29:46 [info] : OPTIONS /api/admin/user/6920bf8a3ee2a711012342d1/toggled-block 204 0 - 2.360 ms
+2025-12-10 18:29:46 [info] : PATCH /api/admin/user/6920bf8a3ee2a711012342d1/toggled-block 200 55 - 125.847 ms
+2025-12-10 18:29:46 [info] : GET /api/admin/allusers?page=1&limit=10 200 4630 - 53.639 ms
+2025-12-10 18:30:00 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 22.738 ms
+2025-12-10 18:30:34 [info] : OPTIONS /api/admin/category/create-category 204 0 - 0.941 ms
+2025-12-10 18:30:34 [info] : POST /api/admin/category/create-category 400 46 - 79.690 ms
+2025-12-10 18:30:59 [info] : GET /api/vendor/vendor-data 304 - - 135.357 ms
+2025-12-10 18:30:59 [info] : GET /api/vendor/get-vendorproduct 304 - - 222.255 ms
+2025-12-10 18:31:02 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 167.605 ms
+2025-12-10 18:31:42 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.300 ms
+2025-12-10 18:31:43 [info] : POST /api/vendor/vendor-addproduct 201 755 - 268.698 ms
+2025-12-10 18:31:47 [info] : GET /api/vendor/get-vendorproduct 200 3525 - 225.085 ms
+2025-12-10 18:32:35 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 76.974 ms
+2025-12-10 18:33:50 [info] : GET /api/vendor/get-vendorproduct 304 - - 1554.120 ms
+2025-12-10 18:33:50 [info] : GET /api/vendor/vendor-data 304 - - 1518.484 ms
+2025-12-10 18:33:53 [info] : POST /api/auth/logout 200 61 - 19.688 ms
+2025-12-10 18:34:05 [info] : OPTIONS /api/auth/login 204 0 - 0.329 ms
+2025-12-10 18:34:05 [info] : POST /api/auth/login 200 321 - 158.833 ms
+2025-12-10 18:34:07 [info] : GET /api/user/user-data 304 - - 6.399 ms
+2025-12-10 18:35:36 [info] : GET /api/user/user-data 401 26 - 51.059 ms
+2025-12-10 18:35:36 [info] : POST /api/auth/refresh 200 315 - 25.881 ms
+2025-12-10 18:35:37 [info] : GET /api/user/user-data 304 - - 1237.262 ms
+2025-12-10 18:35:54 [info] : server is runnning port 5050 
+2025-12-10 18:35:55 [info] : Mongodb Connect Successfully
+2025-12-10 18:35:59 [info] : server is runnning port 5050 
+2025-12-10 18:35:59 [info] : Mongodb Connect Successfully
+2025-12-10 18:36:01 [info] : server is runnning port 5050 
+2025-12-10 18:36:01 [info] : Mongodb Connect Successfully
+2025-12-10 18:36:25 [info] : server is runnning port 5050 
+2025-12-10 18:36:25 [info] : Mongodb Connect Successfully
+2025-12-10 18:36:26 [info] : server is runnning port 5050 
+2025-12-10 18:36:26 [info] : Mongodb Connect Successfully
+2025-12-10 18:36:29 [info] : server is runnning port 5050 
+2025-12-10 18:36:29 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:07 [info] : server is runnning port 5050 
+2025-12-10 18:38:07 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:22 [info] : server is runnning port 5050 
+2025-12-10 18:38:22 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:29 [info] : server is runnning port 5050 
+2025-12-10 18:38:29 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:34 [info] : server is runnning port 5050 
+2025-12-10 18:38:34 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:49 [info] : server is runnning port 5050 
+2025-12-10 18:38:49 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:52 [info] : server is runnning port 5050 
+2025-12-10 18:38:52 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:54 [info] : server is runnning port 5050 
+2025-12-10 18:38:54 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:56 [info] : server is runnning port 5050 
+2025-12-10 18:38:56 [info] : Mongodb Connect Successfully
+2025-12-10 18:38:58 [info] : server is runnning port 5050 
+2025-12-10 18:38:58 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:01 [info] : server is runnning port 5050 
+2025-12-10 18:39:01 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:10 [info] : server is runnning port 5050 
+2025-12-10 18:39:10 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:24 [info] : server is runnning port 5050 
+2025-12-10 18:39:24 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:26 [info] : server is runnning port 5050 
+2025-12-10 18:39:26 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:50 [info] : server is runnning port 5050 
+2025-12-10 18:39:50 [info] : Mongodb Connect Successfully
+2025-12-10 18:39:52 [info] : server is runnning port 5050 
+2025-12-10 18:39:52 [info] : Mongodb Connect Successfully
+2025-12-10 18:40:22 [info] : server is runnning port 5050 
+2025-12-10 18:40:22 [info] : Mongodb Connect Successfully
+2025-12-10 18:40:25 [info] : server is runnning port 5050 
+2025-12-10 18:40:25 [info] : Mongodb Connect Successfully
+2025-12-10 18:42:02 [info] : server is runnning port 5050 
+2025-12-10 18:42:02 [info] : Mongodb Connect Successfully
+2025-12-10 18:42:09 [info] : server is runnning port 5050 
+2025-12-10 18:42:09 [info] : Mongodb Connect Successfully
+2025-12-10 18:42:10 [info] : server is runnning port 5050 
+2025-12-10 18:42:10 [info] : Mongodb Connect Successfully
+2025-12-10 18:42:11 [info] : server is runnning port 5050 
+2025-12-10 18:42:11 [info] : Mongodb Connect Successfully
+2025-12-10 18:51:39 [info] : GET /api/user/user-data 401 26 - 10.430 ms
+2025-12-10 18:51:39 [info] : POST /api/auth/refresh 200 315 - 26.615 ms
+2025-12-10 18:51:40 [info] : GET /api/user/user-data 304 - - 1221.521 ms
+2025-12-10 19:12:14 [info] : GET /api/user/user-data 401 26 - 5.132 ms
+2025-12-10 19:12:14 [info] : POST /api/auth/refresh 200 315 - 19.669 ms
+2025-12-10 19:12:14 [info] : GET /api/user/user-data 304 - - 189.173 ms
+2025-12-10 19:14:06 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 17.388 ms
+2025-12-10 19:14:06 [info] : POST /api/auth/refresh 200 253 - 1.347 ms
+2025-12-10 19:14:07 [info] : GET /api/user/user-data 304 - - 105566.221 ms
+2025-12-10 19:14:08 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 2263.506 ms
+2025-12-10 19:18:49 [info] : GET /api/user/user-data 304 - - 496.197 ms
+2025-12-10 19:18:49 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 699.297 ms
+2025-12-10 19:47:41 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 2.674 ms
+2025-12-10 19:47:42 [info] : POST /api/auth/refresh 200 253 - 91.147 ms
+2025-12-10 19:47:42 [info] : GET /api/user/user-data 401 26 - 0.328 ms
+2025-12-10 19:47:42 [info] : POST /api/auth/refresh 200 315 - 1.393 ms
+2025-12-10 19:47:42 [info] : GET /api/user/user-data 304 - - 182.607 ms
+2025-12-10 19:47:42 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 498.277 ms
+2025-12-10 20:28:03 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 2.730 ms
+2025-12-10 20:28:03 [info] : POST /api/auth/refresh 200 253 - 95.525 ms
+2025-12-10 20:28:04 [info] : GET /api/user/user-data 401 26 - 0.251 ms
+2025-12-10 20:28:04 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 431.273 ms
+2025-12-10 20:28:04 [info] : POST /api/auth/refresh 200 315 - 1.416 ms
+2025-12-10 20:28:04 [info] : GET /api/user/user-data 304 - - 15.854 ms
+2025-12-10 20:41:37 [info] : GET /api/user/user-data 304 - - 446.493 ms
+2025-12-10 20:41:37 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 532.869 ms
+2025-12-10 20:43:35 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 23.934 ms
+2025-12-10 20:43:35 [info] : POST /api/auth/refresh 200 253 - 353.349 ms
+2025-12-10 20:43:35 [info] : GET /api/user/user-data 401 26 - 0.133 ms
+2025-12-10 20:43:35 [info] : POST /api/auth/refresh 200 315 - 0.806 ms
+2025-12-10 20:43:35 [info] : GET /api/user/user-data 304 - - 52.347 ms
+2025-12-10 20:43:35 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 140.441 ms
+2025-12-10 20:45:41 [info] : GET /api/user/user-data 304 - - 321.475 ms
+2025-12-10 20:45:41 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 697.457 ms
+2025-12-10 20:45:46 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 409.568 ms
+2025-12-10 20:45:46 [info] : GET /api/user/user-data 304 - - 21.785 ms
+2025-12-10 21:15:38 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 13.380 ms
+2025-12-10 21:15:38 [info] : POST /api/auth/refresh 200 253 - 39.439 ms
+2025-12-10 21:15:38 [info] : GET /api/user/user-data 401 26 - 0.112 ms
+2025-12-10 21:15:38 [info] : POST /api/auth/refresh 200 315 - 2.210 ms
+2025-12-10 21:15:38 [info] : GET /api/user/user-data 304 - - 82.926 ms
+2025-12-10 21:15:38 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 394.124 ms
+2025-12-10 21:22:09 [info] : GET /api/user/user-data 304 - - 611.970 ms
+2025-12-10 21:22:09 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1346.501 ms
+2025-12-10 21:22:13 [info] : GET /api/user/user-data 304 - - 599.905 ms
+2025-12-10 21:22:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 709.633 ms

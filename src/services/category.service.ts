@@ -8,10 +8,11 @@ import { HTTP_STATUS } from "../shared/constant/http.status";
 import { Status } from "../shared/constant/status";
 import { v4 as uuidv4 } from "uuid";
 import { CategoryMapper } from "../types/mapper/category.mapper";
+import { ICategoryServices } from "../types/service-interface/ICategoryService";
 
 
 @injectable()
-export class CategoryService {
+export class CategoryService implements ICategoryServices{
   constructor(
     @inject("ICategoryRepository")
     private _categoryRepository: ICategoryRepository

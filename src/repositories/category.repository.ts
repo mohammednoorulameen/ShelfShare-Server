@@ -13,4 +13,7 @@ export class CategoryRepository extends BaseRepository<ICategory> {
   async findById(id: string): Promise<ICategory | null> {
     return this.model.findById(id);
   }
+
+
+
 }

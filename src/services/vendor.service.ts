@@ -81,7 +81,7 @@ export class VendorService implements IVendorService {
     };
 
     const updatedVendor = await this._vendorRepository.update(
-      vendor?._id,
+     {vendorId},
       updateData
     );
 
@@ -94,7 +94,7 @@ export class VendorService implements IVendorService {
 
   async toggleAdminBlockVendor(vendorId: string): Promise<VendorResponseDto> {
     const vendor = await this._vendorRepository.findOne({ vendorId: vendorId });
-    console.log("chekc the vendor id ", vendor);
+    console.log("chekc the vendor id  blockblockblockblockblock", vendor);
 
     if (!vendorId) {
       throw new AppError(
@@ -105,15 +105,19 @@ export class VendorService implements IVendorService {
     let newStatus = vendor?.status === "active" ? "blocked" : "active";
 
     const updateData: any = { status: newStatus };
-
-    const updateVendorStatus = await this._vendorRepository.update(
-      vendor?._id,
+    console.log('updateData', updateData)
+    // const updateVendorStatus = await this._vendorRepository.update(
+    //   vendor?._id,
+    //   updateData
+    // );
+     const updateVendorStatus = await this._vendorRepository.update(
+     {vendorId},
       updateData
     );
     return VendorMapper.toResponse(updateVendorStatus as IVendor);
   }
 
-/*--------
+  /*--------
 get vendor details
 -------------------------*/
 
@@ -146,31 +150,13 @@ get vendor details
     }
 
     if (vendor.isAdminVerifiedStatus !== "rejected") {
-  throw new AppError(
-    ERROR_MESSAGES.REAPPLY_ERROR,
-    HTTP_STATUS.BAD_REQUEST
-  );
-}
+      throw new AppError(ERROR_MESSAGES.REAPPLY_ERROR, HTTP_STATUS.BAD_REQUEST);
+    }
 
-const updatedVendor = await this._vendorRepository.update(vendor._id, {
-  isAdminVerifiedStatus: AdminVerifyStatus.PENDING,
-  adminRejectReason: null,
-});
-return VendorMapper.toResponse(updatedVendor!);
-
+    const updatedVendor = await this._vendorRepository.update({vendorId}, {
+      isAdminVerifiedStatus: AdminVerifyStatus.PENDING,
+      adminRejectReason: null,
+    });
+    return VendorMapper.toResponse(updatedVendor!);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

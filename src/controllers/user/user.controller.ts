@@ -7,9 +7,10 @@ import {
   ERROR_MESSAGES,
   SUCCESS_MESSAGES,
 } from "../../shared/constant/messages";
+import { IUserController } from "../../types/controller-interfaces/IUserController";
 
 @injectable()
-export class UserController {
+export class UserController  implements IUserController{
   constructor(@inject("IUserService") private _userService: IUserService) {}
 
 

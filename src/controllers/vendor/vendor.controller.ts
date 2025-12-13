@@ -7,9 +7,10 @@ import {
   SUCCESS_MESSAGES,
 } from "../../shared/constant/messages";
 import { IVendorService } from "../../types/service-interface/IVendorService";
+import { IVendorController } from "../../types/controller-interfaces/IVendorController";
 
 @injectable()
-export class VendorController {
+export class VendorController  implements IVendorController{
   constructor(@inject("IVendorService") private _vendorService: IVendorService) {}
 
 

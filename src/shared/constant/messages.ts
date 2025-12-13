@@ -20,6 +20,7 @@ export const SUCCESS_MESSAGES = {
   CATEGORY_UPDATED_SUCCESS : 'Category status updated',
   REAPPLY_SUCCESSFULLY : "Your verification request has been submitted again for admin review",
   PRODUCT_CREATED : "Product Created",
+  PRODUCT_UPDATED : "Product Updated",
 
 
 
@@ -66,7 +67,8 @@ export const ERROR_MESSAGES = {
   FORBIDDEN : "Forbidden Access denied",
   REAPPLY_ERROR : "You can only reapply if your application was rejected.",
   ID_REQUIRED : 'Id is required',
-
+  ALLREADY_EXISTED : "Already Existed",
+  PRODUCT_NOT_FOUND : 'Product not Fount',
   // USER
 
   USER_NOTEXIST_ALREADY_VERIFIED: "User Already Verified or not Existed",

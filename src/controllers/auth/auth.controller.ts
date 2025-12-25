@@ -14,10 +14,11 @@ import { Role } from "../../shared/constant/roles";
 import { IVendor } from "../../types/entities/IVendor";
 import AppError from "../../shared/utils/App.Error";
 import { clearCookie } from "../../shared/utils/cookie.helper";
+import { config } from "../../config";
 
 // let accessMaxAge = 15 * 60 * 1000;
-let accessMaxAge =  5000;
-let refreshMaxAge = 7 * 24 * 60 * 60 * 1000;
+// let accessMaxAge =  5000;
+// let refreshMaxAge = 7 * 24 * 60 * 60 * 1000;
 
 function isUser(obj: IUser | IVendor): obj is IUser {
   return obj.role === Role.USER;
@@ -81,17 +82,22 @@ export class AuthController implements IAuthController {
       path: "/",
     };
 
+      // res.clearCookie("accessToken", { path: "/" });
+  // res.clearCookie("refreshToken", { path: "/" });
+
     // accesstoken
     res.cookie("accessToken", result.accessToken, {
       ...tokenOption,
-      maxAge: accessMaxAge,
+      // maxAge: accessMaxAge,
+      maxAge: config.maxage.ACCESS_MAX_AGE,
     });
 
     //refreshToken
 
     res.cookie("refreshToken", result.refreshToken, {
       ...tokenOption,
-      maxAge: refreshMaxAge,
+      // maxAge: refreshMaxAge,
+      maxAge: config.maxage.REFRESH_MAX_AGE,
     });
 
     let responseData: any = {
@@ -156,7 +162,7 @@ export class AuthController implements IAuthController {
 
   async logout(req: Request, res: Response): Promise<void> {
     const role = req.user?.role ?? null;
-    clearCookie(res, "accessToken");
+    clearCookie(res, "accessToken"); 
     clearCookie(res, "refreshToken");
 
     res
@@ -199,14 +205,14 @@ export class AuthController implements IAuthController {
       
       res.cookie("accessToken", result.accessToken, {
         ...tokenOption,
-        maxAge: accessMaxAge,
+      maxAge: config.maxage.ACCESS_MAX_AGE,
       });
 
       //refreshToken
 
       res.cookie("refreshToken", result.refreshToken, {
         ...tokenOption,
-        maxAge: refreshMaxAge,
+      maxAge: config.maxage.REFRESH_MAX_AGE,
       });
 
       let responseData: any = {

@@ -56,7 +56,6 @@ export const ERROR_MESSAGES = {
   VENDOR_NOT_APPROVED : "Admin Not Verified",
   VENDOR_NOT_FOUNT: "Vendor Not Found",
   ADMIN_BLOCKED : "Admin Blocked Your Account",
-  USER_NOT_FOUNT : "User Not Found",
   PASSWORD_REQUIRED : "Password is required",
   INVALID_PASSWORD : "Invalid password",
   CATEGORY_EXISTED : "Category Existed",
@@ -69,8 +68,12 @@ export const ERROR_MESSAGES = {
   ID_REQUIRED : 'Id is required',
   ALLREADY_EXISTED : "Already Existed",
   PRODUCT_NOT_FOUND : 'Product not Fount',
-  // USER
+  ADMIN_NOT_VERIFIED : 'Admin not verified',
 
+  
+  // USER
+  
   USER_NOTEXIST_ALREADY_VERIFIED: "User Already Verified or not Existed",
+  USER_NOT_FOUNT : "User Not Found",
 
 };

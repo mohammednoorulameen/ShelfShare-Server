@@ -30,4 +30,9 @@ export const config = {
     VERIFICATION_TOKEN_SECRET:
       process.env.VERIFICATION_TOKEN_SECRET || "VERIFICATION_TOKEN_SECRET",
   },
+
+  maxage : {
+    ACCESS_MAX_AGE :Number( process.env.ACCESS_MAX_AGE) || 15 * 60 * 1000,
+    REFRESH_MAX_AGE : Number(process.env.REFRESH_MAX_AGE) ||  7 * 24 * 60 * 60 * 1000
+  }
 };

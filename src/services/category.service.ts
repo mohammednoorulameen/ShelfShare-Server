@@ -10,18 +10,14 @@ import { v4 as uuidv4 } from "uuid";
 import { CategoryMapper } from "../types/mapper/category.mapper";
 import { ICategoryServices } from "../types/service-interface/ICategoryService";
 
-
 @injectable()
-export class CategoryService implements ICategoryServices{
+export class CategoryService implements ICategoryServices {
   constructor(
     @inject("ICategoryRepository")
     private _categoryRepository: ICategoryRepository
   ) {}
 
-
-/*--------
-create category 
----------------------*/
+  /* ================= CREATE CATEGORY================= */
 
   async createCategory(data: CreateCategoryDto): Promise<ICategory> {
     const { name, description } = data;
@@ -43,17 +39,15 @@ create category
     //   status: Status.ACTIVE,
     // };
     const payload = CategoryMapper.toEntity({
-    name: cleanName,
-    description: description,
-  });
+      name: cleanName,
+      description: description,
+    });
 
     const createCategory = await this._categoryRepository.create(payload);
     return createCategory;
   }
 
-  /*--------
- GEt All category 
----------------------*/
+  /* ================= GET ALL CATEGORY ================= */
 
   async getAllCategories(page = 1, limit = 10) {
     const skip = (page - 1) * limit;
@@ -73,9 +67,7 @@ create category
     };
   }
 
-  /*--------
-Block Each category 
----------------------*/
+  /* ================= ADMIN BLOCK EACH CATEGORY ================= */
 
   async toggleCategoryStatus(categoryId: string): Promise<ICategory> {
     const category = await this._categoryRepository.findById(categoryId);
@@ -91,5 +83,18 @@ Block Each category
       { status: newStatus }
     );
     return updated as ICategory;
+  }
+
+  /* ================= ADMIN EDIT THE CATEGORY ================= */
+
+  async editCategoryData(
+    categoryId: string,
+    data: { name: string; description: string }
+  ) {
+    const existingCategory = await this._categoryRepository.findOne({
+      name: data.name,
+      _id: { $ne: categoryId },
+    });
+    console.log("check the existed data category", existingCategory);
   }
 }

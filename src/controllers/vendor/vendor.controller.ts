@@ -14,9 +14,8 @@ export class VendorController  implements IVendorController{
   constructor(@inject("IVendorService") private _vendorService: IVendorService) {}
 
 
-/*--------
-Get Vendro details 
-------------------*/
+
+  /* ================= GET VENDOR DETAILS================= */
 
   async getVendor(req:Request,res: Response): Promise <void>{
     const vendorId = req.vendor?.vendorId;
@@ -35,9 +34,7 @@ Get Vendro details
   }
 
 
-  /*-----------------
-  vendor can reApply the rejectd verification 
-  ---------------------------------------------------*/
+  /* ================= VENDOR CAN REAPPLY THE REJECTED VERIFICATION ================= */
 
 
   async reapplyForVendorVerification(req:Request, res:Response): Promise<void>{

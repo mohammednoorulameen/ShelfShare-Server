@@ -48,6 +48,17 @@ export class UserService implements IUserService {
  ------------------------------------*/
 
   async toggleAdminBlockUser(userId: string): Promise<UserResponseDto> {
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
+    console.log('user', userId)
     const user = await this._userRepository.findOne({ _id: userId });
     if (!user) {
       throw new AppError(

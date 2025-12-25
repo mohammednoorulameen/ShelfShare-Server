@@ -16,4 +16,5 @@ export interface ICategoryServices{
          totalPages: number;
        }>;
     toggleCategoryStatus(categoryId:string): Promise <ICategory>
+    editCategoryData(categoryId: string, data:{name : string, description: string}): Promise <any>
 }

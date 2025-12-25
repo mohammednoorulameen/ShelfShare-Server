@@ -5,4 +5,5 @@ export interface ICategoryController{
     createCategory : ControllerMethod
     getAllCategories: ControllerMethod
     toggleCategoryStatus: ControllerMethod
+    editCategoryData: ControllerMethod
 }

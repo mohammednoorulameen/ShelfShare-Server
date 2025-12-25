@@ -15,9 +15,9 @@ export class ProductController {
     @inject("IProductService") private _productService: IProductService
   ) {}
 
-  /*------------
-create product controller (book)
--------------------------------------*/
+
+
+  /* ================= CREATE PRODUCT CONTROLLER (BOOK) ================= */
 
   async createNewProduct(req: Request, res: Response): Promise<void> {
     const vendorId = req.vendor?.vendorId;
@@ -48,9 +48,10 @@ create product controller (book)
     });
   }
 
-/*--------
-get vendor product 
--------------------------*/
+
+
+  /* ================= GET VENDOR PRODUCT ================= */
+
 
   async getVendorProducts(req: Request, res: Response): Promise<void> {
     const vendorId = req.vendor?.vendorId;
@@ -73,7 +74,7 @@ get vendor product
 
     const result = await this._productService.getVendorProducts(vendorId);
 
-    res.status(200).json({
+    res.status(HTTP_STATUS.OK).json({
       success: true,
       data: result,
     });
@@ -81,10 +82,7 @@ get vendor product
 
 
 
-/*--------
- vendor product update 
--------------------------*/
-
+  /* ================= VENDOR PRODUCT UPDATE ================= */
 
  async updateProduct(req: Request, res: Response): Promise<void> {
     const { productId } = req.params;

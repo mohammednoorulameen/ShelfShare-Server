@@ -1,0 +1,4 @@
+2025-12-17 18:31:33 [info] : server is runnning port 5050 
+2025-12-17 18:31:33 [info] : Mongodb Connect Successfully
+2025-12-17 18:31:36 [info] : OPTIONS /api/auth/register 204 0 - 1.924 ms
+2025-12-17 18:31:36 [info] : POST /api/auth/register 201 212 - 191.711 ms

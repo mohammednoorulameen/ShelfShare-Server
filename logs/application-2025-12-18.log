@@ -1,0 +1,16 @@
+2025-12-18 19:57:29 [info] : server is runnning port 5050 
+2025-12-18 19:57:29 [info] : Mongodb Connect Successfully
+2025-12-18 19:58:49 [info] : GET /api/admin/allusers?page=1&limit=10 401 26 - 5.523 ms
+2025-12-18 19:58:49 [info] : POST /api/auth/refresh 401 48 - 6.522 ms
+2025-12-18 19:59:02 [info] : OPTIONS /api/auth/login 204 0 - 0.559 ms
+2025-12-18 19:59:03 [info] : POST /api/auth/login 200 252 - 267.699 ms
+2025-12-18 19:59:05 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1043 - 47.287 ms
+2025-12-18 19:59:07 [info] : GET /api/admin/allusers?page=1&limit=10 200 4630 - 8.020 ms
+2025-12-18 19:59:08 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 26 - 0.606 ms
+2025-12-18 19:59:08 [info] : POST /api/auth/refresh 200 253 - 1.244 ms
+2025-12-18 19:59:08 [info] : GET /api/admin/category/get-category?page=1&limit=10 200 782 - 10.188 ms
+2025-12-18 19:59:11 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 5.715 ms
+2025-12-18 19:59:12 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 8.088 ms
+2025-12-18 23:42:54 [info] : GET /api/admin/allvendors?page=1&limit=10 401 26 - 28.541 ms
+2025-12-18 23:42:54 [info] : POST /api/auth/refresh 200 253 - 43.380 ms
+2025-12-18 23:42:55 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 1432.601 ms

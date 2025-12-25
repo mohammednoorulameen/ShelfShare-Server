@@ -1,0 +1,10 @@
+2025-12-25 01:11:43 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 63 - 2.781 ms
+2025-12-25 01:11:43 [info] : POST /api/auth/refresh 200 253 - 10.279 ms
+2025-12-25 01:11:44 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 342.055 ms
+2025-12-25 01:11:50 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 181.637 ms
+2025-12-25 07:07:06 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 63 - 12.659 ms
+2025-12-25 07:07:07 [info] : POST /api/auth/refresh 200 253 - 30.531 ms
+2025-12-25 07:07:09 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 2204.192 ms
+2025-12-25 13:15:25 [info] : GET /api/admin/category/get-category?page=1&limit=10 401 63 - 8.846 ms
+2025-12-25 13:15:25 [info] : POST /api/auth/refresh 200 253 - 23.752 ms
+2025-12-25 13:15:25 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 362.711 ms

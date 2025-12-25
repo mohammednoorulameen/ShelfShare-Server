@@ -204,12 +204,12 @@ export class AuthService implements IAuthService {
 
     // check email verified
 
-    // if (!account.isEmailVerified) {
-    //   throw new AppError(
-    //     ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
-    //     HTTP_STATUS.NOT_FOUND
-    //   );
-    // }
+    if (!account.isEmailVerified) {
+      throw new AppError(
+        ERROR_MESSAGES.EMAIL_NOT_VERIFIED,
+        HTTP_STATUS.NOT_FOUND
+      );
+    }
 
     // if (account.status === "blocked") {
     //   throw new AppError(

@@ -1,0 +1,353 @@
+2025-12-21 11:27:25 [info] : server is runnning port 5050 
+2025-12-21 11:27:25 [info] : server is runnning port 5050 
+2025-12-21 11:27:25 [info] : Mongodb Connect Successfully
+2025-12-21 11:36:16 [info] : server is runnning port 5050 
+2025-12-21 11:36:16 [info] : Mongodb Connect Successfully
+2025-12-21 11:36:17 [info] : server is runnning port 5050 
+2025-12-21 11:36:17 [info] : Mongodb Connect Successfully
+2025-12-21 11:36:26 [info] : server is runnning port 5050 
+2025-12-21 11:36:26 [info] : Mongodb Connect Successfully
+2025-12-21 11:36:57 [info] : server is runnning port 5050 
+2025-12-21 11:36:58 [info] : Mongodb Connect Successfully
+2025-12-21 11:38:56 [info] : server is runnning port 5050 
+2025-12-21 11:38:56 [info] : Mongodb Connect Successfully
+2025-12-21 14:06:37 [info] : server is runnning port 5050 
+2025-12-21 14:06:37 [info] : Mongodb Connect Successfully
+2025-12-21 14:06:38 [info] : server is runnning port 5050 
+2025-12-21 14:06:38 [info] : Mongodb Connect Successfully
+2025-12-21 14:13:56 [info] : server is runnning port 5050 
+2025-12-21 14:13:56 [info] : Mongodb Connect Successfully
+2025-12-21 14:14:42 [info] : OPTIONS /api/auth/login 204 0 - 3.026 ms
+2025-12-21 14:14:42 [info] : POST /api/auth/login 404 48 - 66.682 ms
+2025-12-21 14:14:45 [info] : POST /api/auth/login 404 48 - 6.222 ms
+2025-12-21 14:15:23 [info] : OPTIONS /api/auth/login 204 0 - 0.489 ms
+2025-12-21 14:15:23 [info] : POST /api/auth/login 401 56 - 154.714 ms
+2025-12-21 14:15:26 [info] : POST /api/auth/login 200 321 - 112.205 ms
+2025-12-21 14:15:30 [info] : GET /api/user/user-data 200 489 - 15.628 ms
+2025-12-21 14:15:34 [info] : GET /api/user/user-data 304 - - 4.025 ms
+2025-12-21 14:15:35 [info] : GET /api/user/user-data 304 - - 5.807 ms
+2025-12-21 14:15:44 [info] : GET /api/user/user-data 304 - - 12.936 ms
+2025-12-21 14:15:45 [info] : GET /api/user/user-data 304 - - 8.504 ms
+2025-12-21 14:16:14 [info] : OPTIONS /api/auth/login 204 0 - 0.352 ms
+2025-12-21 14:16:14 [info] : POST /api/auth/login 404 48 - 8.731 ms
+2025-12-21 14:16:16 [info] : POST /api/auth/login 404 48 - 5.639 ms
+2025-12-21 14:16:20 [info] : OPTIONS /api/auth/login 204 0 - 0.241 ms
+2025-12-21 14:16:20 [info] : POST /api/auth/login 404 48 - 4.501 ms
+2025-12-21 14:16:22 [info] : POST /api/auth/login 404 48 - 5.732 ms
+2025-12-21 14:16:24 [info] : POST /api/auth/login 404 48 - 4.563 ms
+2025-12-21 14:16:54 [info] : OPTIONS /api/auth/login 204 0 - 0.426 ms
+2025-12-21 14:16:54 [info] : POST /api/auth/login 200 334 - 108.980 ms
+2025-12-21 14:16:54 [info] : GET /api/vendor/vendor-data 304 - - 3.443 ms
+2025-12-21 14:16:58 [info] : GET /api/vendor/get-vendorproduct 304 - - 16.062 ms
+2025-12-21 14:17:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 9.250 ms
+2025-12-21 14:17:01 [info] : GET /api/vendor/vendor-data 304 - - 3.381 ms
+2025-12-21 14:17:01 [info] : GET /api/vendor/get-vendorproduct 304 - - 3.010 ms
+2025-12-21 14:17:03 [info] : GET /api/vendor/vendor-data 304 - - 3.304 ms
+2025-12-21 14:17:03 [info] : GET /api/vendor/get-vendorproduct 304 - - 5.592 ms
+2025-12-21 14:17:05 [info] : GET /api/user/user-data 403 53 - 1.339 ms
+2025-12-21 14:17:05 [info] : GET /api/user/user-data 403 53 - 0.928 ms
+2025-12-21 14:17:07 [info] : GET /api/user/user-data 403 53 - 1.371 ms
+2025-12-21 14:17:08 [info] : GET /api/user/user-data 403 53 - 0.568 ms
+2025-12-21 14:17:09 [info] : GET /api/user/user-data 403 53 - 0.887 ms
+2025-12-21 14:17:10 [info] : GET /api/user/user-data 403 53 - 1.192 ms
+2025-12-21 14:17:12 [info] : GET /api/user/user-data 403 53 - 1.453 ms
+2025-12-21 14:17:16 [info] : GET /api/user/user-data 403 53 - 3.980 ms
+2025-12-21 14:18:08 [info] : server is runnning port 5050 
+2025-12-21 14:18:08 [info] : Mongodb Connect Successfully
+2025-12-21 14:18:09 [info] : server is runnning port 5050 
+2025-12-21 14:18:09 [info] : Mongodb Connect Successfully
+2025-12-21 14:18:13 [info] : POST /api/auth/logout 200 61 - 10.066 ms
+2025-12-21 14:18:22 [info] : OPTIONS /api/auth/login 204 0 - 0.680 ms
+2025-12-21 14:18:22 [info] : POST /api/auth/login 200 321 - 119.437 ms
+2025-12-21 14:18:45 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.494 ms
+2025-12-21 14:18:45 [info] : GET /api/vendor/vendor-data 403 53 - 0.735 ms
+2025-12-21 14:18:46 [info] : GET /api/vendor/get-vendorproduct 403 53 - 8.019 ms
+2025-12-21 14:18:46 [info] : GET /api/vendor/vendor-data 403 53 - 0.386 ms
+2025-12-21 14:18:48 [info] : GET /api/vendor/get-vendorproduct 403 53 - 4.449 ms
+2025-12-21 14:18:48 [info] : GET /api/vendor/vendor-data 403 53 - 0.701 ms
+2025-12-21 14:18:52 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.532 ms
+2025-12-21 14:18:52 [info] : GET /api/vendor/vendor-data 403 53 - 1.586 ms
+2025-12-21 14:18:54 [info] : POST /api/auth/logout 200 63 - 2.338 ms
+2025-12-21 14:18:59 [info] : OPTIONS /api/auth/login 204 0 - 0.266 ms
+2025-12-21 14:18:59 [info] : POST /api/auth/login 200 334 - 106.369 ms
+2025-12-21 14:18:59 [info] : GET /api/vendor/vendor-data 200 497 - 7.151 ms
+2025-12-21 14:19:05 [info] : GET /api/vendor/vendor-data 304 - - 6.467 ms
+2025-12-21 14:19:41 [info] : GET /api/vendor/vendor-data 304 - - 31.201 ms
+2025-12-21 14:21:15 [info] : GET /api/vendor/vendor-data 304 - - 65.610 ms
+2025-12-21 14:21:21 [info] : OPTIONS /api/auth/login 204 0 - 0.471 ms
+2025-12-21 14:21:21 [info] : POST /api/auth/login 200 252 - 113.741 ms
+2025-12-21 14:21:23 [info] : POST /api/auth/logout 200 61 - 1.759 ms
+2025-12-21 14:21:24 [info] : GET /api/vendor/vendor-data 401 26 - 0.429 ms
+2025-12-21 14:21:24 [info] : POST /api/auth/refresh 401 48 - 10.819 ms
+2025-12-21 14:22:04 [info] : OPTIONS /api/auth/login 204 0 - 0.646 ms
+2025-12-21 14:22:05 [info] : POST /api/auth/login 200 252 - 168.310 ms
+2025-12-21 14:22:11 [info] : OPTIONS /api/auth/login 204 0 - 0.120 ms
+2025-12-21 14:22:12 [info] : POST /api/auth/login 200 321 - 101.694 ms
+2025-12-21 14:22:14 [info] : POST /api/auth/logout 200 63 - 3.235 ms
+2025-12-21 14:22:33 [info] : OPTIONS /api/auth/login 204 0 - 0.703 ms
+2025-12-21 14:22:33 [info] : POST /api/auth/login 200 252 - 103.586 ms
+2025-12-21 14:22:35 [info] : POST /api/auth/logout 200 61 - 1.704 ms
+2025-12-21 14:22:59 [info] : POST /api/auth/logout 401 26 - 0.389 ms
+2025-12-21 14:23:22 [info] : OPTIONS /api/auth/login 204 0 - 0.360 ms
+2025-12-21 14:23:22 [info] : POST /api/auth/login 200 334 - 108.517 ms
+2025-12-21 14:23:22 [info] : GET /api/vendor/vendor-data 304 - - 3.634 ms
+2025-12-21 14:23:30 [info] : OPTIONS /api/auth/login 204 0 - 0.182 ms
+2025-12-21 14:23:30 [info] : POST /api/auth/login 200 252 - 105.286 ms
+2025-12-21 14:23:32 [info] : POST /api/auth/logout 200 61 - 1.731 ms
+2025-12-21 14:23:34 [info] : GET /api/vendor/vendor-data 401 26 - 0.394 ms
+2025-12-21 14:23:34 [info] : POST /api/auth/refresh 401 48 - 3.304 ms
+2025-12-21 14:24:06 [info] : OPTIONS /api/auth/login 204 0 - 0.753 ms
+2025-12-21 14:24:06 [info] : POST /api/auth/login 200 334 - 110.667 ms
+2025-12-21 14:24:06 [info] : GET /api/vendor/vendor-data 304 - - 3.522 ms
+2025-12-21 14:30:43 [info] : GET /api/vendor/vendor-data 304 - - 45.934 ms
+2025-12-21 14:33:10 [info] : GET /api/vendor/vendor-data 304 - - 51.787 ms
+2025-12-21 14:34:26 [info] : GET /api/vendor/vendor-data 304 - - 17.828 ms
+2025-12-21 14:35:07 [info] : OPTIONS /api/auth/login 204 0 - 0.461 ms
+2025-12-21 14:35:07 [info] : POST /api/auth/login 200 321 - 171.184 ms
+2025-12-21 14:35:58 [info] : GET /api/vendor/vendor-data 403 53 - 2.578 ms
+2025-12-21 14:35:59 [info] : GET /api/vendor/vendor-data 403 53 - 1.162 ms
+2025-12-21 14:36:01 [info] : GET /api/vendor/vendor-data 403 53 - 1.206 ms
+2025-12-21 14:37:25 [info] : GET /api/vendor/vendor-data 403 53 - 13.807 ms
+2025-12-21 14:37:31 [info] : GET /api/vendor/get-vendorproduct 403 53 - 0.762 ms
+2025-12-21 14:37:32 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.068 ms
+2025-12-21 14:37:34 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.326 ms
+2025-12-21 14:37:38 [info] : GET /api/vendor/get-vendorproduct 403 53 - 0.605 ms
+2025-12-21 14:38:18 [info] : GET /api/vendor/get-vendorproduct 403 53 - 4.449 ms
+2025-12-21 14:38:18 [info] : GET /api/vendor/vendor-data 403 53 - 1.872 ms
+2025-12-21 14:38:19 [info] : GET /api/vendor/get-vendorproduct 403 53 - 0.954 ms
+2025-12-21 14:38:19 [info] : GET /api/vendor/vendor-data 403 53 - 0.856 ms
+2025-12-21 14:38:21 [info] : GET /api/vendor/get-vendorproduct 403 53 - 0.877 ms
+2025-12-21 14:38:21 [info] : GET /api/vendor/vendor-data 403 53 - 0.871 ms
+2025-12-21 14:38:25 [info] : GET /api/vendor/get-vendorproduct 403 53 - 4.766 ms
+2025-12-21 14:38:25 [info] : GET /api/vendor/vendor-data 403 53 - 0.792 ms
+2025-12-21 14:38:29 [info] : GET /api/vendor/get-vendorproduct 403 53 - 11.288 ms
+2025-12-21 14:38:29 [info] : GET /api/vendor/vendor-data 403 53 - 0.786 ms
+2025-12-21 14:38:30 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.096 ms
+2025-12-21 14:38:30 [info] : GET /api/vendor/vendor-data 403 53 - 0.894 ms
+2025-12-21 14:38:32 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.121 ms
+2025-12-21 14:38:32 [info] : GET /api/vendor/vendor-data 403 53 - 0.558 ms
+2025-12-21 14:38:36 [info] : GET /api/vendor/get-vendorproduct 403 53 - 7.793 ms
+2025-12-21 14:38:36 [info] : GET /api/vendor/vendor-data 403 53 - 5.045 ms
+2025-12-21 14:38:37 [info] : GET /api/vendor/get-vendorproduct 403 53 - 4.106 ms
+2025-12-21 14:38:37 [info] : GET /api/vendor/vendor-data 403 53 - 2.145 ms
+2025-12-21 14:38:38 [info] : GET /api/vendor/get-vendorproduct 403 53 - 4.175 ms
+2025-12-21 14:38:38 [info] : GET /api/vendor/vendor-data 403 53 - 0.528 ms
+2025-12-21 14:38:40 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.269 ms
+2025-12-21 14:38:40 [info] : GET /api/vendor/vendor-data 403 53 - 0.653 ms
+2025-12-21 14:38:44 [info] : GET /api/vendor/get-vendorproduct 403 53 - 2.596 ms
+2025-12-21 14:38:44 [info] : GET /api/vendor/vendor-data 403 53 - 1.130 ms
+2025-12-21 14:40:49 [info] : GET /api/vendor/vendor-data 403 53 - 28.529 ms
+2025-12-21 14:40:49 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.953 ms
+2025-12-21 14:40:50 [info] : GET /api/vendor/vendor-data 403 53 - 1.060 ms
+2025-12-21 14:40:50 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.443 ms
+2025-12-21 14:40:52 [info] : GET /api/vendor/vendor-data 403 53 - 1.296 ms
+2025-12-21 14:40:52 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.623 ms
+2025-12-21 14:40:56 [info] : GET /api/vendor/vendor-data 403 53 - 1.188 ms
+2025-12-21 14:40:56 [info] : GET /api/vendor/get-vendorproduct 403 53 - 1.070 ms
+2025-12-21 14:47:17 [info] : server is runnning port 5050 
+2025-12-21 14:47:17 [info] : Mongodb Connect Successfully
+2025-12-21 14:55:50 [info] : server is runnning port 5050 
+2025-12-21 14:55:50 [info] : Mongodb Connect Successfully
+2025-12-21 16:02:06 [info] : GET /api/vendor/vendor-data 401 26 - 4.755 ms
+2025-12-21 16:02:06 [info] : POST /api/auth/refresh 200 317 - 6.900 ms
+2025-12-21 16:02:06 [info] : GET /api/vendor/vendor-data 403 53 - 0.463 ms
+2025-12-21 17:35:56 [info] : server is runnning port 5050 
+2025-12-21 17:35:56 [info] : Mongodb Connect Successfully
+2025-12-21 17:35:58 [info] : server is runnning port 5050 
+2025-12-21 17:35:58 [info] : Mongodb Connect Successfully
+2025-12-21 17:36:05 [info] : server is runnning port 5050 
+2025-12-21 17:36:05 [info] : Mongodb Connect Successfully
+2025-12-21 17:36:27 [info] : GET /api/vendor/vendor-data 401 26 - 4.174 ms
+2025-12-21 17:36:27 [info] : POST /api/auth/refresh 200 317 - 8.953 ms
+2025-12-21 17:36:27 [info] : GET /api/vendor/vendor-data 403 53 - 0.760 ms
+2025-12-21 17:36:29 [info] : GET /api/vendor/vendor-data 403 53 - 1.462 ms
+2025-12-21 17:36:35 [info] : GET /api/vendor/vendor-data 403 53 - 1.202 ms
+2025-12-21 17:36:40 [info] : GET /api/vendor/vendor-data 403 53 - 2.603 ms
+2025-12-21 17:36:41 [info] : GET /api/vendor/vendor-data 403 53 - 0.485 ms
+2025-12-21 17:36:42 [info] : GET /api/vendor/vendor-data 403 53 - 1.035 ms
+2025-12-21 17:36:43 [info] : POST /api/auth/logout 200 63 - 2.302 ms
+2025-12-21 17:36:50 [info] : OPTIONS /api/auth/login 204 0 - 0.852 ms
+2025-12-21 17:36:50 [info] : POST /api/auth/login 200 252 - 138.027 ms
+2025-12-21 17:36:59 [info] : OPTIONS /api/auth/login 204 0 - 0.254 ms
+2025-12-21 17:36:59 [info] : POST /api/auth/login 404 48 - 11.520 ms
+2025-12-21 17:37:01 [info] : POST /api/auth/login 404 48 - 6.213 ms
+2025-12-21 17:37:17 [info] : OPTIONS /api/auth/login 204 0 - 0.271 ms
+2025-12-21 17:37:17 [info] : POST /api/auth/login 200 334 - 105.941 ms
+2025-12-21 17:37:17 [info] : GET /api/vendor/vendor-data 401 63 - 1.517 ms
+2025-12-21 17:37:17 [info] : POST /api/auth/refresh 200 323 - 0.628 ms
+2025-12-21 17:37:17 [info] : GET /api/vendor/vendor-data 401 63 - 0.852 ms
+2025-12-21 17:37:18 [info] : GET /api/vendor/vendor-data 401 63 - 2.522 ms
+2025-12-21 17:37:18 [info] : POST /api/auth/refresh 200 323 - 2.048 ms
+2025-12-21 17:37:18 [info] : GET /api/vendor/vendor-data 401 63 - 1.792 ms
+2025-12-21 17:37:20 [info] : GET /api/vendor/vendor-data 401 63 - 2.092 ms
+2025-12-21 17:37:20 [info] : POST /api/auth/refresh 200 323 - 1.250 ms
+2025-12-21 17:37:20 [info] : GET /api/vendor/vendor-data 401 63 - 1.206 ms
+2025-12-21 17:37:24 [info] : GET /api/vendor/vendor-data 401 63 - 3.385 ms
+2025-12-21 17:37:24 [info] : POST /api/auth/refresh 200 323 - 1.507 ms
+2025-12-21 17:37:24 [info] : GET /api/vendor/vendor-data 401 63 - 1.276 ms
+2025-12-21 17:37:26 [info] : POST /api/auth/logout 200 65 - 1.295 ms
+2025-12-21 17:37:41 [info] : OPTIONS /api/auth/login 204 0 - 0.713 ms
+2025-12-21 17:37:41 [info] : POST /api/auth/login 200 334 - 107.656 ms
+2025-12-21 17:37:41 [info] : GET /api/vendor/vendor-data 401 63 - 3.447 ms
+2025-12-21 17:37:41 [info] : POST /api/auth/refresh 200 323 - 1.457 ms
+2025-12-21 17:37:41 [info] : GET /api/vendor/vendor-data 401 63 - 0.669 ms
+2025-12-21 17:37:42 [info] : GET /api/vendor/vendor-data 401 63 - 2.590 ms
+2025-12-21 17:37:42 [info] : POST /api/auth/refresh 200 323 - 1.304 ms
+2025-12-21 17:37:42 [info] : GET /api/vendor/vendor-data 401 63 - 0.889 ms
+2025-12-21 17:37:44 [info] : POST /api/auth/logout 200 65 - 1.194 ms
+2025-12-21 17:37:46 [info] : GET /api/vendor/vendor-data 401 26 - 0.301 ms
+2025-12-21 17:37:46 [info] : POST /api/auth/refresh 401 48 - 1.920 ms
+2025-12-21 17:49:35 [info] : OPTIONS /api/auth/login 204 0 - 0.584 ms
+2025-12-21 17:49:35 [info] : POST /api/auth/login 404 48 - 34.795 ms
+2025-12-21 17:49:58 [info] : server is runnning port 5050 
+2025-12-21 17:49:59 [info] : Mongodb Connect Successfully
+2025-12-21 17:51:15 [info] : OPTIONS /api/auth/login 204 0 - 2.287 ms
+2025-12-21 17:51:15 [info] : POST /api/auth/login 200 252 - 128.414 ms
+2025-12-21 17:51:22 [info] : OPTIONS /api/auth/login 204 0 - 0.320 ms
+2025-12-21 17:51:22 [info] : POST /api/auth/login 200 321 - 105.648 ms
+2025-12-21 17:51:48 [info] : GET /api/user/user-data 200 489 - 17.445 ms
+2025-12-21 17:51:52 [info] : GET /api/user/user-data 304 - - 5.784 ms
+2025-12-21 17:51:53 [info] : GET /api/user/user-data 304 - - 6.538 ms
+2025-12-21 17:51:54 [info] : GET /api/user/user-data 304 - - 4.088 ms
+2025-12-21 17:52:01 [info] : GET /api/user/user-data 304 - - 3.676 ms
+2025-12-21 17:52:03 [info] : GET /api/user/user-data 304 - - 3.238 ms
+2025-12-21 17:52:04 [info] : GET /api/user/user-data 304 - - 3.539 ms
+2025-12-21 17:52:05 [info] : GET /api/user/user-data 304 - - 3.697 ms
+2025-12-21 17:52:05 [info] : GET /api/user/user-data 304 - - 3.241 ms
+2025-12-21 17:52:06 [info] : GET /api/user/user-data 304 - - 3.166 ms
+2025-12-21 17:52:07 [info] : GET /api/user/user-data - - - - ms
+2025-12-21 17:52:07 [info] : GET /api/user/user-data 200 489 - 2.420 ms
+2025-12-21 17:52:08 [info] : GET /api/user/user-data 200 489 - 3.870 ms
+2025-12-21 17:52:08 [info] : GET /api/user/user-data 200 489 - 2.416 ms
+2025-12-21 17:52:09 [info] : GET /api/user/user-data 304 - - 3.247 ms
+2025-12-21 17:52:27 [info] : GET /api/user/user-data 304 - - 13.359 ms
+2025-12-21 17:52:28 [info] : GET /api/user/user-data 304 - - 5.573 ms
+2025-12-21 17:52:42 [info] : server is runnning port 5050 
+2025-12-21 17:52:42 [info] : Mongodb Connect Successfully
+2025-12-21 17:52:48 [info] : server is runnning port 5050 
+2025-12-21 17:52:48 [info] : Mongodb Connect Successfully
+2025-12-21 17:52:53 [info] : server is runnning port 5050 
+2025-12-21 17:52:53 [info] : Mongodb Connect Successfully
+2025-12-21 17:52:55 [info] : server is runnning port 5050 
+2025-12-21 17:52:55 [info] : Mongodb Connect Successfully
+2025-12-21 17:52:59 [info] : server is runnning port 5050 
+2025-12-21 17:52:59 [info] : Mongodb Connect Successfully
+2025-12-21 17:53:00 [info] : server is runnning port 5050 
+2025-12-21 17:53:00 [info] : Mongodb Connect Successfully
+2025-12-21 17:53:03 [info] : server is runnning port 5050 
+2025-12-21 17:53:03 [info] : Mongodb Connect Successfully
+2025-12-21 17:53:07 [info] : server is runnning port 5050 
+2025-12-21 17:53:07 [info] : Mongodb Connect Successfully
+2025-12-21 17:53:08 [info] : GET /api/user/user-data 304 - - 26.456 ms
+2025-12-21 17:53:30 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 12.590 ms
+2025-12-21 17:53:31 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.544 ms
+2025-12-21 17:53:33 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.095 ms
+2025-12-21 17:53:37 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.432 ms
+2025-12-21 17:53:46 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.086 ms
+2025-12-21 17:53:47 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.907 ms
+2025-12-21 17:53:49 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.394 ms
+2025-12-21 17:53:52 [info] : GET /api/user/user-data 304 - - 26.365 ms
+2025-12-21 17:53:53 [info] : GET /api/admin/allvendors?page=1&limit=10 403 53 - 1.631 ms
+2025-12-21 17:53:55 [info] : POST /api/auth/logout 200 63 - 2.788 ms
+2025-12-21 17:53:57 [info] : GET /api/user/user-data 401 26 - 0.225 ms
+2025-12-21 17:53:57 [info] : POST /api/auth/refresh 401 48 - 4.016 ms
+2025-12-21 17:56:23 [info] : server is runnning port 5050 
+2025-12-21 17:56:23 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:25 [info] : server is runnning port 5050 
+2025-12-21 17:56:25 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:29 [info] : server is runnning port 5050 
+2025-12-21 17:56:29 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:31 [info] : server is runnning port 5050 
+2025-12-21 17:56:31 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:34 [info] : server is runnning port 5050 
+2025-12-21 17:56:34 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:40 [info] : server is runnning port 5050 
+2025-12-21 17:56:40 [info] : Mongodb Connect Successfully
+2025-12-21 17:56:48 [info] : server is runnning port 5050 
+2025-12-21 17:56:48 [info] : Mongodb Connect Successfully
+2025-12-21 17:57:04 [info] : server is runnning port 5050 
+2025-12-21 17:57:04 [info] : Mongodb Connect Successfully
+2025-12-21 17:57:58 [info] : server is runnning port 5050 
+2025-12-21 17:57:59 [info] : Mongodb Connect Successfully
+2025-12-21 17:58:05 [info] : server is runnning port 5050 
+2025-12-21 17:58:05 [info] : Mongodb Connect Successfully
+2025-12-21 17:58:30 [info] : server is runnning port 5050 
+2025-12-21 17:58:30 [info] : Mongodb Connect Successfully
+2025-12-21 17:58:34 [info] : server is runnning port 5050 
+2025-12-21 17:58:34 [info] : Mongodb Connect Successfully
+2025-12-21 17:58:38 [info] : server is runnning port 5050 
+2025-12-21 17:58:38 [info] : Mongodb Connect Successfully
+2025-12-21 17:58:57 [info] : server is runnning port 5050 
+2025-12-21 17:58:57 [info] : Mongodb Connect Successfully
+2025-12-21 19:03:26 [info] : server is runnning port 5050 
+2025-12-21 19:03:26 [info] : Mongodb Connect Successfully
+2025-12-21 19:03:41 [info] : server is runnning port 5050 
+2025-12-21 19:03:41 [info] : Mongodb Connect Successfully
+2025-12-21 19:03:55 [info] : server is runnning port 5050 
+2025-12-21 19:03:55 [info] : Mongodb Connect Successfully
+2025-12-21 19:03:57 [info] : server is runnning port 5050 
+2025-12-21 19:03:57 [info] : Mongodb Connect Successfully
+2025-12-21 19:04:40 [info] : server is runnning port 5050 
+2025-12-21 19:04:40 [info] : Mongodb Connect Successfully
+2025-12-21 19:04:56 [info] : server is runnning port 5050 
+2025-12-21 19:04:56 [info] : Mongodb Connect Successfully
+2025-12-21 19:04:58 [info] : server is runnning port 5050 
+2025-12-21 19:04:58 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:08 [info] : server is runnning port 5050 
+2025-12-21 19:05:08 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:23 [info] : server is runnning port 5050 
+2025-12-21 19:05:23 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:24 [info] : server is runnning port 5050 
+2025-12-21 19:05:24 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:26 [info] : server is runnning port 5050 
+2025-12-21 19:05:26 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:27 [info] : server is runnning port 5050 
+2025-12-21 19:05:27 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:34 [info] : server is runnning port 5050 
+2025-12-21 19:05:34 [info] : Mongodb Connect Successfully
+2025-12-21 19:05:41 [info] : server is runnning port 5050 
+2025-12-21 19:05:41 [info] : Mongodb Connect Successfully
+2025-12-21 19:06:21 [info] : server is runnning port 5050 
+2025-12-21 19:06:21 [info] : Mongodb Connect Successfully
+2025-12-21 19:06:41 [info] : server is runnning port 5050 
+2025-12-21 19:06:41 [info] : Mongodb Connect Successfully
+2025-12-21 19:06:44 [info] : server is runnning port 5050 
+2025-12-21 19:06:44 [info] : Mongodb Connect Successfully
+2025-12-21 19:06:48 [info] : server is runnning port 5050 
+2025-12-21 19:06:48 [info] : Mongodb Connect Successfully
+2025-12-21 19:06:51 [info] : server is runnning port 5050 
+2025-12-21 19:06:51 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:07 [info] : server is runnning port 5050 
+2025-12-21 19:07:07 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:08 [info] : server is runnning port 5050 
+2025-12-21 19:07:08 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:10 [info] : server is runnning port 5050 
+2025-12-21 19:07:10 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:11 [info] : server is runnning port 5050 
+2025-12-21 19:07:11 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:16 [info] : server is runnning port 5050 
+2025-12-21 19:07:16 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:21 [info] : server is runnning port 5050 
+2025-12-21 19:07:21 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:24 [info] : server is runnning port 5050 
+2025-12-21 19:07:24 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:35 [info] : server is runnning port 5050 
+2025-12-21 19:07:35 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:44 [info] : server is runnning port 5050 
+2025-12-21 19:07:44 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:51 [info] : server is runnning port 5050 
+2025-12-21 19:07:51 [info] : Mongodb Connect Successfully
+2025-12-21 19:07:59 [info] : server is runnning port 5050 
+2025-12-21 19:07:59 [info] : Mongodb Connect Successfully
+2025-12-21 19:08:03 [info] : server is runnning port 5050 
+2025-12-21 19:08:03 [info] : Mongodb Connect Successfully
+2025-12-21 19:08:20 [info] : server is runnning port 5050 
+2025-12-21 19:08:20 [info] : Mongodb Connect Successfully
+2025-12-21 19:10:35 [info] : OPTIONS /api/auth/login 204 0 - 2.852 ms
+2025-12-21 19:10:35 [info] : POST /api/auth/login 200 252 - 125.263 ms
+2025-12-21 19:10:36 [info] : GET /api/admin/allvendors?page=1&limit=10 200 1043 - 68.234 ms
+2025-12-21 19:10:38 [info] : GET /api/admin/allusers?page=1&limit=10 304 - - 11.856 ms
+2025-12-21 19:10:41 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 6.885 ms
+2025-12-21 19:10:44 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 7.181 ms
+2025-12-21 19:10:46 [info] : GET /api/admin/allusers?page=1&limit=10 304 - - 9.888 ms
+2025-12-21 19:10:47 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 5.943 ms

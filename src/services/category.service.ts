@@ -22,7 +22,7 @@ export class CategoryService implements ICategoryServices {
   async createCategory(data: CreateCategoryDto): Promise<ICategory> {
     const { name, description } = data;
 
-    const cleanName = name.trim();
+    const cleanName = name.trim().toUpperCase();
 
     const isExisting = await this._categoryRepository.findByName(cleanName);
     if (isExisting) {
@@ -91,10 +91,50 @@ export class CategoryService implements ICategoryServices {
     categoryId: string,
     data: { name: string; description: string }
   ) {
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+    console.log("check the the category id ", categoryId);
+
+
+    const cleanName = data.name.trim().toUpperCase();
     const existingCategory = await this._categoryRepository.findOne({
-      name: data.name,
-      _id: { $ne: categoryId },
+      name: cleanName,
+       categoryId: { $ne: categoryId },
     });
+
+
+    if(existingCategory){
+      // return console.log('check this what return the error ')
+      throw new AppError(ERROR_MESSAGES.ALLREADY_EXISTED, HTTP_STATUS.CONFLICT)
+    }
+
+
+    console.log("check the existed data category", existingCategory, data.name);
     console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+    console.log("check the existed data category", existingCategory);
+
+
+    const updateCategory = await this._categoryRepository.findOneAndUpdate(
+      {categoryId},
+      {$set: {
+        name: cleanName,
+        description : data.description.trim()
+      }}
+    );
+
+    if(!updateCategory){
+      throw new  AppError( ERROR_MESSAGES.CATEGORY_NOT_FOUND, HTTP_STATUS.NOT_FOUND)
+    }
+    return updateCategory
   }
 }

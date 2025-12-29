@@ -58,7 +58,8 @@ export class AdminRoutes extends BaseRoute {
     );
     this._router.get(
       "/category/get-category",
-      authenticate,isAdmin,
+      authenticate,
+      isAdmin,
       this._categoryController.getAllCategories.bind(this._categoryController)
     );
     this._router.patch(
@@ -68,6 +69,13 @@ export class AdminRoutes extends BaseRoute {
       this._categoryController.toggleCategoryStatus.bind(
         this._categoryController
       )
+    );
+
+    this.router.put(
+      "/editCategory/:categoryId",
+      // authenticate,
+      // isAdmin,
+      this._categoryController.editCategoryData.bind(this._categoryController)
     );
   }
 }

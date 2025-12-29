@@ -76,26 +76,36 @@ export class CategoryController implements ICategoryController {
 
   /* ================= ADMIN EDIT THE CATEGORY ================= */
 
+  async editCategoryData(req: Request, res: Response): Promise<void> {
+    const { categoryId } = req.params;
+    const { name, description } = req.body;
+    console.log("edit name, description", name, description);
 
-async editCategoryData(req: Request, res: Response): Promise<void>{
-  const {categoryId} = req.params;
-  const {name, description} = req.body
-  console.log('edit name, description', name, description)
+    if (!categoryId) {
+      throw new AppError(
+        ERROR_MESSAGES.CATEGORY_ID_MISSED,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
 
-  if(!categoryId){
-    throw new AppError(ERROR_MESSAGES.CATEGORY_ID_MISSED, HTTP_STATUS.BAD_REQUEST)
+    if (!name || !description) {
+      throw new AppError(
+        ERROR_MESSAGES.ALL_FIELDS_REQUIRED,
+        HTTP_STATUS.BAD_REQUEST
+      );
+    }
+
+    const updateCategory = await this._categoryService.editCategoryData(
+      categoryId,
+      { name, description }
+    );
+
+    res
+      .status(HTTP_STATUS.OK)
+      .json({
+        success: true,
+        message: SUCCESS_MESSAGES.DATA_EDITED,
+        data: updateCategory,
+      });
   }
-
-  if(!name || !description){
-    throw new AppError(ERROR_MESSAGES.ALL_FIELDS_REQUIRED, HTTP_STATUS.BAD_REQUEST)
-  }
-
-  const updateCategory = await this._categoryService.editCategoryData(categoryId, {name, description})
-
-  console.log('checkt he latest data',updateCategory)
-
-}
-
-
-
 }

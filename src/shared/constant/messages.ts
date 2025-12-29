@@ -21,12 +21,12 @@ export const SUCCESS_MESSAGES = {
   REAPPLY_SUCCESSFULLY : "Your verification request has been submitted again for admin review",
   PRODUCT_CREATED : "Product Created",
   PRODUCT_UPDATED : "Product Updated",
+  DATA_EDITED: "Data Edited Successfully",
 
 
 
   DATA_FETCHED: "Data fetched successfully.",
   DATA_CREATED: "Data Created Successfully",
-  DATA_EDITED: "Data Edited Successfully",
   DATA_DELETED: "Data Deleted Successfully",
 
   USER_LOGOUT: "User logout successfully.",
@@ -69,6 +69,7 @@ export const ERROR_MESSAGES = {
   ALLREADY_EXISTED : "Already Existed",
   PRODUCT_NOT_FOUND : 'Product not Fount',
   ADMIN_NOT_VERIFIED : 'Admin not verified',
+
 
   
   // USER

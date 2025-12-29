@@ -14,7 +14,8 @@ export interface IBaseRepository<T> {
 
   findWithPagination(
     query: Partial<T>,
-    options: { skip?: number; limit?: number; sort?: any }
+    options: { skip?: number; limit?: number; sort?: Record<string, 1 | -1>; }
+    // options: { skip?: number; limit?: number; sort?: any }
   ): Promise<{ data: T[];total:number; totalPages: number }>; 
  
 }

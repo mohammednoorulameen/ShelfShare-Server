@@ -91,15 +91,6 @@ export class CategoryService implements ICategoryServices {
     categoryId: string,
     data: { name: string; description: string }
   ) {
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-    console.log("check the the category id ", categoryId);
-
 
     const cleanName = data.name.trim().toUpperCase();
     const existingCategory = await this._categoryRepository.findOne({
@@ -112,17 +103,6 @@ export class CategoryService implements ICategoryServices {
       // return console.log('check this what return the error ')
       throw new AppError(ERROR_MESSAGES.ALLREADY_EXISTED, HTTP_STATUS.CONFLICT)
     }
-
-
-    console.log("check the existed data category", existingCategory, data.name);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-    console.log("check the existed data category", existingCategory);
-
 
     const updateCategory = await this._categoryRepository.findOneAndUpdate(
       {categoryId},

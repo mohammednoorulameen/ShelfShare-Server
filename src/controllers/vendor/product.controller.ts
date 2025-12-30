@@ -21,14 +21,7 @@ export class ProductController {
 
   async createNewProduct(req: Request, res: Response): Promise<void> {
     const vendorId = req.vendor?.vendorId;
-    // console.log("req.body chek datas here ", req.body);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
-    console.log("check the vendor fo the id", vendorId);
+    // console.log("req.body chek datas here ", req.body)
 
     if (!vendorId) {
       throw new AppError(
@@ -36,6 +29,11 @@ export class ProductController {
         HTTP_STATUS.UNAUTHORIZED
       );
     }
+    console.log('checkthe req.body',req.body)
+    console.log('checkthe req.body',req.body)
+    console.log('checkthe req.body',req.body)
+    console.log('checkthe req.body',req.body)
+    console.log('checkthe req.body',req.body)
     const result = await this._productService.createNewProduct(
       vendorId,
       req.body
@@ -88,6 +86,62 @@ export class ProductController {
     const { productId } = req.params;
     const vendorId = req.vendor?.vendorId; 
     const dto = req.body;
+
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
+    console.log(productId)
 
     if (!vendorId) {
       throw new AppError(

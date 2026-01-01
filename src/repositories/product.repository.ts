@@ -14,4 +14,5 @@ export class ProductRepository extends BaseRepository<IProduct> {
   async findByVendorId(vendorId: string) {
     return ProductModel.find({ vendorId }).sort({ createdAt: -1 });
   }
+
 }

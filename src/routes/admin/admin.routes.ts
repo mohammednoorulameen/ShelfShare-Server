@@ -73,8 +73,8 @@ export class AdminRoutes extends BaseRoute {
 
     this.router.put(
       "/editCategory/:categoryId",
-      // authenticate,
-      // isAdmin,
+      authenticate,
+      isAdmin,
       this._categoryController.editCategoryData.bind(this._categoryController)
     );
   }

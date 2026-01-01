@@ -14,6 +14,7 @@ import { VendorRoutes } from "./routes/vendor/vendor.routes";
 import morgan from "morgan";
 import { logger } from "./shared/utils/logger";
 import { httpLogger } from "./middlewares/logger.middleware";
+import path from "path";
 
 export default class Server {
   private _app: Application;
@@ -41,6 +42,8 @@ export default class Server {
     this._app.use(cookieParser());
     this._app.use(morgan("dev"));
     this._app.use(express.urlencoded({ extended: true }));
+
+    this._app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')))
 
   }
 

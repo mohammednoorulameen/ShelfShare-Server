@@ -15,9 +15,7 @@ export class ProductService implements IProductService {
     @inject("IProductRepository") private _productRepository: ProductRepository
   ) {}
 
-
   /* ================= CREATE PRODUCT (BOOK) ================= */
-
 
   async createNewProduct(
     vendorId: string,
@@ -49,12 +47,26 @@ export class ProductService implements IProductService {
   //! NEED PAGINATION
   /* ================= GET VENDOR PRODUCT ================= */
 
-
   async getVendorProducts(vendorId: string) {
     const products = await this._productRepository.findByVendorId(vendorId);
     return ProductMapper.toResponseList(products);
   }
 
+  /* ================= GET UPDATE PRODUCT WITH ID ================= */
+
+  async getUpdateDataWithId(productId: string, vendorId: string) {
+    const product = await this._productRepository.findOne({
+      productId,
+      vendorId,
+    });
+
+    console.log("product ", product);
+
+    if (!product) {
+      throw new AppError(ERROR_MESSAGES.NOT_FOUND, HTTP_STATUS.NOT_FOUND);
+    }
+    return ProductMapper.toResponse(product);
+  }
 
   /* ================= UPDATE PRODUCT ================= */
 
@@ -81,5 +93,24 @@ export class ProductService implements IProductService {
     const updated = await this._productRepository.update({ productId }, dto);
 
     return ProductMapper.toResponse(updated!);
+  }
+
+  /* ================= GET PRODUCT ================= */
+
+  async getAllProduct(page: 1, limit: 10) {
+    const skip = (page - 1) * limit;
+    const { data, total, totalPages } =
+      await this._productRepository.findWithPagination(
+        {},
+        { skip, limit, sort: { createdAt: -1 } }
+      );
+
+    return {
+      data,
+      total,
+      page,
+      limit,
+      totalPages,
+    };
   }
 }

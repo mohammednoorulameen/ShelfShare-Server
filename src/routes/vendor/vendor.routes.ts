@@ -54,6 +54,12 @@ export class VendorRoutes extends BaseRoute {
       isVendor,
       this._productController.getVendorProducts.bind(this._productController)
     );
+    this.router.get(
+      "/getupdateprduct/:productId",
+      authenticate,
+      isVendor,
+      this._productController.getUpdateDataWithId.bind(this._productController)
+    );
     this._router.put(
       "/update-product/:productId",
       authenticate,

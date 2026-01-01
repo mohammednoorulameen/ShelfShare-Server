@@ -17,7 +17,7 @@ export class CategoryService implements ICategoryServices {
     private _categoryRepository: ICategoryRepository
   ) {}
 
-  /* ================= CREATE CATEGORY================= */
+  /* ================= CREATE CATEGORY ================= */
 
   async createCategory(data: CreateCategoryDto): Promise<ICategory> {
     const { name, description } = data;
@@ -31,13 +31,7 @@ export class CategoryService implements ICategoryServices {
         HTTP_STATUS.BAD_REQUEST
       );
     }
-
-    // const payload: Partial<ICategory> = {
-    //    categoryId: uuidv4(),
-    //   name: cleanName,
-    //   description: description,
-    //   status: Status.ACTIVE,
-    // };
+    
     const payload = CategoryMapper.toEntity({
       name: cleanName,
       description: description,

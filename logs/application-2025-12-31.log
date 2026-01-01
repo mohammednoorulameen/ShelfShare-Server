@@ -1,0 +1,337 @@
+2025-12-31 00:40:42 [info] : GET /api/vendor/vendor-data 401 63 - 12.333 ms
+2025-12-31 00:40:42 [info] : POST /api/auth/refresh 200 330 - 13.179 ms
+2025-12-31 00:40:42 [info] : GET /api/vendor/vendor-data 304 - - 96.091 ms
+2025-12-31 07:03:50 [info] : GET /api/vendor/vendor-data 401 63 - 1.622 ms
+2025-12-31 07:03:50 [info] : POST /api/auth/refresh 200 330 - 5.252 ms
+2025-12-31 07:03:50 [info] : GET /api/vendor/vendor-data 304 - - 87.570 ms
+2025-12-31 07:23:21 [info] : server is runnning port 5050 
+2025-12-31 07:23:21 [info] : Mongodb Connect Successfully
+2025-12-31 07:25:48 [info] : server is runnning port 5050 
+2025-12-31 07:25:48 [info] : Mongodb Connect Successfully
+2025-12-31 07:25:50 [info] : server is runnning port 5050 
+2025-12-31 07:25:50 [info] : Mongodb Connect Successfully
+2025-12-31 07:25:51 [info] : server is runnning port 5050 
+2025-12-31 07:25:51 [info] : Mongodb Connect Successfully
+2025-12-31 07:25:54 [info] : server is runnning port 5050 
+2025-12-31 07:25:54 [info] : Mongodb Connect Successfully
+2025-12-31 07:26:09 [info] : server is runnning port 5050 
+2025-12-31 07:26:09 [info] : Mongodb Connect Successfully
+2025-12-31 07:26:11 [info] : server is runnning port 5050 
+2025-12-31 07:26:11 [info] : Mongodb Connect Successfully
+2025-12-31 07:27:54 [info] : server is runnning port 5050 
+2025-12-31 07:27:54 [info] : Mongodb Connect Successfully
+2025-12-31 07:27:56 [info] : server is runnning port 5050 
+2025-12-31 07:27:56 [info] : Mongodb Connect Successfully
+2025-12-31 07:27:58 [info] : server is runnning port 5050 
+2025-12-31 07:27:58 [info] : Mongodb Connect Successfully
+2025-12-31 07:32:50 [info] : server is runnning port 5050 
+2025-12-31 07:32:50 [info] : Mongodb Connect Successfully
+2025-12-31 07:32:52 [info] : server is runnning port 5050 
+2025-12-31 07:32:52 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:02 [info] : server is runnning port 5050 
+2025-12-31 07:33:03 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:09 [info] : server is runnning port 5050 
+2025-12-31 07:33:09 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:11 [info] : server is runnning port 5050 
+2025-12-31 07:33:11 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:17 [info] : server is runnning port 5050 
+2025-12-31 07:33:17 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:30 [info] : server is runnning port 5050 
+2025-12-31 07:33:30 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:35 [info] : server is runnning port 5050 
+2025-12-31 07:33:35 [info] : Mongodb Connect Successfully
+2025-12-31 07:33:38 [info] : server is runnning port 5050 
+2025-12-31 07:33:38 [info] : Mongodb Connect Successfully
+2025-12-31 07:35:00 [info] : server is runnning port 5050 
+2025-12-31 07:35:00 [info] : Mongodb Connect Successfully
+2025-12-31 07:35:05 [info] : server is runnning port 5050 
+2025-12-31 07:35:05 [info] : Mongodb Connect Successfully
+2025-12-31 07:35:07 [info] : server is runnning port 5050 
+2025-12-31 07:35:07 [info] : Mongodb Connect Successfully
+2025-12-31 07:35:09 [info] : server is runnning port 5050 
+2025-12-31 07:35:09 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:05 [info] : server is runnning port 5050 
+2025-12-31 07:36:05 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:06 [info] : server is runnning port 5050 
+2025-12-31 07:36:06 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:08 [info] : server is runnning port 5050 
+2025-12-31 07:36:08 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:15 [info] : server is runnning port 5050 
+2025-12-31 07:36:15 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:19 [info] : server is runnning port 5050 
+2025-12-31 07:36:19 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:24 [info] : server is runnning port 5050 
+2025-12-31 07:36:24 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:27 [info] : server is runnning port 5050 
+2025-12-31 07:36:27 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:46 [info] : server is runnning port 5050 
+2025-12-31 07:36:46 [info] : Mongodb Connect Successfully
+2025-12-31 07:36:48 [info] : server is runnning port 5050 
+2025-12-31 07:36:48 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:07 [info] : server is runnning port 5050 
+2025-12-31 07:37:07 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:10 [info] : server is runnning port 5050 
+2025-12-31 07:37:10 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:20 [info] : server is runnning port 5050 
+2025-12-31 07:37:20 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:21 [info] : server is runnning port 5050 
+2025-12-31 07:37:21 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:24 [info] : server is runnning port 5050 
+2025-12-31 07:37:24 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:27 [info] : server is runnning port 5050 
+2025-12-31 07:37:27 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:29 [info] : server is runnning port 5050 
+2025-12-31 07:37:29 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:37 [info] : server is runnning port 5050 
+2025-12-31 07:37:37 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:41 [info] : server is runnning port 5050 
+2025-12-31 07:37:41 [info] : Mongodb Connect Successfully
+2025-12-31 07:37:45 [info] : server is runnning port 5050 
+2025-12-31 07:37:45 [info] : Mongodb Connect Successfully
+2025-12-31 07:38:43 [info] : server is runnning port 5050 
+2025-12-31 07:38:43 [info] : Mongodb Connect Successfully
+2025-12-31 07:38:48 [info] : server is runnning port 5050 
+2025-12-31 07:38:48 [info] : Mongodb Connect Successfully
+2025-12-31 07:38:50 [info] : server is runnning port 5050 
+2025-12-31 07:38:50 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:02 [info] : server is runnning port 5050 
+2025-12-31 07:39:02 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:22 [info] : server is runnning port 5050 
+2025-12-31 07:39:22 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:23 [info] : server is runnning port 5050 
+2025-12-31 07:39:23 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:27 [info] : server is runnning port 5050 
+2025-12-31 07:39:27 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:28 [info] : server is runnning port 5050 
+2025-12-31 07:39:28 [info] : Mongodb Connect Successfully
+2025-12-31 07:39:47 [info] : server is runnning port 5050 
+2025-12-31 07:39:47 [info] : Mongodb Connect Successfully
+2025-12-31 07:40:10 [info] : POST /api/auth/login 200 330 - 194.229 ms
+2025-12-31 07:46:56 [info] : server is runnning port 5050 
+2025-12-31 07:46:56 [info] : Mongodb Connect Successfully
+2025-12-31 07:46:58 [info] : POST /api/auth/login 200 330 - 122.014 ms
+2025-12-31 07:47:11 [info] : PUT /api/vendor/getupdateprduct/06a5905a-4423-49e1-a6b0-e566a3400d2a 404 202 - 2.909 ms
+2025-12-31 07:47:58 [info] : GET /api/vendor/getupdateprduct/06a5905a-4423-49e1-a6b0-e566a3400d2a - - - - ms
+2025-12-31 07:48:58 [info] : GET /api/vendor/vendor-data 401 63 - 7.967 ms
+2025-12-31 07:48:58 [info] : POST /api/auth/refresh 200 330 - 5.500 ms
+2025-12-31 07:48:59 [info] : GET /api/vendor/vendor-data 200 526 - 444.369 ms
+2025-12-31 07:54:00 [info] : GET /api/vendor/vendor-data 304 - - 111.337 ms
+2025-12-31 07:58:21 [info] : server is runnning port 5050 
+2025-12-31 07:58:21 [info] : Mongodb Connect Successfully
+2025-12-31 07:59:43 [info] : GET /api/vendor/vendor-data 304 - - 780.526 ms
+2025-12-31 08:06:54 [info] : GET /api/vendor/vendor-data 401 63 - 16.115 ms
+2025-12-31 08:06:54 [info] : POST /api/auth/refresh 200 330 - 27.105 ms
+2025-12-31 08:06:54 [info] : GET /api/vendor/vendor-data 304 - - 77.224 ms
+2025-12-31 08:09:07 [info] : GET /api/vendor/vendor-data 304 - - 153.118 ms
+2025-12-31 08:09:07 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 16 - 225.832 ms
+2025-12-31 08:10:39 [info] : GET /api/vendor/vendor-data 304 - - 124.031 ms
+2025-12-31 08:10:39 [info] : GET /api/vendor/get-vendorproduct 304 - - 94.063 ms
+2025-12-31 08:11:13 [info] : GET /api/vendor/vendor-data 304 - - 104.273 ms
+2025-12-31 08:11:13 [info] : GET /api/vendor/get-vendorproduct 304 - - 44.130 ms
+2025-12-31 08:16:25 [info] : GET /api/vendor/vendor-data 304 - - 202.855 ms
+2025-12-31 08:18:50 [info] : GET /api/vendor/vendor-data 304 - - 286.123 ms
+2025-12-31 08:18:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 1100.925 ms
+2025-12-31 08:19:13 [info] : GET /api/vendor/get-vendorproduct 304 - - 21.291 ms
+2025-12-31 08:19:50 [info] : GET /api/vendor/get-vendorproduct 304 - - 46.825 ms
+2025-12-31 08:19:50 [info] : GET /api/vendor/vendor-data 304 - - 35.814 ms
+2025-12-31 08:19:53 [info] : GET /api/vendor/get-vendorproduct 304 - - 16.169 ms
+2025-12-31 08:19:53 [info] : GET /api/vendor/vendor-data 304 - - 15.286 ms
+2025-12-31 08:19:57 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.202 ms
+2025-12-31 08:19:57 [info] : GET /api/vendor/vendor-data 304 - - 6.935 ms
+2025-12-31 08:22:12 [info] : GET /api/vendor/vendor-data 401 63 - 11.007 ms
+2025-12-31 08:22:12 [info] : GET /api/vendor/get-vendorproduct 401 63 - 1.217 ms
+2025-12-31 08:22:12 [info] : POST /api/auth/refresh 200 330 - 38.256 ms
+2025-12-31 08:22:12 [info] : POST /api/auth/refresh 200 330 - 2.323 ms
+2025-12-31 08:22:12 [info] : GET /api/vendor/vendor-data 304 - - 101.342 ms
+2025-12-31 08:22:12 [info] : GET /api/vendor/get-vendorproduct 304 - - 105.759 ms
+2025-12-31 08:22:35 [info] : server is runnning port 5050 
+2025-12-31 08:22:35 [info] : Mongodb Connect Successfully
+2025-12-31 08:22:39 [info] : GET /api/vendor/vendor-data 304 - - 78.008 ms
+2025-12-31 08:22:39 [info] : GET /api/vendor/get-vendorproduct 304 - - 83.915 ms
+2025-12-31 08:23:05 [info] : GET /api/vendor/vendor-data 304 - - 1.992 ms
+2025-12-31 08:23:05 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 200 644 - 19.657 ms
+2025-12-31 08:23:07 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 3.948 ms
+2025-12-31 08:23:09 [info] : GET /api/vendor/get-vendorproduct 304 - - 607.467 ms
+2025-12-31 08:23:14 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 5.751 ms
+2025-12-31 08:28:32 [info] : GET /api/vendor/vendor-data 304 - - 80.484 ms
+2025-12-31 09:37:28 [info] : GET /api/vendor/vendor-data 401 63 - 17.229 ms
+2025-12-31 09:37:28 [info] : POST /api/auth/refresh 200 330 - 31.996 ms
+2025-12-31 09:37:29 [info] : GET /api/vendor/vendor-data 304 - - 934.827 ms
+2025-12-31 12:53:46 [info] : GET /api/vendor/vendor-data 401 63 - 26.333 ms
+2025-12-31 12:53:46 [info] : POST /api/auth/refresh 200 330 - 80.287 ms
+2025-12-31 12:53:48 [info] : GET /api/vendor/vendor-data 304 - - 1374.276 ms
+2025-12-31 12:53:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 844.196 ms
+2025-12-31 13:58:41 [info] : GET /api/vendor/vendor-data 401 63 - 34.603 ms
+2025-12-31 13:58:41 [info] : POST /api/auth/refresh 200 330 - 58.138 ms
+2025-12-31 13:58:42 [info] : GET /api/vendor/vendor-data 304 - - 633.152 ms
+2025-12-31 13:58:42 [info] : GET /api/vendor/get-vendorproduct 304 - - 122.685 ms
+2025-12-31 19:23:46 [info] : server is runnning port 5050 
+2025-12-31 19:23:46 [info] : Mongodb Connect Successfully
+2025-12-31 19:25:29 [info] : GET /api/vendor/vendor-data 401 63 - 3.784 ms
+2025-12-31 19:25:29 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.369 ms
+2025-12-31 19:25:29 [info] : POST /api/auth/refresh 200 330 - 26.984 ms
+2025-12-31 19:25:29 [info] : POST /api/auth/refresh 200 330 - 1.768 ms
+2025-12-31 19:25:29 [info] : GET /api/vendor/vendor-data 304 - - 41.716 ms
+2025-12-31 19:25:29 [info] : GET /api/vendor/get-vendorproduct 304 - - 46.127 ms
+2025-12-31 19:25:33 [info] : GET /api/vendor/vendor-data 304 - - 20.213 ms
+2025-12-31 19:25:33 [info] : GET /api/vendor/get-vendorproduct 304 - - 11.849 ms
+2025-12-31 19:25:47 [info] : GET /api/vendor/vendor-data 304 - - 27.454 ms
+2025-12-31 19:25:47 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 933 - 49.795 ms
+2025-12-31 19:51:24 [info] : GET /api/vendor/vendor-data 401 63 - 1.245 ms
+2025-12-31 19:51:24 [info] : POST /api/auth/refresh 200 330 - 11.098 ms
+2025-12-31 19:51:24 [info] : GET /api/vendor/vendor-data 304 - - 124.591 ms
+2025-12-31 19:51:24 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 48.517 ms
+2025-12-31 19:51:30 [info] : GET /api/vendor/vendor-data 304 - - 201.399 ms
+2025-12-31 19:51:30 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 46.023 ms
+2025-12-31 21:00:33 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 401 63 - 6.212 ms
+2025-12-31 21:00:33 [info] : GET /api/vendor/vendor-data 401 63 - 0.145 ms
+2025-12-31 21:00:33 [info] : POST /api/auth/refresh 200 330 - 9.325 ms
+2025-12-31 21:00:33 [info] : POST /api/auth/refresh 200 330 - 0.504 ms
+2025-12-31 21:00:33 [info] : GET /api/vendor/vendor-data 304 - - 26.714 ms
+2025-12-31 21:00:33 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 47.984 ms
+2025-12-31 21:22:07 [info] : GET /api/vendor/vendor-data 401 63 - 1.105 ms
+2025-12-31 21:22:07 [info] : POST /api/auth/refresh 200 330 - 10.592 ms
+2025-12-31 21:22:07 [info] : GET /api/vendor/vendor-data 304 - - 43.456 ms
+2025-12-31 21:22:07 [info] : GET /api/vendor/get-vendorproduct 304 - - 72.656 ms
+2025-12-31 21:28:15 [info] : GET /api/vendor/vendor-data 304 - - 53.262 ms
+2025-12-31 21:28:15 [info] : GET /api/vendor/get-vendorproduct 304 - - 77.914 ms
+2025-12-31 21:28:44 [info] : GET /api/vendor/get-vendorproduct 304 - - 100.210 ms
+2025-12-31 21:28:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 86.957 ms
+2025-12-31 21:28:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 9.087 ms
+2025-12-31 21:40:47 [info] : GET /api/vendor/get-vendorproduct 401 63 - 7.197 ms
+2025-12-31 21:40:47 [info] : POST /api/auth/refresh 200 330 - 8.178 ms
+2025-12-31 21:40:47 [info] : GET /api/vendor/get-vendorproduct 304 - - 35.616 ms
+2025-12-31 21:40:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 11.002 ms
+2025-12-31 22:38:27 [info] : GET /api/vendor/vendor-data 401 63 - 2.079 ms
+2025-12-31 22:38:27 [info] : POST /api/auth/refresh 200 330 - 9.513 ms
+2025-12-31 22:38:27 [info] : GET /api/vendor/get-vendorproduct 401 63 - 1.527 ms
+2025-12-31 22:38:27 [info] : POST /api/auth/refresh 200 330 - 0.910 ms
+2025-12-31 22:38:27 [info] : GET /api/vendor/vendor-data 304 - - 68.991 ms
+2025-12-31 22:38:27 [info] : GET /api/vendor/get-vendorproduct 304 - - 39.604 ms
+2025-12-31 22:38:29 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 53.231 ms
+2025-12-31 22:38:29 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 92.484 ms
+2025-12-31 22:39:10 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 8.860 ms
+2025-12-31 22:39:10 [info] : GET /api/vendor/vendor-data 304 - - 6.778 ms
+2025-12-31 22:39:10 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 3.867 ms
+2025-12-31 22:39:16 [info] : GET /api/vendor/get-vendorproduct 304 - - 19.459 ms
+2025-12-31 22:39:21 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.786 ms
+2025-12-31 22:39:21 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 5.362 ms
+2025-12-31 22:39:49 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 12.716 ms
+2025-12-31 22:39:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 42.487 ms
+2025-12-31 22:39:49 [info] : GET /api/vendor/vendor-data 304 - - 36.370 ms
+2025-12-31 22:39:51 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 3.627 ms
+2025-12-31 22:39:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 3.610 ms
+2025-12-31 22:40:51 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 8.368 ms
+2025-12-31 22:40:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 7.824 ms
+2025-12-31 22:40:51 [info] : GET /api/vendor/vendor-data 304 - - 3.712 ms
+2025-12-31 22:42:15 [info] : GET /api/vendor/vendor-data 304 - - 128.344 ms
+2025-12-31 22:42:15 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 197.759 ms
+2025-12-31 22:42:15 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 165.952 ms
+2025-12-31 22:42:41 [info] : GET /api/vendor/getupdateprduct/c14fb786-f2bc-4001-a37f-6458fbae24ad 304 - - 7.438 ms
+2025-12-31 22:42:41 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 4.377 ms
+2025-12-31 22:44:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 19.242 ms
+2025-12-31 22:44:05 [info] : GET /api/vendor/getupdateprduct/b7b36d8b-f22d-4a11-b23b-725396af3c53 200 653 - 11.885 ms
+2025-12-31 22:44:05 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.239 ms
+2025-12-31 22:44:09 [info] : GET /api/vendor/get-vendorproduct 304 - - 5.789 ms
+2025-12-31 22:55:00 [info] : GET /api/vendor/vendor-data 401 63 - 8.266 ms
+2025-12-31 22:55:00 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.431 ms
+2025-12-31 22:55:00 [info] : POST /api/auth/refresh 200 330 - 18.414 ms
+2025-12-31 22:55:00 [info] : POST /api/auth/refresh 200 330 - 2.419 ms
+2025-12-31 22:55:01 [info] : GET /api/vendor/vendor-data 304 - - 42.596 ms
+2025-12-31 22:55:01 [info] : GET /api/vendor/get-vendorproduct 304 - - 51.643 ms
+2025-12-31 22:55:02 [info] : GET /api/vendor/vendor-data 304 - - 20.940 ms
+2025-12-31 22:55:02 [info] : GET /api/vendor/get-vendorproduct 304 - - 7.912 ms
+2025-12-31 22:55:04 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 9.511 ms
+2025-12-31 22:55:04 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 77.483 ms
+2025-12-31 22:55:29 [info] : OPTIONS /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 204 0 - 0.725 ms
+2025-12-31 22:55:29 [info] : PUT /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1102 - 22.977 ms
+2025-12-31 22:55:37 [info] : GET /api/vendor/get-vendorproduct 200 9802 - 9.851 ms
+2025-12-31 22:56:52 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1113 - 18.409 ms
+2025-12-31 22:56:52 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 48.612 ms
+2025-12-31 22:56:56 [info] : OPTIONS /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 204 0 - 0.137 ms
+2025-12-31 22:56:56 [info] : PUT /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1104 - 8.165 ms
+2025-12-31 22:56:58 [info] : GET /api/vendor/get-vendorproduct 200 9804 - 4.889 ms
+2025-12-31 23:07:40 [info] : GET /api/vendor/vendor-data 304 - - 96.223 ms
+2025-12-31 23:07:40 [info] : GET /api/vendor/get-vendorproduct 304 - - 56.756 ms
+2025-12-31 23:09:41 [info] : GET /api/vendor/getupdateprduct/06a5905a-4423-49e1-a6b0-e566a3400d2a 200 619 - 27.534 ms
+2025-12-31 23:09:42 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 100.164 ms
+2025-12-31 23:09:51 [info] : OPTIONS /api/vendor/update-product/06a5905a-4423-49e1-a6b0-e566a3400d2a 204 0 - 0.138 ms
+2025-12-31 23:09:51 [info] : PUT /api/vendor/update-product/06a5905a-4423-49e1-a6b0-e566a3400d2a 200 608 - 18.489 ms
+2025-12-31 23:09:58 [info] : GET /api/vendor/getupdateprduct/06a5905a-4423-49e1-a6b0-e566a3400d2a 200 619 - 6.119 ms
+2025-12-31 23:09:58 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 7.326 ms
+2025-12-31 23:09:58 [info] : GET /api/vendor/vendor-data 304 - - 1.588 ms
+2025-12-31 23:10:00 [info] : GET /api/vendor/get-vendorproduct 200 9804 - 6.274 ms
+2025-12-31 23:22:51 [info] : GET /api/vendor/vendor-data 401 63 - 5.762 ms
+2025-12-31 23:22:51 [info] : POST /api/auth/refresh 200 330 - 5.747 ms
+2025-12-31 23:22:51 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.228 ms
+2025-12-31 23:22:51 [info] : POST /api/auth/refresh 200 330 - 0.294 ms
+2025-12-31 23:22:51 [info] : GET /api/vendor/vendor-data 304 - - 17.686 ms
+2025-12-31 23:22:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 22.524 ms
+2025-12-31 23:27:22 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 754 - 94.938 ms
+2025-12-31 23:27:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 88.726 ms
+2025-12-31 23:27:30 [info] : OPTIONS /api/vendor/update-product/fb338f00-1fa5-4e4f-a479-225d1873e4df 204 0 - 0.180 ms
+2025-12-31 23:27:30 [info] : PUT /api/vendor/update-product/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 745 - 16.344 ms
+2025-12-31 23:27:30 [info] : GET /api/vendor/get-vendorproduct 200 9806 - 5.444 ms
+2025-12-31 23:30:05 [info] : GET /api/vendor/vendor-data 304 - - 41.289 ms
+2025-12-31 23:30:05 [info] : GET /api/vendor/get-vendorproduct 304 - - 31.580 ms
+2025-12-31 23:30:10 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 756 - 6.841 ms
+2025-12-31 23:30:10 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 54.568 ms
+2025-12-31 23:30:22 [info] : OPTIONS /api/vendor/update-product/fb338f00-1fa5-4e4f-a479-225d1873e4df 204 0 - 0.406 ms
+2025-12-31 23:30:22 [info] : PUT /api/vendor/update-product/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 833 - 11.561 ms
+2025-12-31 23:30:22 [info] : GET /api/vendor/get-vendorproduct 200 9894 - 13.110 ms
+2025-12-31 23:30:34 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 844 - 9.296 ms
+2025-12-31 23:30:34 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 8.108 ms
+2025-12-31 23:32:31 [info] : GET /api/vendor/vendor-data 304 - - 7.494 ms
+2025-12-31 23:32:31 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 304 - - 12.265 ms
+2025-12-31 23:32:31 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.593 ms
+2025-12-31 23:37:25 [info] : GET /api/vendor/vendor-data 304 - - 223.439 ms
+2025-12-31 23:37:26 [info] : GET /api/vendor/getupdateprduct/fb338f00-1fa5-4e4f-a479-225d1873e4df 304 - - 485.062 ms
+2025-12-31 23:37:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 542.162 ms
+2025-12-31 23:37:29 [info] : GET /api/vendor/get-vendorproduct 304 - - 13.022 ms
+2025-12-31 23:37:32 [info] : GET /api/vendor/getupdateprduct/b7b36d8b-f22d-4a11-b23b-725396af3c53 304 - - 10.843 ms
+2025-12-31 23:37:32 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.815 ms
+2025-12-31 23:38:39 [info] : GET /api/vendor/vendor-data 401 63 - 0.973 ms
+2025-12-31 23:38:39 [info] : POST /api/auth/refresh 200 330 - 2.183 ms
+2025-12-31 23:38:40 [info] : GET /api/vendor/vendor-data 304 - - 7.911 ms
+2025-12-31 23:38:40 [info] : GET /api/vendor/getupdateprduct/b7b36d8b-f22d-4a11-b23b-725396af3c53 304 - - 6.152 ms
+2025-12-31 23:38:40 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 8.287 ms
+2025-12-31 23:38:41 [info] : GET /api/vendor/vendor-data 304 - - 2.259 ms
+2025-12-31 23:38:41 [info] : GET /api/vendor/getupdateprduct/b7b36d8b-f22d-4a11-b23b-725396af3c53 304 - - 9.486 ms
+2025-12-31 23:38:41 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.355 ms
+2025-12-31 23:40:21 [info] : GET /api/vendor/get-vendorproduct 304 - - 40.586 ms
+2025-12-31 23:40:23 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1115 - 11.848 ms
+2025-12-31 23:40:23 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 56.547 ms
+2025-12-31 23:40:25 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.325 ms
+2025-12-31 23:40:28 [info] : GET /api/vendor/getupdateprduct/06a5905a-4423-49e1-a6b0-e566a3400d2a 304 - - 6.094 ms
+2025-12-31 23:40:28 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 6.565 ms
+2025-12-31 23:40:29 [info] : GET /api/vendor/get-vendorproduct 304 - - 4.437 ms
+2025-12-31 23:40:32 [info] : GET /api/vendor/getupdateprduct/24e9d077-8726-40ee-adac-d0b5824982ac 200 915 - 17.523 ms
+2025-12-31 23:40:32 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 18.556 ms
+2025-12-31 23:40:36 [info] : OPTIONS /api/vendor/update-product/24e9d077-8726-40ee-adac-d0b5824982ac 204 0 - 0.130 ms
+2025-12-31 23:40:36 [info] : PUT /api/vendor/update-product/24e9d077-8726-40ee-adac-d0b5824982ac 200 904 - 18.442 ms
+2025-12-31 23:40:36 [info] : GET /api/vendor/get-vendorproduct 200 9894 - 4.126 ms
+2025-12-31 23:40:42 [info] : GET /api/vendor/getupdateprduct/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 10.739 ms
+2025-12-31 23:40:42 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 6.941 ms
+2025-12-31 23:40:46 [info] : OPTIONS /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 204 0 - 0.165 ms
+2025-12-31 23:40:46 [info] : PUT /api/vendor/update-product/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1104 - 5.480 ms
+2025-12-31 23:40:46 [info] : GET /api/vendor/get-vendorproduct 200 9894 - 5.392 ms
+2025-12-31 23:43:36 [info] : GET /api/vendor/vendor-data 304 - - 20.820 ms
+2025-12-31 23:43:36 [info] : GET /api/vendor/get-vendorproduct 304 - - 85.820 ms
+2025-12-31 23:43:37 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 50.731 ms
+2025-12-31 23:44:18 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 0.688 ms
+2025-12-31 23:44:18 [info] : POST /api/vendor/vendor-addproduct 201 1066 - 64.414 ms
+2025-12-31 23:44:18 [info] : GET /api/vendor/get-vendorproduct 200 10909 - 8.374 ms
+2025-12-31 23:47:01 [info] : POST /api/auth/logout 200 61 - 31.364 ms
+2025-12-31 23:47:22 [info] : OPTIONS /api/auth/login 204 0 - 1.015 ms
+2025-12-31 23:47:22 [info] : POST /api/auth/login 404 48 - 47.801 ms
+2025-12-31 23:47:27 [info] : OPTIONS /api/auth/login 204 0 - 0.323 ms
+2025-12-31 23:47:27 [info] : POST /api/auth/login 404 48 - 5.204 ms
+2025-12-31 23:47:32 [info] : POST /api/auth/login 404 48 - 4.236 ms
+2025-12-31 23:47:38 [info] : OPTIONS /api/auth/login 204 0 - 0.174 ms
+2025-12-31 23:47:38 [info] : POST /api/auth/login 401 56 - 115.143 ms
+2025-12-31 23:47:46 [info] : OPTIONS /api/auth/login 204 0 - 0.149 ms
+2025-12-31 23:47:46 [info] : POST /api/auth/login 401 56 - 105.402 ms
+2025-12-31 23:47:52 [info] : OPTIONS /api/auth/login 204 0 - 0.228 ms
+2025-12-31 23:47:52 [info] : POST /api/auth/login 200 321 - 106.319 ms
+2025-12-31 23:48:08 [info] : GET /api/user/user-data 200 522 - 8.491 ms
+2025-12-31 23:48:25 [info] : GET /api/user/user-data 304 - - 4.740 ms

@@ -1,0 +1,149 @@
+2026-01-01 00:03:08 [info] : GET /api/user/user-data 401 63 - 2.544 ms
+2026-01-01 00:03:08 [info] : POST /api/auth/refresh 200 315 - 4.805 ms
+2026-01-01 00:03:08 [info] : GET /api/user/user-data 304 - - 21.947 ms
+2026-01-01 00:06:44 [info] : GET /api/user/user-data 304 - - 65.397 ms
+2026-01-01 00:07:02 [info] : GET /api/user/user-data 304 - - 22.700 ms
+2026-01-01 07:28:47 [info] : GET /api/user/user-data 401 63 - 16.567 ms
+2026-01-01 07:28:47 [info] : POST /api/auth/refresh 200 315 - 19.658 ms
+2026-01-01 07:28:47 [info] : GET /api/user/user-data 304 - - 72.449 ms
+2026-01-01 07:29:29 [info] : GET /api/user/user-data 304 - - 19.961 ms
+2026-01-01 07:29:33 [info] : GET /api/user/user-data 304 - - 3.937 ms
+2026-01-01 07:29:59 [info] : OPTIONS /api/user/update-userinfo 204 0 - 1.299 ms
+2026-01-01 07:29:59 [info] : PUT /api/user/update-userinfo 200 509 - 48.805 ms
+2026-01-01 07:30:03 [info] : GET /api/user/user-data 200 522 - 5.104 ms
+2026-01-01 07:30:05 [info] : GET /api/user/user-data 304 - - 2.665 ms
+2026-01-01 07:33:55 [info] : GET /api/user/user-data 304 - - 48.224 ms
+2026-01-01 07:34:14 [info] : POST /api/auth/logout 200 63 - 6.749 ms
+2026-01-01 07:34:49 [info] : OPTIONS /api/auth/login 204 0 - 0.606 ms
+2026-01-01 07:34:49 [info] : POST /api/auth/login 200 330 - 144.986 ms
+2026-01-01 07:34:49 [info] : GET /api/vendor/vendor-data 304 - - 8.442 ms
+2026-01-01 07:34:51 [info] : GET /api/vendor/get-vendorproduct 304 - - 47.884 ms
+2026-01-01 07:35:05 [info] : POST /api/auth/logout 200 61 - 17.080 ms
+2026-01-01 07:35:25 [info] : OPTIONS /api/auth/login 204 0 - 0.450 ms
+2026-01-01 07:35:25 [info] : POST /api/auth/login 200 320 - 124.384 ms
+2026-01-01 07:35:27 [info] : GET /api/user/user-data 200 521 - 11.011 ms
+2026-01-01 07:38:20 [info] : GET /api/user/user-data 304 - - 50.986 ms
+2026-01-01 09:59:50 [info] : GET /api/user/user-data 401 63 - 3.597 ms
+2026-01-01 09:59:50 [info] : POST /api/auth/refresh 200 317 - 5.274 ms
+2026-01-01 09:59:50 [info] : GET /api/user/user-data 304 - - 38.882 ms
+2026-01-01 11:34:26 [info] : server is runnning port 5050 
+2026-01-01 11:34:26 [info] : Mongodb Connect Successfully
+2026-01-01 11:34:29 [info] : server is runnning port 5050 
+2026-01-01 11:34:29 [info] : Mongodb Connect Successfully
+2026-01-01 11:34:39 [info] : server is runnning port 5050 
+2026-01-01 11:34:39 [info] : Mongodb Connect Successfully
+2026-01-01 11:34:58 [info] : server is runnning port 5050 
+2026-01-01 11:34:58 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:00 [info] : server is runnning port 5050 
+2026-01-01 11:35:00 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:11 [info] : server is runnning port 5050 
+2026-01-01 11:35:11 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:14 [info] : server is runnning port 5050 
+2026-01-01 11:35:14 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:16 [info] : server is runnning port 5050 
+2026-01-01 11:35:16 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:22 [info] : server is runnning port 5050 
+2026-01-01 11:35:22 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:28 [info] : server is runnning port 5050 
+2026-01-01 11:35:28 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:33 [info] : server is runnning port 5050 
+2026-01-01 11:35:33 [info] : Mongodb Connect Successfully
+2026-01-01 11:35:40 [info] : server is runnning port 5050 
+2026-01-01 11:35:40 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:01 [info] : server is runnning port 5050 
+2026-01-01 11:47:01 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:25 [info] : server is runnning port 5050 
+2026-01-01 11:47:25 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:31 [info] : server is runnning port 5050 
+2026-01-01 11:47:31 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:55 [info] : server is runnning port 5050 
+2026-01-01 11:47:55 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:58 [info] : server is runnning port 5050 
+2026-01-01 11:47:58 [info] : Mongodb Connect Successfully
+2026-01-01 11:47:59 [info] : server is runnning port 5050 
+2026-01-01 11:47:59 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:00 [info] : server is runnning port 5050 
+2026-01-01 11:48:00 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:04 [info] : server is runnning port 5050 
+2026-01-01 11:48:04 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:10 [info] : server is runnning port 5050 
+2026-01-01 11:48:10 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:13 [info] : server is runnning port 5050 
+2026-01-01 11:48:13 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:18 [info] : server is runnning port 5050 
+2026-01-01 11:48:18 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:26 [info] : server is runnning port 5050 
+2026-01-01 11:48:26 [info] : Mongodb Connect Successfully
+2026-01-01 11:48:44 [info] : server is runnning port 5050 
+2026-01-01 11:48:44 [info] : Mongodb Connect Successfully
+2026-01-01 11:49:04 [info] : server is runnning port 5050 
+2026-01-01 11:49:04 [info] : Mongodb Connect Successfully
+2026-01-01 11:49:06 [info] : server is runnning port 5050 
+2026-01-01 11:49:06 [info] : Mongodb Connect Successfully
+2026-01-01 11:49:12 [info] : server is runnning port 5050 
+2026-01-01 11:49:12 [info] : Mongodb Connect Successfully
+2026-01-01 11:49:24 [info] : server is runnning port 5050 
+2026-01-01 11:49:24 [info] : Mongodb Connect Successfully
+2026-01-01 11:49:30 [info] : server is runnning port 5050 
+2026-01-01 11:49:30 [info] : Mongodb Connect Successfully
+2026-01-01 11:51:03 [info] : server is runnning port 5050 
+2026-01-01 11:51:03 [info] : Mongodb Connect Successfully
+2026-01-01 11:52:50 [info] : server is runnning port 5050 
+2026-01-01 11:52:50 [info] : Mongodb Connect Successfully
+2026-01-01 11:53:03 [info] : server is runnning port 5050 
+2026-01-01 11:53:03 [info] : Mongodb Connect Successfully
+2026-01-01 11:53:27 [info] : server is runnning port 5050 
+2026-01-01 11:53:27 [info] : Mongodb Connect Successfully
+2026-01-01 11:53:32 [info] : server is runnning port 5050 
+2026-01-01 11:53:32 [info] : Mongodb Connect Successfully
+2026-01-01 11:55:14 [info] : server is runnning port 5050 
+2026-01-01 11:55:14 [info] : Mongodb Connect Successfully
+2026-01-01 11:55:15 [info] : server is runnning port 5050 
+2026-01-01 11:55:15 [info] : Mongodb Connect Successfully
+2026-01-01 11:55:19 [info] : server is runnning port 5050 
+2026-01-01 11:55:19 [info] : Mongodb Connect Successfully
+2026-01-01 11:55:26 [info] : server is runnning port 5050 
+2026-01-01 11:55:26 [info] : Mongodb Connect Successfully
+2026-01-01 11:57:04 [info] : server is runnning port 5050 
+2026-01-01 11:57:04 [info] : Mongodb Connect Successfully
+2026-01-01 11:57:10 [info] : server is runnning port 5050 
+2026-01-01 11:57:10 [info] : Mongodb Connect Successfully
+2026-01-01 11:57:14 [info] : server is runnning port 5050 
+2026-01-01 11:57:14 [info] : Mongodb Connect Successfully
+2026-01-01 11:57:19 [info] : server is runnning port 5050 
+2026-01-01 11:57:19 [info] : Mongodb Connect Successfully
+2026-01-01 11:57:43 [info] : server is runnning port 5050 
+2026-01-01 11:57:43 [info] : Mongodb Connect Successfully
+2026-01-01 11:58:16 [info] : GET /api/user/allproducts 404 159 - 0.942 ms
+2026-01-01 11:58:34 [info] : GET /api/user/allproduct 200 8717 - 115.167 ms
+2026-01-01 12:08:39 [info] : server is runnning port 5050 
+2026-01-01 12:08:39 [info] : Mongodb Connect Successfully
+2026-01-01 12:08:40 [info] : server is runnning port 5050 
+2026-01-01 12:08:40 [info] : Mongodb Connect Successfully
+2026-01-01 16:54:04 [info] : GET /api/user/allproduct?page=1&limit=9 401 63 - 8.442 ms
+2026-01-01 16:54:04 [info] : POST /api/auth/refresh 200 317 - 59.153 ms
+2026-01-01 16:54:04 [info] : GET /api/user/allproduct?page=1&limit=9 200 7876 - 205.711 ms
+2026-01-01 16:54:26 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 22.472 ms
+2026-01-01 16:56:26 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 80.038 ms
+2026-01-01 16:59:02 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 107.965 ms
+2026-01-01 17:01:28 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 454.916 ms
+2026-01-01 17:14:55 [info] : GET /api/user/allproduct?page=1&limit=9 401 63 - 6.181 ms
+2026-01-01 17:14:55 [info] : POST /api/auth/refresh 200 317 - 20.086 ms
+2026-01-01 17:14:55 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 101.365 ms
+2026-01-01 17:55:30 [info] : GET /api/user/allproduct?page=1&limit=9 401 63 - 10.979 ms
+2026-01-01 17:55:30 [info] : POST /api/auth/refresh 200 317 - 32.723 ms
+2026-01-01 17:55:31 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 600.767 ms
+2026-01-01 17:55:32 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 50.557 ms
+2026-01-01 17:55:55 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 45.131 ms
+2026-01-01 17:58:42 [info] : POST /api/auth/logout 200 63 - 31.719 ms
+2026-01-01 17:58:58 [info] : OPTIONS /api/auth/login 204 0 - 1.593 ms
+2026-01-01 17:58:58 [info] : POST /api/auth/login 404 48 - 101.045 ms
+2026-01-01 17:59:07 [info] : OPTIONS /api/auth/login 204 0 - 0.208 ms
+2026-01-01 17:59:08 [info] : POST /api/auth/login 200 321 - 114.083 ms
+2026-01-01 17:59:22 [info] : GET /api/user/user-data 200 522 - 21.029 ms
+2026-01-01 17:59:30 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 87.326 ms
+2026-01-01 18:01:33 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 87.495 ms
+2026-01-01 18:01:33 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 15.744 ms
+2026-01-01 18:02:20 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 118.541 ms
+2026-01-01 18:02:26 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 16.293 ms
+2026-01-01 18:02:30 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 20.048 ms

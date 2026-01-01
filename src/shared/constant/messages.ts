@@ -22,10 +22,10 @@ export const SUCCESS_MESSAGES = {
   PRODUCT_CREATED : "Product Created",
   PRODUCT_UPDATED : "Product Updated",
   DATA_EDITED: "Data Edited Successfully",
-
-
-
   DATA_FETCHED: "Data fetched successfully.",
+
+
+
   DATA_CREATED: "Data Created Successfully",
   DATA_DELETED: "Data Deleted Successfully",
 
@@ -69,6 +69,7 @@ export const ERROR_MESSAGES = {
   ALLREADY_EXISTED : "Already Existed",
   PRODUCT_NOT_FOUND : 'Product not Fount',
   ADMIN_NOT_VERIFIED : 'Admin not verified',
+  NOT_FOUND : 'Not found',
 
 
   

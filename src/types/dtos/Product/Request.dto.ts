@@ -1,4 +1,5 @@
 import { Status } from "../../../shared/constant/status";
+import { IProduct } from "../../entities/IProduct";
 
 export interface ProductRequestDto {
   productName: string;

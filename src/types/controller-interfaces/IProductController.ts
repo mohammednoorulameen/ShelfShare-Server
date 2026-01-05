@@ -7,4 +7,5 @@ export interface IProductController{
     updateProduct : ControllerMethod
     getUpdateDataWithId: ControllerMethod
     getAllProduct : ControllerMethod
+    getProductDetails : ControllerMethod
 }

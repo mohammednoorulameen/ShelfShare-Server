@@ -8,9 +8,10 @@ import {
   SUCCESS_MESSAGES,
 } from "../../shared/constant/messages";
 import AppError from "../../shared/utils/App.Error";
+import { IProductController } from "../../types/controller-interfaces/IProductController";
 
 @injectable()
-export class ProductController {
+export class ProductController  implements IProductController{
   constructor(
     @inject("IProductService") private _productService: IProductService
   ) {}
@@ -45,6 +46,10 @@ export class ProductController {
   async getVendorProducts(req: Request, res: Response): Promise<void> {
     const vendorId = req.vendor?.vendorId;
 
+    const page = Number(req.query.page) || 1;
+    const limit = Number(req.query.limit) || 10;
+
+
     if (!vendorId) {
       throw new AppError(
         ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
@@ -52,7 +57,11 @@ export class ProductController {
       );
     }
 
-    const result = await this._productService.getVendorProducts(vendorId);
+    const result = await this._productService.getVendorProducts(
+      vendorId,
+      page,
+      limit
+    );
 
     res.status(HTTP_STATUS.OK).json({
       success: true,
@@ -129,6 +138,28 @@ export class ProductController {
       success: true,
       message: SUCCESS_MESSAGES.DATA_FETCHED,
       ...result,
+    });
+  }
+
+  /* ================= GET PRODUCT DETAILES  ================= */
+
+  async getProductDetails(req: Request, res: Response): Promise<void> {
+    const { productId } = req.params;
+    if (!productId) {
+      throw new AppError(
+        ERROR_MESSAGES.UNAUTHORIZED_ACCESS,
+        HTTP_STATUS.UNAUTHORIZED
+      );
+    }
+
+    const getUpdateData = await this._productService.getUpdateDataWithId(
+      productId
+    );
+
+    res.status(HTTP_STATUS.OK).json({
+      success: true,
+      message: SUCCESS_MESSAGES.DATA_FETCHED,
+      data: getUpdateData,
     });
   }
 }

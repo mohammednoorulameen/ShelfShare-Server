@@ -41,5 +41,12 @@ export class UserRoutes extends BaseRoute {
       isUser,
       this._productController.getAllProduct.bind(this._productController)
     );
+
+    this.router.get(
+      "/product-detailes/:productId",
+      authenticate,
+      isUser,
+      this._productController.getProductDetails.bind(this._productController)
+    );
   }
 }

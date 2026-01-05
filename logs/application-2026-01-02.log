@@ -1,0 +1,825 @@
+2026-01-02 06:48:55 [info] : GET /api/user/allproduct?page=1&limit=9 401 63 - 11.528 ms
+2026-01-02 06:48:55 [info] : POST /api/auth/refresh 200 315 - 12.625 ms
+2026-01-02 06:48:55 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 130.667 ms
+2026-01-02 06:49:17 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 9.384 ms
+2026-01-02 06:49:21 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 7.857 ms
+2026-01-02 06:52:09 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 111.399 ms
+2026-01-02 06:54:07 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 64.423 ms
+2026-01-02 06:56:11 [info] : GET /api/user/allproduct?page=1&limit=9 304 - - 247.361 ms
+2026-01-02 07:10:42 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 1.591 ms
+2026-01-02 07:10:42 [info] : POST /api/auth/refresh 200 315 - 15.297 ms
+2026-01-02 07:10:42 [info] : GET /api/user/allproduct?page=1&limit=100 200 11835 - 134.454 ms
+2026-01-02 07:11:06 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 114.321 ms
+2026-01-02 07:11:16 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.586 ms
+2026-01-02 07:14:23 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 143.311 ms
+2026-01-02 07:14:28 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 38.287 ms
+2026-01-02 07:14:37 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 19.257 ms
+2026-01-02 07:15:05 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 28.024 ms
+2026-01-02 07:15:25 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 28.584 ms
+2026-01-02 07:15:59 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 15.876 ms
+2026-01-02 07:17:55 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 154.337 ms
+2026-01-02 07:18:30 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 126.331 ms
+2026-01-02 07:18:34 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 12.077 ms
+2026-01-02 07:18:37 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.797 ms
+2026-01-02 07:19:11 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 171.102 ms
+2026-01-02 07:19:13 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 8.765 ms
+2026-01-02 07:19:15 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.603 ms
+2026-01-02 07:19:17 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 6.454 ms
+2026-01-02 07:20:58 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 109.013 ms
+2026-01-02 07:21:25 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 25.057 ms
+2026-01-02 07:21:29 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 17.324 ms
+2026-01-02 07:21:32 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.321 ms
+2026-01-02 07:25:03 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 666.958 ms
+2026-01-02 07:29:17 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 70.042 ms
+2026-01-02 07:29:17 [info] : POST /api/auth/refresh 200 315 - 6.611 ms
+2026-01-02 07:29:17 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.003 ms
+2026-01-02 07:29:18 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.231 ms
+2026-01-02 07:29:20 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.054 ms
+2026-01-02 07:29:24 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 0.460 ms
+2026-01-02 07:29:28 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 2.627 ms
+2026-01-02 07:29:29 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 0.922 ms
+2026-01-02 07:29:31 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.258 ms
+2026-01-02 07:29:35 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 4.715 ms
+2026-01-02 07:30:01 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 341.432 ms
+2026-01-02 07:30:02 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.717 ms
+2026-01-02 07:30:19 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 3.036 ms
+2026-01-02 07:30:20 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.152 ms
+2026-01-02 07:30:22 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.282 ms
+2026-01-02 07:30:26 [info] : GET /api/vendor/getupdateprduct/be9bd2ae-cd7e-449d-8cc8-1e899425c803 403 53 - 1.208 ms
+2026-01-02 07:31:41 [info] : server is runnning port 5050 
+2026-01-02 07:31:41 [info] : Mongodb Connect Successfully
+2026-01-02 08:04:31 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 6.105 ms
+2026-01-02 08:04:36 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 2.578 ms
+2026-01-02 08:04:38 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.798 ms
+2026-01-02 08:04:39 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.884 ms
+2026-01-02 08:04:41 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.639 ms
+2026-01-02 08:04:45 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 2.267 ms
+2026-01-02 08:08:09 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 17.205 ms
+2026-01-02 08:08:09 [info] : POST /api/auth/refresh 200 315 - 55.460 ms
+2026-01-02 08:08:10 [info] : GET /api/user/allproduct?page=1&limit=100 - - - - ms
+2026-01-02 08:08:10 [info] : GET /api/user/allproduct?page=1&limit=100 200 11835 - 77.060 ms
+2026-01-02 08:08:11 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.671 ms
+2026-01-02 08:08:13 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.573 ms
+2026-01-02 08:08:15 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.749 ms
+2026-01-02 08:08:19 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.662 ms
+2026-01-02 08:09:33 [info] : server is runnning port 5050 
+2026-01-02 08:09:33 [info] : Mongodb Connect Successfully
+2026-01-02 08:09:37 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 2.816 ms
+2026-01-02 08:09:38 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.892 ms
+2026-01-02 08:09:40 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.742 ms
+2026-01-02 08:09:44 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.652 ms
+2026-01-02 08:09:47 [info] : server is runnning port 5050 
+2026-01-02 08:09:48 [info] : Mongodb Connect Successfully
+2026-01-02 08:09:49 [info] : server is runnning port 5050 
+2026-01-02 08:09:49 [info] : Mongodb Connect Successfully
+2026-01-02 08:09:55 [info] : server is runnning port 5050 
+2026-01-02 08:09:55 [info] : Mongodb Connect Successfully
+2026-01-02 08:10:00 [info] : server is runnning port 5050 
+2026-01-02 08:10:00 [info] : Mongodb Connect Successfully
+2026-01-02 08:11:45 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 184.772 ms
+2026-01-02 08:11:46 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 2.613 ms
+2026-01-02 08:11:47 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.912 ms
+2026-01-02 08:11:49 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.454 ms
+2026-01-02 08:11:53 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.814 ms
+2026-01-02 08:13:03 [info] : server is runnning port 5050 
+2026-01-02 08:13:03 [info] : Mongodb Connect Successfully
+2026-01-02 08:13:24 [info] : server is runnning port 5050 
+2026-01-02 08:13:24 [info] : Mongodb Connect Successfully
+2026-01-02 08:15:01 [info] : server is runnning port 5050 
+2026-01-02 08:15:01 [info] : Mongodb Connect Successfully
+2026-01-02 08:16:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 149.667 ms
+2026-01-02 08:16:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 15.941 ms
+2026-01-02 08:16:55 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 4.480 ms
+2026-01-02 08:16:56 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.399 ms
+2026-01-02 08:16:58 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.049 ms
+2026-01-02 08:17:02 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.760 ms
+2026-01-02 08:18:34 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.072 ms
+2026-01-02 08:18:35 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 1.245 ms
+2026-01-02 08:18:37 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.765 ms
+2026-01-02 08:18:41 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 201 - 0.859 ms
+2026-01-02 08:19:57 [info] : server is runnning port 5050 
+2026-01-02 08:19:57 [info] : Mongodb Connect Successfully
+2026-01-02 08:20:40 [info] : server is runnning port 5050 
+2026-01-02 08:20:40 [info] : Mongodb Connect Successfully
+2026-01-02 08:20:45 [info] : server is runnning port 5050 
+2026-01-02 08:20:45 [info] : Mongodb Connect Successfully
+2026-01-02 08:20:49 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 10.952 ms
+2026-01-02 08:20:49 [info] : POST /api/auth/refresh 200 315 - 2.850 ms
+2026-01-02 08:20:49 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.795 ms
+2026-01-02 08:20:50 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 4.814 ms
+2026-01-02 08:20:50 [info] : POST /api/auth/refresh 200 315 - 1.919 ms
+2026-01-02 08:20:50 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.206 ms
+2026-01-02 08:20:52 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.430 ms
+2026-01-02 08:20:53 [info] : POST /api/auth/refresh 200 315 - 0.950 ms
+2026-01-02 08:20:53 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.867 ms
+2026-01-02 08:20:54 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 4.140 ms
+2026-01-02 08:20:54 [info] : POST /api/auth/refresh 200 315 - 1.334 ms
+2026-01-02 08:20:54 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.882 ms
+2026-01-02 08:20:56 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.928 ms
+2026-01-02 08:20:56 [info] : POST /api/auth/refresh 200 315 - 1.495 ms
+2026-01-02 08:20:56 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.027 ms
+2026-01-02 08:21:00 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 7.353 ms
+2026-01-02 08:21:00 [info] : POST /api/auth/refresh 200 315 - 1.283 ms
+2026-01-02 08:21:00 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.714 ms
+2026-01-02 08:23:16 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 10.529 ms
+2026-01-02 08:23:16 [info] : POST /api/auth/refresh 200 315 - 3.575 ms
+2026-01-02 08:23:16 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 7.915 ms
+2026-01-02 08:23:17 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.096 ms
+2026-01-02 08:23:17 [info] : POST /api/auth/refresh 200 315 - 1.429 ms
+2026-01-02 08:23:17 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.552 ms
+2026-01-02 08:23:19 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.949 ms
+2026-01-02 08:23:19 [info] : POST /api/auth/refresh 200 315 - 1.887 ms
+2026-01-02 08:23:19 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 4.424 ms
+2026-01-02 08:23:23 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.456 ms
+2026-01-02 08:23:23 [info] : POST /api/auth/refresh 200 315 - 1.147 ms
+2026-01-02 08:23:23 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.947 ms
+2026-01-02 08:23:28 [info] : server is runnning port 5050 
+2026-01-02 08:23:28 [info] : Mongodb Connect Successfully
+2026-01-02 08:23:32 [info] : server is runnning port 5050 
+2026-01-02 08:23:32 [info] : Mongodb Connect Successfully
+2026-01-02 08:24:55 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 17.613 ms
+2026-01-02 08:24:56 [info] : POST /api/auth/refresh 200 315 - 2.958 ms
+2026-01-02 08:24:56 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.203 ms
+2026-01-02 08:24:57 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.991 ms
+2026-01-02 08:24:57 [info] : POST /api/auth/refresh 200 315 - 2.016 ms
+2026-01-02 08:24:57 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.982 ms
+2026-01-02 08:24:59 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.762 ms
+2026-01-02 08:24:59 [info] : POST /api/auth/refresh 200 315 - 0.477 ms
+2026-01-02 08:24:59 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.898 ms
+2026-01-02 08:25:03 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 10.342 ms
+2026-01-02 08:25:03 [info] : POST /api/auth/refresh 200 315 - 0.642 ms
+2026-01-02 08:25:03 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.142 ms
+2026-01-02 08:25:22 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 10.951 ms
+2026-01-02 08:25:23 [info] : POST /api/auth/refresh 200 315 - 5.821 ms
+2026-01-02 08:25:23 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.405 ms
+2026-01-02 08:25:24 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.955 ms
+2026-01-02 08:25:24 [info] : POST /api/auth/refresh 200 315 - 1.055 ms
+2026-01-02 08:25:24 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.526 ms
+2026-01-02 08:25:26 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.104 ms
+2026-01-02 08:25:26 [info] : POST /api/auth/refresh 200 315 - 0.334 ms
+2026-01-02 08:25:26 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 0.438 ms
+2026-01-02 08:25:30 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.607 ms
+2026-01-02 08:25:30 [info] : POST /api/auth/refresh 200 315 - 1.317 ms
+2026-01-02 08:25:30 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.325 ms
+2026-01-02 08:25:40 [info] : server is runnning port 5050 
+2026-01-02 08:25:40 [info] : Mongodb Connect Successfully
+2026-01-02 08:25:42 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 9.404 ms
+2026-01-02 08:25:42 [info] : POST /api/auth/refresh 200 315 - 3.313 ms
+2026-01-02 08:25:42 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.249 ms
+2026-01-02 08:25:43 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 91.139 ms
+2026-01-02 08:25:44 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.225 ms
+2026-01-02 08:25:44 [info] : POST /api/auth/refresh 200 315 - 3.501 ms
+2026-01-02 08:25:44 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.464 ms
+2026-01-02 08:25:45 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.991 ms
+2026-01-02 08:25:45 [info] : POST /api/auth/refresh 200 315 - 1.012 ms
+2026-01-02 08:25:45 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.886 ms
+2026-01-02 08:25:47 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 3.645 ms
+2026-01-02 08:25:47 [info] : POST /api/auth/refresh 200 315 - 1.225 ms
+2026-01-02 08:25:47 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.154 ms
+2026-01-02 08:25:51 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 2.778 ms
+2026-01-02 08:25:51 [info] : POST /api/auth/refresh 200 315 - 1.096 ms
+2026-01-02 08:25:51 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.528 ms
+2026-01-02 08:26:13 [info] : server is runnning port 5050 
+2026-01-02 08:26:13 [info] : Mongodb Connect Successfully
+2026-01-02 08:26:14 [info] : server is runnning port 5050 
+2026-01-02 08:26:14 [info] : Mongodb Connect Successfully
+2026-01-02 08:26:57 [info] : server is runnning port 5050 
+2026-01-02 08:26:57 [info] : Mongodb Connect Successfully
+2026-01-02 08:26:58 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 141.107 ms
+2026-01-02 08:26:59 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 42.638 ms
+2026-01-02 08:27:00 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 9.191 ms
+2026-01-02 08:27:02 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 3.473 ms
+2026-01-02 08:27:06 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 6.115 ms
+2026-01-02 08:27:46 [info] : server is runnning port 5050 
+2026-01-02 08:27:46 [info] : Mongodb Connect Successfully
+2026-01-02 08:27:47 [info] : server is runnning port 5050 
+2026-01-02 08:27:47 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:09 [info] : server is runnning port 5050 
+2026-01-02 08:28:09 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:15 [info] : server is runnning port 5050 
+2026-01-02 08:28:15 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:22 [info] : server is runnning port 5050 
+2026-01-02 08:28:22 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:27 [info] : server is runnning port 5050 
+2026-01-02 08:28:27 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:30 [info] : server is runnning port 5050 
+2026-01-02 08:28:30 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:32 [info] : server is runnning port 5050 
+2026-01-02 08:28:32 [info] : Mongodb Connect Successfully
+2026-01-02 08:28:36 [info] : server is runnning port 5050 
+2026-01-02 08:28:36 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:27 [info] : server is runnning port 5050 
+2026-01-02 08:29:27 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:28 [info] : server is runnning port 5050 
+2026-01-02 08:29:28 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:31 [info] : server is runnning port 5050 
+2026-01-02 08:29:31 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:34 [info] : server is runnning port 5050 
+2026-01-02 08:29:35 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:41 [info] : server is runnning port 5050 
+2026-01-02 08:29:41 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:53 [info] : server is runnning port 5050 
+2026-01-02 08:29:53 [info] : Mongodb Connect Successfully
+2026-01-02 08:29:55 [info] : server is runnning port 5050 
+2026-01-02 08:29:55 [info] : Mongodb Connect Successfully
+2026-01-02 08:30:01 [info] : server is runnning port 5050 
+2026-01-02 08:30:01 [info] : Mongodb Connect Successfully
+2026-01-02 08:30:02 [info] : server is runnning port 5050 
+2026-01-02 08:30:02 [info] : Mongodb Connect Successfully
+2026-01-02 08:30:13 [info] : server is runnning port 5050 
+2026-01-02 08:30:13 [info] : Mongodb Connect Successfully
+2026-01-02 08:30:27 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 51.280 ms
+2026-01-02 08:30:28 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 7.356 ms
+2026-01-02 08:30:28 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 151.603 ms
+2026-01-02 08:30:29 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.226 ms
+2026-01-02 08:30:31 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 3.423 ms
+2026-01-02 08:30:32 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 7.544 ms
+2026-01-02 08:30:34 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 5.410 ms
+2026-01-02 08:30:38 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 404 39 - 8.117 ms
+2026-01-02 08:32:06 [info] : server is runnning port 5050 
+2026-01-02 08:32:06 [info] : Mongodb Connect Successfully
+2026-01-02 08:32:07 [info] : server is runnning port 5050 
+2026-01-02 08:32:07 [info] : Mongodb Connect Successfully
+2026-01-02 08:32:09 [info] : server is runnning port 5050 
+2026-01-02 08:32:09 [info] : Mongodb Connect Successfully
+2026-01-02 08:32:11 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 200 1077 - 56.890 ms
+2026-01-02 08:32:12 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 145.480 ms
+2026-01-02 08:32:13 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 15.413 ms
+2026-01-02 08:32:14 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 7.283 ms
+2026-01-02 08:32:40 [info] : server is runnning port 5050 
+2026-01-02 08:32:40 [info] : Mongodb Connect Successfully
+2026-01-02 08:33:44 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 315.679 ms
+2026-01-02 08:33:46 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 15.521 ms
+2026-01-02 08:33:46 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 88 - 4.853 ms
+2026-01-02 08:33:47 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 88 - 9.074 ms
+2026-01-02 08:33:49 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 88 - 1.380 ms
+2026-01-02 08:33:54 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 88 - 5.418 ms
+2026-01-02 08:38:14 [info] : server is runnning port 5050 
+2026-01-02 08:38:14 [info] : Mongodb Connect Successfully
+2026-01-02 08:38:30 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 82 - 12.592 ms
+2026-01-02 08:38:31 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 173.938 ms
+2026-01-02 08:38:31 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 82 - 2.149 ms
+2026-01-02 08:38:32 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 82 - 2.907 ms
+2026-01-02 08:38:34 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 82 - 2.175 ms
+2026-01-02 08:38:38 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 500 82 - 3.116 ms
+2026-01-02 08:38:56 [info] : server is runnning port 5050 
+2026-01-02 08:38:56 [info] : Mongodb Connect Successfully
+2026-01-02 08:38:57 [info] : server is runnning port 5050 
+2026-01-02 08:38:57 [info] : Mongodb Connect Successfully
+2026-01-02 08:39:08 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 152.309 ms
+2026-01-02 08:39:09 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 200 1077 - 31.053 ms
+2026-01-02 08:39:23 [info] : GET /api/user/user-data 304 - - 32.416 ms
+2026-01-02 08:40:11 [info] : GET /api/user/user-data 304 - - 39.024 ms
+2026-01-02 08:40:19 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 37.656 ms
+2026-01-02 08:40:40 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 12.318 ms
+2026-01-02 08:42:08 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 5.294 ms
+2026-01-02 08:42:08 [info] : POST /api/auth/refresh 200 315 - 15.871 ms
+2026-01-02 08:42:08 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 98.767 ms
+2026-01-02 08:42:12 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 15.562 ms
+2026-01-02 08:42:15 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 16.067 ms
+2026-01-02 08:42:17 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 6.682 ms
+2026-01-02 08:42:19 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 13.213 ms
+2026-01-02 08:42:21 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 8.139 ms
+2026-01-02 08:42:32 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 11.511 ms
+2026-01-02 08:42:48 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 8.900 ms
+2026-01-02 08:46:02 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 35.752 ms
+2026-01-02 08:46:07 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 14.306 ms
+2026-01-02 08:50:10 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 394.335 ms
+2026-01-02 08:51:43 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 78.759 ms
+2026-01-02 08:52:30 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 37.710 ms
+2026-01-02 08:52:48 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 37.473 ms
+2026-01-02 08:54:34 [info] : GET /api/user/user-data 304 - - 57.065 ms
+2026-01-02 08:54:40 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 381.739 ms
+2026-01-02 08:54:42 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 9.828 ms
+2026-01-02 08:55:59 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 48.318 ms
+2026-01-02 08:56:52 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 52.323 ms
+2026-01-02 08:56:54 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 11.242 ms
+2026-01-02 08:57:39 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 401 63 - 1.645 ms
+2026-01-02 08:57:39 [info] : POST /api/auth/refresh 200 315 - 13.055 ms
+2026-01-02 08:57:39 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 123.786 ms
+2026-01-02 08:59:24 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 228.507 ms
+2026-01-02 08:59:25 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 23.525 ms
+2026-01-02 09:11:51 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 158.377 ms
+2026-01-02 09:11:53 [info] : POST /api/auth/logout 200 63 - 9.171 ms
+2026-01-02 09:12:13 [info] : OPTIONS /api/auth/login 204 0 - 2.910 ms
+2026-01-02 09:12:13 [info] : POST /api/auth/login 401 56 - 80.852 ms
+2026-01-02 09:12:17 [info] : POST /api/auth/login 401 56 - 104.776 ms
+2026-01-02 09:12:20 [info] : OPTIONS /api/auth/login 204 0 - 0.230 ms
+2026-01-02 09:12:20 [info] : POST /api/auth/login 200 330 - 104.728 ms
+2026-01-02 09:12:20 [info] : GET /api/vendor/vendor-data 304 - - 1.892 ms
+2026-01-02 09:12:22 [info] : GET /api/vendor/get-vendorproduct 304 - - 13.129 ms
+2026-01-02 09:12:27 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 20.870 ms
+2026-01-02 09:12:27 [info] : GET /api/vendor/getupdateprduct/24e9d077-8726-40ee-adac-d0b5824982ac 200 915 - 33.237 ms
+2026-01-02 09:12:46 [info] : OPTIONS /api/vendor/update-product/24e9d077-8726-40ee-adac-d0b5824982ac 204 0 - 1.041 ms
+2026-01-02 09:12:46 [info] : PUT /api/vendor/update-product/24e9d077-8726-40ee-adac-d0b5824982ac 200 1171 - 39.525 ms
+2026-01-02 09:12:46 [info] : GET /api/vendor/get-vendorproduct 200 11176 - 11.941 ms
+2026-01-02 09:12:51 [info] : GET /api/vendor/getupdateprduct/142f0dc6-305a-4234-9178-f4da07d139cf 200 914 - 16.338 ms
+2026-01-02 09:12:51 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 16.270 ms
+2026-01-02 09:13:04 [info] : OPTIONS /api/vendor/update-product/142f0dc6-305a-4234-9178-f4da07d139cf 204 0 - 0.720 ms
+2026-01-02 09:13:04 [info] : PUT /api/vendor/update-product/142f0dc6-305a-4234-9178-f4da07d139cf 200 1170 - 11.848 ms
+2026-01-02 09:13:04 [info] : GET /api/vendor/get-vendorproduct 200 11443 - 15.075 ms
+2026-01-02 09:13:08 [info] : GET /api/vendor/getupdateprduct/8ebcc07b-90e7-4054-b0d4-8b5210ff6173 200 913 - 7.100 ms
+2026-01-02 09:13:08 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 9.084 ms
+2026-01-02 09:13:22 [info] : OPTIONS /api/vendor/update-product/8ebcc07b-90e7-4054-b0d4-8b5210ff6173 204 0 - 0.589 ms
+2026-01-02 09:13:22 [info] : PUT /api/vendor/update-product/8ebcc07b-90e7-4054-b0d4-8b5210ff6173 200 1168 - 9.121 ms
+2026-01-02 09:13:22 [info] : GET /api/vendor/get-vendorproduct 200 11709 - 12.859 ms
+2026-01-02 09:13:29 [info] : GET /api/vendor/getupdateprduct/592ec813-be3d-48c7-992a-af2489df6a33 200 743 - 7.086 ms
+2026-01-02 09:13:29 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 8.314 ms
+2026-01-02 09:13:41 [info] : OPTIONS /api/vendor/update-product/592ec813-be3d-48c7-992a-af2489df6a33 204 0 - 0.476 ms
+2026-01-02 09:13:41 [info] : PUT /api/vendor/update-product/592ec813-be3d-48c7-992a-af2489df6a33 200 999 - 56.460 ms
+2026-01-02 09:13:41 [info] : GET /api/vendor/get-vendorproduct 200 11976 - 6.282 ms
+2026-01-02 09:13:47 [info] : GET /api/vendor/vendor-data 304 - - 10.010 ms
+2026-01-02 09:13:47 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.926 ms
+2026-01-02 09:14:35 [info] : GET /api/vendor/vendor-data 304 - - 52.770 ms
+2026-01-02 09:14:35 [info] : GET /api/vendor/get-vendorproduct 200 9641 - 10.375 ms
+2026-01-02 09:14:48 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 59.432 ms
+2026-01-02 09:15:00 [info] : GET /api/vendor/get-vendorproduct 304 - - 13.500 ms
+2026-01-02 09:15:06 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.724 ms
+2026-01-02 09:15:47 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 1.186 ms
+2026-01-02 09:15:47 [info] : POST /api/vendor/vendor-addproduct 201 1199 - 60.456 ms
+2026-01-02 09:15:47 [info] : GET /api/vendor/get-vendorproduct 200 10789 - 6.231 ms
+2026-01-02 09:16:07 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.613 ms
+2026-01-02 09:17:46 [info] : OPTIONS /api/vendor/vendor-addproduct 204 0 - 1.242 ms
+2026-01-02 09:17:46 [info] : POST /api/vendor/vendor-addproduct 201 1073 - 99.242 ms
+2026-01-02 09:17:46 [info] : GET /api/vendor/get-vendorproduct 200 11811 - 20.390 ms
+2026-01-02 09:17:52 [info] : GET /api/vendor/vendor-data 304 - - 19.792 ms
+2026-01-02 09:17:52 [info] : GET /api/vendor/get-vendorproduct 304 - - 6.377 ms
+2026-01-02 09:18:26 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1084 - 133.403 ms
+2026-01-02 09:18:26 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 114.432 ms
+2026-01-02 09:18:27 [info] : GET /api/vendor/get-vendorproduct 304 - - 14.232 ms
+2026-01-02 09:20:33 [info] : server is runnning port 5050 
+2026-01-02 09:20:33 [info] : Mongodb Connect Successfully
+2026-01-02 09:20:36 [info] : server is runnning port 5050 
+2026-01-02 09:20:36 [info] : Mongodb Connect Successfully
+2026-01-02 09:20:43 [info] : server is runnning port 5050 
+2026-01-02 09:20:43 [info] : Mongodb Connect Successfully
+2026-01-02 09:25:22 [info] : GET /api/vendor/vendor-data 304 - - 516.472 ms
+2026-01-02 09:25:22 [info] : GET /api/vendor/get-vendorproduct 200 10136 - 94.063 ms
+2026-01-02 09:26:32 [info] : GET /api/vendor/vendor-data 304 - - 74.191 ms
+2026-01-02 09:26:33 [info] : GET /api/vendor/get-vendorproduct 304 - - 75.273 ms
+2026-01-02 10:00:48 [info] : GET /api/vendor/vendor-data 401 63 - 6.335 ms
+2026-01-02 10:00:48 [info] : POST /api/auth/refresh 200 330 - 11.636 ms
+2026-01-02 10:00:48 [info] : GET /api/vendor/vendor-data 304 - - 84.155 ms
+2026-01-02 10:00:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 86.551 ms
+2026-01-02 10:47:49 [info] : GET /api/vendor/vendor-data 401 63 - 4.738 ms
+2026-01-02 10:47:49 [info] : POST /api/auth/refresh 200 330 - 24.429 ms
+2026-01-02 10:47:49 [info] : GET /api/vendor/vendor-data 304 - - 86.822 ms
+2026-01-02 10:47:49 [info] : GET /api/vendor/get-vendorproduct 304 - - 103.625 ms
+2026-01-02 11:05:07 [info] : server is runnning port 5050 
+2026-01-02 11:05:07 [info] : Mongodb Connect Successfully
+2026-01-02 11:05:11 [info] : server is runnning port 5050 
+2026-01-02 11:05:11 [info] : Mongodb Connect Successfully
+2026-01-02 11:05:55 [info] : GET /api/vendor/vendor-data 401 63 - 4.539 ms
+2026-01-02 11:05:55 [info] : POST /api/auth/refresh 200 330 - 15.285 ms
+2026-01-02 11:05:55 [info] : GET /api/vendor/vendor-data 304 - - 47.227 ms
+2026-01-02 11:05:55 [info] : GET /api/vendor/get-vendorproduct 304 - - 77.335 ms
+2026-01-02 11:07:05 [info] : GET /api/vendor/products?page=undefined&limit=undefined 404 158 - 10.376 ms
+2026-01-02 11:07:05 [info] : GET /api/vendor/vendor-data 304 - - 56.108 ms
+2026-01-02 11:13:10 [info] : GET /api/vendor/vendor-data 304 - - 62.195 ms
+2026-01-02 11:13:10 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 5.725 ms
+2026-01-02 11:13:14 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.296 ms
+2026-01-02 11:13:14 [info] : GET /api/vendor/vendor-data 304 - - 25.576 ms
+2026-01-02 11:13:16 [info] : GET /api/vendor/vendor-data 304 - - 3.131 ms
+2026-01-02 11:13:16 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.332 ms
+2026-01-02 11:13:17 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.637 ms
+2026-01-02 11:13:19 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 1.120 ms
+2026-01-02 11:13:23 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.902 ms
+2026-01-02 11:13:36 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 2.594 ms
+2026-01-02 11:13:36 [info] : GET /api/vendor/vendor-data 304 - - 7.683 ms
+2026-01-02 11:13:37 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.314 ms
+2026-01-02 11:13:39 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 2.534 ms
+2026-01-02 11:13:43 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.684 ms
+2026-01-02 11:18:06 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 1.284 ms
+2026-01-02 11:19:02 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 18.762 ms
+2026-01-02 11:19:03 [info] : GET /api/vendor/vendor-data 304 - - 126.823 ms
+2026-01-02 11:19:04 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.714 ms
+2026-01-02 11:19:09 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 1.297 ms
+2026-01-02 11:19:24 [info] : GET /api/vendor/vendor-data 304 - - 36.504 ms
+2026-01-02 11:19:24 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.726 ms
+2026-01-02 11:19:25 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.395 ms
+2026-01-02 11:19:27 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.607 ms
+2026-01-02 11:19:31 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.595 ms
+2026-01-02 11:20:18 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.595 ms
+2026-01-02 11:20:18 [info] : GET /api/vendor/vendor-data 304 - - 20.423 ms
+2026-01-02 11:20:19 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.438 ms
+2026-01-02 11:20:21 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.476 ms
+2026-01-02 11:20:25 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 1.624 ms
+2026-01-02 11:20:33 [info] : GET /api/vendor/products?page=1&limit=10 404 158 - 0.450 ms
+2026-01-02 11:20:35 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10136 - 70.020 ms
+2026-01-02 11:20:37 [info] : GET /api/vendor/vendor-data 304 - - 48.289 ms
+2026-01-02 11:20:37 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 8.536 ms
+2026-01-02 11:20:40 [info] : GET /api/vendor/vendor-data 304 - - 14.968 ms
+2026-01-02 11:20:40 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 21.049 ms
+2026-01-02 11:20:49 [info] : GET /api/vendor/vendor-data 304 - - 16.074 ms
+2026-01-02 11:20:49 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 37.214 ms
+2026-01-02 11:20:52 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 13.816 ms
+2026-01-02 11:20:52 [info] : GET /api/vendor/vendor-data 304 - - 6.803 ms
+2026-01-02 11:23:07 [info] : GET /api/vendor/vendor-data 401 63 - 2.696 ms
+2026-01-02 11:23:07 [info] : POST /api/auth/refresh 200 330 - 28.487 ms
+2026-01-02 11:23:07 [info] : GET /api/vendor/vendor-data 304 - - 41.237 ms
+2026-01-02 11:23:07 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 69.556 ms
+2026-01-02 11:23:08 [info] : GET /api/vendor/vendor-data 304 - - 2.349 ms
+2026-01-02 11:23:08 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 7.046 ms
+2026-01-02 11:23:09 [info] : GET /api/vendor/vendor-data 304 - - 2.672 ms
+2026-01-02 11:23:09 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 6.721 ms
+2026-01-02 11:24:53 [info] : POST /api/auth/login 200 330 - 128.028 ms
+2026-01-02 11:25:12 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.874 ms
+2026-01-02 11:25:33 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 2.871 ms
+2026-01-02 11:25:39 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.198 ms
+2026-01-02 11:25:39 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.221 ms
+2026-01-02 11:25:39 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.369 ms
+2026-01-02 11:26:44 [info] : POST /api/auth/login?accesstoken 200 330 - 141.345 ms
+2026-01-02 11:26:49 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.647 ms
+2026-01-02 11:26:50 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.249 ms
+2026-01-02 11:26:50 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.443 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.187 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.210 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.163 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.184 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.189 ms
+2026-01-02 11:26:51 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.192 ms
+2026-01-02 11:26:52 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.524 ms
+2026-01-02 11:26:52 [info] : GET /api/vendor/get-vendorproduct/a8f1bc4b-e649-4c48-ac76-758faca64be3 404 204 - 0.383 ms
+2026-01-02 11:27:02 [info] : GET /api/vendor/get-vendorproduct 401 63 - 6.313 ms
+2026-01-02 11:27:20 [info] : POST /api/auth/login?accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imphbml3YTEwMTFAcm9hc3RpYy5jb20iLCJyb2xlIjoidmVuZG9yIiwidmVuZG9ySWQiOiJhOGYxYmM0Yi1lNjQ5LTRjNDgtYWM3Ni03NThmYWNhNjRiZTMiLCJpYXQiOjE3NjczMzM0MDQsImV4cCI6MTc2NzMzNzAwNH0.32kDMMKusuEcB_0T9neYEvmBZWFSrtGsVsXcmXgFzLI 200 330 - 136.389 ms
+2026-01-02 11:27:49 [info] : GET /api/vendor/get-vendorproduct 401 63 - 1.993 ms
+2026-01-02 11:27:50 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.218 ms
+2026-01-02 11:27:50 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.482 ms
+2026-01-02 11:27:50 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.216 ms
+2026-01-02 11:31:44 [info] : GET /api/vendor/get-vendorproduct 401 63 - 5.022 ms
+2026-01-02 11:31:50 [info] : POST /api/auth/login 200 330 - 133.717 ms
+2026-01-02 11:32:00 [info] : GET /api/vendor/get-vendorproduct 401 63 - 7.777 ms
+2026-01-02 11:32:01 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.435 ms
+2026-01-02 11:32:01 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.304 ms
+2026-01-02 11:32:02 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.268 ms
+2026-01-02 11:32:02 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.191 ms
+2026-01-02 11:32:02 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.243 ms
+2026-01-02 11:32:02 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.339 ms
+2026-01-02 11:32:03 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.257 ms
+2026-01-02 11:32:03 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.234 ms
+2026-01-02 11:32:03 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.470 ms
+2026-01-02 11:32:04 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.208 ms
+2026-01-02 11:32:04 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.220 ms
+2026-01-02 11:32:04 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.193 ms
+2026-01-02 11:32:04 [info] : GET /api/vendor/get-vendorproduct 401 63 - 1.416 ms
+2026-01-02 11:32:05 [info] : GET /api/vendor/get-vendorproduct 401 63 - 0.210 ms
+2026-01-02 11:33:10 [info] : GET /api/vendor/get-vendorproduct 200 10136 - 113.365 ms
+2026-01-02 11:39:13 [info] : GET /api/vendor/vendor-data 401 63 - 4.604 ms
+2026-01-02 11:39:13 [info] : POST /api/auth/refresh 200 330 - 10.701 ms
+2026-01-02 11:39:13 [info] : GET /api/vendor/vendor-data 304 - - 141.325 ms
+2026-01-02 11:39:13 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 54.221 ms
+2026-01-02 11:40:03 [info] : GET /api/vendor/vendor-data 304 - - 192.096 ms
+2026-01-02 11:40:03 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 253.892 ms
+2026-01-02 11:40:04 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 8.166 ms
+2026-01-02 11:40:04 [info] : GET /api/vendor/vendor-data 304 - - 7.684 ms
+2026-01-02 11:40:43 [info] : GET /api/vendor/vendor-data 304 - - 34.591 ms
+2026-01-02 11:40:43 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 113.122 ms
+2026-01-02 11:40:44 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 14.714 ms
+2026-01-02 11:40:44 [info] : GET /api/vendor/vendor-data 304 - - 14.066 ms
+2026-01-02 11:40:49 [info] : GET /api/vendor/vendor-data 304 - - 38.483 ms
+2026-01-02 11:40:49 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 106.792 ms
+2026-01-02 11:40:51 [info] : GET /api/vendor/vendor-data 304 - - 30.748 ms
+2026-01-02 11:40:51 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 77.174 ms
+2026-01-02 11:40:54 [info] : GET /api/vendor/get-vendorproduct?page=2&limit=10 200 1810 - 17.999 ms
+2026-01-02 11:40:55 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 6.935 ms
+2026-01-02 11:41:03 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 109.660 ms
+2026-01-02 11:41:10 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 15.929 ms
+2026-01-02 11:41:22 [info] : POST /api/auth/logout 200 61 - 10.437 ms
+2026-01-02 11:41:48 [info] : OPTIONS /api/auth/login 204 0 - 2.887 ms
+2026-01-02 11:41:48 [info] : POST /api/auth/login 404 48 - 30.999 ms
+2026-01-02 11:41:59 [info] : OPTIONS /api/auth/login 204 0 - 0.558 ms
+2026-01-02 11:41:59 [info] : POST /api/auth/login 404 48 - 10.272 ms
+2026-01-02 11:42:05 [info] : OPTIONS /api/auth/login 204 0 - 0.311 ms
+2026-01-02 11:42:05 [info] : POST /api/auth/login 200 321 - 115.149 ms
+2026-01-02 11:42:11 [info] : GET /api/user/allproduct?page=1&limit=100 200 12737 - 110.670 ms
+2026-01-02 11:42:12 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1084 - 76.418 ms
+2026-01-02 11:42:13 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 24.355 ms
+2026-01-02 11:42:22 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 21.390 ms
+2026-01-02 11:42:31 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1210 - 7.906 ms
+2026-01-02 11:47:05 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 161.746 ms
+2026-01-02 11:47:06 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 47.225 ms
+2026-01-02 11:47:09 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 32.017 ms
+2026-01-02 11:47:10 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 5.525 ms
+2026-01-02 11:47:11 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.343 ms
+2026-01-02 11:47:12 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 4.963 ms
+2026-01-02 11:47:14 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.061 ms
+2026-01-02 11:47:19 [info] : GET /api/user/product-detailes/fb338f00-1fa5-4e4f-a479-225d1873e4df 200 844 - 6.123 ms
+2026-01-02 11:47:21 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.627 ms
+2026-01-02 11:47:21 [info] : GET /api/user/product-detailes/0ca44dea-aa92-4c61-8d40-536cdfc6a414 200 1115 - 4.678 ms
+2026-01-02 11:47:22 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.566 ms
+2026-01-02 11:47:37 [info] : GET /api/user/user-data 304 - - 21.253 ms
+2026-01-02 11:47:44 [info] : POST /api/auth/logout 200 63 - 1.939 ms
+2026-01-02 11:48:04 [info] : OPTIONS /api/auth/login 204 0 - 0.960 ms
+2026-01-02 11:48:04 [info] : POST /api/auth/login 404 48 - 23.118 ms
+2026-01-02 11:48:14 [info] : OPTIONS /api/auth/login 204 0 - 0.274 ms
+2026-01-02 11:48:14 [info] : POST /api/auth/login 404 48 - 31.387 ms
+2026-01-02 11:48:23 [info] : OPTIONS /api/auth/login 204 0 - 0.613 ms
+2026-01-02 11:48:23 [info] : POST /api/auth/login 200 328 - 112.219 ms
+2026-01-02 11:48:23 [info] : GET /api/vendor/vendor-data 200 524 - 3.727 ms
+2026-01-02 11:48:24 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 920 - 78.758 ms
+2026-01-02 11:48:36 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.970 ms
+2026-01-02 11:48:36 [info] : GET /api/vendor/getupdateprduct/63e1de19-49d9-4e5f-aa15-de67c03d904d 200 902 - 29.652 ms
+2026-01-02 11:50:32 [info] : OPTIONS /api/vendor/update-product/63e1de19-49d9-4e5f-aa15-de67c03d904d 204 0 - 0.961 ms
+2026-01-02 11:50:32 [info] : PUT /api/vendor/update-product/63e1de19-49d9-4e5f-aa15-de67c03d904d 200 1163 - 64.287 ms
+2026-01-02 11:50:32 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 1192 - 78.090 ms
+2026-01-02 11:50:38 [info] : POST /api/auth/logout 200 61 - 1.609 ms
+2026-01-02 11:50:52 [info] : OPTIONS /api/auth/login 204 0 - 0.616 ms
+2026-01-02 11:50:53 [info] : POST /api/auth/login 200 321 - 112.813 ms
+2026-01-02 11:50:55 [info] : GET /api/user/allproduct?page=1&limit=100 200 13009 - 18.069 ms
+2026-01-02 11:51:07 [info] : GET /api/user/product-detailes/63e1de19-49d9-4e5f-aa15-de67c03d904d 200 1174 - 49.561 ms
+2026-01-02 11:51:19 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 10.882 ms
+2026-01-02 11:51:22 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 29.545 ms
+2026-01-02 12:03:25 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 2882.273 ms
+2026-01-02 12:18:35 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 401 63 - 3.686 ms
+2026-01-02 12:18:35 [info] : POST /api/auth/refresh 200 315 - 23.650 ms
+2026-01-02 12:18:35 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 50.086 ms
+2026-01-02 12:23:18 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 51.732 ms
+2026-01-02 12:33:29 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 182.283 ms
+2026-01-02 14:19:01 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 401 63 - 13.207 ms
+2026-01-02 14:19:01 [info] : POST /api/auth/refresh 200 315 - 12.859 ms
+2026-01-02 14:19:01 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 138.671 ms
+2026-01-02 14:19:12 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 15.646 ms
+2026-01-02 14:19:44 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 17.411 ms
+2026-01-02 14:31:46 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 136.034 ms
+2026-01-02 14:37:57 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 401 63 - 4.354 ms
+2026-01-02 14:37:57 [info] : POST /api/auth/refresh 200 315 - 9.337 ms
+2026-01-02 14:37:57 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 69.969 ms
+2026-01-02 14:38:03 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 52.657 ms
+2026-01-02 14:40:46 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 95.654 ms
+2026-01-02 14:40:53 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 39.418 ms
+2026-01-02 14:41:07 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 20.916 ms
+2026-01-02 14:41:13 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 63.101 ms
+2026-01-02 14:41:43 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 125.620 ms
+2026-01-02 14:44:10 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 116.820 ms
+2026-01-02 14:44:14 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 14.845 ms
+2026-01-02 14:44:22 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 15.117 ms
+2026-01-02 14:44:23 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 4.721 ms
+2026-01-02 14:44:24 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 23.983 ms
+2026-01-02 14:44:38 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 13.836 ms
+2026-01-02 14:47:00 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 145.406 ms
+2026-01-02 14:47:41 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 36.465 ms
+2026-01-02 14:52:40 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 344.543 ms
+2026-01-02 14:52:44 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 42.672 ms
+2026-01-02 14:53:24 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 401 63 - 0.598 ms
+2026-01-02 14:53:24 [info] : POST /api/auth/refresh 200 315 - 6.725 ms
+2026-01-02 14:53:24 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 26.734 ms
+2026-01-02 14:53:26 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 12.890 ms
+2026-01-02 14:56:10 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 264.054 ms
+2026-01-02 14:57:12 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 198.480 ms
+2026-01-02 14:57:17 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 20.282 ms
+2026-01-02 14:57:26 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 31.495 ms
+2026-01-02 14:57:42 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 61.868 ms
+2026-01-02 15:00:41 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 178.007 ms
+2026-01-02 15:00:43 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 6.836 ms
+2026-01-02 15:00:45 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 23.734 ms
+2026-01-02 15:01:16 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 21.344 ms
+2026-01-02 15:01:34 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 21.400 ms
+2026-01-02 15:01:36 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 16.103 ms
+2026-01-02 15:01:36 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 4.333 ms
+2026-01-02 15:01:38 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 11.163 ms
+2026-01-02 15:01:46 [info] : GET /api/user/product-detailes/06a5905a-4423-49e1-a6b0-e566a3400d2a 200 619 - 16.733 ms
+2026-01-02 15:01:48 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 123.997 ms
+2026-01-02 15:01:52 [info] : GET /api/user/product-detailes/b7b36d8b-f22d-4a11-b23b-725396af3c53 200 653 - 6.788 ms
+2026-01-02 15:01:55 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.534 ms
+2026-01-02 15:02:29 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 44.679 ms
+2026-01-02 15:02:31 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 10.821 ms
+2026-01-02 15:04:58 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 122.546 ms
+2026-01-02 15:05:44 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 53.093 ms
+2026-01-02 15:06:09 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 7.222 ms
+2026-01-02 15:06:59 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 65.581 ms
+2026-01-02 15:07:09 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 44.875 ms
+2026-01-02 15:07:15 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 30.032 ms
+2026-01-02 15:07:18 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 14.175 ms
+2026-01-02 15:12:08 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 401 63 - 4.583 ms
+2026-01-02 15:12:08 [info] : POST /api/auth/refresh 200 315 - 9.484 ms
+2026-01-02 15:12:08 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 190.249 ms
+2026-01-02 15:12:09 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 115.148 ms
+2026-01-02 15:20:23 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 181.704 ms
+2026-01-02 15:20:24 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 11.127 ms
+2026-01-02 15:20:26 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 81.791 ms
+2026-01-02 15:21:35 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 71.188 ms
+2026-01-02 15:21:37 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 10.034 ms
+2026-01-02 15:21:37 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.277 ms
+2026-01-02 15:21:38 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.804 ms
+2026-01-02 15:21:39 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 12.456 ms
+2026-01-02 15:21:40 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.321 ms
+2026-01-02 15:21:41 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.359 ms
+2026-01-02 15:22:07 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 164.589 ms
+2026-01-02 15:22:11 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 16.118 ms
+2026-01-02 15:22:23 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 35.358 ms
+2026-01-02 15:22:25 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 13.145 ms
+2026-01-02 15:23:13 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 44.449 ms
+2026-01-02 15:24:02 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 16.496 ms
+2026-01-02 15:24:03 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.575 ms
+2026-01-02 15:24:08 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 8.064 ms
+2026-01-02 15:24:09 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 5.703 ms
+2026-01-02 15:24:24 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.806 ms
+2026-01-02 15:25:01 [info] : GET /api/user/product-detailes/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 63.512 ms
+2026-01-02 15:25:02 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 67.444 ms
+2026-01-02 15:25:03 [info] : GET /api/user/product-detailes/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 10.797 ms
+2026-01-02 15:25:04 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 11.492 ms
+2026-01-02 15:26:07 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 117.266 ms
+2026-01-02 15:26:22 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 242.056 ms
+2026-01-02 15:28:14 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 1.635 ms
+2026-01-02 15:28:14 [info] : POST /api/auth/refresh 200 315 - 9.007 ms
+2026-01-02 15:28:14 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 86.992 ms
+2026-01-02 15:29:07 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 90.358 ms
+2026-01-02 15:29:17 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 35.275 ms
+2026-01-02 15:29:48 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 28.372 ms
+2026-01-02 15:29:49 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 20.316 ms
+2026-01-02 15:29:50 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 5.553 ms
+2026-01-02 15:29:51 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 8.296 ms
+2026-01-02 15:29:52 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 8.162 ms
+2026-01-02 15:29:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 6.964 ms
+2026-01-02 15:29:54 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 7.576 ms
+2026-01-02 15:29:54 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 6.924 ms
+2026-01-02 15:29:55 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 8.324 ms
+2026-01-02 15:30:08 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 18.884 ms
+2026-01-02 15:30:40 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 38.251 ms
+2026-01-02 15:30:42 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 14.440 ms
+2026-01-02 15:31:35 [info] : GET /api/user/user-data 304 - - 24.415 ms
+2026-01-02 15:31:38 [info] : POST /api/auth/logout 200 63 - 4.265 ms
+2026-01-02 15:31:52 [info] : OPTIONS /api/auth/login 204 0 - 1.444 ms
+2026-01-02 15:31:53 [info] : POST /api/auth/login 200 330 - 149.694 ms
+2026-01-02 15:31:53 [info] : GET /api/vendor/vendor-data 200 526 - 10.198 ms
+2026-01-02 15:31:54 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10136 - 92.909 ms
+2026-01-02 15:32:00 [info] : GET /api/vendor/getupdateprduct/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1210 - 26.673 ms
+2026-01-02 15:32:00 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 32.565 ms
+2026-01-02 15:32:47 [info] : OPTIONS /api/vendor/update-product/5ca71e3a-497c-4564-80bd-c86bc492e61c 204 0 - 0.447 ms
+2026-01-02 15:32:47 [info] : PUT /api/vendor/update-product/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1469 - 49.988 ms
+2026-01-02 15:32:47 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10406 - 9.589 ms
+2026-01-02 15:33:52 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 18.234 ms
+2026-01-02 15:33:52 [info] : GET /api/vendor/getupdateprduct/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1480 - 68.679 ms
+2026-01-02 15:39:45 [info] : GET /api/vendor/vendor-data 304 - - 91.889 ms
+2026-01-02 15:39:45 [info] : GET /api/vendor/getupdateprduct/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 174.941 ms
+2026-01-02 15:39:45 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 154.077 ms
+2026-01-02 15:40:13 [info] : OPTIONS /api/vendor/update-product/5ca71e3a-497c-4564-80bd-c86bc492e61c 204 0 - 1.058 ms
+2026-01-02 15:40:13 [info] : PUT /api/vendor/update-product/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1470 - 105.854 ms
+2026-01-02 15:40:13 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10407 - 59.522 ms
+2026-01-02 15:42:32 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 707.725 ms
+2026-01-02 15:42:32 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 806.993 ms
+2026-01-02 15:45:42 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.984 ms
+2026-01-02 15:45:42 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1074 - 81.257 ms
+2026-01-02 15:45:42 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10408 - 157.265 ms
+2026-01-02 15:46:01 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 45.124 ms
+2026-01-02 15:46:01 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 30.515 ms
+2026-01-02 15:46:34 [info] : GET /api/vendor/vendor-data 304 - - 92.415 ms
+2026-01-02 15:46:34 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 26.457 ms
+2026-01-02 15:46:34 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 26.139 ms
+2026-01-02 15:46:36 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.104 ms
+2026-01-02 15:46:37 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1074 - 23.972 ms
+2026-01-02 15:46:37 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10408 - 6.642 ms
+2026-01-02 15:46:41 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 9.241 ms
+2026-01-02 15:46:41 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 8.034 ms
+2026-01-02 15:47:37 [info] : GET /api/vendor/vendor-data 401 63 - 1.456 ms
+2026-01-02 15:47:37 [info] : POST /api/auth/refresh 200 330 - 8.421 ms
+2026-01-02 15:47:38 [info] : GET /api/vendor/vendor-data 304 - - 248.994 ms
+2026-01-02 15:47:38 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 86.694 ms
+2026-01-02 15:47:38 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 82.987 ms
+2026-01-02 15:48:03 [info] : GET /api/vendor/vendor-data 304 - - 76.041 ms
+2026-01-02 15:48:03 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 58.272 ms
+2026-01-02 15:48:03 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 111.069 ms
+2026-01-02 15:49:34 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 1.133 ms
+2026-01-02 15:49:35 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1074 - 243.290 ms
+2026-01-02 15:49:35 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10408 - 442.860 ms
+2026-01-02 15:50:17 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 76.033 ms
+2026-01-02 15:50:17 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 82.206 ms
+2026-01-02 15:50:35 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.584 ms
+2026-01-02 15:50:35 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1074 - 52.300 ms
+2026-01-02 15:50:35 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10408 - 6.881 ms
+2026-01-02 15:50:49 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 10.826 ms
+2026-01-02 15:50:49 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 29.262 ms
+2026-01-02 15:51:03 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 8.844 ms
+2026-01-02 15:51:03 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 25.075 ms
+2026-01-02 15:52:25 [info] : GET /api/vendor/vendor-data 304 - - 45.297 ms
+2026-01-02 15:52:25 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 132.282 ms
+2026-01-02 15:52:25 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 171.534 ms
+2026-01-02 15:55:20 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 245.904 ms
+2026-01-02 15:55:20 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 247.666 ms
+2026-01-02 15:55:22 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 13.348 ms
+2026-01-02 15:55:22 [info] : GET /api/vendor/vendor-data 304 - - 34.236 ms
+2026-01-02 15:55:22 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 13.019 ms
+2026-01-02 15:55:23 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.119 ms
+2026-01-02 15:55:23 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1074 - 27.607 ms
+2026-01-02 15:55:23 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10408 - 10.090 ms
+2026-01-02 15:55:27 [info] : POST /api/auth/logout 200 61 - 5.786 ms
+2026-01-02 15:55:47 [info] : OPTIONS /api/auth/login 204 0 - 0.950 ms
+2026-01-02 15:55:47 [info] : POST /api/auth/login 200 321 - 108.369 ms
+2026-01-02 15:55:49 [info] : GET /api/user/allproduct?page=1&limit=100 200 13281 - 95.477 ms
+2026-01-02 15:55:57 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 200 1481 - 19.381 ms
+2026-01-02 15:55:59 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 26.150 ms
+2026-01-02 15:56:12 [info] : POST /api/auth/logout 200 63 - 1.433 ms
+2026-01-02 15:56:24 [info] : OPTIONS /api/auth/login 204 0 - 0.751 ms
+2026-01-02 15:56:24 [info] : POST /api/auth/login 200 330 - 107.605 ms
+2026-01-02 15:56:24 [info] : GET /api/vendor/vendor-data 304 - - 3.223 ms
+2026-01-02 15:56:26 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 11.447 ms
+2026-01-02 15:56:36 [info] : POST /api/auth/logout 200 61 - 1.821 ms
+2026-01-02 15:56:53 [info] : OPTIONS /api/auth/login 204 0 - 0.719 ms
+2026-01-02 15:56:54 [info] : POST /api/auth/login 401 56 - 121.522 ms
+2026-01-02 15:57:10 [info] : OPTIONS /api/auth/login 204 0 - 9.050 ms
+2026-01-02 15:57:10 [info] : POST /api/auth/login 200 321 - 174.113 ms
+2026-01-02 15:57:12 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 80.094 ms
+2026-01-02 15:57:13 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 12.540 ms
+2026-01-02 15:57:16 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 11.302 ms
+2026-01-02 15:57:44 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 118.903 ms
+2026-01-02 15:57:55 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 66.624 ms
+2026-01-02 15:58:06 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 35.694 ms
+2026-01-02 15:58:08 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 6.635 ms
+2026-01-02 15:58:59 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 72.670 ms
+2026-01-02 15:59:32 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 162.151 ms
+2026-01-02 15:59:33 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 16.492 ms
+2026-01-02 15:59:37 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 7.574 ms
+2026-01-02 15:59:38 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 7.557 ms
+2026-01-02 16:01:34 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 81.020 ms
+2026-01-02 16:01:51 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 161.297 ms
+2026-01-02 16:01:52 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 165.932 ms
+2026-01-02 16:01:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 30.506 ms
+2026-01-02 16:01:55 [info] : GET /api/user/product-detailes/fb338f00-1fa5-4e4f-a479-225d1873e4df 304 - - 22.823 ms
+2026-01-02 16:01:56 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 17.321 ms
+2026-01-02 16:01:57 [info] : GET /api/user/product-detailes/0ca44dea-aa92-4c61-8d40-536cdfc6a414 304 - - 12.614 ms
+2026-01-02 16:01:57 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 19.133 ms
+2026-01-02 16:01:58 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 5.315 ms
+2026-01-02 16:03:47 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 84.788 ms
+2026-01-02 16:03:50 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 113.356 ms
+2026-01-02 16:03:51 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 27.296 ms
+2026-01-02 16:03:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 26.340 ms
+2026-01-02 16:03:54 [info] : GET /api/user/product-detailes/c75082a2-3b03-43d8-bff0-9ff72ce8e309 304 - - 27.271 ms
+2026-01-02 16:04:00 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 12.191 ms
+2026-01-02 17:13:58 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 11.903 ms
+2026-01-02 17:13:58 [info] : POST /api/auth/refresh 200 315 - 21.780 ms
+2026-01-02 17:13:59 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 860.237 ms
+2026-01-02 17:19:15 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 100.660 ms
+2026-01-02 17:19:21 [info] : GET /api/user/product-detailes/be9bd2ae-cd7e-449d-8cc8-1e899425c803 304 - - 32.182 ms
+2026-01-02 18:18:05 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 17.654 ms
+2026-01-02 18:18:05 [info] : POST /api/auth/refresh 200 315 - 26.031 ms
+2026-01-02 18:18:06 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 452.573 ms
+2026-01-02 18:18:09 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 39.818 ms
+2026-01-02 18:18:19 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 19.776 ms
+2026-01-02 18:18:25 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 49.309 ms
+2026-01-02 19:04:17 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 401 63 - 17.817 ms
+2026-01-02 19:04:17 [info] : POST /api/auth/refresh 200 315 - 20.348 ms
+2026-01-02 19:04:18 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 787.650 ms
+2026-01-02 19:04:20 [info] : GET /api/user/user-data 304 - - 57.180 ms
+2026-01-02 19:04:22 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 27.486 ms
+2026-01-02 19:14:15 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 500.840 ms
+2026-01-02 19:14:32 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 511.099 ms
+2026-01-02 19:14:54 [info] : GET /api/user/product-detailes/5ca71e3a-497c-4564-80bd-c86bc492e61c 304 - - 161.109 ms
+2026-01-02 19:15:04 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 71.953 ms
+2026-01-02 19:26:32 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 6.502 ms
+2026-01-02 19:26:32 [info] : POST /api/auth/refresh 200 315 - 10.595 ms
+2026-01-02 19:26:32 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 91.992 ms
+2026-01-02 19:26:44 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 87.115 ms
+2026-01-02 19:26:47 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 14.545 ms
+2026-01-02 19:26:53 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 9.044 ms
+2026-01-02 19:56:56 [info] : GET /api/user/allproduct?page=1&limit=100 401 63 - 20.104 ms
+2026-01-02 19:56:56 [info] : POST /api/auth/refresh 200 315 - 18.227 ms
+2026-01-02 19:56:56 [info] : GET /api/user/allproduct?page=1&limit=100 304 - - 520.343 ms
+2026-01-02 19:57:01 [info] : POST /api/auth/logout 200 63 - 8.038 ms
+2026-01-02 19:57:11 [info] : OPTIONS /api/auth/login 204 0 - 1.121 ms
+2026-01-02 19:57:11 [info] : POST /api/auth/login 200 252 - 117.872 ms
+2026-01-02 19:57:13 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 42.340 ms
+2026-01-02 19:57:22 [info] : GET /api/admin/allvendors?page=2&limit=10 304 - - 27.313 ms
+2026-01-02 19:57:31 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 87.285 ms
+2026-01-02 19:57:51 [info] : GET /api/admin/allusers?page=1&limit=10 200 4630 - 44.037 ms
+2026-01-02 19:58:22 [info] : OPTIONS /api/admin/user/6924464cddc2f4e6fdc78508/toggled-block 204 0 - 0.554 ms
+2026-01-02 19:58:22 [info] : PATCH /api/admin/user/6924464cddc2f4e6fdc78508/toggled-block 200 55 - 140.080 ms
+2026-01-02 19:58:22 [info] : GET /api/admin/allusers?page=1&limit=10 200 4631 - 7.545 ms
+2026-01-02 19:58:29 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 17.609 ms
+2026-01-02 19:58:36 [info] : GET /api/admin/category/get-category?page=2&limit=10 200 1874 - 12.329 ms
+2026-01-02 19:58:38 [info] : GET /api/admin/category/get-category?page=1&limit=10 304 - - 8.527 ms
+2026-01-02 19:58:44 [info] : OPTIONS /api/admin/editCategory/1b58162b-5db8-4dba-8df3-dc8376602018 204 0 - 0.103 ms
+2026-01-02 19:58:44 [info] : PUT /api/admin/editCategory/1b58162b-5db8-4dba-8df3-dc8376602018 200 284 - 38.116 ms
+2026-01-02 19:58:50 [info] : OPTIONS /api/admin/category/toggle-status/695233dbc8e69c61af884746 204 0 - 0.410 ms
+2026-01-02 19:58:50 [info] : PATCH /api/admin/category/toggle-status/695233dbc8e69c61af884746 200 284 - 15.174 ms
+2026-01-02 19:59:05 [info] : POST /api/auth/logout 200 61 - 1.414 ms
+2026-01-02 19:59:12 [info] : OPTIONS /api/auth/login 204 0 - 0.130 ms
+2026-01-02 19:59:12 [info] : POST /api/auth/login 200 252 - 112.457 ms
+2026-01-02 19:59:14 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 11.059 ms
+2026-01-02 19:59:18 [info] : GET /api/admin/allvendors?page=1&limit=10 304 - - 18.829 ms
+2026-01-02 19:59:49 [info] : POST /api/auth/logout 200 61 - 4.738 ms
+2026-01-02 20:00:01 [info] : OPTIONS /api/auth/login 204 0 - 0.165 ms
+2026-01-02 20:00:01 [info] : POST /api/auth/login 200 330 - 112.008 ms
+2026-01-02 20:00:01 [info] : GET /api/vendor/vendor-data 304 - - 2.271 ms
+2026-01-02 20:00:02 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 304 - - 63.088 ms
+2026-01-02 20:00:35 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1085 - 102.178 ms
+2026-01-02 20:00:35 [info] : GET /api/vendor/category/get-category?page=1&limit=10 200 2386 - 86.551 ms
+2026-01-02 20:00:49 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.245 ms
+2026-01-02 20:00:49 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1061 - 29.802 ms
+2026-01-02 20:00:49 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10395 - 15.950 ms
+2026-01-02 20:00:53 [info] : GET /api/vendor/getupdateprduct/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1072 - 17.352 ms
+2026-01-02 20:00:53 [info] : GET /api/vendor/category/get-category?page=1&limit=10 304 - - 5.653 ms
+2026-01-02 20:01:07 [info] : OPTIONS /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 204 0 - 0.538 ms
+2026-01-02 20:01:07 [info] : PUT /api/vendor/update-product/c75082a2-3b03-43d8-bff0-9ff72ce8e309 200 1328 - 16.936 ms
+2026-01-02 20:01:07 [info] : GET /api/vendor/get-vendorproduct?page=1&limit=10 200 10662 - 7.991 ms
+2026-01-02 20:22:43 [info] : GET /api/vendor/vendor-data 401 63 - 13.442 ms
+2026-01-02 20:22:43 [info] : POST /api/auth/refresh 200 330 - 86.232 ms
+2026-01-02 20:22:44 [info] : GET /api/vendor/vendor-data 304 - - 869.369 ms
+2026-01-02 22:19:46 [info] : GET /api/vendor/vendor-data 401 63 - 9.268 ms
+2026-01-02 22:19:46 [info] : POST /api/auth/refresh 200 330 - 5.454 ms
+2026-01-02 22:19:46 [info] : GET /api/vendor/vendor-data 304 - - 39.125 ms
+2026-01-02 22:52:28 [info] : GET /api/vendor/vendor-data 401 63 - 3.656 ms
+2026-01-02 22:52:28 [info] : POST /api/auth/refresh 200 330 - 12.052 ms
+2026-01-02 22:52:28 [info] : GET /api/vendor/vendor-data 304 - - 136.922 ms
+2026-01-02 23:17:48 [info] : GET /api/vendor/vendor-data 401 63 - 1.019 ms
+2026-01-02 23:17:48 [info] : POST /api/auth/refresh 200 330 - 12.941 ms
+2026-01-02 23:17:48 [info] : GET /api/vendor/vendor-data 304 - - 91.405 ms

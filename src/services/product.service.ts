@@ -47,19 +47,51 @@ export class ProductService implements IProductService {
   //! NEED PAGINATION
   /* ================= GET VENDOR PRODUCT ================= */
 
-  async getVendorProducts(vendorId: string) {
-    const products = await this._productRepository.findByVendorId(vendorId);
-    return ProductMapper.toResponseList(products);
+  // async getVendorProducts(vendorId: string) {
+  //   const products = await this._productRepository.findByVendorId(vendorId);
+  //   return ProductMapper.toResponseList(products);
+  // }
+
+  async getVendorProducts(vendorId: string, page = 1, limit = 10) {
+    const skip = (page - 1) * limit;
+
+    const { data, total } = await this._productRepository.findWithPagination(
+      { vendorId },
+      {
+        skip,
+        limit,
+        sort: { createdAt: -1 },
+      }
+    );
+
+    return {
+      data: ProductMapper.toResponseList(data),
+      total,
+      page,
+      limit,
+      totalPages: Math.ceil(total / limit),
+    };
   }
 
   /* ================= GET UPDATE PRODUCT WITH ID ================= */
 
-  async getUpdateDataWithId(productId: string, vendorId: string) {
-    const product = await this._productRepository.findOne({
-      productId,
-      vendorId,
-    });
+  async getUpdateDataWithId(productId: string, vendorId?: string) {
+    let product;
+    if (vendorId) {
+      product = await this._productRepository.findOne({
+        productId,
+        vendorId,
+      });
+    } else {
+      product = await this._productRepository.findOne({
+        productId,
+      });
+    }
 
+    console.log("product ", product);
+    console.log("product ", product);
+    console.log("product ", product);
+    console.log("product ", product);
     console.log("product ", product);
 
     if (!product) {

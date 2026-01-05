@@ -1,3 +1,4 @@
+import { PaginatedResponse } from "../common/PaginationResponse";
 import { ProductRequestDto } from "../dtos/Product/Request.dto";
 import { ProductResponseDto } from "../dtos/Product/Response.dto";
 import { IProduct } from "../entities/IProduct";
@@ -13,7 +14,13 @@ export interface IProductService {
 
   /* ================= VENDOR PRODUCTS ================= */
 
-  getVendorProducts(vednorId: string): Promise<ProductResponseDto[]>;
+  // getVendorProducts(vednorId: string): Promise<ProductResponseDto[]>;
+  getVendorProducts(
+  vendorId: string,
+  page?: number,
+  limit?: number
+): Promise<PaginatedResponse<ProductResponseDto>>;
+
 
   /* ================= UPDATE PRODUCT ================= */
 
@@ -27,7 +34,7 @@ export interface IProductService {
 
   getUpdateDataWithId(
     productId: string,
-    vendorId: string
+    vendorId?: string
   ): Promise<ProductResponseDto>;
 
   /* =================  ALL PRODUCTS ================= */
